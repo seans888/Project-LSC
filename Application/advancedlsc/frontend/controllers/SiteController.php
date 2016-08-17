@@ -16,6 +16,7 @@ use frontend\site\tutorials;
 use frontend\site\reviews;
 use frontend\site\english;
 use frontend\site\other;
+use frontend\views\student;
 /**
  * Site controller
  */

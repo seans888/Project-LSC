@@ -12,9 +12,10 @@ use yii\bootstrap\Modal;
 use yii\helpers\Url;
 use frontend\views\student;
 
-$this->title = 'Signup';
-$this->params['breadcrumbs'][] = $this->title;
+$this->title = 'Sign up';
+//$this->params['breadcrumbs'][] = $this->title;
 ?>
+<table class="suform" align= "center" border="1px">
 <div class="site-signup">
     <h1><?= Html::encode($this->title) ?></h1>
 
@@ -33,6 +34,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div class="form-group">
 
                    <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?> 
+
                  <!--    <?= Html::button('Submit', ['value'=>Url::to('index.php?r=student/create'), 
               'class' => 'btn btn-success','id'=>'modalButton' 
         ]) ?> -->
@@ -40,7 +42,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 </div>
 
             <?php ActiveForm::end(); ?>
-            <?php
+       <!--     <?php
         Modal::begin([
                 'header'=>'<h4> Create Reservation</h4>',
                 'id'=>'modal',
@@ -52,7 +54,10 @@ $this->params['breadcrumbs'][] = $this->title;
         Modal::end();
     ?>
 
-    <?php Pjax::begin(); ?>
+    <?php Pjax::begin(); ?> -->
+
         </div>
     </div>
 </div>
+</div>
+</table>

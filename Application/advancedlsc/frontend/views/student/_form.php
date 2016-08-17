@@ -1,3 +1,4 @@
+
 <?php
 
 use yii\helpers\Html;
@@ -9,7 +10,6 @@ use yii\widgets\ActiveForm;
 ?>
 
 <div class="student-form">
-
     <?php $form = ActiveForm::begin(); ?>
 
     <?= $form->field($model, 'number_of_hours')->textInput() ?>
