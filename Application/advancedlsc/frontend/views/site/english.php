@@ -1,32 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
-
-<style>
-.img1{
-	margin-left: 200px;
-	height: 200px;
-	weight: 150px;
-}
-a.a1{
-	font-family: calibri ;
-	font-color: #ffffff;
-	font-size: 18px;
-	margin-top: 0em;
-	margin-right: 10em;
-}
-p.p1{
-
-	text-align: justify;
-	margin-right: 20em;
-}
-.img2{
-	width: 10%;
-	height: 4%;
-	margin-left: 250px;
-}
-</style>
 
 <body>
 <br>
@@ -51,8 +24,6 @@ admission of non-native English speakers. <br><br><a href=""><img class="img2" s
 <p class="p1">The TOEIC was developed to test an individual's ability to use English in a workplace setting.
 <br><br><a href=""><img class="img2" src="http://i1360.photobucket.com/albums/r656/Gail_Haboc/Prototype/button_zpsuzpwzvfv.png"></a> </p>
 <br><br><br><br><hr>
-
-
 
 </body>
 </html>
