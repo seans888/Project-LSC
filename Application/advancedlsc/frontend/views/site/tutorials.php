@@ -4,23 +4,6 @@
 </head>
 
 <body>
-<style>
-table, td, th {
-    text-align: left;
-}
-
-table {
-    border-collapse: collapse;
-    width: 50%;
-	
-}
-
-th, td {
-    padding: 10px;
-	font-size: 12px;
-}
-
-</style>
 
 <table align="center">
   <tr bgcolor="#62C2CC">
@@ -64,13 +47,5 @@ th, td {
     <td>Science</td>
   </tr>
 </table>
-<!-- 
--->
 </body>
 </html>
-
-
-</body>
-
-</html>
-
