@@ -1,32 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
-
-<style>
-.img1{
-	margin-left: 200px;
-	height: 200px;
-	weight: 150px;
-}
-a.a1{
-	font-family: calibri ;
-	font-color: #ffffff;
-	font-size: 18px;
-	margin-top: 0em;
-	margin-right: 10em;
-}
-p.p1{
-
-	text-align: left;
-	margin-right: 20em;
-}
-.img2{
-	width: 10%;
-	height: 4%;
-	margin-left: 250px;
-}
-</style>
 
 <body>
 <br>
