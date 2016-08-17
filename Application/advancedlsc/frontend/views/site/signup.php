@@ -6,6 +6,11 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
+use yii\grid\GridView;
+use yii\widgets\Pjax;
+use yii\bootstrap\Modal;
+use yii\helpers\Url;
+use frontend\views\student;
 
 $this->title = 'Signup';
 $this->params['breadcrumbs'][] = $this->title;
@@ -26,10 +31,28 @@ $this->params['breadcrumbs'][] = $this->title;
                 <?= $form->field($model, 'password')->passwordInput() ?>
 
                 <div class="form-group">
-                    <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?>
+
+                   <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?> 
+                 <!--    <?= Html::button('Submit', ['value'=>Url::to('index.php?r=student/create'), 
+              'class' => 'btn btn-success','id'=>'modalButton' 
+        ]) ?> -->
+
                 </div>
 
             <?php ActiveForm::end(); ?>
+            <?php
+        Modal::begin([
+                'header'=>'<h4> Create Reservation</h4>',
+                'id'=>'modal',
+                'size'=>'modal-lg',
+            ]);
+
+        echo "<div id='modalContent'></div>";
+
+        Modal::end();
+    ?>
+
+    <?php Pjax::begin(); ?>
         </div>
     </div>
 </div>
