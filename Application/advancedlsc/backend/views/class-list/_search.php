@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model backend\models\ClassListSearch */
+/* @var $model frontend\models\ClassListSearch */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
@@ -22,12 +22,6 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'review_Class_id') ?>
 
     <?= $form->field($model, 'employee_id') ?>
-
-    <?= $form->field($model, 'atendance') ?>
-
-    <?php // echo $form->field($model, 'missed_class') ?>
-
-    <?php // echo $form->field($model, 'date') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>

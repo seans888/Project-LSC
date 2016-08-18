@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel backend\models\ClassListSearch */
+/* @var $searchModel frontend\models\ClassListSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Class Lists';
@@ -28,9 +28,6 @@ $this->params['breadcrumbs'][] = $this->title;
             'student_id',
             'review_Class_id',
             'employee_id',
-            'atendance',
-            // 'missed_class',
-            // 'date',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

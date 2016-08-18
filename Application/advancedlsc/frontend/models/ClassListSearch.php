@@ -19,7 +19,6 @@ class ClassListSearch extends ClassList
     {
         return [
             [['id', 'student_id', 'review_Class_id', 'employee_id'], 'integer'],
-            [['atendance', 'missed_class', 'date'], 'safe'],
         ];
     }
 
@@ -63,11 +62,7 @@ class ClassListSearch extends ClassList
             'student_id' => $this->student_id,
             'review_Class_id' => $this->review_Class_id,
             'employee_id' => $this->employee_id,
-            'date' => $this->date,
         ]);
-
-        $query->andFilterWhere(['like', 'atendance', $this->atendance])
-            ->andFilterWhere(['like', 'missed_class', $this->missed_class]);
 
         return $dataProvider;
     }

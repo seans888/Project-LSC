@@ -11,9 +11,6 @@ use Yii;
  * @property integer $student_id
  * @property integer $review_Class_id
  * @property integer $employee_id
- * @property string $atendance
- * @property string $missed_class
- * @property string $date
  *
  * @property Student $student
  * @property ReviewClass $reviewClass
@@ -37,8 +34,6 @@ class ClassList extends \yii\db\ActiveRecord
         return [
             [['student_id', 'review_Class_id', 'employee_id'], 'required'],
             [['student_id', 'review_Class_id', 'employee_id'], 'integer'],
-            [['date'], 'safe'],
-            [['atendance', 'missed_class'], 'string', 'max' => 100],
             [['student_id'], 'exist', 'skipOnError' => true, 'targetClass' => Student::className(), 'targetAttribute' => ['student_id' => 'id']],
             [['review_Class_id'], 'exist', 'skipOnError' => true, 'targetClass' => ReviewClass::className(), 'targetAttribute' => ['review_Class_id' => 'id']],
             [['employee_id'], 'exist', 'skipOnError' => true, 'targetClass' => Employee::className(), 'targetAttribute' => ['employee_id' => 'id']],
@@ -55,9 +50,6 @@ class ClassList extends \yii\db\ActiveRecord
             'student_id' => 'Student ID',
             'review_Class_id' => 'Review  Class ID',
             'employee_id' => 'Employee ID',
-            'atendance' => 'Atendance',
-            'missed_class' => 'Missed Class',
-            'date' => 'Date',
         ];
     }
 

@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model backend\models\ClassList */
+/* @var $model frontend\models\ClassList */
 
 $this->title = 'Create Class List';
 $this->params['breadcrumbs'][] = ['label' => 'Class Lists', 'url' => ['index']];

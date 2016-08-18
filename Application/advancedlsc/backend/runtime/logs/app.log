@@ -1439,3 +1439,449 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1471437815.518
     'REQUEST_TIME' => 1471437815
 ]
+2016-08-17 18:33:40 [::1][-][vblk0iolgqdj644jh9i3t3nrg5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/signup in C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('signup', Array)
+#1 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('site/signup', Array)
+#2 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-08-17 18:33:38 [::1][-][vblk0iolgqdj644jh9i3t3nrg5][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_COOKIE = [
+    '_identity' => '0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E\",2592000]\";}'
+    'advanced-frontend' => 'k36hms8e0jp4qthp76v2ohk455'
+    '_csrf-frontend' => 'c795399d687bec197b5870501cfba8b21e9577a7c808648cfced19b6c181df5ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"K1UcUxDCO7ofkeH8kbA5J9_OxnMQua8P\";}'
+    'advanced-backend' => 'vblk0iolgqdj644jh9i3t3nrg5'
+    '_csrf-backend' => '001c5d79ac01d9f8b488ed2f1456ea73af340c8f4a6ad0dc93288ac66457817da:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"471cpof3j1keNyMryy2AdHB97xX-Kyxp\";}'
+    'PHPSESSID' => 'qdm21jpcuc9476dpl14sulkkt0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advancedlsc/backend/web/index.php'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; advanced-frontend=k36hms8e0jp4qthp76v2ohk455; _csrf-frontend=c795399d687bec197b5870501cfba8b21e9577a7c808648cfced19b6c181df5ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22K1UcUxDCO7ofkeH8kbA5J9_OxnMQua8P%22%3B%7D; advanced-backend=vblk0iolgqdj644jh9i3t3nrg5; _csrf-backend=001c5d79ac01d9f8b488ed2f1456ea73af340c8f4a6ad0dc93288ac66457817da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22471cpof3j1keNyMryy2AdHB97xX-Kyxp%22%3B%7D; PHPSESSID=qdm21jpcuc9476dpl14sulkkt0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc/backend/web/index.php'
+    'REMOTE_PORT' => '55110'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/advancedlsc/backend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/advancedlsc/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471451618.7
+    'REQUEST_TIME' => 1471451618
+]
+2016-08-17 18:33:55 [::1][-][vblk0iolgqdj644jh9i3t3nrg5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "student\". in C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('student\\', Array)
+#1 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-08-17 18:33:55 [::1][-][vblk0iolgqdj644jh9i3t3nrg5][info][application] $_GET = [
+    'r' => 'student\\'
+]
+
+$_COOKIE = [
+    '_identity' => '0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E\",2592000]\";}'
+    'advanced-frontend' => 'k36hms8e0jp4qthp76v2ohk455'
+    '_csrf-frontend' => 'c795399d687bec197b5870501cfba8b21e9577a7c808648cfced19b6c181df5ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"K1UcUxDCO7ofkeH8kbA5J9_OxnMQua8P\";}'
+    'advanced-backend' => 'vblk0iolgqdj644jh9i3t3nrg5'
+    '_csrf-backend' => '001c5d79ac01d9f8b488ed2f1456ea73af340c8f4a6ad0dc93288ac66457817da:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"471cpof3j1keNyMryy2AdHB97xX-Kyxp\";}'
+    'PHPSESSID' => 'qdm21jpcuc9476dpl14sulkkt0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advancedlsc/backend/web/index.php?r'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; advanced-frontend=k36hms8e0jp4qthp76v2ohk455; _csrf-frontend=c795399d687bec197b5870501cfba8b21e9577a7c808648cfced19b6c181df5ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22K1UcUxDCO7ofkeH8kbA5J9_OxnMQua8P%22%3B%7D; advanced-backend=vblk0iolgqdj644jh9i3t3nrg5; _csrf-backend=001c5d79ac01d9f8b488ed2f1456ea73af340c8f4a6ad0dc93288ac66457817da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22471cpof3j1keNyMryy2AdHB97xX-Kyxp%22%3B%7D; PHPSESSID=qdm21jpcuc9476dpl14sulkkt0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc/backend/web/index.php'
+    'REMOTE_PORT' => '55116'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student\\'
+    'REQUEST_URI' => '/advancedlsc/backend/web/index.php?r=student\\'
+    'SCRIPT_NAME' => '/advancedlsc/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471451635.585
+    'REQUEST_TIME' => 1471451635
+]
+2016-08-18 07:07:23 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: backend\models\ClassListSearch::atendance in C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('atendance')
+#1 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\validators\Validator.php(249): yii\db\BaseActiveRecord->__get('atendance')
+#2 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(backend\models\ClassListSearch), Array)
+#3 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\backend\models\ClassListSearch.php(54): yii\base\Model->validate()
+#4 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\backend\controllers\ClassListController.php(39): backend\models\ClassListSearch->search(Array)
+#5 [internal function]: backend\controllers\ClassListController->actionIndex()
+#6 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#9 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('class-list', Array)
+#10 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\backend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2016-08-18 07:07:22 [::1][-][-][info][application] $_GET = [
+    'r' => 'class-list'
+]
+
+$_COOKIE = [
+    '_identity' => '0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E\",2592000]\";}'
+    'advanced-frontend' => 'k36hms8e0jp4qthp76v2ohk455'
+    '_csrf-frontend' => 'c795399d687bec197b5870501cfba8b21e9577a7c808648cfced19b6c181df5ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"K1UcUxDCO7ofkeH8kbA5J9_OxnMQua8P\";}'
+    '_csrf-backend' => '001c5d79ac01d9f8b488ed2f1456ea73af340c8f4a6ad0dc93288ac66457817da:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"471cpof3j1keNyMryy2AdHB97xX-Kyxp\";}'
+    'PHPSESSID' => 'qdm21jpcuc9476dpl14sulkkt0'
+    'advanced-backend' => '9f72lc2efarnjkb10d2n684mj7'
+    '_identity-backend' => 'e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; advanced-frontend=k36hms8e0jp4qthp76v2ohk455; _csrf-frontend=c795399d687bec197b5870501cfba8b21e9577a7c808648cfced19b6c181df5ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22K1UcUxDCO7ofkeH8kbA5J9_OxnMQua8P%22%3B%7D; _csrf-backend=001c5d79ac01d9f8b488ed2f1456ea73af340c8f4a6ad0dc93288ac66457817da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22471cpof3j1keNyMryy2AdHB97xX-Kyxp%22%3B%7D; PHPSESSID=qdm21jpcuc9476dpl14sulkkt0; advanced-backend=9f72lc2efarnjkb10d2n684mj7; _identity-backend=e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc/backend/web/index.php'
+    'REMOTE_PORT' => '50130'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=class-list'
+    'REQUEST_URI' => '/advancedlsc/backend/web/index.php?r=class-list'
+    'SCRIPT_NAME' => '/advancedlsc/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471496842.841
+    'REQUEST_TIME' => 1471496842
+]
+2016-08-18 07:09:09 [::1][-][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: backend\models\ClassListSearch::atendance in C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('atendance')
+#1 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\validators\Validator.php(249): yii\db\BaseActiveRecord->__get('atendance')
+#2 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(backend\models\ClassListSearch), Array)
+#3 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\backend\models\ClassListSearch.php(54): yii\base\Model->validate()
+#4 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\backend\controllers\ClassListController.php(39): backend\models\ClassListSearch->search(Array)
+#5 [internal function]: backend\controllers\ClassListController->actionIndex()
+#6 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#9 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('class-list', Array)
+#10 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\backend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2016-08-18 07:09:09 [::1][-][-][info][application] $_GET = [
+    'r' => 'class-list'
+]
+
+$_COOKIE = [
+    '_identity' => '0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E\",2592000]\";}'
+    'advanced-frontend' => 'k36hms8e0jp4qthp76v2ohk455'
+    '_csrf-frontend' => 'c795399d687bec197b5870501cfba8b21e9577a7c808648cfced19b6c181df5ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"K1UcUxDCO7ofkeH8kbA5J9_OxnMQua8P\";}'
+    '_csrf-backend' => '001c5d79ac01d9f8b488ed2f1456ea73af340c8f4a6ad0dc93288ac66457817da:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"471cpof3j1keNyMryy2AdHB97xX-Kyxp\";}'
+    'PHPSESSID' => 'qdm21jpcuc9476dpl14sulkkt0'
+    'advanced-backend' => '9f72lc2efarnjkb10d2n684mj7'
+    '_identity-backend' => 'e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; advanced-frontend=k36hms8e0jp4qthp76v2ohk455; _csrf-frontend=c795399d687bec197b5870501cfba8b21e9577a7c808648cfced19b6c181df5ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22K1UcUxDCO7ofkeH8kbA5J9_OxnMQua8P%22%3B%7D; _csrf-backend=001c5d79ac01d9f8b488ed2f1456ea73af340c8f4a6ad0dc93288ac66457817da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22471cpof3j1keNyMryy2AdHB97xX-Kyxp%22%3B%7D; PHPSESSID=qdm21jpcuc9476dpl14sulkkt0; advanced-backend=9f72lc2efarnjkb10d2n684mj7; _identity-backend=e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc/backend/web/index.php'
+    'REMOTE_PORT' => '50133'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=class-list'
+    'REQUEST_URI' => '/advancedlsc/backend/web/index.php?r=class-list'
+    'SCRIPT_NAME' => '/advancedlsc/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471496949.706
+    'REQUEST_TIME' => 1471496949
+]
+2016-08-18 07:11:33 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Invalid validation rule: a rule must specify both attribute names and validator type. in C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Model.php:448
+Stack trace:
+#0 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Model.php(409): yii\base\Model->createValidators()
+#1 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Model.php(185): yii\base\Model->getValidators()
+#2 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\backend\models\ClassListSearch.php(32): yii\base\Model->scenarios()
+#3 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Model.php(345): backend\models\ClassListSearch->scenarios()
+#4 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\backend\models\ClassListSearch.php(54): yii\base\Model->validate()
+#5 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\backend\controllers\ClassListController.php(39): backend\models\ClassListSearch->search(Array)
+#6 [internal function]: backend\controllers\ClassListController->actionIndex()
+#7 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#10 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('class-list', Array)
+#11 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-08-18 07:11:33 [::1][-][-][info][application] $_GET = [
+    'r' => 'class-list'
+]
+
+$_COOKIE = [
+    '_identity' => '0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E\",2592000]\";}'
+    'advanced-frontend' => 'k36hms8e0jp4qthp76v2ohk455'
+    '_csrf-frontend' => 'c795399d687bec197b5870501cfba8b21e9577a7c808648cfced19b6c181df5ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"K1UcUxDCO7ofkeH8kbA5J9_OxnMQua8P\";}'
+    '_csrf-backend' => '001c5d79ac01d9f8b488ed2f1456ea73af340c8f4a6ad0dc93288ac66457817da:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"471cpof3j1keNyMryy2AdHB97xX-Kyxp\";}'
+    'PHPSESSID' => 'qdm21jpcuc9476dpl14sulkkt0'
+    'advanced-backend' => '9f72lc2efarnjkb10d2n684mj7'
+    '_identity-backend' => 'e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; advanced-frontend=k36hms8e0jp4qthp76v2ohk455; _csrf-frontend=c795399d687bec197b5870501cfba8b21e9577a7c808648cfced19b6c181df5ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22K1UcUxDCO7ofkeH8kbA5J9_OxnMQua8P%22%3B%7D; _csrf-backend=001c5d79ac01d9f8b488ed2f1456ea73af340c8f4a6ad0dc93288ac66457817da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22471cpof3j1keNyMryy2AdHB97xX-Kyxp%22%3B%7D; PHPSESSID=qdm21jpcuc9476dpl14sulkkt0; advanced-backend=9f72lc2efarnjkb10d2n684mj7; _identity-backend=e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc/backend/web/index.php'
+    'REMOTE_PORT' => '50137'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=class-list'
+    'REQUEST_URI' => '/advancedlsc/backend/web/index.php?r=class-list'
+    'SCRIPT_NAME' => '/advancedlsc/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471497093.504
+    'REQUEST_TIME' => 1471497093
+]
+2016-08-18 07:13:42 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Invalid validation rule: a rule must specify both attribute names and validator type. in C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Model.php:448
+Stack trace:
+#0 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Model.php(409): yii\base\Model->createValidators()
+#1 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Model.php(185): yii\base\Model->getValidators()
+#2 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\backend\models\ClassListSearch.php(32): yii\base\Model->scenarios()
+#3 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Model.php(345): backend\models\ClassListSearch->scenarios()
+#4 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\backend\models\ClassListSearch.php(54): yii\base\Model->validate()
+#5 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\backend\controllers\ClassListController.php(39): backend\models\ClassListSearch->search(Array)
+#6 [internal function]: backend\controllers\ClassListController->actionIndex()
+#7 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#10 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('class-list', Array)
+#11 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\Users\Aira Joyce\Desktop\Project-LSC\Application\advancedlsc\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-08-18 07:13:42 [::1][-][-][info][application] $_GET = [
+    'r' => 'class-list'
+]
+
+$_COOKIE = [
+    '_identity' => '0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E\",2592000]\";}'
+    'advanced-frontend' => 'k36hms8e0jp4qthp76v2ohk455'
+    '_csrf-frontend' => 'c795399d687bec197b5870501cfba8b21e9577a7c808648cfced19b6c181df5ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"K1UcUxDCO7ofkeH8kbA5J9_OxnMQua8P\";}'
+    '_csrf-backend' => '001c5d79ac01d9f8b488ed2f1456ea73af340c8f4a6ad0dc93288ac66457817da:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"471cpof3j1keNyMryy2AdHB97xX-Kyxp\";}'
+    'PHPSESSID' => 'qdm21jpcuc9476dpl14sulkkt0'
+    'advanced-backend' => '9f72lc2efarnjkb10d2n684mj7'
+    '_identity-backend' => 'e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; advanced-frontend=k36hms8e0jp4qthp76v2ohk455; _csrf-frontend=c795399d687bec197b5870501cfba8b21e9577a7c808648cfced19b6c181df5ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22K1UcUxDCO7ofkeH8kbA5J9_OxnMQua8P%22%3B%7D; _csrf-backend=001c5d79ac01d9f8b488ed2f1456ea73af340c8f4a6ad0dc93288ac66457817da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22471cpof3j1keNyMryy2AdHB97xX-Kyxp%22%3B%7D; PHPSESSID=qdm21jpcuc9476dpl14sulkkt0; advanced-backend=9f72lc2efarnjkb10d2n684mj7; _identity-backend=e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc/backend/web/index.php'
+    'REMOTE_PORT' => '50140'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=class-list'
+    'REQUEST_URI' => '/advancedlsc/backend/web/index.php?r=class-list'
+    'SCRIPT_NAME' => '/advancedlsc/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471497222.189
+    'REQUEST_TIME' => 1471497222
+]

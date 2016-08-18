@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model backend\models\ClassList */
+/* @var $model frontend\models\ClassList */
 
 $this->title = 'Update Class List: ' . $model->id;
 $this->params['breadcrumbs'][] = ['label' => 'Class Lists', 'url' => ['index']];

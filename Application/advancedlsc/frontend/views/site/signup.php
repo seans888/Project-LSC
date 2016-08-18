@@ -40,6 +40,7 @@ $this->title = 'Sign up';
         ]) ?> -->
 
                 </div>
+                </table>
 
             <?php ActiveForm::end(); ?>
        <!--     <?php
@@ -60,4 +61,4 @@ $this->title = 'Sign up';
     </div>
 </div>
 </div>
-</table>
+
