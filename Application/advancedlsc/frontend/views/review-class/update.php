@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model frontend\models\ReviewClass */
+/* @var $model backend\models\ReviewClass */
 
 $this->title = 'Update Review Class: ' . $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Review Classes', 'url' => ['index']];

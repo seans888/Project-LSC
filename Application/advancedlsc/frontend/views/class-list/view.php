@@ -4,13 +4,13 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model backend\models\ReviewClass */
+/* @var $model frontend\models\ClassList */
 
-$this->title = $model->name;
-$this->params['breadcrumbs'][] = ['label' => 'Review Classes', 'url' => ['index']];
+$this->title = $model->id;
+$this->params['breadcrumbs'][] = ['label' => 'Class Lists', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="review-class-view">
+<div class="class-list-view">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
@@ -29,11 +29,9 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
         'attributes' => [
             'id',
-            'name',
-            'description:ntext',
-            'schedule',
-            'start_date',
-            'end_date',
+            'student_id',
+            'review_Class_id',
+            'employee_id',
         ],
     ]) ?>
 

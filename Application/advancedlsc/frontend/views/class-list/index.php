@@ -4,19 +4,19 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel backend\models\ReviewClassSearch */
+/* @var $searchModel frontend\models\ClassListSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Review Classes';
+$this->title = 'Class Lists';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="review-class-index">
+<div class="class-list-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Review Class', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create Class List', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
@@ -25,11 +25,9 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             'id',
-            'name',
-            'description:ntext',
-            'schedule',
-            'start_date',
-            // 'end_date',
+            'student_id',
+            'review_Class_id',
+            'employee_id',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
