@@ -13,8 +13,8 @@ use yii\helpers\Url;
 use frontend\views\student;
 
 
-$this->title = 'Sign up';
-//$this->params['breadcrumbs'][] = $this->title;
+$this->title = 'Signup';
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 <table class="suform" align= "center" border="1px">
 <div class="site-signup">
@@ -34,7 +34,7 @@ $this->title = 'Sign up';
 
                 <div class="form-group">
 
-                   <?= Html::submitButton('Sign up', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?> 
+                   <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?> 
 
                  <!--    <?= Html::button('Submit', ['value'=>Url::to('index.php?r=student/create'), 
               'class' => 'btn btn-success','id'=>'modalButton' 
