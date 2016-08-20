@@ -35,8 +35,7 @@ class ReviewClass extends \yii\db\ActiveRecord
             [['name', 'description'], 'required'],
             [['description'], 'string'],
             [['start_date', 'end_date'], 'safe'],
-            [['name'], 'string', 'max' => 30],
-            [['schedule'], 'string', 'max' => 150],
+            [['name', 'schedule'], 'string', 'max' => 500],
         ];
     }
 
