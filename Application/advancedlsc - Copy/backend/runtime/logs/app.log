@@ -2191,3 +2191,1041 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1471728341.244
     'REQUEST_TIME' => 1471728341
 ]
+2016-08-21 06:50:06 [::1][1][16dgach5jihokaomo82c302n47][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ']'' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\dmstr\yii2-adminlte-asset\example-views\yiisoft\yii2-app\layouts\left.php:61
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-21 06:50:05 [::1][1][16dgach5jihokaomo82c302n47][info][application] $_COOKIE = [
+    'PHPSESSID' => '5oicr1cpdshuassokm3a5p3o90'
+    '_csrf' => 'f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9K4GDvDbmgtR82gSwDFj4dQYpj8Keicq\";}'
+    '_csrf-frontend' => '1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"e37GwR1ScjBtG2BsH84JL8oCb28i9M6k\";}'
+    '_csrf-backend' => 'b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH\";}'
+    'advanced-backend' => '16dgach5jihokaomo82c302n47'
+    'advanced-frontend' => 'e94se7u9s12v1003qj1nh7vas4'
+    '_identity-backend' => 'd202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.0.11490 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=5oicr1cpdshuassokm3a5p3o90; _csrf=f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229K4GDvDbmgtR82gSwDFj4dQYpj8Keicq%22%3B%7D; _csrf-frontend=1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22e37GwR1ScjBtG2BsH84JL8oCb28i9M6k%22%3B%7D; _csrf-backend=b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH%22%3B%7D; advanced-backend=16dgach5jihokaomo82c302n47; advanced-frontend=e94se7u9s12v1003qj1nh7vas4; _identity-backend=d202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\TXE Components\\TCS\\;C:\\Program Files\\Intel\\TXE Components\\TCS\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Hewlett-Packard\\SimplePass\\;C:\\Program Files\\Java\\jdk1.8.0_20\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Skype\\Phone\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\XAMPP\\htdocs\\advanced'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/XAMPP/htdocs/advancedV2/backend/web/index.php'
+    'REMOTE_PORT' => '64465'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/advancedV2/backend/web/index.php'
+    'SCRIPT_NAME' => '/advancedV2/backend/web/index.php'
+    'PHP_SELF' => '/advancedV2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471755005.621
+    'REQUEST_TIME' => 1471755005
+]
+2016-08-21 06:50:56 [::1][1][16dgach5jihokaomo82c302n47][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ')', expecting ']'' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\dmstr\yii2-adminlte-asset\example-views\yiisoft\yii2-app\layouts\left.php:65
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-21 06:50:55 [::1][1][16dgach5jihokaomo82c302n47][info][application] $_COOKIE = [
+    'PHPSESSID' => '5oicr1cpdshuassokm3a5p3o90'
+    '_csrf' => 'f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9K4GDvDbmgtR82gSwDFj4dQYpj8Keicq\";}'
+    '_csrf-frontend' => '1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"e37GwR1ScjBtG2BsH84JL8oCb28i9M6k\";}'
+    '_csrf-backend' => 'b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH\";}'
+    'advanced-backend' => '16dgach5jihokaomo82c302n47'
+    'advanced-frontend' => 'e94se7u9s12v1003qj1nh7vas4'
+    '_identity-backend' => 'd202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.0.11490 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=5oicr1cpdshuassokm3a5p3o90; _csrf=f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229K4GDvDbmgtR82gSwDFj4dQYpj8Keicq%22%3B%7D; _csrf-frontend=1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22e37GwR1ScjBtG2BsH84JL8oCb28i9M6k%22%3B%7D; _csrf-backend=b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH%22%3B%7D; advanced-backend=16dgach5jihokaomo82c302n47; advanced-frontend=e94se7u9s12v1003qj1nh7vas4; _identity-backend=d202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\TXE Components\\TCS\\;C:\\Program Files\\Intel\\TXE Components\\TCS\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Hewlett-Packard\\SimplePass\\;C:\\Program Files\\Java\\jdk1.8.0_20\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Skype\\Phone\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\XAMPP\\htdocs\\advanced'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/XAMPP/htdocs/advancedV2/backend/web/index.php'
+    'REMOTE_PORT' => '64477'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/advancedV2/backend/web/index.php'
+    'SCRIPT_NAME' => '/advancedV2/backend/web/index.php'
+    'PHP_SELF' => '/advancedV2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471755055.685
+    'REQUEST_TIME' => 1471755055
+]
+2016-08-21 06:51:13 [::1][1][16dgach5jihokaomo82c302n47][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ')', expecting ']'' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\dmstr\yii2-adminlte-asset\example-views\yiisoft\yii2-app\layouts\left.php:65
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-21 06:51:13 [::1][1][16dgach5jihokaomo82c302n47][info][application] $_COOKIE = [
+    'PHPSESSID' => '5oicr1cpdshuassokm3a5p3o90'
+    '_csrf' => 'f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9K4GDvDbmgtR82gSwDFj4dQYpj8Keicq\";}'
+    '_csrf-frontend' => '1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"e37GwR1ScjBtG2BsH84JL8oCb28i9M6k\";}'
+    '_csrf-backend' => 'b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH\";}'
+    'advanced-backend' => '16dgach5jihokaomo82c302n47'
+    'advanced-frontend' => 'e94se7u9s12v1003qj1nh7vas4'
+    '_identity-backend' => 'd202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.0.11490 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=5oicr1cpdshuassokm3a5p3o90; _csrf=f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229K4GDvDbmgtR82gSwDFj4dQYpj8Keicq%22%3B%7D; _csrf-frontend=1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22e37GwR1ScjBtG2BsH84JL8oCb28i9M6k%22%3B%7D; _csrf-backend=b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH%22%3B%7D; advanced-backend=16dgach5jihokaomo82c302n47; advanced-frontend=e94se7u9s12v1003qj1nh7vas4; _identity-backend=d202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\TXE Components\\TCS\\;C:\\Program Files\\Intel\\TXE Components\\TCS\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Hewlett-Packard\\SimplePass\\;C:\\Program Files\\Java\\jdk1.8.0_20\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Skype\\Phone\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\XAMPP\\htdocs\\advanced'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/XAMPP/htdocs/advancedV2/backend/web/index.php'
+    'REMOTE_PORT' => '64479'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/advancedV2/backend/web/index.php'
+    'SCRIPT_NAME' => '/advancedV2/backend/web/index.php'
+    'PHP_SELF' => '/advancedV2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471755073.455
+    'REQUEST_TIME' => 1471755073
+]
+2016-08-21 06:52:10 [::1][1][16dgach5jihokaomo82c302n47][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ']'' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\dmstr\yii2-adminlte-asset\example-views\yiisoft\yii2-app\layouts\left.php:61
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-21 06:52:10 [::1][1][16dgach5jihokaomo82c302n47][info][application] $_COOKIE = [
+    'PHPSESSID' => '5oicr1cpdshuassokm3a5p3o90'
+    '_csrf' => 'f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9K4GDvDbmgtR82gSwDFj4dQYpj8Keicq\";}'
+    '_csrf-frontend' => '1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"e37GwR1ScjBtG2BsH84JL8oCb28i9M6k\";}'
+    '_csrf-backend' => 'b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH\";}'
+    'advanced-backend' => '16dgach5jihokaomo82c302n47'
+    'advanced-frontend' => 'e94se7u9s12v1003qj1nh7vas4'
+    '_identity-backend' => 'd202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.0.11490 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=5oicr1cpdshuassokm3a5p3o90; _csrf=f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229K4GDvDbmgtR82gSwDFj4dQYpj8Keicq%22%3B%7D; _csrf-frontend=1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22e37GwR1ScjBtG2BsH84JL8oCb28i9M6k%22%3B%7D; _csrf-backend=b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH%22%3B%7D; advanced-backend=16dgach5jihokaomo82c302n47; advanced-frontend=e94se7u9s12v1003qj1nh7vas4; _identity-backend=d202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\TXE Components\\TCS\\;C:\\Program Files\\Intel\\TXE Components\\TCS\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Hewlett-Packard\\SimplePass\\;C:\\Program Files\\Java\\jdk1.8.0_20\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Skype\\Phone\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\XAMPP\\htdocs\\advanced'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/XAMPP/htdocs/advancedV2/backend/web/index.php'
+    'REMOTE_PORT' => '64491'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/advancedV2/backend/web/index.php'
+    'SCRIPT_NAME' => '/advancedV2/backend/web/index.php'
+    'PHP_SELF' => '/advancedV2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471755130.638
+    'REQUEST_TIME' => 1471755130
+]
+2016-08-21 06:53:06 [::1][1][16dgach5jihokaomo82c302n47][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ']'' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\dmstr\yii2-adminlte-asset\example-views\yiisoft\yii2-app\layouts\left.php:62
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-21 06:53:06 [::1][1][16dgach5jihokaomo82c302n47][info][application] $_COOKIE = [
+    'PHPSESSID' => '5oicr1cpdshuassokm3a5p3o90'
+    '_csrf' => 'f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9K4GDvDbmgtR82gSwDFj4dQYpj8Keicq\";}'
+    '_csrf-frontend' => '1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"e37GwR1ScjBtG2BsH84JL8oCb28i9M6k\";}'
+    '_csrf-backend' => 'b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH\";}'
+    'advanced-backend' => '16dgach5jihokaomo82c302n47'
+    'advanced-frontend' => 'e94se7u9s12v1003qj1nh7vas4'
+    '_identity-backend' => 'd202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.0.11490 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=5oicr1cpdshuassokm3a5p3o90; _csrf=f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229K4GDvDbmgtR82gSwDFj4dQYpj8Keicq%22%3B%7D; _csrf-frontend=1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22e37GwR1ScjBtG2BsH84JL8oCb28i9M6k%22%3B%7D; _csrf-backend=b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH%22%3B%7D; advanced-backend=16dgach5jihokaomo82c302n47; advanced-frontend=e94se7u9s12v1003qj1nh7vas4; _identity-backend=d202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\TXE Components\\TCS\\;C:\\Program Files\\Intel\\TXE Components\\TCS\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Hewlett-Packard\\SimplePass\\;C:\\Program Files\\Java\\jdk1.8.0_20\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Skype\\Phone\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\XAMPP\\htdocs\\advanced'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/XAMPP/htdocs/advancedV2/backend/web/index.php'
+    'REMOTE_PORT' => '64505'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/advancedV2/backend/web/index.php'
+    'SCRIPT_NAME' => '/advancedV2/backend/web/index.php'
+    'PHP_SELF' => '/advancedV2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471755186.137
+    'REQUEST_TIME' => 1471755186
+]
+2016-08-21 06:53:38 [::1][1][16dgach5jihokaomo82c302n47][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ']'' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\dmstr\yii2-adminlte-asset\example-views\yiisoft\yii2-app\layouts\left.php:63
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-21 06:53:38 [::1][1][16dgach5jihokaomo82c302n47][info][application] $_COOKIE = [
+    'PHPSESSID' => '5oicr1cpdshuassokm3a5p3o90'
+    '_csrf' => 'f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9K4GDvDbmgtR82gSwDFj4dQYpj8Keicq\";}'
+    '_csrf-frontend' => '1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"e37GwR1ScjBtG2BsH84JL8oCb28i9M6k\";}'
+    '_csrf-backend' => 'b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH\";}'
+    'advanced-backend' => '16dgach5jihokaomo82c302n47'
+    'advanced-frontend' => 'e94se7u9s12v1003qj1nh7vas4'
+    '_identity-backend' => 'd202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.0.11490 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=5oicr1cpdshuassokm3a5p3o90; _csrf=f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229K4GDvDbmgtR82gSwDFj4dQYpj8Keicq%22%3B%7D; _csrf-frontend=1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22e37GwR1ScjBtG2BsH84JL8oCb28i9M6k%22%3B%7D; _csrf-backend=b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH%22%3B%7D; advanced-backend=16dgach5jihokaomo82c302n47; advanced-frontend=e94se7u9s12v1003qj1nh7vas4; _identity-backend=d202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\TXE Components\\TCS\\;C:\\Program Files\\Intel\\TXE Components\\TCS\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Hewlett-Packard\\SimplePass\\;C:\\Program Files\\Java\\jdk1.8.0_20\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Skype\\Phone\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\XAMPP\\htdocs\\advanced'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/XAMPP/htdocs/advancedV2/backend/web/index.php'
+    'REMOTE_PORT' => '64510'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/advancedV2/backend/web/index.php'
+    'SCRIPT_NAME' => '/advancedV2/backend/web/index.php'
+    'PHP_SELF' => '/advancedV2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471755218.643
+    'REQUEST_TIME' => 1471755218
+]
+2016-08-21 06:54:21 [::1][1][16dgach5jihokaomo82c302n47][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ']'' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\dmstr\yii2-adminlte-asset\example-views\yiisoft\yii2-app\layouts\left.php:64
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-21 06:54:21 [::1][1][16dgach5jihokaomo82c302n47][info][application] $_COOKIE = [
+    'PHPSESSID' => '5oicr1cpdshuassokm3a5p3o90'
+    '_csrf' => 'f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9K4GDvDbmgtR82gSwDFj4dQYpj8Keicq\";}'
+    '_csrf-frontend' => '1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"e37GwR1ScjBtG2BsH84JL8oCb28i9M6k\";}'
+    '_csrf-backend' => 'b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH\";}'
+    'advanced-backend' => '16dgach5jihokaomo82c302n47'
+    'advanced-frontend' => 'e94se7u9s12v1003qj1nh7vas4'
+    '_identity-backend' => 'd202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.0.11490 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=5oicr1cpdshuassokm3a5p3o90; _csrf=f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229K4GDvDbmgtR82gSwDFj4dQYpj8Keicq%22%3B%7D; _csrf-frontend=1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22e37GwR1ScjBtG2BsH84JL8oCb28i9M6k%22%3B%7D; _csrf-backend=b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH%22%3B%7D; advanced-backend=16dgach5jihokaomo82c302n47; advanced-frontend=e94se7u9s12v1003qj1nh7vas4; _identity-backend=d202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\TXE Components\\TCS\\;C:\\Program Files\\Intel\\TXE Components\\TCS\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Hewlett-Packard\\SimplePass\\;C:\\Program Files\\Java\\jdk1.8.0_20\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Skype\\Phone\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\XAMPP\\htdocs\\advanced'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/XAMPP/htdocs/advancedV2/backend/web/index.php'
+    'REMOTE_PORT' => '64514'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/advancedV2/backend/web/index.php'
+    'SCRIPT_NAME' => '/advancedV2/backend/web/index.php'
+    'PHP_SELF' => '/advancedV2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471755261.281
+    'REQUEST_TIME' => 1471755261
+]
+2016-08-21 06:54:36 [::1][1][16dgach5jihokaomo82c302n47][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ')', expecting ']'' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\dmstr\yii2-adminlte-asset\example-views\yiisoft\yii2-app\layouts\left.php:65
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-21 06:54:36 [::1][1][16dgach5jihokaomo82c302n47][info][application] $_COOKIE = [
+    'PHPSESSID' => '5oicr1cpdshuassokm3a5p3o90'
+    '_csrf' => 'f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9K4GDvDbmgtR82gSwDFj4dQYpj8Keicq\";}'
+    '_csrf-frontend' => '1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"e37GwR1ScjBtG2BsH84JL8oCb28i9M6k\";}'
+    '_csrf-backend' => 'b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH\";}'
+    'advanced-backend' => '16dgach5jihokaomo82c302n47'
+    'advanced-frontend' => 'e94se7u9s12v1003qj1nh7vas4'
+    '_identity-backend' => 'd202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.0.11490 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=5oicr1cpdshuassokm3a5p3o90; _csrf=f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229K4GDvDbmgtR82gSwDFj4dQYpj8Keicq%22%3B%7D; _csrf-frontend=1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22e37GwR1ScjBtG2BsH84JL8oCb28i9M6k%22%3B%7D; _csrf-backend=b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH%22%3B%7D; advanced-backend=16dgach5jihokaomo82c302n47; advanced-frontend=e94se7u9s12v1003qj1nh7vas4; _identity-backend=d202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\TXE Components\\TCS\\;C:\\Program Files\\Intel\\TXE Components\\TCS\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Hewlett-Packard\\SimplePass\\;C:\\Program Files\\Java\\jdk1.8.0_20\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Skype\\Phone\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\XAMPP\\htdocs\\advanced'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/XAMPP/htdocs/advancedV2/backend/web/index.php'
+    'REMOTE_PORT' => '64515'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/advancedV2/backend/web/index.php'
+    'SCRIPT_NAME' => '/advancedV2/backend/web/index.php'
+    'PHP_SELF' => '/advancedV2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471755276.444
+    'REQUEST_TIME' => 1471755276
+]
+2016-08-21 06:54:50 [::1][1][16dgach5jihokaomo82c302n47][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ')', expecting ']'' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\dmstr\yii2-adminlte-asset\example-views\yiisoft\yii2-app\layouts\left.php:65
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-21 06:54:50 [::1][1][16dgach5jihokaomo82c302n47][info][application] $_COOKIE = [
+    'PHPSESSID' => '5oicr1cpdshuassokm3a5p3o90'
+    '_csrf' => 'f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9K4GDvDbmgtR82gSwDFj4dQYpj8Keicq\";}'
+    '_csrf-frontend' => '1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"e37GwR1ScjBtG2BsH84JL8oCb28i9M6k\";}'
+    '_csrf-backend' => 'b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH\";}'
+    'advanced-backend' => '16dgach5jihokaomo82c302n47'
+    'advanced-frontend' => 'e94se7u9s12v1003qj1nh7vas4'
+    '_identity-backend' => 'd202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.0.11490 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=5oicr1cpdshuassokm3a5p3o90; _csrf=f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229K4GDvDbmgtR82gSwDFj4dQYpj8Keicq%22%3B%7D; _csrf-frontend=1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22e37GwR1ScjBtG2BsH84JL8oCb28i9M6k%22%3B%7D; _csrf-backend=b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH%22%3B%7D; advanced-backend=16dgach5jihokaomo82c302n47; advanced-frontend=e94se7u9s12v1003qj1nh7vas4; _identity-backend=d202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\TXE Components\\TCS\\;C:\\Program Files\\Intel\\TXE Components\\TCS\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Hewlett-Packard\\SimplePass\\;C:\\Program Files\\Java\\jdk1.8.0_20\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Skype\\Phone\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\XAMPP\\htdocs\\advanced'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/XAMPP/htdocs/advancedV2/backend/web/index.php'
+    'REMOTE_PORT' => '64520'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/advancedV2/backend/web/index.php'
+    'SCRIPT_NAME' => '/advancedV2/backend/web/index.php'
+    'PHP_SELF' => '/advancedV2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471755290.403
+    'REQUEST_TIME' => 1471755290
+]
+2016-08-21 06:55:03 [::1][1][16dgach5jihokaomo82c302n47][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ')', expecting ']'' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\dmstr\yii2-adminlte-asset\example-views\yiisoft\yii2-app\layouts\left.php:65
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-21 06:55:02 [::1][1][16dgach5jihokaomo82c302n47][info][application] $_COOKIE = [
+    'PHPSESSID' => '5oicr1cpdshuassokm3a5p3o90'
+    '_csrf' => 'f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9K4GDvDbmgtR82gSwDFj4dQYpj8Keicq\";}'
+    '_csrf-frontend' => '1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"e37GwR1ScjBtG2BsH84JL8oCb28i9M6k\";}'
+    '_csrf-backend' => 'b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH\";}'
+    'advanced-backend' => '16dgach5jihokaomo82c302n47'
+    'advanced-frontend' => 'e94se7u9s12v1003qj1nh7vas4'
+    '_identity-backend' => 'd202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.0.11490 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=5oicr1cpdshuassokm3a5p3o90; _csrf=f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229K4GDvDbmgtR82gSwDFj4dQYpj8Keicq%22%3B%7D; _csrf-frontend=1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22e37GwR1ScjBtG2BsH84JL8oCb28i9M6k%22%3B%7D; _csrf-backend=b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH%22%3B%7D; advanced-backend=16dgach5jihokaomo82c302n47; advanced-frontend=e94se7u9s12v1003qj1nh7vas4; _identity-backend=d202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\TXE Components\\TCS\\;C:\\Program Files\\Intel\\TXE Components\\TCS\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Hewlett-Packard\\SimplePass\\;C:\\Program Files\\Java\\jdk1.8.0_20\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Skype\\Phone\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\XAMPP\\htdocs\\advanced'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/XAMPP/htdocs/advancedV2/backend/web/index.php'
+    'REMOTE_PORT' => '64524'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/advancedV2/backend/web/index.php'
+    'SCRIPT_NAME' => '/advancedV2/backend/web/index.php'
+    'PHP_SELF' => '/advancedV2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471755302.932
+    'REQUEST_TIME' => 1471755302
+]
+2016-08-21 07:04:33 [::1][1][16dgach5jihokaomo82c302n47][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "http://localhost/advancedV2/backend/web/index.php?r=student".' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('http://localhos...', Array)
+#1 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-08-21 07:04:33 [::1][1][16dgach5jihokaomo82c302n47][info][application] $_GET = [
+    'r' => 'http://localhost/advancedV2/backend/web/index.php?r=student'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '5oicr1cpdshuassokm3a5p3o90'
+    '_csrf' => 'f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9K4GDvDbmgtR82gSwDFj4dQYpj8Keicq\";}'
+    '_csrf-frontend' => '1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"e37GwR1ScjBtG2BsH84JL8oCb28i9M6k\";}'
+    '_csrf-backend' => 'b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH\";}'
+    'advanced-backend' => '16dgach5jihokaomo82c302n47'
+    'advanced-frontend' => 'e94se7u9s12v1003qj1nh7vas4'
+    '_identity-backend' => 'd202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.0.11490 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/advancedV2/backend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=5oicr1cpdshuassokm3a5p3o90; _csrf=f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229K4GDvDbmgtR82gSwDFj4dQYpj8Keicq%22%3B%7D; _csrf-frontend=1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22e37GwR1ScjBtG2BsH84JL8oCb28i9M6k%22%3B%7D; _csrf-backend=b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH%22%3B%7D; advanced-backend=16dgach5jihokaomo82c302n47; advanced-frontend=e94se7u9s12v1003qj1nh7vas4; _identity-backend=d202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\TXE Components\\TCS\\;C:\\Program Files\\Intel\\TXE Components\\TCS\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Hewlett-Packard\\SimplePass\\;C:\\Program Files\\Java\\jdk1.8.0_20\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Skype\\Phone\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\XAMPP\\htdocs\\advanced'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/XAMPP/htdocs/advancedV2/backend/web/index.php'
+    'REMOTE_PORT' => '64661'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=http%3A%2F%2Flocalhost%2FadvancedV2%2Fbackend%2Fweb%2Findex.php%3Fr%3Dstudent'
+    'REQUEST_URI' => '/advancedV2/backend/web/index.php?r=http%3A%2F%2Flocalhost%2FadvancedV2%2Fbackend%2Fweb%2Findex.php%3Fr%3Dstudent'
+    'SCRIPT_NAME' => '/advancedV2/backend/web/index.php'
+    'PHP_SELF' => '/advancedV2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471755873.491
+    'REQUEST_TIME' => 1471755873
+]
+2016-08-21 07:04:57 [::1][1][16dgach5jihokaomo82c302n47][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "http://localhost/advancedV2/backend/web/index.php?r=student".' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('http://localhos...', Array)
+#1 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-08-21 07:04:57 [::1][1][16dgach5jihokaomo82c302n47][info][application] $_GET = [
+    'r' => 'http://localhost/advancedV2/backend/web/index.php?r=student'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '5oicr1cpdshuassokm3a5p3o90'
+    '_csrf' => 'f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9K4GDvDbmgtR82gSwDFj4dQYpj8Keicq\";}'
+    '_csrf-frontend' => '1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"e37GwR1ScjBtG2BsH84JL8oCb28i9M6k\";}'
+    '_csrf-backend' => 'b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH\";}'
+    'advanced-backend' => '16dgach5jihokaomo82c302n47'
+    'advanced-frontend' => 'e94se7u9s12v1003qj1nh7vas4'
+    '_identity-backend' => 'd202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.0.11490 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/advancedV2/backend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=5oicr1cpdshuassokm3a5p3o90; _csrf=f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229K4GDvDbmgtR82gSwDFj4dQYpj8Keicq%22%3B%7D; _csrf-frontend=1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22e37GwR1ScjBtG2BsH84JL8oCb28i9M6k%22%3B%7D; _csrf-backend=b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH%22%3B%7D; advanced-backend=16dgach5jihokaomo82c302n47; advanced-frontend=e94se7u9s12v1003qj1nh7vas4; _identity-backend=d202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\TXE Components\\TCS\\;C:\\Program Files\\Intel\\TXE Components\\TCS\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Hewlett-Packard\\SimplePass\\;C:\\Program Files\\Java\\jdk1.8.0_20\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Skype\\Phone\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\XAMPP\\htdocs\\advanced'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/XAMPP/htdocs/advancedV2/backend/web/index.php'
+    'REMOTE_PORT' => '64671'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=http%3A%2F%2Flocalhost%2FadvancedV2%2Fbackend%2Fweb%2Findex.php%3Fr%3Dstudent'
+    'REQUEST_URI' => '/advancedV2/backend/web/index.php?r=http%3A%2F%2Flocalhost%2FadvancedV2%2Fbackend%2Fweb%2Findex.php%3Fr%3Dstudent'
+    'SCRIPT_NAME' => '/advancedV2/backend/web/index.php'
+    'PHP_SELF' => '/advancedV2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471755897.47
+    'REQUEST_TIME' => 1471755897
+]
+2016-08-21 07:05:39 [::1][1][16dgach5jihokaomo82c302n47][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "http://localhost/advancedV2/backend/web/index.php?r=student".' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('http://localhos...', Array)
+#1 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-08-21 07:05:39 [::1][1][16dgach5jihokaomo82c302n47][info][application] $_GET = [
+    'r' => 'http://localhost/advancedV2/backend/web/index.php?r=student'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '5oicr1cpdshuassokm3a5p3o90'
+    '_csrf' => 'f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9K4GDvDbmgtR82gSwDFj4dQYpj8Keicq\";}'
+    '_csrf-frontend' => '1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"e37GwR1ScjBtG2BsH84JL8oCb28i9M6k\";}'
+    '_csrf-backend' => 'b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH\";}'
+    'advanced-backend' => '16dgach5jihokaomo82c302n47'
+    'advanced-frontend' => 'e94se7u9s12v1003qj1nh7vas4'
+    '_identity-backend' => 'd202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.0.11490 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/advancedV2/backend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=5oicr1cpdshuassokm3a5p3o90; _csrf=f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229K4GDvDbmgtR82gSwDFj4dQYpj8Keicq%22%3B%7D; _csrf-frontend=1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22e37GwR1ScjBtG2BsH84JL8oCb28i9M6k%22%3B%7D; _csrf-backend=b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH%22%3B%7D; advanced-backend=16dgach5jihokaomo82c302n47; advanced-frontend=e94se7u9s12v1003qj1nh7vas4; _identity-backend=d202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\TXE Components\\TCS\\;C:\\Program Files\\Intel\\TXE Components\\TCS\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Hewlett-Packard\\SimplePass\\;C:\\Program Files\\Java\\jdk1.8.0_20\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Skype\\Phone\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\XAMPP\\htdocs\\advanced'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/XAMPP/htdocs/advancedV2/backend/web/index.php'
+    'REMOTE_PORT' => '64681'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=http%3A%2F%2Flocalhost%2FadvancedV2%2Fbackend%2Fweb%2Findex.php%3Fr%3Dstudent'
+    'REQUEST_URI' => '/advancedV2/backend/web/index.php?r=http%3A%2F%2Flocalhost%2FadvancedV2%2Fbackend%2Fweb%2Findex.php%3Fr%3Dstudent'
+    'SCRIPT_NAME' => '/advancedV2/backend/web/index.php'
+    'PHP_SELF' => '/advancedV2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471755939.238
+    'REQUEST_TIME' => 1471755939
+]
+2016-08-21 07:09:20 [::1][-][16dgach5jihokaomo82c302n47][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Classlist".' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('Classlist', Array)
+#1 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-08-21 07:09:20 [::1][-][16dgach5jihokaomo82c302n47][info][application] $_GET = [
+    'r' => 'Classlist'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '5oicr1cpdshuassokm3a5p3o90'
+    '_csrf' => 'f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9K4GDvDbmgtR82gSwDFj4dQYpj8Keicq\";}'
+    '_csrf-frontend' => '1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"e37GwR1ScjBtG2BsH84JL8oCb28i9M6k\";}'
+    '_csrf-backend' => 'b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH\";}'
+    'advanced-backend' => '16dgach5jihokaomo82c302n47'
+    'advanced-frontend' => 'e94se7u9s12v1003qj1nh7vas4'
+    '_identity-backend' => 'd202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.0.11490 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/advancedV2/backend/web/index.php?r=review-class'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=5oicr1cpdshuassokm3a5p3o90; _csrf=f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229K4GDvDbmgtR82gSwDFj4dQYpj8Keicq%22%3B%7D; _csrf-frontend=1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22e37GwR1ScjBtG2BsH84JL8oCb28i9M6k%22%3B%7D; _csrf-backend=b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH%22%3B%7D; advanced-backend=16dgach5jihokaomo82c302n47; advanced-frontend=e94se7u9s12v1003qj1nh7vas4; _identity-backend=d202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\TXE Components\\TCS\\;C:\\Program Files\\Intel\\TXE Components\\TCS\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Hewlett-Packard\\SimplePass\\;C:\\Program Files\\Java\\jdk1.8.0_20\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Skype\\Phone\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\XAMPP\\htdocs\\advanced'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/XAMPP/htdocs/advancedV2/backend/web/index.php'
+    'REMOTE_PORT' => '64720'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=Classlist'
+    'REQUEST_URI' => '/advancedV2/backend/web/index.php?r=Classlist'
+    'SCRIPT_NAME' => '/advancedV2/backend/web/index.php'
+    'PHP_SELF' => '/advancedV2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471756160.438
+    'REQUEST_TIME' => 1471756160
+]
+2016-08-21 07:09:37 [::1][-][16dgach5jihokaomo82c302n47][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Classlist".' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('Classlist', Array)
+#1 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-08-21 07:09:37 [::1][-][16dgach5jihokaomo82c302n47][info][application] $_GET = [
+    'r' => 'Classlist'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '5oicr1cpdshuassokm3a5p3o90'
+    '_csrf' => 'f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9K4GDvDbmgtR82gSwDFj4dQYpj8Keicq\";}'
+    '_csrf-frontend' => '1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"e37GwR1ScjBtG2BsH84JL8oCb28i9M6k\";}'
+    '_csrf-backend' => 'b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH\";}'
+    'advanced-backend' => '16dgach5jihokaomo82c302n47'
+    'advanced-frontend' => 'e94se7u9s12v1003qj1nh7vas4'
+    '_identity-backend' => 'd202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.0.11490 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/advancedV2/backend/web/index.php?r=review-class'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=5oicr1cpdshuassokm3a5p3o90; _csrf=f7b897fbf57b920f8fd565b33f670e38a7d0833bc6a10f7b6385d8fb62e25434a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229K4GDvDbmgtR82gSwDFj4dQYpj8Keicq%22%3B%7D; _csrf-frontend=1bb214dc5a16c5f9b7fc51ea72060e466ec15aca5ce9f538664ea2c23b4c67c9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22e37GwR1ScjBtG2BsH84JL8oCb28i9M6k%22%3B%7D; _csrf-backend=b9e5c516238956cd4a4f4ccdb10019bbbf1787a4bcb89b052884c56155cc2423a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22quF2ADp6c2Uo5w_DsVh3N18rulzsoTJH%22%3B%7D; advanced-backend=16dgach5jihokaomo82c302n47; advanced-frontend=e94se7u9s12v1003qj1nh7vas4; _identity-backend=d202913f463b0ed86034dad86f8df19b26ec780f0660e65563290e49b3a28adfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Dzr9LOeuAy5GA4TO1eQCrUhYEb5nhUfD%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\TXE Components\\TCS\\;C:\\Program Files\\Intel\\TXE Components\\TCS\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Hewlett-Packard\\SimplePass\\;C:\\Program Files\\Java\\jdk1.8.0_20\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Skype\\Phone\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\XAMPP\\htdocs\\advanced'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/XAMPP/htdocs/advancedV2/backend/web/index.php'
+    'REMOTE_PORT' => '64727'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=Classlist'
+    'REQUEST_URI' => '/advancedV2/backend/web/index.php?r=Classlist'
+    'SCRIPT_NAME' => '/advancedV2/backend/web/index.php'
+    'PHP_SELF' => '/advancedV2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471756177.349
+    'REQUEST_TIME' => 1471756177
+]

@@ -8,7 +8,7 @@
                 <img src="<?= $directoryAsset ?>/img/user2-160x160.jpg" class="img-circle" alt="User Image"/>
             </div>
             <div class="pull-left info">
-                <p>Alexander Pierce</p>
+                <p>Admin</p>
 
                 <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
             </div>
@@ -31,9 +31,25 @@
                 'options' => ['class' => 'sidebar-menu'],
                 'items' => [
                     ['label' => 'Menu Yii2', 'options' => ['class' => 'header']],
-                    ['label' => 'Gii', 'icon' => 'fa fa-file-code-o', 'url' => ['/gii']],
-                    ['label' => 'Debug', 'icon' => 'fa fa-dashboard', 'url' => ['/debug']],
-                    ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
+                    ['label' => 'Students', 'icon' => 'fa fa-file-code-o', 
+                    'url' => 'http://localhost/advancedV2/backend/web/index.php?r=student'],
+
+                     ['label' => 'Review Class', 'icon' => 'fa fa-file-code-o', 
+                    'url' => 'http://localhost/advancedV2/backend/web/index.php?r=review-class'],
+
+                     ['label' => 'Classlist', 'icon' => 'fa fa-file-code-o', 
+                    'url' => 'http://localhost/advancedV2/backend/web/index.php?r=class-list'],
+
+                     ['label' => 'Employee', 'icon' => 'fa fa-file-code-o', 
+                    'url' => 'http://localhost/advancedV2/backend/web/index.php?r=employee'],
+
+                     ['label' => 'User', 'icon' => 'fa fa-file-code-o', 
+                    'url' => 'http://localhost/advancedV2/backend/web/index.php?r=user'],
+
+                   
+
+
+
                     [
                         'label' => 'Same tools',
                         'icon' => 'fa fa-share',
@@ -41,7 +57,10 @@
                         'items' => [
                             ['label' => 'Gii', 'icon' => 'fa fa-file-code-o', 'url' => ['/gii'],],
                             ['label' => 'Debug', 'icon' => 'fa fa-dashboard', 'url' => ['/debug'],],
-                            [
+                       
+
+
+                       /*    [
                                 'label' => 'Level One',
                                 'icon' => 'fa fa-circle-o',
                                 'url' => '#',
@@ -53,14 +72,14 @@
                                         'url' => '#',
                                         'items' => [
                                             ['label' => 'Level Three', 'icon' => 'fa fa-circle-o', 'url' => '#',],
-                                            ['label' => 'Level Three', 'icon' => 'fa fa-circle-o', 'url' => '#',],
-                                        ],
-                                    ],
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
+                                            ['label' => 'Level Three', 'icon' => 'fa fa-circle-o', 'url' => '',],    
+                                        ],  
+                                    ],  
+                                ], 
+                            ],  */
+                        ],  
+                    ],  
+                ],  
             ]
         ) ?>
 

@@ -37,9 +37,9 @@ use dmstr\widgets\Alert;
 
 <footer class="main-footer">
     <div class="pull-right hidden-xs">
-        <b>Version</b> 2.0
+        <b>Version</b> 1.0
     </div>
-    <strong>Copyright &copy; 2014-2015 <a href="http://almsaeedstudio.com">Siscode Studio</a>.</strong> All rights
+    <strong>Copyright &copy; 2015-2016 <a href="http://facebook.com">Siscode Studio</a>.</strong> All rights
     reserved.
 </footer>
 
@@ -85,7 +85,7 @@ use dmstr\widgets\Alert;
                         <div class="menu-info">
                             <h4 class="control-sidebar-subheading">Nora Joined Mailing List</h4>
 
-                            <p>nora@example.com</p>
+                            <p>siscode@example.com</p>
                         </div>
                     </a>
                 </li>

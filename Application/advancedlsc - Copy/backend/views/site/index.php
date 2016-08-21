@@ -4,8 +4,7 @@
 
 $this->title = 'Loyola Student Center';
 ?>
-
-<div class="site-index">
+<!-- <div class="site-index">
 
     <div class="jumbotron">
         <h1>Yas!</h1>
