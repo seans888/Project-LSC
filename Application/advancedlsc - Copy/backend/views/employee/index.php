@@ -21,6 +21,17 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
+        'rowOptions' => function($model){
+            if($model -> Position == 'Instructor')
+            {
+                 return ['class' => 'danger'];
+               // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
+            }elseif ($model -> Position == 'Admin') {
+               // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
+               return['class'=>'success'];
+            }
+
+        },
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
@@ -30,6 +41,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'middlename',
             'gender',
             // 'age',
+            // 'position',
             // 'contact_Number',
             // 'email_address:email',
 

@@ -8,7 +8,7 @@ use Yii;
  * This is the model class for table "student".
  *
  * @property integer $id
- * @property string $Status
+ * @property string $status
  * @property integer $number_of_hours
  * @property string $review_class
  * @property string $lastname
@@ -51,8 +51,8 @@ class Student extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['Status', 'review_class', 'lastname', 'firstname', 'nickname', 'gender', 'age', 'email_address', 'contact_number', 'address', 'school', 'school_address'], 'required'],
-            [['Status', 'review_class', 'gender'], 'string'],
+            [['status', 'review_class', 'lastname', 'firstname', 'nickname', 'gender', 'age', 'email_address', 'contact_number', 'address', 'school', 'school_address'], 'required'],
+            [['status', 'review_class', 'gender'], 'string'],
             [['number_of_hours', 'age', 'contact_number', 'guardian_contact_number'], 'integer'],
             [['date_of_registration'], 'safe'],
             [['lastname', 'firstname', 'middlename'], 'string', 'max' => 30],
@@ -72,7 +72,7 @@ class Student extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'Status' => 'Status',
+            'status' => 'Status',
             'number_of_hours' => 'Number Of Hours',
             'review_class' => 'Review Class',
             'lastname' => 'Lastname',
