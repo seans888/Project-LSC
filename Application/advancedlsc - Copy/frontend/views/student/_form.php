@@ -1,4 +1,3 @@
-
 <?php
 
 use yii\helpers\Html;
@@ -10,7 +9,10 @@ use yii\widgets\ActiveForm;
 ?>
 
 <div class="student-form">
+
     <?php $form = ActiveForm::begin(); ?>
+
+    <?= $form->field($model, 'Status')->dropDownList([ 'Reserve' => 'Reserve', 'Enroll' => 'Enroll', ], ['prompt' => '']) ?>
 
     <?= $form->field($model, 'number_of_hours')->textInput() ?>
 
@@ -24,9 +26,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'nickname')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'gender')->dropDownList(['Female' => 'Female', 'Male' => 'Male',],
-        ['prompt' => 'Gender']
-    ) ?>
+    <?= $form->field($model, 'gender')->dropDownList([ 'Female' => 'Female', 'Male' => 'Male', ], ['prompt' => '']) ?>
 
     <?= $form->field($model, 'age')->textInput() ?>
 
@@ -48,7 +48,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'guardian_email_address')->textInput(['maxlength' => true]) ?>
 
-    <!--<?= $form->field($model, 'date_of_registration')->textInput() ?> -->
+    <?= $form->field($model, 'date_of_registration')->textInput() ?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>

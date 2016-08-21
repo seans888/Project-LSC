@@ -13,6 +13,7 @@ use Yii;
  * @property string $middlename
  * @property string $gender
  * @property integer $age
+ * @property string $position
  * @property integer $contact_Number
  * @property string $email_address
  *
@@ -37,8 +38,8 @@ class Employee extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['lastname', 'firstname', 'gender', 'age', 'contact_Number', 'email_address'], 'required'],
-            [['gender'], 'string'],
+            [['lastname', 'firstname', 'gender', 'age', 'position', 'contact_Number', 'email_address'], 'required'],
+            [['gender', 'position'], 'string'],
             [['age', 'contact_Number'], 'integer'],
             [['lastname', 'firstname', 'middlename', 'email_address'], 'string', 'max' => 30],
             [['email_address'], 'unique'],
@@ -58,6 +59,7 @@ class Employee extends \yii\db\ActiveRecord
             'middlename' => 'Middlename',
             'gender' => 'Gender',
             'age' => 'Age',
+            'position' => 'Position',
             'contact_Number' => 'Contact  Number',
             'email_address' => 'Email Address',
         ];
