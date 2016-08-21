@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model backend\models\StudentSearch */
+/* @var $model frontend\models\StudentSearch */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
@@ -17,7 +17,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'id') ?>
 
-    <?= $form->field($model, 'Status') ?>
+    <?= $form->field($model, 'status') ?>
 
     <?= $form->field($model, 'number_of_hours') ?>
 

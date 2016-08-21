@@ -17,7 +17,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'id') ?>
 
-    <?= $form->field($model, 'Status') ?>
+    <?= $form->field($model, 'status') ?>
 
     <?= $form->field($model, 'number_of_hours') ?>
 

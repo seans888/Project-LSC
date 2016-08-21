@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel backend\models\StudentSearch */
+/* @var $searchModel frontend\models\StudentSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Students';
@@ -21,11 +21,22 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
+                 'rowOptions' => function($model){
+            if($model -> status == 'Reserve')
+            {
+                 return ['class' => 'danger'];
+               // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
+            }elseif ($model -> status == 'Enroll') {
+               // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
+               return['class'=>'success'];
+            }
+
+        },
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
             'id',
-            'Status',
+            'status',
             'number_of_hours',
             'review_class',
             'lastname',

@@ -2,9 +2,11 @@
 namespace frontend\controllers;
 
 use Yii;
+use yii\helpers\Url;
 use yii\base\InvalidParamException;
 use yii\web\BadRequestHttpException;
 use yii\web\Controller;
+use frontend\controllers\StudentController;     
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
@@ -16,7 +18,8 @@ use frontend\site\tutorials;
 use frontend\site\reviews;
 use frontend\site\english;
 use frontend\site\other;
-use frontend\views\student;
+use frontend\views;
+use frontend\student\create;
 /**
  * Site controller
  */
@@ -156,7 +159,7 @@ class SiteController extends Controller
         if ($model->load(Yii::$app->request->post())) {
             if ($user = $model->signup()) {
                 if (Yii::$app->getUser()->login($user)) {
-                    return $this->goHome();
+                    return $this->redirect(Url::to('index.php?r=student%2Fcreate'));
                 }
             }
         }
@@ -258,5 +261,5 @@ class SiteController extends Controller
 
     }
 
-    
+
 }
