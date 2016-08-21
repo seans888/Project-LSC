@@ -1,5 +1,5 @@
 <?php
-/**
+/**z
  * @link http://www.yiiframework.com/
  * @copyright Copyright (c) 2008 Yii Software LLC
  * @license http://www.yiiframework.com/license/
@@ -13,56 +13,53 @@ use yii\mail\BaseMailer;
 
 /**
  * Mailer implements a mailer based on SwiftMailer.
- *
+ 
  * To use Mailer, you should configure it in the application configuration like the following,
+ */
+
+ 'components' => [
+     'mailer' => [
+         'class' => 'yii\swiftmailer\Mailer',
+         'transport' => [
+             'class' => 'Swift_SmtpTransport',
+             'host' => 'localhost',
+             'username' => 'username',
+             'password' => 'password',
+             'port' => '587',
+             'encryption' => 'tls',
+         ],
+     ],
+ ],
+
+
+/* You may also skip the configuration of the [[transport]] property. In that case, the default
+ PHP `mail()` function will be used to send emails.
+
+ You specify the transport constructor arguments using 'constructArgs' key in the config.
+ You can also specify the list of plugins, which should be registered to the transport using
+ 'plugins' key. For example:
+
+
+ 'transport' => [
+     'class' => 'Swift_SmtpTransport',
+     'constructArgs' => ['localhost', 25]
+     'plugins' => [
+         [
+             'class' => 'Swift_Plugins_ThrottlerPlugin',
+             'constructArgs' => [20],
+         ],
+     ],
+ ],
+
+ To send an email, you may use the following code:
  *
- * ~~~
- * 'components' => [
- *     ...
- *     'mailer' => [
- *         'class' => 'yii\swiftmailer\Mailer',
- *         'transport' => [
- *             'class' => 'Swift_SmtpTransport',
- *             'host' => 'localhost',
- *             'username' => 'username',
- *             'password' => 'password',
- *             'port' => '587',
- *             'encryption' => 'tls',
- *         ],
- *     ],
- *     ...
- * ],
- * ~~~
- *
- * You may also skip the configuration of the [[transport]] property. In that case, the default
- * PHP `mail()` function will be used to send emails.
- *
- * You specify the transport constructor arguments using 'constructArgs' key in the config.
- * You can also specify the list of plugins, which should be registered to the transport using
- * 'plugins' key. For example:
- *
- * ~~~
- * 'transport' => [
- *     'class' => 'Swift_SmtpTransport',
- *     'constructArgs' => ['localhost', 25]
- *     'plugins' => [
- *         [
- *             'class' => 'Swift_Plugins_ThrottlerPlugin',
- *             'constructArgs' => [20],
- *         ],
- *     ],
- * ],
- * ~~~
- *
- * To send an email, you may use the following code:
- *
- * ~~~
- * Yii::$app->mailer->compose('contact/html', ['contactForm' => $form])
- *     ->setFrom('from@domain.com')
- *     ->setTo($form->email)
- *     ->setSubject($form->subject)
- *     ->send();
- * ~~~
+ * ~~~ */
+  Yii::$app->mailer->compose('contact/html', ['contactForm' => $form])
+      ->setFrom('from@domain.com')
+      ->setTo($form->email)
+      ->setSubject($form->subject)
+      ->send();
+/*
  *
  * @see http://swiftmailer.org
  *
