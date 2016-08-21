@@ -2,10 +2,6 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
-use yii\widgets\Pjax;
-use yii\bootstrap\Modal;
-use yii\helpers\Url;
-
 
 /* @var $this yii\web\View */
 /* @var $searchModel backend\models\StudentSearch */
@@ -20,37 +16,32 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-       <?= Html::button('Create Student', ['value'=>Url::to('index.php?r=student/create'), 
-              'class' => 'btn btn-success','id'=>'modalButton'
-        ]) ?>
-
+        <?= Html::a('Create Student', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
-
-    <?php
-        Modal::begin([
-                'header'=>'<h4>Students</h4>',
-                'id'=>'modal',
-                'size'=>'modal-lg',
-            ]);
-
-        echo "<div id='modalContent'></div>";
-
-        Modal::end();
-    ?>
-
-    <?php Pjax::begin(); ?>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
+        'rowOptions' => function($model){
+            if($model -> Status == 'Reserve')
+            {
+                 return ['class' => 'danger'];
+               // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
+            }elseif ($model -> Status == 'Enroll') {
+               // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
+               return['class'=>'success'];
+            }
+
+        },
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-           // 'id',
-            'number_of_hours',
+          //  'id',
+            'Status',
+            //'number_of_hours',
             'review_class',
             'lastname',
-            'firstname',
-            //'middlename',
+            // 'firstname',
+            // 'middlename',
             // 'nickname',
             // 'gender',
             // 'age',
@@ -58,12 +49,12 @@ $this->params['breadcrumbs'][] = $this->title;
             // 'contact_number',
             // 'address',
             // 'school',
-                // 'school_address',
+            // 'school_address',
             // 'guardian_name',
             // 'relation',
             // 'guardian_contact_number',
             // 'guardian_email_address:email',
-             'date_of_registration',
+            // 'date_of_registration',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
