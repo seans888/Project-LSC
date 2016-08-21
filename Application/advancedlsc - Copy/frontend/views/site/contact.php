@@ -1,4 +1,3 @@
-
 <?php
 
 /* @var $this yii\web\View */
@@ -10,12 +9,14 @@ use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 
 $this->title = 'Contact Us';
- /*
+/*
 $this->params['breadcrumbs'][] = $this->title;
 */
 ?>
+<br>
 <div class="site-contact">
     <h1><?= Html::encode($this->title) ?></h1>
+    
 <p>
 LSC Abada <br>
 434-1916 or 463-6169 <br>
@@ -44,22 +45,21 @@ Ortigas Center, Pasig City <br>
 </p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1326.2699067693861!2d121.05995260502391!3d14.58893118755948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c819dcf3159f%3A0x6ee8de5684fb596!2sOrtigas+Review+Center!5e0!3m2!1sen!2sph!4v1470292639172" width="1150" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-
     <p>
-        If you have business inquiries or other questions, please fill out the following form to contact us.
+        If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
     </p>
 
     <div class="row">
         <div class="col-lg-5">
             <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
 
-                <?= $form->field($model, 'name')->textInput(['autofocus' => true]) ?>		
+                <?= $form->field($model, 'name')->textInput(['autofocus' => true]) ?>
 
                 <?= $form->field($model, 'email') ?>
 
                 <?= $form->field($model, 'subject') ?>
 
-                <?= $form->field($model, 'body')->textArea(['rows' => 6]) ?>
+                <?= $form->field($model, 'body')->textarea(['rows' => 6]) ?>
 
                 <?= $form->field($model, 'verifyCode')->widget(Captcha::className(), [
                     'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
@@ -68,8 +68,9 @@ Ortigas Center, Pasig City <br>
                 <div class="form-group">
                     <?= Html::submitButton('Submit', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
                 </div>
-		</div>
-    </div>
-</div>
 
             <?php ActiveForm::end(); ?>
+        </div>
+    </div>
+
+</div>

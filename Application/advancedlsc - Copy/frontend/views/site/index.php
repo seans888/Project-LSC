@@ -5,9 +5,7 @@
 $this->title = 'Home';
 ?>
 
-<style>
-
-</style>
+<br><br>
 
 <div class="site-index">
 

@@ -15,6 +15,8 @@ use frontend\views\student;
 $this->title = 'Sign up';
 //$this->params['breadcrumbs'][] = $this->title;
 ?>
+<br>
+<br>
 <table class="suform" align= "center" border="1px">
 <div class="site-signup">
     <h1><?= Html::encode($this->title) ?></h1>

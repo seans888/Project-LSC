@@ -232,3 +232,40 @@ th, td {
 	font-size: 12px;
 }
 
+/*Read more buttons*/
+
+p.buttonreadmore{
+  float:right;
+  margin-right: 275px;
+}
+
+a.btn.btn-default{
+  padding:5px;
+  font-size: 14px;
+}
+
+
+/*SignUp,LogIn page style*/
+div.site-signup,div.site-login{
+    display: block;
+    text-align: center;
+
+}
+div.col-lg-5{
+
+margin-left: 340px;
+}
+
+
+/*navbar style*/
+.navbar{
+      font-family: DIN light;
+      font-size: 30px;
+      height: 80px;
+      font-size: 20px;
+      background-color: #002E5D;
+      padding: 0.8em;
+      font-color: #ffffff;
+      font-weight: bolder;
+      padding-right:50em; 
+}

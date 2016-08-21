@@ -3,20 +3,21 @@
 /* @var $this yii\web\View */
 
 use yii\helpers\Html;
+
 $this->title = 'About Us';
 /*
-
 $this->params['breadcrumbs'][] = $this->title;
 */
 ?>
+<br><br>
+<body>
 <div class="site-about">
     <h1><?= Html::encode($this->title) ?></h1>
 
 <hr>
 <!--start of about-->
-
+<br>
 <h2> Mission </h2>
-<hr style ="margin-left: 270px; margin-right: 1000px;">
 
 
 <p>Our mission is to enhance the intellectual development of students 
@@ -27,8 +28,9 @@ maintaining competent and progressive teaching and support staff,
 continually updating our books and materials, and providing an 
 environment conducive to learning and achievement. </p>
 
+<br>
 <h2> Vision </h2>
-<hr style ="margin-left: 270px; margin-right: 1000px;">
+
 
 <p>We aspire to become a center of educational excellence and a 
 resource for sectors of our society deprived of opportunities for 
@@ -38,9 +40,9 @@ quizzes to developing their character and critical thinking skills -
 so that they may become successful members of society and contribute 
 to the development of the country. </p>
 
-
+<br>
 <h2> History </h2>
-<hr style ="margin-left: 270px; margin-right: 1000px;">
+
 
 <p>In the early 1980’s, a group of faculty members from the University 
 of the Philippines and the Ateneo de Manila University got together to 
@@ -58,9 +60,9 @@ leadership in providing high-quality and affordable tutorial and review
 services to students not only in Metro Manila but also from the 
 provinces.</p>
 
-
+<br>
 <h2> Working Principle </h2>
-<hr style ="margin-left: 270px; margin-right: 1000px;">
+
 
 <p>LSC was organized out of the founder’s desire to share the knowledge 
 he had obtained as a working student and as a university instructor. 
@@ -74,9 +76,9 @@ Bible.</p>
 </pre>
 <p>This is the principle that guides all activities carried on at LSC.</p>
 
-
+<br>
 <h2> Outreach Programs </h2>
-<hr style ="margin-left: 270px; margin-right: 1000px;">
+
 
 <p>Every summer since 1999, LSC has served as the implementing partner 
 of the Rotary Club of Loyola Heights in granting college entrance test 
@@ -92,4 +94,7 @@ Manila. LSC has also extended its review programs to other students in
  need of financial assistance. </p>
  
  <!--end of about-->
+
+
 </div>
+</body>
