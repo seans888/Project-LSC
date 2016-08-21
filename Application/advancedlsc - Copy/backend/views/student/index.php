@@ -21,12 +21,12 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
-        'rowOptions' => function($model){
-            if($model -> Status == 'Reserve')
+         'rowOptions' => function($model){
+            if($model -> status == 'Reserve')
             {
                  return ['class' => 'danger'];
                // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
-            }elseif ($model -> Status == 'Enroll') {
+            }elseif ($model -> status == 'Enroll') {
                // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
                return['class'=>'success'];
             }
@@ -35,9 +35,9 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-          //  'id',
-            'Status',
-            //'number_of_hours',
+            'id',
+            'status',
+            'number_of_hours',
             'review_class',
             'lastname',
             // 'firstname',
