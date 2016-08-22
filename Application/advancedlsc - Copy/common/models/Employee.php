@@ -39,9 +39,10 @@ class Employee extends \yii\db\ActiveRecord
     {
         return [
             [['lastname', 'firstname', 'gender', 'age', 'position', 'contact_Number', 'email_address'], 'required'],
-            [['gender', 'position'], 'string'],
             [['age', 'contact_Number'], 'integer'],
+            [['position'], 'string'],
             [['lastname', 'firstname', 'middlename', 'email_address'], 'string', 'max' => 30],
+            [['gender'], 'string', 'max' => 10],
             [['email_address'], 'unique'],
             [['contact_Number'], 'unique'],
         ];

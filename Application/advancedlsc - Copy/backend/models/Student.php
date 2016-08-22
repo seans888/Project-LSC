@@ -8,7 +8,7 @@ use Yii;
  * This is the model class for table "student".
  *
  * @property integer $id
- * @property string $status
+ * @property string $type
  * @property integer $number_of_hours
  * @property string $review_class
  * @property string $lastname
@@ -27,6 +27,7 @@ use Yii;
  * @property integer $guardian_contact_number
  * @property string $guardian_email_address
  * @property string $date_of_registration
+ * @property string $status
  *
  * @property Account[] $accounts
  * @property ClassList[] $classLists
@@ -51,8 +52,8 @@ class Student extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['status', 'review_class', 'lastname', 'firstname', 'nickname', 'gender', 'age', 'email_address', 'contact_number', 'address', 'school', 'school_address'], 'required'],
-            [['status', 'review_class', 'gender'], 'string'],
+            [['type', 'review_class', 'lastname', 'firstname', 'nickname', 'gender', 'age', 'email_address', 'contact_number', 'address', 'school', 'school_address'], 'required'],
+            [['type', 'review_class', 'gender', 'status'], 'string'],
             [['number_of_hours', 'age', 'contact_number', 'guardian_contact_number'], 'integer'],
             [['date_of_registration'], 'safe'],
             [['lastname', 'firstname', 'middlename'], 'string', 'max' => 30],
@@ -72,7 +73,7 @@ class Student extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'status' => 'Status',
+            'type' => 'Type',
             'number_of_hours' => 'Number Of Hours',
             'review_class' => 'Review Class',
             'lastname' => 'Lastname',
@@ -91,6 +92,7 @@ class Student extends \yii\db\ActiveRecord
             'guardian_contact_number' => 'Guardian Contact Number',
             'guardian_email_address' => 'Guardian Email Address',
             'date_of_registration' => 'Date Of Registration',
+            'status' => 'Status',
         ];
     }
 

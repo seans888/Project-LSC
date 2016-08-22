@@ -22,11 +22,11 @@ $this->params['breadcrumbs'][] = $this->title;
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
          'rowOptions' => function($model){
-            if($model -> status == 'Reserve')
+            if($model -> type == 'Reserve')
             {
                  return ['class' => 'danger'];
                // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
-            }elseif ($model -> status == 'Enroll') {
+            }elseif ($model -> type == 'Enroll') {
                // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
                return['class'=>'success'];
             }
@@ -36,7 +36,7 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             'id',
-            'status',
+            'type',
             'number_of_hours',
             'review_class',
             'lastname',

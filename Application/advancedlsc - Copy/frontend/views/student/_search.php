@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model frontend\models\StudentSearch */
+/* @var $model backend\models\StudentSearch */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
@@ -17,7 +17,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'id') ?>
 
-    <?= $form->field($model, 'status') ?>
+    <?= $form->field($model, 'type') ?>
 
     <?= $form->field($model, 'number_of_hours') ?>
 
@@ -54,6 +54,8 @@ use yii\widgets\ActiveForm;
     <?php // echo $form->field($model, 'guardian_email_address') ?>
 
     <?php // echo $form->field($model, 'date_of_registration') ?>
+
+    <?php // echo $form->field($model, 'status') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>

@@ -18,11 +18,11 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'middlename')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'gender')->dropDownList([ 'Female' => 'Female', 'Male' => 'Male', ], ['prompt' => '']) ?>
+    <?= $form->field($model, 'gender')->dropDownList([ 'Female' => 'Female', 'Male' => 'Male', ], ['prompt' => 'Select Gender']) ?>
 
     <?= $form->field($model, 'age')->textInput() ?>
 
-    <?= $form->field($model, 'position')->dropDownList([ 'Admin' => 'Admin', 'Instructor' => 'Instructor', ], ['prompt' => '']) ?>
+    <?= $form->field($model, 'position')->dropDownList([ 'Admin' => 'Admin', 'Instructor' => 'Instructor', ], ['prompt' => 'Select Employee Position']) ?>
 
     <?= $form->field($model, 'contact_Number')->textInput() ?>
 

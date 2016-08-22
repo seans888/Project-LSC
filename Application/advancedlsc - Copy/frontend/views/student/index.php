@@ -4,11 +4,11 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel frontend\models\StudentSearch */
+/* @var $searchModel backend\models\StudentSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Students';
-z$this->params['breadcrumbs'][] = $this->title;
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="student-index">
 
@@ -21,22 +21,11 @@ z$this->params['breadcrumbs'][] = $this->title;
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
-                 'rowOptions' => function($model){
-            if($model -> status == 'Reserve')
-            {
-                 return ['class' => 'danger'];
-               // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
-            }elseif ($model -> status == 'Enroll') {
-               // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
-               return['class'=>'success'];
-            }
-
-        },
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
             'id',
-            'status',
+            'type',
             'number_of_hours',
             'review_class',
             'lastname',
@@ -55,6 +44,7 @@ z$this->params['breadcrumbs'][] = $this->title;
             // 'guardian_contact_number',
             // 'guardian_email_address:email',
             // 'date_of_registration',
+            // 'status',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
