@@ -32,19 +32,19 @@
                 'items' => [
                     ['label' => 'Menu Yii2', 'options' => ['class' => 'header']],
                     ['label' => 'Students', 'icon' => 'fa fa-file-code-o', 
-                    'url' => 'http://localhost/advancedV2/backend/web/index.php?r=student'],
+                    'url' => 'index.php?r=student'],
 
                      ['label' => 'Review Class', 'icon' => 'fa fa-file-code-o', 
-                    'url' => 'http://localhost/advancedV2/backend/web/index.php?r=review-class'],
+                    'url' => 'index.php?r=review-class'],
 
                      ['label' => 'Classlist', 'icon' => 'fa fa-file-code-o', 
-                    'url' => 'http://localhost/advancedV2/backend/web/index.php?r=class-list'],
+                    'url' => 'index.php?r=class-list'],
 
                      ['label' => 'Employee', 'icon' => 'fa fa-file-code-o', 
-                    'url' => 'http://localhost/advancedV2/backend/web/index.php?r=employee'],
+                    'url' => 'index.php?r=employee'],
 
                      ['label' => 'User', 'icon' => 'fa fa-file-code-o', 
-                    'url' => 'http://localhost/advancedV2/backend/web/index.php?r=user'],
+                    'url' => 'index.php?r=user'],
 
                    
 

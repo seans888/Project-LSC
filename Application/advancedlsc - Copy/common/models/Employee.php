@@ -14,7 +14,7 @@ use Yii;
  * @property string $gender
  * @property integer $age
  * @property string $position
- * @property integer $contact_Number
+ * @property string $contact_Number
  * @property string $email_address
  *
  * @property Account[] $accounts
@@ -39,10 +39,10 @@ class Employee extends \yii\db\ActiveRecord
     {
         return [
             [['lastname', 'firstname', 'gender', 'age', 'position', 'contact_Number', 'email_address'], 'required'],
-            [['age', 'contact_Number'], 'integer'],
-            [['position'], 'string'],
+            [['gender', 'position'], 'string'],
+            [['age'], 'integer'],
             [['lastname', 'firstname', 'middlename', 'email_address'], 'string', 'max' => 30],
-            [['gender'], 'string', 'max' => 10],
+            [['contact_Number'], 'string', 'max' => 11],
             [['email_address'], 'unique'],
             [['contact_Number'], 'unique'],
         ];

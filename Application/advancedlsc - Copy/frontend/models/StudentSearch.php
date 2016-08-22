@@ -18,8 +18,8 @@ class StudentSearch extends Student
     public function rules()
     {
         return [
-            [['id', 'number_of_hours', 'age', 'contact_number', 'guardian_contact_number'], 'integer'],
-            [['type', 'review_class', 'lastname', 'firstname', 'middlename', 'nickname', 'gender', 'email_address', 'address', 'school', 'school_address', 'guardian_name', 'relation', 'guardian_email_address', 'date_of_registration', 'status'], 'safe'],
+            [['id', 'number_of_hours', 'age'], 'integer'],
+            [['type', 'review_class', 'lastname', 'firstname', 'middlename', 'nickname', 'gender', 'email_address', 'contact_number', 'address', 'school', 'school_address', 'guardian_name', 'relation', 'guardian_contact_number', 'guardian_email_address', 'date_of_registration', 'status'], 'safe'],
         ];
     }
 
@@ -62,8 +62,6 @@ class StudentSearch extends Student
             'id' => $this->id,
             'number_of_hours' => $this->number_of_hours,
             'age' => $this->age,
-            'contact_number' => $this->contact_number,
-            'guardian_contact_number' => $this->guardian_contact_number,
             'date_of_registration' => $this->date_of_registration,
         ]);
 
@@ -75,11 +73,13 @@ class StudentSearch extends Student
             ->andFilterWhere(['like', 'nickname', $this->nickname])
             ->andFilterWhere(['like', 'gender', $this->gender])
             ->andFilterWhere(['like', 'email_address', $this->email_address])
+            ->andFilterWhere(['like', 'contact_number', $this->contact_number])
             ->andFilterWhere(['like', 'address', $this->address])
             ->andFilterWhere(['like', 'school', $this->school])
             ->andFilterWhere(['like', 'school_address', $this->school_address])
             ->andFilterWhere(['like', 'guardian_name', $this->guardian_name])
             ->andFilterWhere(['like', 'relation', $this->relation])
+            ->andFilterWhere(['like', 'guardian_contact_number', $this->guardian_contact_number])
             ->andFilterWhere(['like', 'guardian_email_address', $this->guardian_email_address])
             ->andFilterWhere(['like', 'status', $this->status]);
 

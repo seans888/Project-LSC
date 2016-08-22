@@ -5023,3 +5023,1421 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1471852021.101
     'REQUEST_TIME' => 1471852021
 ]
+2016-08-22 11:20:22 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\models\Student::deposit_slip' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('deposit_slip')
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(2033): yii\db\BaseActiveRecord->__get('deposit_slip')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(1234): yii\helpers\BaseHtml::getAttributeValue(Object(backend\models\Student), 'deposit_slip')
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(1283): yii\helpers\BaseHtml::activeInput('text', Object(backend\models\Student), 'deposit_slip', Array)
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\ActiveField.php(367): yii\helpers\BaseHtml::activeTextInput(Object(backend\models\Student), 'deposit_slip', Array)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\_form.php(55): yii\widgets\ActiveField->textInput(Array)
+#6 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#7 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#8 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, NULL)
+#9 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\update.php(19): yii\base\View->render('_form', Array)
+#10 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#11 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#12 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, Object(backend\controllers\StudentController))
+#13 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('update', Array, Object(backend\controllers\StudentController))
+#14 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\controllers\StudentController.php(92): yii\base\Controller->render('update', Array)
+#15 [internal function]: backend\controllers\StudentController->actionUpdate('1')
+#16 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#19 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('student/update', Array)
+#20 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#22 {main}
+2016-08-22 11:20:22 [::1][-][-][info][application] $_GET = [
+    'r' => 'student/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm\";}'
+    'advanced-backend' => 'lpss4pe3d936v3n1r6bqeju9b2'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-backend' => '4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Uh638aBtroDAk3RgUfKmaHglJQ1LXebk\";}'
+    'advanced-frontend' => 'ivgq69k0cb4ato4h66mrgnh2v0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm%22%3B%7D; advanced-backend=lpss4pe3d936v3n1r6bqeju9b2; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-backend=4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Uh638aBtroDAk3RgUfKmaHglJQ1LXebk%22%3B%7D; advanced-frontend=ivgq69k0cb4ato4h66mrgnh2v0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50032'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student%2Fupdate&id=1'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student%2Fupdate&id=1'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471857622.543
+    'REQUEST_TIME' => 1471857622
+]
+2016-08-22 11:20:41 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\models\Student::deposit_slip' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('deposit_slip')
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(2033): yii\db\BaseActiveRecord->__get('deposit_slip')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(1234): yii\helpers\BaseHtml::getAttributeValue(Object(backend\models\Student), 'deposit_slip')
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(1283): yii\helpers\BaseHtml::activeInput('text', Object(backend\models\Student), 'deposit_slip', Array)
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\ActiveField.php(367): yii\helpers\BaseHtml::activeTextInput(Object(backend\models\Student), 'deposit_slip', Array)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\_form.php(55): yii\widgets\ActiveField->textInput(Array)
+#6 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#7 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#8 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, NULL)
+#9 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\update.php(19): yii\base\View->render('_form', Array)
+#10 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#11 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#12 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, Object(backend\controllers\StudentController))
+#13 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('update', Array, Object(backend\controllers\StudentController))
+#14 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\controllers\StudentController.php(92): yii\base\Controller->render('update', Array)
+#15 [internal function]: backend\controllers\StudentController->actionUpdate('1')
+#16 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#19 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('student/update', Array)
+#20 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#22 {main}
+2016-08-22 11:20:40 [::1][-][-][info][application] $_GET = [
+    'r' => 'student/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm\";}'
+    'advanced-backend' => 'lpss4pe3d936v3n1r6bqeju9b2'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-backend' => '4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Uh638aBtroDAk3RgUfKmaHglJQ1LXebk\";}'
+    'advanced-frontend' => 'ivgq69k0cb4ato4h66mrgnh2v0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm%22%3B%7D; advanced-backend=lpss4pe3d936v3n1r6bqeju9b2; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-backend=4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Uh638aBtroDAk3RgUfKmaHglJQ1LXebk%22%3B%7D; advanced-frontend=ivgq69k0cb4ato4h66mrgnh2v0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50053'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student%2Fupdate&id=1'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student%2Fupdate&id=1'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471857640.9
+    'REQUEST_TIME' => 1471857640
+]
+2016-08-22 11:21:35 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\models\Student::deposit_slip' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('deposit_slip')
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(2033): yii\db\BaseActiveRecord->__get('deposit_slip')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(1234): yii\helpers\BaseHtml::getAttributeValue(Object(backend\models\Student), 'deposit_slip')
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(1283): yii\helpers\BaseHtml::activeInput('text', Object(backend\models\Student), 'deposit_slip', Array)
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\ActiveField.php(367): yii\helpers\BaseHtml::activeTextInput(Object(backend\models\Student), 'deposit_slip', Array)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\_form.php(55): yii\widgets\ActiveField->textInput(Array)
+#6 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#7 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#8 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, NULL)
+#9 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\update.php(19): yii\base\View->render('_form', Array)
+#10 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#11 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#12 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, Object(backend\controllers\StudentController))
+#13 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('update', Array, Object(backend\controllers\StudentController))
+#14 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\controllers\StudentController.php(92): yii\base\Controller->render('update', Array)
+#15 [internal function]: backend\controllers\StudentController->actionUpdate('1')
+#16 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#19 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('student/update', Array)
+#20 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#22 {main}
+2016-08-22 11:21:35 [::1][-][-][info][application] $_GET = [
+    'r' => 'student/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm\";}'
+    'advanced-backend' => 'lpss4pe3d936v3n1r6bqeju9b2'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-backend' => '4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Uh638aBtroDAk3RgUfKmaHglJQ1LXebk\";}'
+    'advanced-frontend' => 'ivgq69k0cb4ato4h66mrgnh2v0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm%22%3B%7D; advanced-backend=lpss4pe3d936v3n1r6bqeju9b2; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-backend=4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Uh638aBtroDAk3RgUfKmaHglJQ1LXebk%22%3B%7D; advanced-frontend=ivgq69k0cb4ato4h66mrgnh2v0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50085'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student%2Fupdate&id=1'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student%2Fupdate&id=1'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471857695.506
+    'REQUEST_TIME' => 1471857695
+]
+2016-08-22 11:21:40 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\models\Student::deposit_slip' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('deposit_slip')
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(2033): yii\db\BaseActiveRecord->__get('deposit_slip')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(1234): yii\helpers\BaseHtml::getAttributeValue(Object(backend\models\Student), 'deposit_slip')
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(1283): yii\helpers\BaseHtml::activeInput('text', Object(backend\models\Student), 'deposit_slip', Array)
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\ActiveField.php(367): yii\helpers\BaseHtml::activeTextInput(Object(backend\models\Student), 'deposit_slip', Array)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\_form.php(55): yii\widgets\ActiveField->textInput(Array)
+#6 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#7 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#8 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, NULL)
+#9 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\update.php(19): yii\base\View->render('_form', Array)
+#10 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#11 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#12 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, Object(backend\controllers\StudentController))
+#13 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('update', Array, Object(backend\controllers\StudentController))
+#14 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\controllers\StudentController.php(92): yii\base\Controller->render('update', Array)
+#15 [internal function]: backend\controllers\StudentController->actionUpdate('1')
+#16 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#19 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('student/update', Array)
+#20 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#22 {main}
+2016-08-22 11:21:40 [::1][-][-][info][application] $_GET = [
+    'r' => 'student/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm\";}'
+    'advanced-backend' => 'lpss4pe3d936v3n1r6bqeju9b2'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-backend' => '4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Uh638aBtroDAk3RgUfKmaHglJQ1LXebk\";}'
+    'advanced-frontend' => 'ivgq69k0cb4ato4h66mrgnh2v0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm%22%3B%7D; advanced-backend=lpss4pe3d936v3n1r6bqeju9b2; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-backend=4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Uh638aBtroDAk3RgUfKmaHglJQ1LXebk%22%3B%7D; advanced-frontend=ivgq69k0cb4ato4h66mrgnh2v0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50088'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student%2Fupdate&id=1'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student%2Fupdate&id=1'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471857700.14
+    'REQUEST_TIME' => 1471857700
+]
+2016-08-22 11:23:47 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\models\Student::deposit_slip' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('deposit_slip')
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(2033): yii\db\BaseActiveRecord->__get('deposit_slip')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(1234): yii\helpers\BaseHtml::getAttributeValue(Object(backend\models\Student), 'deposit_slip')
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(1283): yii\helpers\BaseHtml::activeInput('text', Object(backend\models\Student), 'deposit_slip', Array)
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\ActiveField.php(367): yii\helpers\BaseHtml::activeTextInput(Object(backend\models\Student), 'deposit_slip', Array)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\_form.php(55): yii\widgets\ActiveField->textInput(Array)
+#6 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#7 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#8 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, NULL)
+#9 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\update.php(19): yii\base\View->render('_form', Array)
+#10 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#11 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#12 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, Object(backend\controllers\StudentController))
+#13 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('update', Array, Object(backend\controllers\StudentController))
+#14 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\controllers\StudentController.php(92): yii\base\Controller->render('update', Array)
+#15 [internal function]: backend\controllers\StudentController->actionUpdate('1')
+#16 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#19 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('student/update', Array)
+#20 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#22 {main}
+2016-08-22 11:23:46 [::1][-][-][info][application] $_GET = [
+    'r' => 'student/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm\";}'
+    'advanced-backend' => 'lpss4pe3d936v3n1r6bqeju9b2'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-backend' => '4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Uh638aBtroDAk3RgUfKmaHglJQ1LXebk\";}'
+    'advanced-frontend' => 'ivgq69k0cb4ato4h66mrgnh2v0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm%22%3B%7D; advanced-backend=lpss4pe3d936v3n1r6bqeju9b2; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-backend=4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Uh638aBtroDAk3RgUfKmaHglJQ1LXebk%22%3B%7D; advanced-frontend=ivgq69k0cb4ato4h66mrgnh2v0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50148'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student%2Fupdate&id=1'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student%2Fupdate&id=1'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471857826.355
+    'REQUEST_TIME' => 1471857826
+]
+2016-08-22 11:23:51 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\models\Student::deposit_slip' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('deposit_slip')
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(2033): yii\db\BaseActiveRecord->__get('deposit_slip')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(1234): yii\helpers\BaseHtml::getAttributeValue(Object(backend\models\Student), 'deposit_slip')
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(1283): yii\helpers\BaseHtml::activeInput('text', Object(backend\models\Student), 'deposit_slip', Array)
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\ActiveField.php(367): yii\helpers\BaseHtml::activeTextInput(Object(backend\models\Student), 'deposit_slip', Array)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\_form.php(55): yii\widgets\ActiveField->textInput(Array)
+#6 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#7 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#8 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, NULL)
+#9 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\update.php(19): yii\base\View->render('_form', Array)
+#10 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#11 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#12 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, Object(backend\controllers\StudentController))
+#13 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('update', Array, Object(backend\controllers\StudentController))
+#14 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\controllers\StudentController.php(92): yii\base\Controller->render('update', Array)
+#15 [internal function]: backend\controllers\StudentController->actionUpdate('1')
+#16 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#19 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('student/update', Array)
+#20 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#22 {main}
+2016-08-22 11:23:51 [::1][-][-][info][application] $_GET = [
+    'r' => 'student/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm\";}'
+    'advanced-backend' => 'lpss4pe3d936v3n1r6bqeju9b2'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-backend' => '4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Uh638aBtroDAk3RgUfKmaHglJQ1LXebk\";}'
+    'advanced-frontend' => 'ivgq69k0cb4ato4h66mrgnh2v0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm%22%3B%7D; advanced-backend=lpss4pe3d936v3n1r6bqeju9b2; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-backend=4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Uh638aBtroDAk3RgUfKmaHglJQ1LXebk%22%3B%7D; advanced-frontend=ivgq69k0cb4ato4h66mrgnh2v0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50156'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student%2Fupdate&id=1'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student%2Fupdate&id=1'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471857831.268
+    'REQUEST_TIME' => 1471857831
+]
+2016-08-22 11:25:27 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\models\Student::deposit_slip' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('deposit_slip')
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(2033): yii\db\BaseActiveRecord->__get('deposit_slip')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(1234): yii\helpers\BaseHtml::getAttributeValue(Object(backend\models\Student), 'deposit_slip')
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(1283): yii\helpers\BaseHtml::activeInput('text', Object(backend\models\Student), 'deposit_slip', Array)
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\ActiveField.php(367): yii\helpers\BaseHtml::activeTextInput(Object(backend\models\Student), 'deposit_slip', Array)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\_form.php(55): yii\widgets\ActiveField->textInput(Array)
+#6 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#7 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#8 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, NULL)
+#9 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\update.php(19): yii\base\View->render('_form', Array)
+#10 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#11 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#12 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, Object(backend\controllers\StudentController))
+#13 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('update', Array, Object(backend\controllers\StudentController))
+#14 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\controllers\StudentController.php(92): yii\base\Controller->render('update', Array)
+#15 [internal function]: backend\controllers\StudentController->actionUpdate('1')
+#16 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#19 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('student/update', Array)
+#20 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#22 {main}
+2016-08-22 11:25:26 [::1][-][-][info][application] $_GET = [
+    'r' => 'student/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm\";}'
+    'advanced-backend' => 'lpss4pe3d936v3n1r6bqeju9b2'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-backend' => '4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Uh638aBtroDAk3RgUfKmaHglJQ1LXebk\";}'
+    'advanced-frontend' => 'ivgq69k0cb4ato4h66mrgnh2v0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm%22%3B%7D; advanced-backend=lpss4pe3d936v3n1r6bqeju9b2; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-backend=4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Uh638aBtroDAk3RgUfKmaHglJQ1LXebk%22%3B%7D; advanced-frontend=ivgq69k0cb4ato4h66mrgnh2v0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50229'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student%2Fupdate&id=1'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student%2Fupdate&id=1'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471857926.804
+    'REQUEST_TIME' => 1471857926
+]
+2016-08-22 11:25:39 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\models\Student::deposit_slip' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('deposit_slip')
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(2033): yii\db\BaseActiveRecord->__get('deposit_slip')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(1234): yii\helpers\BaseHtml::getAttributeValue(Object(backend\models\Student), 'deposit_slip')
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\helpers\BaseHtml.php(1283): yii\helpers\BaseHtml::activeInput('text', Object(backend\models\Student), 'deposit_slip', Array)
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\ActiveField.php(367): yii\helpers\BaseHtml::activeTextInput(Object(backend\models\Student), 'deposit_slip', Array)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\_form.php(55): yii\widgets\ActiveField->textInput(Array)
+#6 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#7 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#8 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, NULL)
+#9 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\create.php(19): yii\base\View->render('_form', Array)
+#10 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#11 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#12 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, Object(backend\controllers\StudentController))
+#13 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('create', Array, Object(backend\controllers\StudentController))
+#14 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\controllers\StudentController.php(73): yii\base\Controller->render('create', Array)
+#15 [internal function]: backend\controllers\StudentController->actionCreate()
+#16 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#18 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('create', Array)
+#19 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('student/create', Array)
+#20 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#22 {main}
+2016-08-22 11:25:39 [::1][-][-][info][application] $_GET = [
+    'r' => 'student/create'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm\";}'
+    'advanced-backend' => 'lpss4pe3d936v3n1r6bqeju9b2'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-backend' => '4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Uh638aBtroDAk3RgUfKmaHglJQ1LXebk\";}'
+    'advanced-frontend' => 'ivgq69k0cb4ato4h66mrgnh2v0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm%22%3B%7D; advanced-backend=lpss4pe3d936v3n1r6bqeju9b2; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-backend=4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Uh638aBtroDAk3RgUfKmaHglJQ1LXebk%22%3B%7D; advanced-frontend=ivgq69k0cb4ato4h66mrgnh2v0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50231'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student%2Fcreate'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student%2Fcreate'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471857939.519
+    'REQUEST_TIME' => 1471857939
+]
+2016-08-22 11:30:51 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\models\Employee::Position' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('Position')
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\index.php(25): yii\db\BaseActiveRecord->__get('Position')
+#2 [internal function]: yii\base\View->{closure}(Object(backend\models\Employee), 1, 0, Object(yii\grid\GridView))
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(507): call_user_func(Object(Closure), Object(backend\models\Employee), 1, 0, Object(yii\grid\GridView))
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(473): yii\grid\GridView->renderTableRow(Object(backend\models\Employee), 1, 0)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(344): yii\grid\GridView->renderTableBody()
+#6 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(151): yii\grid\GridView->renderItems()
+#7 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(313): yii\widgets\BaseListView->renderSection('{items}')
+#8 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#9 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#10 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#11 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(288): yii\widgets\BaseListView->run()
+#12 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Widget.php(102): yii\grid\GridView->run()
+#13 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\index.php(50): yii\base\Widget::widget(Array)
+#14 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#15 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#16 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, Object(backend\controllers\EmployeeController))
+#17 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\EmployeeController))
+#18 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\controllers\EmployeeController.php(44): yii\base\Controller->render('index', Array)
+#19 [internal function]: backend\controllers\EmployeeController->actionIndex()
+#20 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#23 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('employee', Array)
+#24 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+2016-08-22 11:30:50 [::1][-][-][info][application] $_GET = [
+    'r' => 'employee'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm\";}'
+    'advanced-backend' => 'lpss4pe3d936v3n1r6bqeju9b2'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-backend' => '4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Uh638aBtroDAk3RgUfKmaHglJQ1LXebk\";}'
+    'advanced-frontend' => 'ivgq69k0cb4ato4h66mrgnh2v0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm%22%3B%7D; advanced-backend=lpss4pe3d936v3n1r6bqeju9b2; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-backend=4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Uh638aBtroDAk3RgUfKmaHglJQ1LXebk%22%3B%7D; advanced-frontend=ivgq69k0cb4ato4h66mrgnh2v0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50401'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=employee'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=employee'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471858250.77
+    'REQUEST_TIME' => 1471858250
+]
+2016-08-22 11:31:14 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\models\Employee::Position' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('Position')
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\index.php(25): yii\db\BaseActiveRecord->__get('Position')
+#2 [internal function]: yii\base\View->{closure}(Object(backend\models\Employee), 1, 0, Object(yii\grid\GridView))
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(507): call_user_func(Object(Closure), Object(backend\models\Employee), 1, 0, Object(yii\grid\GridView))
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(473): yii\grid\GridView->renderTableRow(Object(backend\models\Employee), 1, 0)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(344): yii\grid\GridView->renderTableBody()
+#6 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(151): yii\grid\GridView->renderItems()
+#7 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(313): yii\widgets\BaseListView->renderSection('{items}')
+#8 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#9 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#10 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#11 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(288): yii\widgets\BaseListView->run()
+#12 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Widget.php(102): yii\grid\GridView->run()
+#13 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\index.php(50): yii\base\Widget::widget(Array)
+#14 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#15 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#16 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, Object(backend\controllers\EmployeeController))
+#17 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\EmployeeController))
+#18 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\controllers\EmployeeController.php(44): yii\base\Controller->render('index', Array)
+#19 [internal function]: backend\controllers\EmployeeController->actionIndex()
+#20 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#23 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('employee', Array)
+#24 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+2016-08-22 11:31:13 [::1][-][-][info][application] $_GET = [
+    'r' => 'employee'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm\";}'
+    'advanced-backend' => 'lpss4pe3d936v3n1r6bqeju9b2'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-backend' => '4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Uh638aBtroDAk3RgUfKmaHglJQ1LXebk\";}'
+    'advanced-frontend' => 'ivgq69k0cb4ato4h66mrgnh2v0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm%22%3B%7D; advanced-backend=lpss4pe3d936v3n1r6bqeju9b2; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-backend=4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Uh638aBtroDAk3RgUfKmaHglJQ1LXebk%22%3B%7D; advanced-frontend=ivgq69k0cb4ato4h66mrgnh2v0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50426'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=employee'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=employee'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471858273.614
+    'REQUEST_TIME' => 1471858273
+]
+2016-08-22 11:33:29 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\models\Employee::Position' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('Position')
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\index.php(25): yii\db\BaseActiveRecord->__get('Position')
+#2 [internal function]: yii\base\View->{closure}(Object(backend\models\Employee), 1, 0, Object(yii\grid\GridView))
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(507): call_user_func(Object(Closure), Object(backend\models\Employee), 1, 0, Object(yii\grid\GridView))
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(473): yii\grid\GridView->renderTableRow(Object(backend\models\Employee), 1, 0)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(344): yii\grid\GridView->renderTableBody()
+#6 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(151): yii\grid\GridView->renderItems()
+#7 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(313): yii\widgets\BaseListView->renderSection('{items}')
+#8 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#9 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#10 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#11 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(288): yii\widgets\BaseListView->run()
+#12 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Widget.php(102): yii\grid\GridView->run()
+#13 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\index.php(50): yii\base\Widget::widget(Array)
+#14 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#15 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#16 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, Object(backend\controllers\EmployeeController))
+#17 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\EmployeeController))
+#18 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\controllers\EmployeeController.php(44): yii\base\Controller->render('index', Array)
+#19 [internal function]: backend\controllers\EmployeeController->actionIndex()
+#20 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#23 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('employee', Array)
+#24 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+2016-08-22 11:33:28 [::1][-][-][info][application] $_GET = [
+    'r' => 'employee'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm\";}'
+    'advanced-backend' => 'lpss4pe3d936v3n1r6bqeju9b2'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-backend' => '4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Uh638aBtroDAk3RgUfKmaHglJQ1LXebk\";}'
+    'advanced-frontend' => 'ivgq69k0cb4ato4h66mrgnh2v0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm%22%3B%7D; advanced-backend=lpss4pe3d936v3n1r6bqeju9b2; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-backend=4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Uh638aBtroDAk3RgUfKmaHglJQ1LXebk%22%3B%7D; advanced-frontend=ivgq69k0cb4ato4h66mrgnh2v0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50561'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=employee'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=employee'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471858408.801
+    'REQUEST_TIME' => 1471858408
+]
+2016-08-22 11:34:04 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ''Position'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\index.php:25
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-22 11:34:03 [::1][-][-][info][application] $_GET = [
+    'r' => 'employee'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm\";}'
+    'advanced-backend' => 'lpss4pe3d936v3n1r6bqeju9b2'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-backend' => '4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Uh638aBtroDAk3RgUfKmaHglJQ1LXebk\";}'
+    'advanced-frontend' => 'ivgq69k0cb4ato4h66mrgnh2v0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm%22%3B%7D; advanced-backend=lpss4pe3d936v3n1r6bqeju9b2; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-backend=4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Uh638aBtroDAk3RgUfKmaHglJQ1LXebk%22%3B%7D; advanced-frontend=ivgq69k0cb4ato4h66mrgnh2v0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50573'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=employee'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=employee'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471858443.709
+    'REQUEST_TIME' => 1471858443
+]
+2016-08-22 11:35:07 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\models\Employee::Position' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('Position')
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\index.php(25): yii\db\BaseActiveRecord->__get('Position')
+#2 [internal function]: yii\base\View->{closure}(Object(backend\models\Employee), 1, 0, Object(yii\grid\GridView))
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(507): call_user_func(Object(Closure), Object(backend\models\Employee), 1, 0, Object(yii\grid\GridView))
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(473): yii\grid\GridView->renderTableRow(Object(backend\models\Employee), 1, 0)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(344): yii\grid\GridView->renderTableBody()
+#6 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(151): yii\grid\GridView->renderItems()
+#7 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(313): yii\widgets\BaseListView->renderSection('{items}')
+#8 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#9 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#10 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#11 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(288): yii\widgets\BaseListView->run()
+#12 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Widget.php(102): yii\grid\GridView->run()
+#13 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\index.php(50): yii\base\Widget::widget(Array)
+#14 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#15 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#16 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, Object(backend\controllers\EmployeeController))
+#17 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\EmployeeController))
+#18 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\controllers\EmployeeController.php(44): yii\base\Controller->render('index', Array)
+#19 [internal function]: backend\controllers\EmployeeController->actionIndex()
+#20 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#23 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('employee', Array)
+#24 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+2016-08-22 11:35:06 [::1][-][-][info][application] $_GET = [
+    'r' => 'employee'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm\";}'
+    'advanced-backend' => 'lpss4pe3d936v3n1r6bqeju9b2'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-backend' => '4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Uh638aBtroDAk3RgUfKmaHglJQ1LXebk\";}'
+    'advanced-frontend' => 'ivgq69k0cb4ato4h66mrgnh2v0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm%22%3B%7D; advanced-backend=lpss4pe3d936v3n1r6bqeju9b2; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-backend=4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Uh638aBtroDAk3RgUfKmaHglJQ1LXebk%22%3B%7D; advanced-frontend=ivgq69k0cb4ato4h66mrgnh2v0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50608'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=employee'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=employee'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471858506.797
+    'REQUEST_TIME' => 1471858506
+]
+2016-08-22 11:35:51 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\models\Employee::Position' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('Position')
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\index.php(25): yii\db\BaseActiveRecord->__get('Position')
+#2 [internal function]: yii\base\View->{closure}(Object(backend\models\Employee), 1, 0, Object(yii\grid\GridView))
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(507): call_user_func(Object(Closure), Object(backend\models\Employee), 1, 0, Object(yii\grid\GridView))
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(473): yii\grid\GridView->renderTableRow(Object(backend\models\Employee), 1, 0)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(344): yii\grid\GridView->renderTableBody()
+#6 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(151): yii\grid\GridView->renderItems()
+#7 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(313): yii\widgets\BaseListView->renderSection('{items}')
+#8 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#9 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#10 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#11 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(288): yii\widgets\BaseListView->run()
+#12 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Widget.php(102): yii\grid\GridView->run()
+#13 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\index.php(50): yii\base\Widget::widget(Array)
+#14 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#15 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#16 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, Object(backend\controllers\EmployeeController))
+#17 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\EmployeeController))
+#18 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\controllers\EmployeeController.php(44): yii\base\Controller->render('index', Array)
+#19 [internal function]: backend\controllers\EmployeeController->actionIndex()
+#20 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#23 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('employee', Array)
+#24 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+2016-08-22 11:35:51 [::1][-][-][info][application] $_GET = [
+    'r' => 'employee'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm\";}'
+    'advanced-backend' => 'lpss4pe3d936v3n1r6bqeju9b2'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-backend' => '4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Uh638aBtroDAk3RgUfKmaHglJQ1LXebk\";}'
+    'advanced-frontend' => 'ivgq69k0cb4ato4h66mrgnh2v0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm%22%3B%7D; advanced-backend=lpss4pe3d936v3n1r6bqeju9b2; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-backend=4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Uh638aBtroDAk3RgUfKmaHglJQ1LXebk%22%3B%7D; advanced-frontend=ivgq69k0cb4ato4h66mrgnh2v0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50628'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=employee'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=employee'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471858551.07
+    'REQUEST_TIME' => 1471858551
+]
+2016-08-22 11:37:00 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\models\Employee::Position' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('Position')
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\index.php(25): yii\db\BaseActiveRecord->__get('Position')
+#2 [internal function]: yii\base\View->{closure}(Object(backend\models\Employee), 1, 0, Object(yii\grid\GridView))
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(507): call_user_func(Object(Closure), Object(backend\models\Employee), 1, 0, Object(yii\grid\GridView))
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(473): yii\grid\GridView->renderTableRow(Object(backend\models\Employee), 1, 0)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(344): yii\grid\GridView->renderTableBody()
+#6 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(151): yii\grid\GridView->renderItems()
+#7 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(313): yii\widgets\BaseListView->renderSection('{items}')
+#8 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#9 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#10 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#11 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(288): yii\widgets\BaseListView->run()
+#12 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Widget.php(102): yii\grid\GridView->run()
+#13 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\index.php(50): yii\base\Widget::widget(Array)
+#14 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#15 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#16 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, Object(backend\controllers\EmployeeController))
+#17 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\EmployeeController))
+#18 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\controllers\EmployeeController.php(44): yii\base\Controller->render('index', Array)
+#19 [internal function]: backend\controllers\EmployeeController->actionIndex()
+#20 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#23 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('employee', Array)
+#24 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+2016-08-22 11:36:59 [::1][-][-][info][application] $_GET = [
+    'r' => 'employee'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm\";}'
+    'advanced-backend' => 'lpss4pe3d936v3n1r6bqeju9b2'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-backend' => '4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Uh638aBtroDAk3RgUfKmaHglJQ1LXebk\";}'
+    'advanced-frontend' => 'ivgq69k0cb4ato4h66mrgnh2v0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm%22%3B%7D; advanced-backend=lpss4pe3d936v3n1r6bqeju9b2; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-backend=4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Uh638aBtroDAk3RgUfKmaHglJQ1LXebk%22%3B%7D; advanced-frontend=ivgq69k0cb4ato4h66mrgnh2v0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50653'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=employee'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=employee'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471858619.796
+    'REQUEST_TIME' => 1471858619
+]
+2016-08-22 11:38:12 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\models\Employee::Position' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('Position')
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\index.php(25): yii\db\BaseActiveRecord->__get('Position')
+#2 [internal function]: yii\base\View->{closure}(Object(backend\models\Employee), 1, 0, Object(yii\grid\GridView))
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(507): call_user_func(Object(Closure), Object(backend\models\Employee), 1, 0, Object(yii\grid\GridView))
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(473): yii\grid\GridView->renderTableRow(Object(backend\models\Employee), 1, 0)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(344): yii\grid\GridView->renderTableBody()
+#6 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(151): yii\grid\GridView->renderItems()
+#7 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(313): yii\widgets\BaseListView->renderSection('{items}')
+#8 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#9 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#10 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#11 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(288): yii\widgets\BaseListView->run()
+#12 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Widget.php(102): yii\grid\GridView->run()
+#13 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\index.php(50): yii\base\Widget::widget(Array)
+#14 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#15 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#16 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, Object(backend\controllers\EmployeeController))
+#17 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\EmployeeController))
+#18 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\controllers\EmployeeController.php(44): yii\base\Controller->render('index', Array)
+#19 [internal function]: backend\controllers\EmployeeController->actionIndex()
+#20 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#23 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('employee', Array)
+#24 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+2016-08-22 11:38:12 [::1][-][-][info][application] $_GET = [
+    'r' => 'employee'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm\";}'
+    'advanced-backend' => 'lpss4pe3d936v3n1r6bqeju9b2'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-backend' => '4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Uh638aBtroDAk3RgUfKmaHglJQ1LXebk\";}'
+    'advanced-frontend' => 'ivgq69k0cb4ato4h66mrgnh2v0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm%22%3B%7D; advanced-backend=lpss4pe3d936v3n1r6bqeju9b2; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-backend=4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Uh638aBtroDAk3RgUfKmaHglJQ1LXebk%22%3B%7D; advanced-frontend=ivgq69k0cb4ato4h66mrgnh2v0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50697'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=employee'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=employee'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471858692.571
+    'REQUEST_TIME' => 1471858692
+]
+2016-08-22 11:40:24 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\models\Employee::Position' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('Position')
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\index.php(29): yii\db\BaseActiveRecord->__get('Position')
+#2 [internal function]: yii\base\View->{closure}(Object(backend\models\Employee), 2, 1, Object(yii\grid\GridView))
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(507): call_user_func(Object(Closure), Object(backend\models\Employee), 2, 1, Object(yii\grid\GridView))
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(473): yii\grid\GridView->renderTableRow(Object(backend\models\Employee), 2, 1)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(344): yii\grid\GridView->renderTableBody()
+#6 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(151): yii\grid\GridView->renderItems()
+#7 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(313): yii\widgets\BaseListView->renderSection('{items}')
+#8 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#9 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#10 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#11 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\grid\GridView.php(288): yii\widgets\BaseListView->run()
+#12 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Widget.php(102): yii\grid\GridView->run()
+#13 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\index.php(50): yii\base\Widget::widget(Array)
+#14 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\School...')
+#15 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\School...', Array)
+#16 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\School...', Array, Object(backend\controllers\EmployeeController))
+#17 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\EmployeeController))
+#18 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\controllers\EmployeeController.php(44): yii\base\Controller->render('index', Array)
+#19 [internal function]: backend\controllers\EmployeeController->actionIndex()
+#20 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#23 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('employee', Array)
+#24 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+2016-08-22 11:40:23 [::1][-][-][info][application] $_GET = [
+    'r' => 'employee'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm\";}'
+    'advanced-backend' => 'lpss4pe3d936v3n1r6bqeju9b2'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-backend' => '4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Uh638aBtroDAk3RgUfKmaHglJQ1LXebk\";}'
+    'advanced-frontend' => 'ivgq69k0cb4ato4h66mrgnh2v0'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=4579cc30b6e558c790198937b5273fd590a9b16c8e097a1db56248fb5a7aaec8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22NyWYpRqeGleEVNFTpWhRRokha_S6N0Hm%22%3B%7D; advanced-backend=lpss4pe3d936v3n1r6bqeju9b2; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-backend=4ff8e62bdf14a7446630e2d61e2ec2d16439136b1a86afb65b6993b61995768aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Uh638aBtroDAk3RgUfKmaHglJQ1LXebk%22%3B%7D; advanced-frontend=ivgq69k0cb4ato4h66mrgnh2v0'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50758'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=employee'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=employee'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1471858823.515
+    'REQUEST_TIME' => 1471858823
+]

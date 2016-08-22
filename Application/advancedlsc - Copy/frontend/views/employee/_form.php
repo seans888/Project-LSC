@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model backend\models\Employee */
+/* @var $model frontend\models\Employee */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
@@ -18,13 +18,13 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'middlename')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'gender')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'gender')->dropDownList([ 'Male' => 'Male', 'Female' => 'Female', ], ['prompt' => '']) ?>
 
     <?= $form->field($model, 'age')->textInput() ?>
 
     <?= $form->field($model, 'position')->dropDownList([ 'Admin' => 'Admin', 'Instructor' => 'Instructor', ], ['prompt' => '']) ?>
 
-    <?= $form->field($model, 'contact_Number')->textInput() ?>
+    <?= $form->field($model, 'contact_Number')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'email_address')->textInput(['maxlength' => true]) ?>
 

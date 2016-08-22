@@ -18,13 +18,13 @@ use Yii;
  * @property string $gender
  * @property integer $age
  * @property string $email_address
- * @property integer $contact_number
+ * @property string $contact_number
  * @property string $address
  * @property string $school
  * @property string $school_address
  * @property string $guardian_name
  * @property string $relation
- * @property integer $guardian_contact_number
+ * @property string $guardian_contact_number
  * @property string $guardian_email_address
  * @property string $date_of_registration
  * @property string $status
@@ -54,11 +54,12 @@ class Student extends \yii\db\ActiveRecord
         return [
             [['type', 'review_class', 'lastname', 'firstname', 'nickname', 'gender', 'age', 'email_address', 'contact_number', 'address', 'school', 'school_address'], 'required'],
             [['type', 'review_class', 'gender', 'status'], 'string'],
-            [['number_of_hours', 'age', 'contact_number', 'guardian_contact_number'], 'integer'],
+            [['number_of_hours', 'age'], 'integer'],
             [['date_of_registration'], 'safe'],
             [['lastname', 'firstname', 'middlename'], 'string', 'max' => 30],
             [['nickname'], 'string', 'max' => 15],
             [['email_address', 'address', 'school', 'relation', 'guardian_email_address'], 'string', 'max' => 45],
+            [['contact_number', 'guardian_contact_number'], 'string', 'max' => 11],
             [['school_address'], 'string', 'max' => 50],
             [['guardian_name'], 'string', 'max' => 40],
             [['email_address'], 'unique'],

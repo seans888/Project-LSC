@@ -22,11 +22,11 @@ $this->params['breadcrumbs'][] = $this->title;
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
         'rowOptions' => function($model){
-            if($model -> Position == 'Instructor')
+            if($model -> position == 'Admin')
             {
                  return ['class' => 'danger'];
                // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
-            }elseif ($model -> Position == 'Admin') {
+            }elseif ($model -> position == 'Instructor') {
                // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
                return['class'=>'success'];
             }
@@ -41,8 +41,8 @@ $this->params['breadcrumbs'][] = $this->title;
             'middlename',
             'gender',
             // 'age',
-            // 'position',
-            // 'contact_Number',
+             'position',
+             'contact_Number',
             // 'email_address:email',
 
             ['class' => 'yii\grid\ActionColumn'],
