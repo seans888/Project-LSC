@@ -8,7 +8,7 @@ use yii\grid\GridView;
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Students';
-$this->params['breadcrumbs'][] = $this->title;
+z$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="student-index">
 

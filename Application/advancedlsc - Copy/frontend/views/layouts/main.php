@@ -48,6 +48,7 @@ AppAsset::register($this);
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Apply now', 'url' => ['/site/signup']];
         $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
+        
          }elseif (!Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Profile', 'items' => [
             ['label' => 'My account', 'url' => ['/site/account']],

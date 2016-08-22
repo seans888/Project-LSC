@@ -279,7 +279,7 @@ class SiteController extends Controller
      */
      public function actionNewreservation()
     {
-        return $this->render('newreservation');
+        return $this->render('create');
 
     }
 }
