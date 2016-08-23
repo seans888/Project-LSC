@@ -24,8 +24,8 @@ $this->params['breadcrumbs'][] = $this->title;
         'rowOptions' => function($model){
             if($model -> position == 'Admin')
             {
-                 return ['class' => 'danger'];
-               // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
+                return ['class' => 'danger'];
+              // return['class' => ['style' => 'background-color: #FAEBD7']];
             }elseif ($model -> position == 'Instructor') {
                // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
                return['class'=>'success'];
