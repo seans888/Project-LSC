@@ -1,3 +1,4 @@
+<br><br>
 <?php
 
 use yii\helpers\Html;
@@ -6,7 +7,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Student */
 
-$this->title = 'Apply now by filling out this form:';
+$this->title = 'Fill out the form to apply:';
 /* $this->params['breadcrumbs'][] = ['label' => 'Students', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title; */
 ?>
