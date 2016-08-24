@@ -7,12 +7,12 @@ use yii\helpers\Html;
 /* @var $model frontend\models\ClassList */
 
 $this->title = 'Create Class List';
-$this->params['breadcrumbs'][] = ['label' => 'Class Lists', 'url' => ['index']];
-$this->params['breadcrumbs'][] = $this->title;
+//$this->params['breadcrumbs'][] = ['label' => 'Class Lists', 'url' => ['index']];
+//$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="class-list-create">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+   <!-- <h1><?= Html::encode($this->title) ?></h1> -->
 
     <?= $this->render('_form', [
         'model' => $model,

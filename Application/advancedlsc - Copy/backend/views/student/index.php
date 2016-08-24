@@ -8,7 +8,7 @@ use yii\grid\GridView;
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Students';
-$this->params['breadcrumbs'][] = $this->title;
+//$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="student-index">
 
@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Student', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Add Student', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
@@ -63,7 +63,7 @@ $this->params['breadcrumbs'][] = $this->title;
             // 'relation',
             // 'guardian_contact_number',
             // 'guardian_email_address:email',
-            // 'date_of_registration',
+             'date_of_registration',
             'status',
 
             ['class' => 'yii\grid\ActionColumn'],
