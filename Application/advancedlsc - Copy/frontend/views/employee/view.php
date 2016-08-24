@@ -7,12 +7,12 @@ use yii\widgets\DetailView;
 /* @var $model frontend\models\Employee */
 
 $this->title = $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Employees', 'url' => ['index']];
-$this->params['breadcrumbs'][] = $this->title;
+/*$this->params['breadcrumbs'][] = ['label' => 'Employees', 'url' => ['index']];
+$this->params['breadcrumbs'][] = $this->title; */
 ?>
 <div class="employee-view">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+  <!--  <h1><?= Html::encode($this->title) ?></h1> 
 
     <p>
         <?= Html::a('Update', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
@@ -23,12 +23,12 @@ $this->params['breadcrumbs'][] = $this->title;
                 'method' => 'post',
             ],
         ]) ?>
-    </p>
-
+    </p>-->
+<br><br>
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
-            'id',
+            //'id',
             'lastname',
             'firstname',
             'middlename',
