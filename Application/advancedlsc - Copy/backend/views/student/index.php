@@ -22,22 +22,31 @@ $this->params['breadcrumbs'][] = $this->title;
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
          'rowOptions' => function($model){
-            if($model -> type == 'Reserve')
+            if($model -> status == 'Pending')
             {
-                 return ['class' => 'danger'];
-               // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
-            }elseif ($model -> type == 'Enroll') {
-               // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
-               return['class'=>'success'];
-            }
+                // return ['class' => 'danger'];
+                return['style' => 'background-color:#F9E398'];
+            }elseif ($model -> status == 'Reserved') {
+               return['style' => 'background-color:#98D3F9'];
+               //return['class'=>'success'];
 
+            }elseif ($model -> status == 'Enrolled') {
+               return['style' => 'background-color:#B3F998'];
+               //return['class'=>'success'];
+            
+            }elseif ($model -> status == 'Done') {
+               return['style' => 'background-color:#FFFFFF'];
+               //return['class'=>'success'];
+            }elseif ($model -> status == 'Cancelled') {
+               return['class'=>'danger'];
+            }        
         },
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
             'id',
             'type',
-            'number_of_hours',
+            //'number_of_hours',
             'review_class',
             'lastname',
             // 'firstname',
@@ -55,6 +64,7 @@ $this->params['breadcrumbs'][] = $this->title;
             // 'guardian_contact_number',
             // 'guardian_email_address:email',
             // 'date_of_registration',
+            'status',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

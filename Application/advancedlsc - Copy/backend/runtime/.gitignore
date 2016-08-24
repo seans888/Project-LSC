@@ -1,1 +1,4 @@
-/runtime/debug/.data
+#Runtime/debug
+
+*/*.data
+*.data
