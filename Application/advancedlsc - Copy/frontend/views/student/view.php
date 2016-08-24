@@ -49,7 +49,7 @@ $this->params['breadcrumbs'][] = $this->title;  */
             'relation',
             'guardian_contact_number',
             'guardian_email_address:email',
-            'date_of_registration',
+            //'date_of_registration',
         ],
     ]) ?>
 
