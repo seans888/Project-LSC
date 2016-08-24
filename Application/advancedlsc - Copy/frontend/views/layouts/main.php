@@ -52,7 +52,7 @@ AppAsset::register($this);
          }elseif (!Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Profile', 'items' => [
             ['label' => 'My account', 'url' => ['/site/account']],
-            ['label' => 'New reservation', 'url' => ['site/newreservation']],
+            ['label' => 'New reservation', 'url' => ['/student/create']],
         ]];
         $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
