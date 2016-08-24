@@ -8,36 +8,45 @@ use yii\grid\GridView;
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Students';
-$this->params['breadcrumbs'][] = $this->title;
+//$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="student-index">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+   <!-- <h1><?= Html::encode($this->title) ?></h1> -->
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Student', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Add Student', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
          'rowOptions' => function($model){
-            if($model -> type == 'Reserve')
+            if($model -> status == 'Pending')
             {
-                 return ['class' => 'danger'];
-               // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
-            }elseif ($model -> type == 'Enroll') {
-               // return['style' => 'background-color:#FF0000':'background-color:#0000FF'];
-               return['class'=>'success'];
-            }
+                // return ['class' => 'danger'];
+                return['style' => 'background-color:#F9E398'];
+            }elseif ($model -> status == 'Reserved') {
+               return['style' => 'background-color:#98D3F9'];
+               //return['class'=>'success'];
 
+            }elseif ($model -> status == 'Enrolled') {
+               return['style' => 'background-color:#B3F998'];
+               //return['class'=>'success'];
+            
+            }elseif ($model -> status == 'Done') {
+               return['style' => 'background-color:#FFFFFF'];
+               //return['class'=>'success'];
+            }elseif ($model -> status == 'Cancelled') {
+               return['class'=>'danger'];
+            }        
         },
         'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
+           // ['class' => 'yii\grid\SerialColumn'],
 
             'id',
             'type',
-            'number_of_hours',
+            //'number_of_hours',
             'review_class',
             'lastname',
             // 'firstname',
@@ -54,7 +63,8 @@ $this->params['breadcrumbs'][] = $this->title;
             // 'relation',
             // 'guardian_contact_number',
             // 'guardian_email_address:email',
-            // 'date_of_registration',
+             'date_of_registration',
+            'status',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

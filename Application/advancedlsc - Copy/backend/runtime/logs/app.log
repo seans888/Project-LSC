@@ -6441,6 +6441,7 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1471858823.515
     'REQUEST_TIME' => 1471858823
 ]
+<<<<<<< HEAD
 2016-08-23 16:03:06 [::1][-][-][error][ParseError] ParseError: syntax error, unexpected ':', expecting ']' in C:\Users\Aira Joyce\Documents\AIRA\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\index.php:28
 Stack trace:
 #0 C:\Users\Aira Joyce\Documents\AIRA\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\Aira J...', Array)
@@ -6466,6 +6467,22 @@ $_COOKIE = [
     '_csrf-frontend' => 'd3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK\";}'
     'advanced-backend' => 'bpq6hf649eae08abod28937rv0'
     '_csrf-backend' => '996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU\";}'
+=======
+2016-08-24 06:00:15 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'elseif' (T_ELSEIF)' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\index.php:32
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-24 06:00:15 [::1][-][-][info][application] $_GET = [
+    'r' => 'student'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-frontend' => '317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9txn6vNiX26ORi5tC9iPht62rDDT6pa1\";}'
+    'advanced-backend' => '41h0en63riups148sc0fqhboi4'
+    '_csrf-backend' => 'dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl\";}'
+    'advanced-frontend' => 'sppdg8grsn44bindvi5glhioi3'
+>>>>>>> origin/master
 ]
 
 $_SERVER = [
@@ -6477,6 +6494,7 @@ $_SERVER = [
     'TMP' => '\\xampp\\tmp'
     'HTTP_HOST' => 'localhost'
     'HTTP_CONNECTION' => 'keep-alive'
+<<<<<<< HEAD
     'HTTP_CACHE_CONTROL' => 'max-age=0'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
@@ -6782,13 +6800,29 @@ $_SERVER = [
     'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
     'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; _identity-backend=e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD%22%2C2592000%5D%22%3B%7D; advanced-frontend=vngsodk29dr0u2i96f9gnqfer2; _csrf-frontend=d3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK%22%3B%7D; advanced-backend=bpq6hf649eae08abod28937rv0; _csrf-backend=996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU%22%3B%7D'
     'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Fview&id=11'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-frontend=317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229txn6vNiX26ORi5tC9iPht62rDDT6pa1%22%3B%7D; advanced-backend=41h0en63riups148sc0fqhboi4; _csrf-backend=dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl%22%3B%7D; advanced-frontend=sppdg8grsn44bindvi5glhioi3'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> origin/master
     'SystemRoot' => 'C:\\WINDOWS'
     'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\WINDOWS'
+<<<<<<< HEAD
     'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+=======
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+>>>>>>> origin/master
     'SERVER_NAME' => 'localhost'
     'SERVER_ADDR' => '::1'
     'SERVER_PORT' => '80'
@@ -6799,6 +6833,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
     'SERVER_ADMIN' => 'postmaster@localhost'
     'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+<<<<<<< HEAD
     'REMOTE_PORT' => '52644'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
@@ -6833,6 +6868,33 @@ $_COOKIE = [
     '_csrf-frontend' => 'd3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK\";}'
     'advanced-backend' => 'bpq6hf649eae08abod28937rv0'
     '_csrf-backend' => '996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU\";}'
+=======
+    'REMOTE_PORT' => '53903'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472011215.507
+    'REQUEST_TIME' => 1472011215
+]
+2016-08-24 06:04:22 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'elseif' (T_ELSEIF)' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\index.php:32
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-24 06:04:22 [::1][-][-][info][application] $_GET = [
+    'r' => 'student'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-frontend' => '317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9txn6vNiX26ORi5tC9iPht62rDDT6pa1\";}'
+    'advanced-backend' => '41h0en63riups148sc0fqhboi4'
+    '_csrf-backend' => 'dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl\";}'
+    'advanced-frontend' => 'sppdg8grsn44bindvi5glhioi3'
+>>>>>>> origin/master
 ]
 
 $_SERVER = [
@@ -6846,6 +6908,7 @@ $_SERVER = [
     'HTTP_CONNECTION' => 'keep-alive'
     'HTTP_CACHE_CONTROL' => 'max-age=0'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+<<<<<<< HEAD
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
     'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=class-list%2Findex&sort=student_id'
@@ -6853,13 +6916,28 @@ $_SERVER = [
     'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
     'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; _identity-backend=e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD%22%2C2592000%5D%22%3B%7D; advanced-frontend=vngsodk29dr0u2i96f9gnqfer2; _csrf-frontend=d3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK%22%3B%7D; advanced-backend=bpq6hf649eae08abod28937rv0; _csrf-backend=996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU%22%3B%7D'
     'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Fview&id=11'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-frontend=317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229txn6vNiX26ORi5tC9iPht62rDDT6pa1%22%3B%7D; advanced-backend=41h0en63riups148sc0fqhboi4; _csrf-backend=dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl%22%3B%7D; advanced-frontend=sppdg8grsn44bindvi5glhioi3'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> origin/master
     'SystemRoot' => 'C:\\WINDOWS'
     'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\WINDOWS'
+<<<<<<< HEAD
     'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+=======
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+>>>>>>> origin/master
     'SERVER_NAME' => 'localhost'
     'SERVER_ADDR' => '::1'
     'SERVER_PORT' => '80'
@@ -6870,6 +6948,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
     'SERVER_ADMIN' => 'postmaster@localhost'
     'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+<<<<<<< HEAD
     'REMOTE_PORT' => '52643'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
@@ -6910,6 +6989,33 @@ $_COOKIE = [
     '_csrf-frontend' => 'd3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK\";}'
     'advanced-backend' => 'bpq6hf649eae08abod28937rv0'
     '_csrf-backend' => '996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU\";}'
+=======
+    'REMOTE_PORT' => '53938'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472011462.081
+    'REQUEST_TIME' => 1472011462
+]
+2016-08-24 06:04:35 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '}', expecting ']'' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\index.php:35
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-24 06:04:34 [::1][-][-][info][application] $_GET = [
+    'r' => 'student'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-frontend' => '317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9txn6vNiX26ORi5tC9iPht62rDDT6pa1\";}'
+    'advanced-backend' => '41h0en63riups148sc0fqhboi4'
+    '_csrf-backend' => 'dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl\";}'
+    'advanced-frontend' => 'sppdg8grsn44bindvi5glhioi3'
+>>>>>>> origin/master
 ]
 
 $_SERVER = [
@@ -6923,6 +7029,7 @@ $_SERVER = [
     'HTTP_CONNECTION' => 'keep-alive'
     'HTTP_CACHE_CONTROL' => 'max-age=0'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+<<<<<<< HEAD
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
     'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=class-list%2Findex&sort=student_id'
@@ -6930,13 +7037,28 @@ $_SERVER = [
     'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
     'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; _identity-backend=e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD%22%2C2592000%5D%22%3B%7D; advanced-frontend=vngsodk29dr0u2i96f9gnqfer2; _csrf-frontend=d3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK%22%3B%7D; advanced-backend=bpq6hf649eae08abod28937rv0; _csrf-backend=996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU%22%3B%7D'
     'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Fview&id=11'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-frontend=317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229txn6vNiX26ORi5tC9iPht62rDDT6pa1%22%3B%7D; advanced-backend=41h0en63riups148sc0fqhboi4; _csrf-backend=dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl%22%3B%7D; advanced-frontend=sppdg8grsn44bindvi5glhioi3'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> origin/master
     'SystemRoot' => 'C:\\WINDOWS'
     'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\WINDOWS'
+<<<<<<< HEAD
     'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+=======
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+>>>>>>> origin/master
     'SERVER_NAME' => 'localhost'
     'SERVER_ADDR' => '::1'
     'SERVER_PORT' => '80'
@@ -6947,6 +7069,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
     'SERVER_ADMIN' => 'postmaster@localhost'
     'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+<<<<<<< HEAD
     'REMOTE_PORT' => '52653'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
@@ -6981,6 +7104,33 @@ $_COOKIE = [
     '_csrf-frontend' => 'd3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK\";}'
     'advanced-backend' => 'bpq6hf649eae08abod28937rv0'
     '_csrf-backend' => '996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU\";}'
+=======
+    'REMOTE_PORT' => '53950'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472011474.784
+    'REQUEST_TIME' => 1472011474
+]
+2016-08-24 06:05:16 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ':', expecting ']'' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\index.php:28
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-24 06:05:16 [::1][-][-][info][application] $_GET = [
+    'r' => 'student'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-frontend' => '317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9txn6vNiX26ORi5tC9iPht62rDDT6pa1\";}'
+    'advanced-backend' => '41h0en63riups148sc0fqhboi4'
+    '_csrf-backend' => 'dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl\";}'
+    'advanced-frontend' => 'sppdg8grsn44bindvi5glhioi3'
+>>>>>>> origin/master
 ]
 
 $_SERVER = [
@@ -6994,6 +7144,7 @@ $_SERVER = [
     'HTTP_CONNECTION' => 'keep-alive'
     'HTTP_CACHE_CONTROL' => 'max-age=0'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+<<<<<<< HEAD
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
     'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=class-list%2Findex&sort=student_id'
@@ -7001,13 +7152,28 @@ $_SERVER = [
     'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
     'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; _identity-backend=e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD%22%2C2592000%5D%22%3B%7D; advanced-frontend=vngsodk29dr0u2i96f9gnqfer2; _csrf-frontend=d3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK%22%3B%7D; advanced-backend=bpq6hf649eae08abod28937rv0; _csrf-backend=996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU%22%3B%7D'
     'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Fview&id=11'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-frontend=317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229txn6vNiX26ORi5tC9iPht62rDDT6pa1%22%3B%7D; advanced-backend=41h0en63riups148sc0fqhboi4; _csrf-backend=dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl%22%3B%7D; advanced-frontend=sppdg8grsn44bindvi5glhioi3'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> origin/master
     'SystemRoot' => 'C:\\WINDOWS'
     'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\WINDOWS'
+<<<<<<< HEAD
     'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+=======
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+>>>>>>> origin/master
     'SERVER_NAME' => 'localhost'
     'SERVER_ADDR' => '::1'
     'SERVER_PORT' => '80'
@@ -7018,6 +7184,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
     'SERVER_ADMIN' => 'postmaster@localhost'
     'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+<<<<<<< HEAD
     'REMOTE_PORT' => '52653'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
@@ -7058,6 +7225,33 @@ $_COOKIE = [
     '_csrf-frontend' => 'd3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK\";}'
     'advanced-backend' => 'bpq6hf649eae08abod28937rv0'
     '_csrf-backend' => '996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU\";}'
+=======
+    'REMOTE_PORT' => '53980'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472011516.231
+    'REQUEST_TIME' => 1472011516
+]
+2016-08-24 06:06:02 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '=>' (T_DOUBLE_ARROW)' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\index.php:28
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-24 06:06:02 [::1][-][-][info][application] $_GET = [
+    'r' => 'student'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-frontend' => '317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9txn6vNiX26ORi5tC9iPht62rDDT6pa1\";}'
+    'advanced-backend' => '41h0en63riups148sc0fqhboi4'
+    '_csrf-backend' => 'dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl\";}'
+    'advanced-frontend' => 'sppdg8grsn44bindvi5glhioi3'
+>>>>>>> origin/master
 ]
 
 $_SERVER = [
@@ -7071,6 +7265,7 @@ $_SERVER = [
     'HTTP_CONNECTION' => 'keep-alive'
     'HTTP_CACHE_CONTROL' => 'max-age=0'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+<<<<<<< HEAD
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
     'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=class-list%2Findex&sort=student_id'
@@ -7078,13 +7273,28 @@ $_SERVER = [
     'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
     'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; _identity-backend=e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD%22%2C2592000%5D%22%3B%7D; advanced-frontend=vngsodk29dr0u2i96f9gnqfer2; _csrf-frontend=d3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK%22%3B%7D; advanced-backend=bpq6hf649eae08abod28937rv0; _csrf-backend=996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU%22%3B%7D'
     'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Fview&id=11'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-frontend=317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229txn6vNiX26ORi5tC9iPht62rDDT6pa1%22%3B%7D; advanced-backend=41h0en63riups148sc0fqhboi4; _csrf-backend=dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl%22%3B%7D; advanced-frontend=sppdg8grsn44bindvi5glhioi3'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> origin/master
     'SystemRoot' => 'C:\\WINDOWS'
     'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\WINDOWS'
+<<<<<<< HEAD
     'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+=======
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+>>>>>>> origin/master
     'SERVER_NAME' => 'localhost'
     'SERVER_ADDR' => '::1'
     'SERVER_PORT' => '80'
@@ -7095,6 +7305,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
     'SERVER_ADMIN' => 'postmaster@localhost'
     'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+<<<<<<< HEAD
     'REMOTE_PORT' => '52757'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
@@ -7129,6 +7340,33 @@ $_COOKIE = [
     '_csrf-frontend' => 'd3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK\";}'
     'advanced-backend' => 'bpq6hf649eae08abod28937rv0'
     '_csrf-backend' => '996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU\";}'
+=======
+    'REMOTE_PORT' => '54027'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472011562.235
+    'REQUEST_TIME' => 1472011562
+]
+2016-08-24 06:28:39 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'elseif' (T_ELSEIF), expecting ']'' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\index.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-24 06:28:38 [::1][-][-][info][application] $_GET = [
+    'r' => 'student'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-frontend' => '317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9txn6vNiX26ORi5tC9iPht62rDDT6pa1\";}'
+    'advanced-backend' => '41h0en63riups148sc0fqhboi4'
+    '_csrf-backend' => 'dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl\";}'
+    'advanced-frontend' => 'sppdg8grsn44bindvi5glhioi3'
+>>>>>>> origin/master
 ]
 
 $_SERVER = [
@@ -7142,6 +7380,7 @@ $_SERVER = [
     'HTTP_CONNECTION' => 'keep-alive'
     'HTTP_CACHE_CONTROL' => 'max-age=0'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+<<<<<<< HEAD
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
     'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=class-list%2Findex&sort=student_id'
@@ -7149,13 +7388,28 @@ $_SERVER = [
     'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
     'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; _identity-backend=e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD%22%2C2592000%5D%22%3B%7D; advanced-frontend=vngsodk29dr0u2i96f9gnqfer2; _csrf-frontend=d3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK%22%3B%7D; advanced-backend=bpq6hf649eae08abod28937rv0; _csrf-backend=996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU%22%3B%7D'
     'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Fview&id=11'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-frontend=317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229txn6vNiX26ORi5tC9iPht62rDDT6pa1%22%3B%7D; advanced-backend=41h0en63riups148sc0fqhboi4; _csrf-backend=dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl%22%3B%7D; advanced-frontend=sppdg8grsn44bindvi5glhioi3'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> origin/master
     'SystemRoot' => 'C:\\WINDOWS'
     'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\WINDOWS'
+<<<<<<< HEAD
     'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+=======
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+>>>>>>> origin/master
     'SERVER_NAME' => 'localhost'
     'SERVER_ADDR' => '::1'
     'SERVER_PORT' => '80'
@@ -7166,6 +7420,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
     'SERVER_ADMIN' => 'postmaster@localhost'
     'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+<<<<<<< HEAD
     'REMOTE_PORT' => '52757'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
@@ -7207,6 +7462,33 @@ $_COOKIE = [
     '_csrf-frontend' => 'd3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK\";}'
     'advanced-backend' => 'bpq6hf649eae08abod28937rv0'
     '_csrf-backend' => '996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU\";}'
+=======
+    'REMOTE_PORT' => '54649'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472012918.842
+    'REQUEST_TIME' => 1472012918
+]
+2016-08-24 06:31:39 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ':', expecting ']'' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\index.php:28
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-24 06:31:38 [::1][-][-][info][application] $_GET = [
+    'r' => 'student'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-frontend' => '317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9txn6vNiX26ORi5tC9iPht62rDDT6pa1\";}'
+    'advanced-backend' => '41h0en63riups148sc0fqhboi4'
+    '_csrf-backend' => 'dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl\";}'
+    'advanced-frontend' => 'sppdg8grsn44bindvi5glhioi3'
+>>>>>>> origin/master
 ]
 
 $_SERVER = [
@@ -7220,6 +7502,7 @@ $_SERVER = [
     'HTTP_CONNECTION' => 'keep-alive'
     'HTTP_CACHE_CONTROL' => 'max-age=0'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+<<<<<<< HEAD
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
     'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=class-list%2Findex&sort=student_id'
@@ -7227,13 +7510,28 @@ $_SERVER = [
     'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
     'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; _identity-backend=e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD%22%2C2592000%5D%22%3B%7D; advanced-frontend=vngsodk29dr0u2i96f9gnqfer2; _csrf-frontend=d3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK%22%3B%7D; advanced-backend=bpq6hf649eae08abod28937rv0; _csrf-backend=996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU%22%3B%7D'
     'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Fview&id=11'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-frontend=317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229txn6vNiX26ORi5tC9iPht62rDDT6pa1%22%3B%7D; advanced-backend=41h0en63riups148sc0fqhboi4; _csrf-backend=dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl%22%3B%7D; advanced-frontend=sppdg8grsn44bindvi5glhioi3'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> origin/master
     'SystemRoot' => 'C:\\WINDOWS'
     'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\WINDOWS'
+<<<<<<< HEAD
     'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+=======
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+>>>>>>> origin/master
     'SERVER_NAME' => 'localhost'
     'SERVER_ADDR' => '::1'
     'SERVER_PORT' => '80'
@@ -7244,6 +7542,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
     'SERVER_ADMIN' => 'postmaster@localhost'
     'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+<<<<<<< HEAD
     'REMOTE_PORT' => '52762'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
@@ -7278,6 +7577,33 @@ $_COOKIE = [
     '_csrf-frontend' => 'd3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK\";}'
     'advanced-backend' => 'bpq6hf649eae08abod28937rv0'
     '_csrf-backend' => '996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU\";}'
+=======
+    'REMOTE_PORT' => '54707'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472013098.541
+    'REQUEST_TIME' => 1472013098
+]
+2016-08-24 06:34:23 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'elseif' (T_ELSEIF), expecting ']'' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\index.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-24 06:34:22 [::1][-][-][info][application] $_GET = [
+    'r' => 'student'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-frontend' => '317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9txn6vNiX26ORi5tC9iPht62rDDT6pa1\";}'
+    'advanced-backend' => '41h0en63riups148sc0fqhboi4'
+    '_csrf-backend' => 'dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl\";}'
+    'advanced-frontend' => 'sppdg8grsn44bindvi5glhioi3'
+>>>>>>> origin/master
 ]
 
 $_SERVER = [
@@ -7289,6 +7615,7 @@ $_SERVER = [
     'TMP' => '\\xampp\\tmp'
     'HTTP_HOST' => 'localhost'
     'HTTP_CONNECTION' => 'keep-alive'
+<<<<<<< HEAD
     'HTTP_CACHE_CONTROL' => 'max-age=0'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
@@ -7298,13 +7625,29 @@ $_SERVER = [
     'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
     'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; _identity-backend=e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD%22%2C2592000%5D%22%3B%7D; advanced-frontend=vngsodk29dr0u2i96f9gnqfer2; _csrf-frontend=d3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK%22%3B%7D; advanced-backend=bpq6hf649eae08abod28937rv0; _csrf-backend=996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU%22%3B%7D'
     'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Fview&id=11'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-frontend=317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229txn6vNiX26ORi5tC9iPht62rDDT6pa1%22%3B%7D; advanced-backend=41h0en63riups148sc0fqhboi4; _csrf-backend=dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl%22%3B%7D; advanced-frontend=sppdg8grsn44bindvi5glhioi3'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> origin/master
     'SystemRoot' => 'C:\\WINDOWS'
     'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\WINDOWS'
+<<<<<<< HEAD
     'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+=======
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+>>>>>>> origin/master
     'SERVER_NAME' => 'localhost'
     'SERVER_ADDR' => '::1'
     'SERVER_PORT' => '80'
@@ -7315,6 +7658,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
     'SERVER_ADMIN' => 'postmaster@localhost'
     'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+<<<<<<< HEAD
     'REMOTE_PORT' => '52762'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
@@ -7356,6 +7700,33 @@ $_COOKIE = [
     '_csrf-frontend' => 'd3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK\";}'
     'advanced-backend' => 'bpq6hf649eae08abod28937rv0'
     '_csrf-backend' => '996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU\";}'
+=======
+    'REMOTE_PORT' => '54760'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472013262.74
+    'REQUEST_TIME' => 1472013262
+]
+2016-08-24 06:36:29 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'elseif' (T_ELSEIF), expecting ']'' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\student\index.php:37
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-24 06:36:28 [::1][-][-][info][application] $_GET = [
+    'r' => 'student'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    '_csrf-frontend' => '317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9txn6vNiX26ORi5tC9iPht62rDDT6pa1\";}'
+    'advanced-backend' => '41h0en63riups148sc0fqhboi4'
+    '_csrf-backend' => 'dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl\";}'
+    'advanced-frontend' => 'sppdg8grsn44bindvi5glhioi3'
+>>>>>>> origin/master
 ]
 
 $_SERVER = [
@@ -7367,6 +7738,7 @@ $_SERVER = [
     'TMP' => '\\xampp\\tmp'
     'HTTP_HOST' => 'localhost'
     'HTTP_CONNECTION' => 'keep-alive'
+<<<<<<< HEAD
     'HTTP_CACHE_CONTROL' => 'max-age=0'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
@@ -7376,13 +7748,29 @@ $_SERVER = [
     'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
     'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; _identity-backend=e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD%22%2C2592000%5D%22%3B%7D; advanced-frontend=vngsodk29dr0u2i96f9gnqfer2; _csrf-frontend=d3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK%22%3B%7D; advanced-backend=bpq6hf649eae08abod28937rv0; _csrf-backend=996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU%22%3B%7D'
     'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Fview&id=11'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; _csrf-frontend=317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229txn6vNiX26ORi5tC9iPht62rDDT6pa1%22%3B%7D; advanced-backend=41h0en63riups148sc0fqhboi4; _csrf-backend=dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl%22%3B%7D; advanced-frontend=sppdg8grsn44bindvi5glhioi3'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> origin/master
     'SystemRoot' => 'C:\\WINDOWS'
     'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\WINDOWS'
+<<<<<<< HEAD
     'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+=======
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+>>>>>>> origin/master
     'SERVER_NAME' => 'localhost'
     'SERVER_ADDR' => '::1'
     'SERVER_PORT' => '80'
@@ -7393,6 +7781,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
     'SERVER_ADMIN' => 'postmaster@localhost'
     'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+<<<<<<< HEAD
     'REMOTE_PORT' => '52786'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
@@ -7427,6 +7816,33 @@ $_COOKIE = [
     '_csrf-frontend' => 'd3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK\";}'
     'advanced-backend' => 'bpq6hf649eae08abod28937rv0'
     '_csrf-backend' => '996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU\";}'
+=======
+    'REMOTE_PORT' => '54845'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472013388.899
+    'REQUEST_TIME' => 1472013388
+]
+2016-08-24 07:00:20 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '<'' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\review-class\index.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-24 07:00:20 [::1][-][-][info][application] $_GET = [
+    'r' => 'review-class'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9txn6vNiX26ORi5tC9iPht62rDDT6pa1\";}'
+    '_csrf-backend' => 'dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl\";}'
+    'advanced-frontend' => 'sppdg8grsn44bindvi5glhioi3'
+    'advanced-backend' => 'id1vkqarp8uu19cdanudruoa44'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+>>>>>>> origin/master
 ]
 
 $_SERVER = [
@@ -7440,6 +7856,7 @@ $_SERVER = [
     'HTTP_CONNECTION' => 'keep-alive'
     'HTTP_CACHE_CONTROL' => 'max-age=0'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+<<<<<<< HEAD
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
     'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=class-list%2Findex&sort=student_id'
@@ -7447,13 +7864,28 @@ $_SERVER = [
     'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
     'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; _identity-backend=e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD%22%2C2592000%5D%22%3B%7D; advanced-frontend=vngsodk29dr0u2i96f9gnqfer2; _csrf-frontend=d3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK%22%3B%7D; advanced-backend=bpq6hf649eae08abod28937rv0; _csrf-backend=996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU%22%3B%7D'
     'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=review-class'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229txn6vNiX26ORi5tC9iPht62rDDT6pa1%22%3B%7D; _csrf-backend=dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl%22%3B%7D; advanced-frontend=sppdg8grsn44bindvi5glhioi3; advanced-backend=id1vkqarp8uu19cdanudruoa44; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> origin/master
     'SystemRoot' => 'C:\\WINDOWS'
     'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\WINDOWS'
+<<<<<<< HEAD
     'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+=======
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+>>>>>>> origin/master
     'SERVER_NAME' => 'localhost'
     'SERVER_ADDR' => '::1'
     'SERVER_PORT' => '80'
@@ -7464,6 +7896,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
     'SERVER_ADMIN' => 'postmaster@localhost'
     'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+<<<<<<< HEAD
     'REMOTE_PORT' => '52786'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
@@ -7505,6 +7938,34 @@ $_COOKIE = [
     '_csrf-frontend' => 'd3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK\";}'
     'advanced-backend' => 'bpq6hf649eae08abod28937rv0'
     '_csrf-backend' => '996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU\";}'
+=======
+    'REMOTE_PORT' => '55206'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=review-class'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=review-class'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472014820.177
+    'REQUEST_TIME' => 1472014820
+]
+2016-08-24 08:09:33 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '<'' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\user\view.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-24 08:09:33 [::1][-][-][info][application] $_GET = [
+    'r' => 'user/view'
+    'id' => '6'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9txn6vNiX26ORi5tC9iPht62rDDT6pa1\";}'
+    '_csrf-backend' => 'dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl\";}'
+    'advanced-frontend' => 'sppdg8grsn44bindvi5glhioi3'
+    'advanced-backend' => 'id1vkqarp8uu19cdanudruoa44'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+>>>>>>> origin/master
 ]
 
 $_SERVER = [
@@ -7518,6 +7979,7 @@ $_SERVER = [
     'HTTP_CONNECTION' => 'keep-alive'
     'HTTP_CACHE_CONTROL' => 'max-age=0'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+<<<<<<< HEAD
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
     'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=class-list%2Findex&sort=student_id'
@@ -7525,13 +7987,28 @@ $_SERVER = [
     'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
     'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; _identity-backend=e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD%22%2C2592000%5D%22%3B%7D; advanced-frontend=vngsodk29dr0u2i96f9gnqfer2; _csrf-frontend=d3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK%22%3B%7D; advanced-backend=bpq6hf649eae08abod28937rv0; _csrf-backend=996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU%22%3B%7D'
     'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=user'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229txn6vNiX26ORi5tC9iPht62rDDT6pa1%22%3B%7D; _csrf-backend=dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl%22%3B%7D; advanced-frontend=sppdg8grsn44bindvi5glhioi3; advanced-backend=id1vkqarp8uu19cdanudruoa44; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> origin/master
     'SystemRoot' => 'C:\\WINDOWS'
     'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\WINDOWS'
+<<<<<<< HEAD
     'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+=======
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+>>>>>>> origin/master
     'SERVER_NAME' => 'localhost'
     'SERVER_ADDR' => '::1'
     'SERVER_PORT' => '80'
@@ -7542,6 +8019,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
     'SERVER_ADMIN' => 'postmaster@localhost'
     'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+<<<<<<< HEAD
     'REMOTE_PORT' => '52822'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
@@ -7576,6 +8054,34 @@ $_COOKIE = [
     '_csrf-frontend' => 'd3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK\";}'
     'advanced-backend' => 'bpq6hf649eae08abod28937rv0'
     '_csrf-backend' => '996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU\";}'
+=======
+    'REMOTE_PORT' => '55759'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Fview&id=6'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=user%2Fview&id=6'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472018973.205
+    'REQUEST_TIME' => 1472018973
+]
+2016-08-24 09:51:12 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING)' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\view.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-24 09:51:12 [::1][-][-][info][application] $_GET = [
+    'r' => 'employee/view'
+    'id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9txn6vNiX26ORi5tC9iPht62rDDT6pa1\";}'
+    '_csrf-backend' => 'dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl\";}'
+    'advanced-frontend' => 'siu3can3fc3h60ctt9f5s8fql3'
+    'advanced-backend' => 'dq5hh2lt4ij26kt5c1kfbm94d5'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+>>>>>>> origin/master
 ]
 
 $_SERVER = [
@@ -7589,6 +8095,7 @@ $_SERVER = [
     'HTTP_CONNECTION' => 'keep-alive'
     'HTTP_CACHE_CONTROL' => 'max-age=0'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+<<<<<<< HEAD
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
     'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=class-list%2Findex&sort=student_id'
@@ -7596,13 +8103,28 @@ $_SERVER = [
     'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
     'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; _identity-backend=e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD%22%2C2592000%5D%22%3B%7D; advanced-frontend=vngsodk29dr0u2i96f9gnqfer2; _csrf-frontend=d3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK%22%3B%7D; advanced-backend=bpq6hf649eae08abod28937rv0; _csrf-backend=996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU%22%3B%7D'
     'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=employee'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229txn6vNiX26ORi5tC9iPht62rDDT6pa1%22%3B%7D; _csrf-backend=dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl%22%3B%7D; advanced-frontend=siu3can3fc3h60ctt9f5s8fql3; advanced-backend=dq5hh2lt4ij26kt5c1kfbm94d5; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> origin/master
     'SystemRoot' => 'C:\\WINDOWS'
     'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\WINDOWS'
+<<<<<<< HEAD
     'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+=======
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+>>>>>>> origin/master
     'SERVER_NAME' => 'localhost'
     'SERVER_ADDR' => '::1'
     'SERVER_PORT' => '80'
@@ -7613,6 +8135,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
     'SERVER_ADMIN' => 'postmaster@localhost'
     'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+<<<<<<< HEAD
     'REMOTE_PORT' => '52822'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
@@ -7658,6 +8181,34 @@ $_COOKIE = [
     '_csrf-frontend' => 'd3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK\";}'
     'advanced-backend' => 'bpq6hf649eae08abod28937rv0'
     '_csrf-backend' => '996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU\";}'
+=======
+    'REMOTE_PORT' => '57095'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=employee%2Fview&id=3'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=employee%2Fview&id=3'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472025072.046
+    'REQUEST_TIME' => 1472025072
+]
+2016-08-24 09:51:22 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING)' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\view.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-24 09:51:21 [::1][-][-][info][application] $_GET = [
+    'r' => 'employee/view'
+    'id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9txn6vNiX26ORi5tC9iPht62rDDT6pa1\";}'
+    '_csrf-backend' => 'dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl\";}'
+    'advanced-frontend' => 'siu3can3fc3h60ctt9f5s8fql3'
+    'advanced-backend' => 'dq5hh2lt4ij26kt5c1kfbm94d5'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+>>>>>>> origin/master
 ]
 
 $_SERVER = [
@@ -7671,6 +8222,7 @@ $_SERVER = [
     'HTTP_CONNECTION' => 'keep-alive'
     'HTTP_CACHE_CONTROL' => 'max-age=0'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+<<<<<<< HEAD
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
     'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=class-list%2Findex&sort=student_id'
@@ -7678,13 +8230,28 @@ $_SERVER = [
     'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
     'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; _identity-backend=e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD%22%2C2592000%5D%22%3B%7D; advanced-frontend=vngsodk29dr0u2i96f9gnqfer2; _csrf-frontend=d3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK%22%3B%7D; advanced-backend=bpq6hf649eae08abod28937rv0; _csrf-backend=996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU%22%3B%7D'
     'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=employee'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229txn6vNiX26ORi5tC9iPht62rDDT6pa1%22%3B%7D; _csrf-backend=dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl%22%3B%7D; advanced-frontend=siu3can3fc3h60ctt9f5s8fql3; advanced-backend=dq5hh2lt4ij26kt5c1kfbm94d5; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> origin/master
     'SystemRoot' => 'C:\\WINDOWS'
     'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\WINDOWS'
+<<<<<<< HEAD
     'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+=======
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+>>>>>>> origin/master
     'SERVER_NAME' => 'localhost'
     'SERVER_ADDR' => '::1'
     'SERVER_PORT' => '80'
@@ -7695,6 +8262,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
     'SERVER_ADMIN' => 'postmaster@localhost'
     'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+<<<<<<< HEAD
     'REMOTE_PORT' => '52910'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
@@ -7740,6 +8308,34 @@ $_COOKIE = [
     '_csrf-frontend' => 'd3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK\";}'
     'advanced-backend' => 'bpq6hf649eae08abod28937rv0'
     '_csrf-backend' => '996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU\";}'
+=======
+    'REMOTE_PORT' => '57098'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=employee%2Fview&id=3'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=employee%2Fview&id=3'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472025081.869
+    'REQUEST_TIME' => 1472025081
+]
+2016-08-24 09:52:24 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING)' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\view.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-24 09:52:24 [::1][-][-][info][application] $_GET = [
+    'r' => 'employee/view'
+    'id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9txn6vNiX26ORi5tC9iPht62rDDT6pa1\";}'
+    '_csrf-backend' => 'dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl\";}'
+    'advanced-frontend' => 'siu3can3fc3h60ctt9f5s8fql3'
+    'advanced-backend' => 'dq5hh2lt4ij26kt5c1kfbm94d5'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+>>>>>>> origin/master
 ]
 
 $_SERVER = [
@@ -7753,6 +8349,7 @@ $_SERVER = [
     'HTTP_CONNECTION' => 'keep-alive'
     'HTTP_CACHE_CONTROL' => 'max-age=0'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+<<<<<<< HEAD
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
     'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=class-list%2Findex&sort=student_id'
@@ -7760,13 +8357,28 @@ $_SERVER = [
     'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
     'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; _identity-backend=e5169e4b542ea36767b66d111c5ab1a0705e89e5dbd1932e09826f02a0f18ce7a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zKBQIsNRceXfLzk5AM-SCc7s7gbHgfRD%22%2C2592000%5D%22%3B%7D; advanced-frontend=vngsodk29dr0u2i96f9gnqfer2; _csrf-frontend=d3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK%22%3B%7D; advanced-backend=bpq6hf649eae08abod28937rv0; _csrf-backend=996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU%22%3B%7D'
     'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=employee'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229txn6vNiX26ORi5tC9iPht62rDDT6pa1%22%3B%7D; _csrf-backend=dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl%22%3B%7D; advanced-frontend=siu3can3fc3h60ctt9f5s8fql3; advanced-backend=dq5hh2lt4ij26kt5c1kfbm94d5; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> origin/master
     'SystemRoot' => 'C:\\WINDOWS'
     'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\WINDOWS'
+<<<<<<< HEAD
     'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+=======
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+>>>>>>> origin/master
     'SERVER_NAME' => 'localhost'
     'SERVER_ADDR' => '::1'
     'SERVER_PORT' => '80'
@@ -7777,6 +8389,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
     'SERVER_ADMIN' => 'postmaster@localhost'
     'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+<<<<<<< HEAD
     'REMOTE_PORT' => '53063'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
@@ -7826,6 +8439,34 @@ $_COOKIE = [
     '_csrf-frontend' => 'd3402bf0592e4600375e9779b3419343a463bfdb097c80dd4130f56d620c0b52a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"VE2jwqP6YvXg-Fyc-JsVAs0ckC__OXMK\";}'
     'advanced-backend' => 'bpq6hf649eae08abod28937rv0'
     '_csrf-backend' => '996b78d95f7c0940576369c0b83f522b1bee9e8768ab34fc45e72fa13fd994c7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"WGWofhdR0VBrjY2rgkRtekiDSnOpCAGU\";}'
+=======
+    'REMOTE_PORT' => '57106'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=employee%2Fview&id=3'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=employee%2Fview&id=3'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472025143.972
+    'REQUEST_TIME' => 1472025143
+]
+2016-08-24 09:52:52 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '', '' (T_CONSTANT_ENCAPSED_STRING)' in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\backend\views\employee\view.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-08-24 09:52:51 [::1][-][-][info][application] $_GET = [
+    'r' => 'employee/view'
+    'id' => '3'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"9txn6vNiX26ORi5tC9iPht62rDDT6pa1\";}'
+    '_csrf-backend' => 'dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl\";}'
+    'advanced-frontend' => 'siu3can3fc3h60ctt9f5s8fql3'
+    'advanced-backend' => 'dq5hh2lt4ij26kt5c1kfbm94d5'
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+>>>>>>> origin/master
 ]
 
 $_SERVER = [
@@ -7839,6 +8480,7 @@ $_SERVER = [
     'HTTP_CONNECTION' => 'keep-alive'
     'HTTP_CACHE_CONTROL' => 'max-age=0'
     'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+<<<<<<< HEAD
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
     'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=class-list%2Fcreate'
@@ -8010,13 +8652,28 @@ $_SERVER = [
     'HTTP_COOKIE' => 'advanced-frontend=hjkokej5ocs32r3f0nam1ppbn6; _csrf-frontend=165e8f0dce13321e79a0890e03964b6a7f2503931382bbc49acd176274737a6fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22zo_LXWqpai5Kbo9WwWmWjpXL2Q7pJevd%22%3B%7D; advanced-backend=615mk9cn1m04tcm6sr1l64v835; _csrf-backend=ca02e7330f5dbf5e96c6eebad8745986e1be8b6412a8d2a5c956eb2a60a46753a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22iS0lmkGEA2bfxdWzu9L75MLy4aNyY0qA%22%3B%7D'
     'HTTP_CONNECTION' => 'keep-alive'
     'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+=======
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=employee'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=317e9a085be8f654d5a812debbcc88bcf8a210683bda78b5cb583433b0b6a288a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%229txn6vNiX26ORi5tC9iPht62rDDT6pa1%22%3B%7D; _csrf-backend=dd186384841d7a049985a1cc6de7334ff026950f1e41172c9e4eeac7d07b12bca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IxCcl0-wIBQMsplyzaPBPH-u2FSpUzJl%22%3B%7D; advanced-frontend=siu3can3fc3h60ctt9f5s8fql3; advanced-backend=dq5hh2lt4ij26kt5c1kfbm94d5; _identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+>>>>>>> origin/master
     'SystemRoot' => 'C:\\WINDOWS'
     'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\WINDOWS'
+<<<<<<< HEAD
     'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+=======
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+>>>>>>> origin/master
     'SERVER_NAME' => 'localhost'
     'SERVER_ADDR' => '::1'
     'SERVER_PORT' => '80'
@@ -8027,6 +8684,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
     'SERVER_ADMIN' => 'postmaster@localhost'
     'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+<<<<<<< HEAD
     'REMOTE_PORT' => '59357'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
@@ -8037,4 +8695,16 @@ $_SERVER = [
     'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
     'REQUEST_TIME_FLOAT' => 1472014379.078
     'REQUEST_TIME' => 1472014379
+=======
+    'REMOTE_PORT' => '57109'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=employee%2Fview&id=3'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=employee%2Fview&id=3'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472025171.459
+    'REQUEST_TIME' => 1472025171
+>>>>>>> origin/master
 ]

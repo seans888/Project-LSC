@@ -26,7 +26,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'nickname')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'gender')->dropDownList([ 'Female' => 'Female', 'Male' => 'Male', ], ['prompt' => 'Select Gender']) ?>
+    <?= $form->field($model, 'gender')->dropDownList(['Male' => 'Male','Female' => 'Female' ], ['prompt' => 'Select Gender']) ?>
 
     <?= $form->field($model, 'age')->textInput() ?>
 
@@ -55,7 +55,7 @@ use yii\widgets\ActiveForm;
  
 
     <div class="form-group">
-        <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
+        <?= Html::submitButton($model->isNewRecord ? 'Submit' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

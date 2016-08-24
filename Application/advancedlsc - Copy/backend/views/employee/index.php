@@ -1,3 +1,4 @@
+
 <?php
 
 use yii\helpers\Html;
@@ -8,15 +9,15 @@ use yii\grid\GridView;
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Employees';
-$this->params['breadcrumbs'][] = $this->title;
+//$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="employee-index">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+  <!--  <h1><?= Html::encode($this->title) ?></h1> -->
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Employee', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Add Employee', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
@@ -33,15 +34,15 @@ $this->params['breadcrumbs'][] = $this->title;
 
         },
         'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
+          //  ['class' => 'yii\grid\SerialColumn'],
 
             'id',
             'lastname',
             'firstname',
             'middlename',
-            'gender',
+           // 'gender',
             // 'age',
-             'position',
+            // 'position',
              'contact_Number',
             // 'email_address:email',
 
