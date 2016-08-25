@@ -18,9 +18,9 @@ $this->title = $model->id;
         'model' => $model,
         'attributes' => [
             'id',
-            'student_id',
-            'review_Class_id',
-            'employee_id',
+            'lastname',
+            'name',
+            'lastname',
         ],
     ]) ?>
 

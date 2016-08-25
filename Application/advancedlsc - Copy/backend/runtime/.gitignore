@@ -2,3 +2,8 @@
 
 */*.data
 *.data
+
+#Runtime Log
+
+*/*.log
+*.log

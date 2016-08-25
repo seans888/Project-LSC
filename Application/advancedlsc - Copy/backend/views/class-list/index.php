@@ -25,7 +25,7 @@ $this->title = 'Class Lists';
            // ['class' => 'yii\grid\SerialColumn'],
 
             'id',
-            'student_id',
+            'student_id', 
             'review_Class_id',
             'employee_id',
 
