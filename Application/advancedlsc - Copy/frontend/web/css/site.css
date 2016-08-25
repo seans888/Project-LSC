@@ -82,7 +82,7 @@ a.desc:after {
     background: #fdf7f7;
     border-left: 3px solid #eed3d7;
     padding: 10px 20px;
-    margin: 0 0 15px 0;
+    margin: 0 0 15px 0; 
 }
 
 /* align the logout "link" (button in form) of the navbar */
@@ -255,11 +255,14 @@ div.col-lg-5{
 
 margin-left: 340px;
 }
+div.col-lg-6{
+
+}
 
 
 /*navbar style*/
 .navbar{
-      font-family: DIN light;
+      font-family: Calibri Light;
       font-size: 30px;
       height: 80px;
       font-size: 20px;

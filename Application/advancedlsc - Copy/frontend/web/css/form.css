@@ -1,10 +1,54 @@
 html,
-.suform{
-     border:solid #0b3241 2px;
-     padding:25px;
-     margin: 70px 200 30px;
-     margin-top:5px;
-     margin-bottom:25px;
-     height:50px;
-     
+/* Sign up Form  margin: 20px 250px 30px;
+	width: 200px;*/
+.site-signup .row .form{
+	font-family: Verdana;
+	font-size: 15px;
+}
+.site-signup{
+	margin-right: 100px;
+	margin-left: 100px;
+}
+/* Left,Top,Right,Bottom */
+.tb{
+	 border:solid #0b3241 1px;
+	 padding:25px;
+	 box-shadow: 1px 1px 30px 5px #888888;
+	 margin: 0 auto;
+	/* background-color: 	#F0F8FF; */
+}
+.form-control{
+	width: 100%;
+	vertical-align: center;
+	float: center;
+	display: block;
+    margin : 0 auto;
+
+}
+label.control-label{
+	text-align: center;
+
+}
+.help-block help-block-error{
+    text-align: center;
+    margin-left: -4px;
+    margin-right: -40px;
+
+}
+/* Log in Form*/
+.site-login .row1 .form1{
+	font-family: Verdana;
+	font-size: 15px;	
+}
+.tb1{
+	 border:solid #0b3241 1px;
+	 padding:25px;
+	 box-shadow: 1px 1px 30px 5px #888888;
+	 margin: 0 auto;
+
+	/* background-color: 	#F0F8FF; */
+}
+.site-login{
+	margin-right: 100px;
+	margin-left: 100px
 }
