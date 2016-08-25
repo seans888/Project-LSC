@@ -7,8 +7,10 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
+use yii\helpers\Url;
 use frontend\assets\AppAsset;
 use common\widgets\Alert;
+use frontend\views\student;
 
 AppAsset::register($this);
 ?>
@@ -51,7 +53,12 @@ AppAsset::register($this);
         
          }elseif (!Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Profile', 'items' => [
+<<<<<<< HEAD
             ['label' => 'My account', 'url' => ['student/view', 'id' => 12]],
+=======
+            ['label' => 'My account', 'url' => ['student/view', 'id' => 8]],
+         // ['label' => 'My account', 'url' => ['student/view', 'id' => 8]],
+>>>>>>> origin/master
             ['label' => 'New reservation', 'url' => ['/student/create']],
         ]];
         $menuItems[] = '<li>'

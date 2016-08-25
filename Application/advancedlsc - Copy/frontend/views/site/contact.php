@@ -46,11 +46,11 @@ Ortigas Center, Pasig City <br>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1326.2699067693861!2d121.05995260502391!3d14.58893118755948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c819dcf3159f%3A0x6ee8de5684fb596!2sOrtigas+Review+Center!5e0!3m2!1sen!2sph!4v1470292639172" width="1150" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
     <p>
-        If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
+       <br><br> If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
     </p>
 
     <div class="row">
-        <div class="col-lg-5">
+        <div class="col-lg-6">
             <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
 
                 <?= $form->field($model, 'name')->textInput(['autofocus' => true]) ?>
