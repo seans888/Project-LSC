@@ -53,12 +53,9 @@ AppAsset::register($this);
         
          }elseif (!Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Profile', 'items' => [
-<<<<<<< HEAD
+
             ['label' => 'My account', 'url' => ['student/view', 'id' => 12]],
-=======
-            ['label' => 'My account', 'url' => ['student/view', 'id' => 8]],
-         // ['label' => 'My account', 'url' => ['student/view', 'id' => 8]],
->>>>>>> origin/master
+
             ['label' => 'New reservation', 'url' => ['/student/create']],
         ]];
         $menuItems[] = '<li>'
