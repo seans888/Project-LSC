@@ -103,77 +103,6 @@ a.desc:after {
 
 /*Index page style*/
 
-
-/*Review, English and Other page style*/
-
-.img1{
-  margin-left: 200px;
-  height: 200px;
-  weight: 150px;
-}
-a.a1{
-  font-family: calibri ;
-  font-color: #ffffff;
-  font-size: 18px;
-  margin-top: 0em;
-  margin-right: 10em;
-}
-p.p1{
-
-  text-align: justify;
-  margin-right: 20em;
-}
-.img2{
-  width: 10%;
-  height: 4%;
-  margin-left: 250px;
-}
-
-/*Tutorial page style*/
-
-table, td, th {
-    text-align: left;
-}
-
-table {
-    border-collapse: collapse;
-    width: 50%;
-  
-}
-
-th, td {
-    padding: 10px;
-  font-size: 12px;
-}
-
-/*Read more buttons*/
-
-p.buttonreadmore{
-  float:right;
-  margin-right: 275px;
-}
-
-a.btn.btn-default{
-  padding:5px;
-  font-size: 14px;
-}
-
-
-/*SignUp,LogIn page style*/
-div.site-signup,div.site-login{
-    display: block;
-    text-align: center;
-
-}
-div.col-lg-5{
-
-margin-left: 340px;
-}
-div.col-lg-6{
-
-}
-
-
 /*navbar style*/
 .navbar{
       font-family: Calibri Light;
@@ -270,11 +199,99 @@ div.col-lg-6{
 }
 
 .col-lg-4{
-  border: 2px solid #efefef;
-    border-radius: 5px;
+
     float: center;
     margin-right: 20px;
     width: 350px;
     margin-left: 20px;
+    text-align: justify;
 
 }
+
+.headline2index{
+  font-size: 25px;
+  color:#;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.textindex{
+color: GREY;
+}
+
+.btn-default-index{
+color:#ffffff;
+background-color: #5BC0DE;
+}
+
+
+/*Review, English and Other page style*/
+
+.img1{
+  margin-left: 200px;
+  height: 200px;
+  weight: 150px;
+}
+a.a1{
+  font-family: calibri ;
+  font-color: #ffffff;
+  font-size: 18px;
+  margin-top: 0em;
+  margin-right: 10em;
+}
+p.p1{
+
+  text-align: justify;
+  margin-right: 20em;
+}
+.img2{
+  width: 10%;
+  height: 4%;
+  margin-left: 250px;
+}
+
+/*Tutorial page style*/
+
+table, td, th {
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+  
+}
+
+th, td {
+    padding: 10px;
+  font-size: 12px;
+}
+
+/*Read more buttons*/
+
+p.buttonreadmore{
+  float:right;
+  margin-right: 275px;
+}
+
+a.btn.btn-default{
+  padding:5px;
+  font-size: 14px;
+}
+
+
+/*SignUp,LogIn page style*/
+div.site-signup,div.site-login{
+    display: block;
+    text-align: center;
+
+}
+div.col-lg-5{
+
+margin-left: 340px;
+}
+div.col-lg-6{
+
+}
+

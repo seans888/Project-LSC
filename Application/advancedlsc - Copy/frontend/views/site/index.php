@@ -52,39 +52,37 @@ function showSlides() {
 
 </script>
 <!--end of slideshow-->
+<br><br><br>
 
     <div class="body-content">
 
         <div class="row">
             <div class="col-lg-4">
-                <h2>About</h2>
+            <img src="images/image.png"> 
+                <h2 class="headline2index">QUALITY EDUCATION</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <p class="textindex">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua.</p>
 
-                <p><a class="btn btn-default" href="http://localhost/advanced/frontend/web/index.php?r=site%2Fabout">Read more &raquo;</a></p>
+                <p><a class="btn btn-default-index" href="http://localhost/advanced/frontend/web/index.php?r=site%2Fabout">READ MORE &raquo;</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>Tutorials</h2>
+            <img src="images/image1.png">
+                <h2 class="headline2index">SYSTEMATIC APPROACH</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <p class="textindex">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua.</p>
 
-                <p><a class="btn btn-default" href="http://localhost/advanced/frontend/web/index.php?r=site%2Ftutorials">Read more &raquo;</a></p>
+                <p><a class="btn btn-default-index" href="http://localhost/advanced/frontend/web/index.php?r=site%2Ftutorials">READ MORE &raquo;</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>Reviews</h2>
+            <img src="images/image2.png">
+                <h2 class="headline2index">ONE TO ONE STUDY</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <p class="textindex">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua.</p>
 
-                <p><a class="btn btn-default" href="http://localhost/advanced/frontend/web/index.php?r=site%2Freviews">Read more &raquo;</a></p>
+                <p><a class="btn btn-default-index" href="http://localhost/advanced/frontend/web/index.php?r=site%2Freviews">READ MORE &raquo;</a></p>
             </div>
         </div>
 
