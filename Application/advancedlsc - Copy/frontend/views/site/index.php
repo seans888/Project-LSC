@@ -5,60 +5,51 @@
 $this->title = 'Home';
 ?>
 
-<br><br>
+<br>
 
 <div class="site-index">
 
-<!--start of slideshow-->
+<!--end of slideshow-->
 <div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img class ="slideshow" src="<?= yii\helpers\Url::to('@web/images/img.jpg') ?>" />
+    <div class="text">Caption Text</div>
+  </div>
 
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="http://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%">
-  <div class="text">Promo 1</div>
-</div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img class ="slideshow" src="<?= yii\helpers\Url::to('@web/images/img1.jpg') ?>" />
+    <div class="text">Caption Two</div>
+  </div>
 
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="http://www.w3schools.com/howto/img_fjords_wide.jpg" style="width:100%">
-  <div class="text">Promo 2</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="http://www.w3schools.com/howto/img_lights_wide.jpg" style="width:100%">
-  <div class="text">Promo 3</div>
-</div>
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img class ="slideshow" src="<?= yii\helpers\Url::to('@web/images/img2.jpg') ?>" />
+    <div class="text">Caption Three</div>
+  </div>
 
 </div>
 <br>
 
-<div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div>
-
-<script>
-var slideIndex = 0;
+<script type="text/javascript">
+  
+  var slideIndex = 0;
 showSlides();
 
 function showSlides() {
     var i;
     var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
     for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";
+        slides[i].style.display = "none"; 
     }
     slideIndex++;
-    if (slideIndex> slides.length) {slideIndex = 1}
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 4000); // Change image every 9 seconds
+    if (slideIndex> slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 7000); // Change image every 2 seconds
 }
+
+
 </script>
 <!--end of slideshow-->
 
