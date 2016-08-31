@@ -30,7 +30,7 @@
             [
                 'options' => ['class' => 'sidebar-menu'],
                 'items' => [
-                    ['label' => 'Menu Yii2', 'options' => ['class' => 'header']],
+                   // ['label' => 'Menu Yii2', 'options' => ['class' => 'header']], //
                     ['label' => 'Students', 'icon' => 'fa fa-file-code-o', 
                     'url' => 'index.php?r=student'],
 
@@ -50,7 +50,7 @@
 
 
 
-                    [
+                  /*  [
                         'label' => 'Same tools',
                         'icon' => 'fa fa-share',
                         'url' => '#',
@@ -60,7 +60,7 @@
                        
 
 
-                       /*    [
+                           [
                                 'label' => 'Level One',
                                 'icon' => 'fa fa-circle-o',
                                 'url' => '#',
@@ -76,9 +76,9 @@
                                         ],  
                                     ],  
                                 ], 
-                            ],  */
-                        ],  
-                    ],  
+                            ],  
+                        ],    
+                    ],  */  
                 ],  
             ]
         ) ?>

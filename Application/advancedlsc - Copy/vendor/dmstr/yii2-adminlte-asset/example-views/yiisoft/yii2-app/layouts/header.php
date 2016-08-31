@@ -7,7 +7,7 @@ use yii\helpers\Html;
 
 <header class="main-header">
 
-    <?= Html::a('<span class="logo-mini">LSC</span><span class="logo-lg">' . Yii::$app->name . '</span>', Yii::$app->homeUrl, ['class' => 'logo']) ?>    
+    <?= Html::a('<span class="logo-mini">LSC</span><span class="logo-lg">Loyola Student Center</span>', Yii::$app->homeUrl, ['class' => 'logo']) ?>    
 
     <nav class="navbar navbar-static-top" role="navigation">
 
@@ -21,10 +21,10 @@ use yii\helpers\Html;
 
                 <!-- Messages: style can be found in dropdown.less-->
                 <li class="dropdown messages-menu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <!--  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="fa fa-envelope-o"></i>
                         <span class="label label-success">4</span>
-                    </a>
+                    </a>    -->
                     <ul class="dropdown-menu">
                         <li class="header">You have 4 messages</li>
                         <li>
@@ -102,10 +102,10 @@ use yii\helpers\Html;
                     </ul>
                 </li>
                 <li class="dropdown notifications-menu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                   <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="fa fa-bell-o"></i>
                         <span class="label label-warning">10</span>
-                    </a>
+                    </a>    -->
                     <ul class="dropdown-menu">
                         <li class="header">You have 10 notifications</li>
                         <li>
@@ -145,10 +145,10 @@ use yii\helpers\Html;
                 </li>
                 <!-- Tasks: style can be found in dropdown.less -->
                 <li class="dropdown tasks-menu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                   <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="fa fa-flag-o"></i>
                         <span class="label label-danger">9</span>
-                    </a>
+                    </a>    -->
                     <ul class="dropdown-menu">
                         <li class="header">You have 9 tasks</li>
                         <li>
@@ -273,7 +273,7 @@ use yii\helpers\Html;
 
                 <!-- User Account: style can be found in dropdown.less -->
                 <li>
-                    <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+                  <!--  <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>   -->
                 </li>
             </ul>
         </div>
