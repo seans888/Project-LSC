@@ -102,6 +102,8 @@ class Student extends \yii\db\ActiveRecord
         ];
     }
 
+    //comment
+
     /**
      * @return \yii\db\ActiveQuery
      */
