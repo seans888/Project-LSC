@@ -35,7 +35,7 @@ $this->title = 'Students';
                //return['class'=>'success'];
             
             }elseif ($model -> status == 'Done') {
-               return['style' => 'background-color:#FFFFFF'];
+               return['style' => 'background-color:#EEF66C'];
                //return['class'=>'success'];
             }elseif ($model -> status == 'Cancelled') {
                return['class'=>'danger'];

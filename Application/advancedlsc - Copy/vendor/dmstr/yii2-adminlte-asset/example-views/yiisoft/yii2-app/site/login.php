@@ -21,7 +21,7 @@ $fieldOptions2 = [
 
 <div class="login-box">
     <div class="login-logo">
-        <a href="#"><b>Admin</b>LTE</a>
+        <a href="#">Loyola Student Center</a>
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body">
@@ -59,7 +59,7 @@ $fieldOptions2 = [
                 using Facebook</a>
             <a href="#" class="btn btn-block btn-social btn-google-plus btn-flat"><i class="fa fa-google-plus"></i> Sign
                 in using Google+</a>
-        </div>
+        </div>  -->
         <!-- /.social-auth-links 
 
         -->

@@ -39,7 +39,7 @@ use dmstr\widgets\Alert;
     <div class="pull-right hidden-xs">
         <b>Version</b> 1.0
     </div>
-    <strong>Copyright &copy; 2015-2016 <a href="http://facebook.com">Siscode Studio</a>.</strong> All rights
+    <strong>Copyright &copy; 2015-2016 <a href="http://localhost/advancedlsc/frontend/web/index.php">Siscode Studio</a>.</strong> All rights
     reserved.
 </footer>
 
