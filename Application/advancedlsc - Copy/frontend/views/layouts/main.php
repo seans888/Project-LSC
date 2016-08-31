@@ -30,31 +30,38 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'Loyola Student Center',
+        'brandLabel' => Html::img('@web/images/logo.png'),
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
     ]);
     $menuItems = [
-        ['label' => 'Home', 'url' => ['/site/index']],
-		['label' => 'Tutorials', 'url' => ['/site/tutorials']],
-        ['label' => 'Reviews', 'items' => [
+        ['label' => 'HOME', 'url' => ['/site/index']],
+		['label' => 'TUTORIALS', 'url' => ['/site/tutorials']],
+        ['label' => 'REVIEWS', 'items' => [
 			['label' => 'Review programs', 'url' => ['/site/reviews']],
             ['label' => 'Other review programs', 'url' => ['/site/other']],
             ['label' => 'English proficiency programs', 'url' => ['/site/english']],
 ]],
-        ['label' => 'About', 'url' => ['/site/about']],
-        ['label' => 'Contact', 'url' => ['/site/contact']],
+        ['label' => 'ABOUT', 'url' => ['/site/about']],
+        ['label' => 'CONTACT', 'url' => ['/site/contact']],
 ];
     if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'Apply now', 'url' => ['/site/signup']];
-        $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
+        $menuItems[] = ['label' => 'APPLY NOW', 'url' => ['/site/signup']];
+        $menuItems[] = ['label' => 'LOGIN', 'url' => ['/site/login']];
         
          }elseif (!Yii::$app->user->isGuest) {
+<<<<<<< HEAD
         $menuItems[] = ['label' => 'Profile', 'items' => [
             ['label' => 'My account', 'url' => ['student/view', 'id' => 9]],
          // ['label' => 'My account', 'url' => ['student/view', 'id' => 8]],
+=======
+        $menuItems[] = ['label' => 'PROFILE', 'items' => [
+
+            ['label' => 'My account', 'url' => ['student/view', 'id' => 12]],
+
+>>>>>>> 7274a1d53317a3d8db029ae28b26818c659a632e
             ['label' => 'New reservation', 'url' => ['/student/create']],
         ]];
         $menuItems[] = '<li>'

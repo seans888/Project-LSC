@@ -8,10 +8,11 @@ body {
     height: auto;
     margin: 0 auto -60px;
     padding: 0 0 60px;
+    background-color: #FCFCFC;
 }
 
 .wrap > .container {
-    padding: 70px 15px 20px;
+padding: 70px 15px 20px;
 }
 
 .footer {
@@ -91,9 +92,9 @@ a.desc:after {
 }
 
 @media(max-width:768px) {
-	.nav li > form {
-	    padding: 3px;
-	}
+  .nav li > form {
+      padding: 3px;
+  }
 }
 
 .nav > li > form > button:hover {
@@ -101,6 +102,28 @@ a.desc:after {
 }
 
 /*Index page style*/
+
+/*navbar style*/
+.navbar{
+      font-family: Calibri Light;
+      height: 75px;
+      font-size: 15px;
+     background-color: #080808; 
+      font-color: #00BCD7;
+      font-weight: bolder;
+      padding-top:0.5em; 
+      margin: 0px;
+
+}
+
+.navbar-brand{
+ margin:0px;
+ padding:0px;
+}
+
+#w1{
+  padding-top:0.3em; 
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -156,28 +179,13 @@ a.desc:after {
   top: 0;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor:pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
 
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 7s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 7s;
 }
 
 @-webkit-keyframes fade {
@@ -190,29 +198,57 @@ a.desc:after {
   to {opacity: 1}
 }
 
+.col-lg-4{
+
+    float: center;
+    margin-right: 20px;
+    width: 350px;
+    margin-left: 20px;
+    text-align: justify;
+
+}
+
+.headline2index{
+  font-size: 25px;
+  color:#;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.textindex{
+color: GREY;
+}
+
+.btn-default-index{
+color:#ffffff;
+background-color: #5BC0DE;
+}
+
+
 /*Review, English and Other page style*/
 
 .img1{
-	margin-left: 200px;
-	height: 200px;
-	weight: 150px;
+  margin-left: 200px;
+  height: 200px;
+  weight: 150px;
 }
 a.a1{
-	font-family: calibri ;
-	font-color: #ffffff;
-	font-size: 18px;
-	margin-top: 0em;
-	margin-right: 10em;
+  font-family: calibri ;
+  font-color: #ffffff;
+  font-size: 18px;
+  margin-top: 0em;
+  margin-right: 10em;
 }
 p.p1{
 
-	text-align: justify;
-	margin-right: 20em;
+  text-align: justify;
+  margin-right: 20em;
 }
 .img2{
-	width: 10%;
-	height: 4%;
-	margin-left: 250px;
+  width: 10%;
+  height: 4%;
+  margin-left: 250px;
 }
 
 /*Tutorial page style*/
@@ -224,12 +260,12 @@ table, td, th {
 table {
     border-collapse: collapse;
     width: 50%;
-	
+  
 }
 
 th, td {
     padding: 10px;
-	font-size: 12px;
+  font-size: 12px;
 }
 
 /*Read more buttons*/
@@ -259,16 +295,3 @@ div.col-lg-6{
 
 }
 
-
-/*navbar style*/
-.navbar{
-      font-family: Calibri Light;
-      font-size: 30px;
-      height: 80px;
-      font-size: 20px;
-      background-color: #002E5D;
-      padding: 0.8em;
-      font-color: #ffffff;
-      font-weight: bolder;
-      padding-right:50em; 
-}
