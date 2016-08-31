@@ -30,7 +30,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => Html::img('@web/images/logo.png'),
+        'brandLabel' =>  Html::img('@web/images/logo.png'),
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
@@ -48,11 +48,10 @@ AppAsset::register($this);
         ['label' => 'CONTACT', 'url' => ['/site/contact']],
 ];
     if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'APPLY NOW', 'url' => ['/site/signup']];
-        $menuItems[] = ['label' => 'LOGIN', 'url' => ['/site/login']];
+        $menuItems[] = ['label' => 'Apply now', 'url' => ['/site/signup']];
+        $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
         
          }elseif (!Yii::$app->user->isGuest) {
-
         $menuItems[] = ['label' => 'PROFILE', 'items' => [
 
             ['label' => 'My account', 'url' => ['student/view', 'id' => 12]],
@@ -96,7 +95,7 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; Loyola Student Center <?= date('Y') ?></p>
+        <p class="pull-left"> Loyola Student Center <?= date('Y') ?></p>
 
         <p class="pull-right"><?= Yii::powered() ?></p>
     </div>
