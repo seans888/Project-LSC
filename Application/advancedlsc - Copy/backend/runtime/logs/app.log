@@ -22756,3 +22756,841 @@ $_SERVER = [
     'REQUEST_TIME' => 1472624783
 >>>>>>> origin/master
 ]
+2016-08-31 17:17:52 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 34399 bytes' 
+
+in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\School...', 88, Array)
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\School...', Array)
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-08-31 17:17:50 [::1][-][-][info][application] $_GET = [
+    'r' => 'student/create'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    'advanced-frontend' => 'g0jed8iklmk5b9kmi1dl52rcm6'
+    '_csrf-frontend' => '236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"4wDTM7hqrS6WSQEc02YkYosLoLpCNsJM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; advanced-frontend=g0jed8iklmk5b9kmi1dl52rcm6; _csrf-frontend=236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%224wDTM7hqrS6WSQEc02YkYosLoLpCNsJM%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '49876'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student%2Fcreate'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student%2Fcreate'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472656670.38
+    'REQUEST_TIME' => 1472656670
+]
+2016-08-31 17:17:59 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 34399 bytes' 
+
+in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\School...', 88, Array)
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\School...', Array)
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-08-31 17:17:59 [::1][-][-][info][application] $_COOKIE = [
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    'advanced-frontend' => 'g0jed8iklmk5b9kmi1dl52rcm6'
+    '_csrf-frontend' => '236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"4wDTM7hqrS6WSQEc02YkYosLoLpCNsJM\";}'
+    'advanced-backend' => 'u6pehdj8roht9ppk6554dchp84'
+    '_csrf-backend' => '620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advancedlsc2/backend/web/index.php'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; advanced-frontend=g0jed8iklmk5b9kmi1dl52rcm6; _csrf-frontend=236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%224wDTM7hqrS6WSQEc02YkYosLoLpCNsJM%22%3B%7D; advanced-backend=u6pehdj8roht9ppk6554dchp84; _csrf-backend=620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '49877'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472656678.956
+    'REQUEST_TIME' => 1472656678
+]
+2016-08-31 17:18:00 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 34399 bytes' 
+
+in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\School...', 88, Array)
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\School...', Array)
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-08-31 17:17:59 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    'advanced-frontend' => 'g0jed8iklmk5b9kmi1dl52rcm6'
+    '_csrf-frontend' => '236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"4wDTM7hqrS6WSQEc02YkYosLoLpCNsJM\";}'
+    'advanced-backend' => 'u6pehdj8roht9ppk6554dchp84'
+    '_csrf-backend' => '620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advancedlsc2/backend/web/index.php'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; advanced-frontend=g0jed8iklmk5b9kmi1dl52rcm6; _csrf-frontend=236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%224wDTM7hqrS6WSQEc02YkYosLoLpCNsJM%22%3B%7D; advanced-backend=u6pehdj8roht9ppk6554dchp84; _csrf-backend=620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '49877'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472656679.416
+    'REQUEST_TIME' => 1472656679
+]
+2016-08-31 17:19:22 [::1][6][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 34399 bytes' 
+
+in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\School...', 88, Array)
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\School...', Array)
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-08-31 17:19:18 [::1][6][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'UzJueHA0TGQ0dy1OBlUqDzZqWBYhXA8sPHY3OxN7KxRifS0AIF90NQ=='
+    'LoginForm' => [
+        'username' => 'dpbalcena'
+        'password' => 'DanyaBee12'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_identity-backend' => '2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+    'advanced-frontend' => 'g0jed8iklmk5b9kmi1dl52rcm6'
+    '_csrf-frontend' => '236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"4wDTM7hqrS6WSQEc02YkYosLoLpCNsJM\";}'
+    'advanced-backend' => 'u6pehdj8roht9ppk6554dchp84'
+    '_csrf-backend' => '620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advancedlsc2/backend/web/index.php'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '213'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity-backend=2aff1d55fb242c91cae7c415bfbd1048994d922c9e9fb1744396630f69a7d164a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D; advanced-frontend=g0jed8iklmk5b9kmi1dl52rcm6; _csrf-frontend=236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%224wDTM7hqrS6WSQEc02YkYosLoLpCNsJM%22%3B%7D; advanced-backend=u6pehdj8roht9ppk6554dchp84; _csrf-backend=620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '49894'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472656758.596
+    'REQUEST_TIME' => 1472656758
+]
+2016-08-31 17:19:22 [::1][6][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 34399 bytes' 
+
+in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\School...', 88, Array)
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\School...', Array)
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-08-31 17:19:22 [::1][6][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'g0jed8iklmk5b9kmi1dl52rcm6'
+    '_csrf-frontend' => '236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"4wDTM7hqrS6WSQEc02YkYosLoLpCNsJM\";}'
+    '_csrf-backend' => '620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q\";}'
+    'advanced-backend' => 'crah11p2jrhmjlvjbccesunh17'
+    '_identity-backend' => '3e9874828125c3950d9c0d1e9510c2d7193012f3bb8ed7cded318feb3b09e9c0a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advancedlsc2/backend/web/index.php'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=g0jed8iklmk5b9kmi1dl52rcm6; _csrf-frontend=236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%224wDTM7hqrS6WSQEc02YkYosLoLpCNsJM%22%3B%7D; _csrf-backend=620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q%22%3B%7D; advanced-backend=crah11p2jrhmjlvjbccesunh17; _identity-backend=3e9874828125c3950d9c0d1e9510c2d7193012f3bb8ed7cded318feb3b09e9c0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '49894'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472656762.229
+    'REQUEST_TIME' => 1472656762
+]
+2016-08-31 17:43:14 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 34399 bytes' 
+
+in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\School...', 88, Array)
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\School...', Array)
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-08-31 17:43:13 [::1][-][-][info][application] $_GET = [
+    'r' => 'student'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'g0jed8iklmk5b9kmi1dl52rcm6'
+    '_csrf-frontend' => '236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"4wDTM7hqrS6WSQEc02YkYosLoLpCNsJM\";}'
+    '_csrf-backend' => '620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q\";}'
+    'advanced-backend' => 'crah11p2jrhmjlvjbccesunh17'
+    '_identity-backend' => '3e9874828125c3950d9c0d1e9510c2d7193012f3bb8ed7cded318feb3b09e9c0a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advancedlsc2/backend/web/index.php'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=g0jed8iklmk5b9kmi1dl52rcm6; _csrf-frontend=236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%224wDTM7hqrS6WSQEc02YkYosLoLpCNsJM%22%3B%7D; _csrf-backend=620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q%22%3B%7D; advanced-backend=crah11p2jrhmjlvjbccesunh17; _identity-backend=3e9874828125c3950d9c0d1e9510c2d7193012f3bb8ed7cded318feb3b09e9c0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50216'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472658193.381
+    'REQUEST_TIME' => 1472658193
+]
+2016-08-31 17:43:33 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 34399 bytes' 
+
+in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\School...', 88, Array)
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\School...', Array)
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-08-31 17:43:33 [::1][-][-][info][application] $_GET = [
+    'r' => 'student'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'g0jed8iklmk5b9kmi1dl52rcm6'
+    '_csrf-frontend' => '236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"4wDTM7hqrS6WSQEc02YkYosLoLpCNsJM\";}'
+    '_csrf-backend' => '620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q\";}'
+    'advanced-backend' => 'crah11p2jrhmjlvjbccesunh17'
+    '_identity-backend' => '3e9874828125c3950d9c0d1e9510c2d7193012f3bb8ed7cded318feb3b09e9c0a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advancedlsc2/backend/web/index.php'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=g0jed8iklmk5b9kmi1dl52rcm6; _csrf-frontend=236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%224wDTM7hqrS6WSQEc02YkYosLoLpCNsJM%22%3B%7D; _csrf-backend=620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q%22%3B%7D; advanced-backend=crah11p2jrhmjlvjbccesunh17; _identity-backend=3e9874828125c3950d9c0d1e9510c2d7193012f3bb8ed7cded318feb3b09e9c0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50218'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472658213.066
+    'REQUEST_TIME' => 1472658213
+]
+2016-08-31 17:48:16 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 34399 bytes' 
+
+in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\School...', 88, Array)
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\School...', Array)
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-08-31 17:48:15 [::1][-][-][info][application] $_GET = [
+    'r' => 'review-class'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'g0jed8iklmk5b9kmi1dl52rcm6'
+    '_csrf-frontend' => '236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"4wDTM7hqrS6WSQEc02YkYosLoLpCNsJM\";}'
+    '_csrf-backend' => '620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q\";}'
+    'advanced-backend' => 'crah11p2jrhmjlvjbccesunh17'
+    '_identity-backend' => '3e9874828125c3950d9c0d1e9510c2d7193012f3bb8ed7cded318feb3b09e9c0a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advancedlsc2/backend/web/index.php'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advancedlsc2/backend/web/index.php?r=student'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=g0jed8iklmk5b9kmi1dl52rcm6; _csrf-frontend=236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%224wDTM7hqrS6WSQEc02YkYosLoLpCNsJM%22%3B%7D; _csrf-backend=620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q%22%3B%7D; advanced-backend=crah11p2jrhmjlvjbccesunh17; _identity-backend=3e9874828125c3950d9c0d1e9510c2d7193012f3bb8ed7cded318feb3b09e9c0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50241'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=review-class'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=review-class'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472658495.632
+    'REQUEST_TIME' => 1472658495
+]
+2016-08-31 18:29:31 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 34399 bytes' 
+
+in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\School...', 88, Array)
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\School...', Array)
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-08-31 18:29:30 [::1][-][-][info][application] $_GET = [
+    'r' => 'student/view'
+    'id' => '27'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'g0jed8iklmk5b9kmi1dl52rcm6'
+    '_csrf-frontend' => '236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"4wDTM7hqrS6WSQEc02YkYosLoLpCNsJM\";}'
+    '_csrf-backend' => '620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q\";}'
+    'advanced-backend' => 'crah11p2jrhmjlvjbccesunh17'
+    '_identity-backend' => '3e9874828125c3950d9c0d1e9510c2d7193012f3bb8ed7cded318feb3b09e9c0a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advancedlsc2/backend/web/index.php'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=g0jed8iklmk5b9kmi1dl52rcm6; _csrf-frontend=236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%224wDTM7hqrS6WSQEc02YkYosLoLpCNsJM%22%3B%7D; _csrf-backend=620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q%22%3B%7D; advanced-backend=crah11p2jrhmjlvjbccesunh17; _identity-backend=3e9874828125c3950d9c0d1e9510c2d7193012f3bb8ed7cded318feb3b09e9c0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50599'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student%2Fview&id=27'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student%2Fview&id=27'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472660970.603
+    'REQUEST_TIME' => 1472660970
+]
+2016-08-31 18:30:29 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 34399 bytes' 
+
+in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\School...', 88, Array)
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\School...', Array)
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-08-31 18:30:28 [::1][-][-][info][application] $_GET = [
+    'r' => 'student/view'
+    'id' => '27'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'g0jed8iklmk5b9kmi1dl52rcm6'
+    '_csrf-frontend' => '236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"4wDTM7hqrS6WSQEc02YkYosLoLpCNsJM\";}'
+    '_csrf-backend' => '620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q\";}'
+    'advanced-backend' => 'crah11p2jrhmjlvjbccesunh17'
+    '_identity-backend' => '3e9874828125c3950d9c0d1e9510c2d7193012f3bb8ed7cded318feb3b09e9c0a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advancedlsc2/backend/web/index.php'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=g0jed8iklmk5b9kmi1dl52rcm6; _csrf-frontend=236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%224wDTM7hqrS6WSQEc02YkYosLoLpCNsJM%22%3B%7D; _csrf-backend=620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q%22%3B%7D; advanced-backend=crah11p2jrhmjlvjbccesunh17; _identity-backend=3e9874828125c3950d9c0d1e9510c2d7193012f3bb8ed7cded318feb3b09e9c0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50606'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student%2Fview&id=27'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student%2Fview&id=27'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472661028.699
+    'REQUEST_TIME' => 1472661028
+]
+2016-08-31 18:30:56 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 34399 bytes' 
+
+in C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\School...', 88, Array)
+#1 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\School...', Array)
+#3 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\School.Danya\Desktop\LSC\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-08-31 18:30:55 [::1][-][-][info][application] $_GET = [
+    'r' => 'student/view'
+    'id' => '27'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'g0jed8iklmk5b9kmi1dl52rcm6'
+    '_csrf-frontend' => '236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"4wDTM7hqrS6WSQEc02YkYosLoLpCNsJM\";}'
+    '_csrf-backend' => '620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q\";}'
+    'advanced-backend' => 'crah11p2jrhmjlvjbccesunh17'
+    '_identity-backend' => '3e9874828125c3950d9c0d1e9510c2d7193012f3bb8ed7cded318feb3b09e9c0a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[6,\"yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advancedlsc2/backend/web/index.php'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=g0jed8iklmk5b9kmi1dl52rcm6; _csrf-frontend=236e6133ac9a7432a1519b099f230fba6e9f3ead116ae1cc394d6f70341a0bc4a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%224wDTM7hqrS6WSQEc02YkYosLoLpCNsJM%22%3B%7D; _csrf-backend=620b5c7275b3bb0b9a0c570c582686667c58f50a7d527f85d313c180cdae44f1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22gEC6vafkeX6nQhCHoDYCcOgp1OCxPk8Q%22%3B%7D; advanced-backend=crah11p2jrhmjlvjbccesunh17; _identity-backend=3e9874828125c3950d9c0d1e9510c2d7193012f3bb8ed7cded318feb3b09e9c0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B6%2C%22yXDOuUmfwafRWQulB-Qeaf4lM6L8l74f%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\School.Danya\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '50613'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student%2Fview&id=27'
+    'REQUEST_URI' => '/advancedlsc2/backend/web/index.php?r=student%2Fview&id=27'
+    'SCRIPT_NAME' => '/advancedlsc2/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1472661055.469
+    'REQUEST_TIME' => 1472661055
+]

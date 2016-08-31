@@ -41,6 +41,9 @@ class Student extends \yii\db\ActiveRecord
     /**
      * @inheritdoc
      */
+
+    public $file;
+
     public static function tableName()
     {
         return 'student';
@@ -54,13 +57,14 @@ class Student extends \yii\db\ActiveRecord
         return [
             [['type', 'review_class', 'lastname', 'firstname', 'nickname', 'gender', 'age', 'email_address', 'contact_number', 'address', 'school', 'school_address'], 'required'],
             [['type', 'review_class', 'gender', 'status'], 'string'],
+            [['file'],'file'],
             [['number_of_hours', 'age'], 'integer'],
             [['date_of_registration'], 'safe'],
             [['lastname', 'firstname', 'middlename'], 'string', 'max' => 30],
             [['nickname'], 'string', 'max' => 15],
             [['email_address', 'address', 'school', 'relation', 'guardian_email_address'], 'string', 'max' => 45],
             [['contact_number', 'guardian_contact_number'], 'string', 'max' => 11],
-            [['school_address'], 'string', 'max' => 50],
+            [['school_address','image'], 'string', 'max' => 50],
             [['guardian_name'], 'string', 'max' => 40],
             [['email_address'], 'unique'],
             [['contact_number'], 'unique'],
@@ -94,6 +98,7 @@ class Student extends \yii\db\ActiveRecord
             'guardian_email_address' => 'Guardian Email Address',
             'date_of_registration' => 'Date Of Registration',
             'status' => 'Status',
+            'file'=>'Image',
         ];
     }
 
