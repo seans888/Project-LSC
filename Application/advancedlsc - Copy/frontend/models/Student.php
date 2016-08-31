@@ -42,7 +42,7 @@ class Student extends \yii\db\ActiveRecord
      * @inheritdoc
      */
 
-    public $file;
+    public $file; //file for upload image
 
     public static function tableName()
     {
