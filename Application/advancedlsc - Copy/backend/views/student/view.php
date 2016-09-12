@@ -38,6 +38,7 @@ $this->title = $model->lastname . ', ' . $model->firstname;
             'guardian_email_address:email',
             'date_of_registration',
             'status',
+            'image',
         ],
     ]) ?>
 

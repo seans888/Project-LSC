@@ -49,6 +49,7 @@ $this->params['breadcrumbs'][] = $this->title;  */
             'relation',
             'guardian_contact_number',
             'guardian_email_address:email',
+            'image',
             //'date_of_registration',
         ],
     ]) ?>
