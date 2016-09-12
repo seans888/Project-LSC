@@ -48,17 +48,14 @@ AppAsset::register($this);
         ['label' => 'CONTACT', 'url' => ['/site/contact']],
 ];
     if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'REGISTER', 'url' => ['/site/signup']];
+        $menuItems[] = ['label' => 'Register', 'url' => ['/site/signup']];
         $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
         
          }elseif (!Yii::$app->user->isGuest) {
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
         $menuItems[] = ['label' => 'PROFILE', 'items' => [
 
-            ['label' => 'My account', 'url' => ['student/view', 'id' => 8]],
+            ['label' => 'My account', 'url' => ['student/view', 'id' => 30]],
 
             ['label' => 'New reservation', 'url' => ['/student/create']],
         ]];
