@@ -35106,3 +35106,77 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1473685451.003
     'REQUEST_TIME' => 1473685451
 ]
+2016-09-12 14:46:34 [::1][12][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 49619 bytes' 
+
+in C:\Users\Aira Joyce\Documents\AIRA\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\Aira J...', 88, Array)
+#1 C:\Users\Aira Joyce\Documents\AIRA\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\Aira Joyce\Documents\AIRA\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\Aira J...', Array)
+#3 C:\Users\Aira Joyce\Documents\AIRA\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\Aira Joyce\Documents\AIRA\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\Aira Joyce\Documents\AIRA\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-09-12 14:46:32 [::1][12][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '_identity' => '0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E\",2592000]\";}'
+    '_identity-backend' => 'e2bbbf556aaaea0173b5d81298ea0139a9ecd29bd2d19d2c7ee543527652cf5ea:2:{i:0;s:17:\"_identity-backend\";i:1;s:47:\"[12,\"sFDAG6MrU32ewCimcXQRqKn4_DO_LeJQ\",2592000]\";}'
+    'advanced-frontend' => 'a1v9p4cei2k7c0806kea3gu1u2'
+    '_csrf-frontend' => 'a8abd8047c80f2c40dbabdc7ef937642640727b205fec3cf3195107f398370c7a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"BMnRz3coKrhr1hSvJphMmmR_J5sNXruG\";}'
+    '_identity-frontend' => '7f99b329f80bd2ec2a71dfecda0e1a80cf157157de192fb697c3b3bfb2a3cbaaa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[12,\"sFDAG6MrU32ewCimcXQRqKn4_DO_LeJQ\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 12
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity=0bfc4463d1f15bd9a822e46f3f8e03f682a309e7f205ee3a7ef8de2b2d4cd297a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22KS9Q3Tbt6fYcsemUrHa3Cck2dwMpzZ1E%22%2C2592000%5D%22%3B%7D; _identity-backend=e2bbbf556aaaea0173b5d81298ea0139a9ecd29bd2d19d2c7ee543527652cf5ea%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A47%3A%22%5B12%2C%22sFDAG6MrU32ewCimcXQRqKn4_DO_LeJQ%22%2C2592000%5D%22%3B%7D; advanced-frontend=a1v9p4cei2k7c0806kea3gu1u2; _csrf-frontend=a8abd8047c80f2c40dbabdc7ef937642640727b205fec3cf3195107f398370c7a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22BMnRz3coKrhr1hSvJphMmmR_J5sNXruG%22%3B%7D; _identity-frontend=7f99b329f80bd2ec2a71dfecda0e1a80cf157157de192fb697c3b3bfb2a3cbaaa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B12%2C%22sFDAG6MrU32ewCimcXQRqKn4_DO_LeJQ%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\htdocs\\advanced;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Aira Joyce\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/7.0.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/advancedlsc2/backend/web/index.php'
+    'REMOTE_PORT' => '55985'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/advancedlsc2/Backend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/advancedlsc2/Backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc2/Backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1473684392.582
+    'REQUEST_TIME' => 1473684392
+]
