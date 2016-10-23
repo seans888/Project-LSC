@@ -35968,3 +35968,80 @@ $_SERVER = [
     'REQUEST_TIME' => 1473684392
 >>>>>>> refs/remotes/origin/master
 ]
+2016-10-23 07:35:01 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 49619 bytes' 
+
+in C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Users\\HP Pav...', 88, Array)
+#1 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('C:\\Users\\HP Pav...', Array)
+#3 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Users\HP Pavilion 11\Desktop\Project-LSC\Application\advancedlsc - Copy\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-10-23 07:34:59 [::1][-][-][info][application] $_GET = [
+    'r' => 'student/create'
+]
+
+$_COOKIE = [
+    'JSESSIONID' => '8067C80002CE2DC589DFA15B9A2337E8'
+    'advanced-frontend' => '4te8dirrj9hro7q8jk7o954de7'
+    '_csrf-frontend' => 'a2f11947f4ec9d2a9f77b8505b6c9234ff3d2be42f8aa76396bbc2f74044fb1fa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"GdMSpoelS7y5oRBk_mneJdIgJ3dyBvLd\";}'
+    '_csrf-backend' => '45b59abb68e60e59648be50bcef170924bd1b69415c28ce6257629095ce29b74a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"eJkrb0PTZvL7-EvPainG-bxVRu7zK_BY\";}'
+    'advanced-backend' => '7kgfdshp2pu9q64a9b46curmq3'
+    '_identity-backend' => '6cdb8b46d33e2a6ff9ed31aec9b7f244eee9326b481a550e10f48c822257e910a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[3,\"guHOHyMAEnLWorqnSc8A_06bCvG13WC2\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advancedlsc/backend/web/index.php'
+    '__id' => 3
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.0.11603 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'JSESSIONID=8067C80002CE2DC589DFA15B9A2337E8; advanced-frontend=4te8dirrj9hro7q8jk7o954de7; _csrf-frontend=a2f11947f4ec9d2a9f77b8505b6c9234ff3d2be42f8aa76396bbc2f74044fb1fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22GdMSpoelS7y5oRBk_mneJdIgJ3dyBvLd%22%3B%7D; _csrf-backend=45b59abb68e60e59648be50bcef170924bd1b69415c28ce6257629095ce29b74a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22eJkrb0PTZvL7-EvPainG-bxVRu7zK_BY%22%3B%7D; advanced-backend=7kgfdshp2pu9q64a9b46curmq3; _identity-backend=6cdb8b46d33e2a6ff9ed31aec9b7f244eee9326b481a550e10f48c822257e910a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22guHOHyMAEnLWorqnSc8A_06bCvG13WC2%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\TXE Components\\TCS\\;C:\\Program Files\\Intel\\TXE Components\\TCS\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Hewlett-Packard\\SimplePass\\;C:\\Program Files\\Java\\jdk1.8.0_20\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\WINDOWS\\system32\\config\\systemprofile\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files (x86)\\Skype\\Phone\\;c:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\XAMPP\\htdocs\\advanced;C:\\Users\\HP Pavilion 11\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/XAMPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/XAMPP/htdocs/advancedlsc/backend/web/index.php'
+    'REMOTE_PORT' => '59939'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=student%2Fcreate'
+    'REQUEST_URI' => '/advancedlsc/backend/web/index.php?r=student%2Fcreate'
+    'SCRIPT_NAME' => '/advancedlsc/backend/web/index.php'
+    'PHP_SELF' => '/advancedlsc/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477200899.606
+    'REQUEST_TIME' => 1477200899
+]
