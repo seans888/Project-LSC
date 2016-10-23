@@ -399,7 +399,7 @@ function showSlides() {
                 </div>
                </div>
                 </div>
-          </div> <br>
+          </div> <br><br>
        </div>
 
        <!--CONTACT SECTION END-->
