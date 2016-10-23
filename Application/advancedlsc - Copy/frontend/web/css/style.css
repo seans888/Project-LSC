@@ -1,0 +1,376 @@
+﻿/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.set-pad {
+    padding-top:35px;
+}
+.set-row-pad {
+    padding-top:30px;
+    padding-bottom:50px;
+}
+/*=====================================
+  NAVBAR STYLES 
+    ===================================*/
+
+
+.navbar{
+    height: 100px;
+    margin-top: 0px;
+    padding-top: 20px;
+    border-color: transparent;
+    font-size: 18px;
+}
+
+.navbar-inverse {
+    border-color: transparent;
+    background-color: #ffffff;
+
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #000;
+    background-color: #fff;
+    border-color: transparent;
+    color: #1C2B4C;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav > li > form {
+    padding: 8px;
+}
+
+@media(max-width:768px) {
+  .nav li > form {
+      padding: 3px;
+  }
+}
+
+.nav > li > form > button:hover {
+    text-decoration: none;
+}
+
+.navbar-brand{
+ margin-top: 0px;
+ margin-bottom: 0px;
+ margin-right: 0px;
+ margin-left: 0px;
+ padding: 0px;
+ display: block;
+
+}
+/*=====================================
+  HOME STYLES 
+    ===================================*/
+.home-sec {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background: url(../img/header.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+    .home-sec .overlay {
+        background: rgba(38, 57, 88, 0.89);
+        min-height: 500px;
+    }
+
+    .home-sec h1 {
+        color: #fff;
+        font-weight: 900;
+        font-size: 50px;
+        text-transform: uppercase;
+        padding-bottom: 35px;
+    }
+
+    .home-sec h3 {
+        text-transform: uppercase;
+    }
+
+
+
+.set-flexi {
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    background-color: transparent;
+    border: 0px solid #000;
+    padding-top: 120px;
+}
+
+.flex-control-nav {
+    display: none!important;
+}
+
+.set-flexi a {
+    margin: 5px;
+}
+/*=====================================
+  TAG LINE STYLES 
+    ===================================*/
+
+.tag-line {
+    background: #E9E9E9;
+    color: #000;
+}
+
+    .tag-line h2 {
+        font-size: 20px;
+        font-weight: 900;
+        padding: 5px 10px 10px 5px;
+        color: #005E5A;
+    }
+
+        .tag-line h2 > i {
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+/*=====================================
+  HEADER LINE STYLES 
+    ===================================*/
+.header-line {
+    font-weight: 900;
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: #000;
+}
+
+h1::after {
+    content: " ";
+    border: solid 2px #2f9484;
+    display: block;
+    width: 200px;
+    margin: 12px auto;
+}
+
+/*=====================================
+  SLIDESHOW STYLES 
+  ===================================*/
+
+.slideshow-container {
+  max-width: 1150px;
+  position: relative;
+  margin: auto;
+  display: block;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 7s;
+  animation-name: fade;
+  animation-duration: 7s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/*=====================================
+  ABOUT STYLES 
+  ===================================*/
+.about-div {
+    padding: 30px;
+}
+
+.icon-round-border {
+    border: 10px double #1A94C4;
+    color: #2f9484;
+    text-align: center;
+    padding-top: 15px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+    .icon-round-border:hover {
+        color: #fff;
+        border: 10px double #fff;
+        background-color: #1A94C4;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+.about-div hr {
+    border: 1px solid #1A94C4;
+}
+
+.about-div h3 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about-div p {
+    padding-top: 10px;
+}
+
+.btn-set {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    margin-bottom: 20px;
+}
+/*=====================================
+  BRANCH STYLES 
+  ===================================*/
+#branch-sec {
+    background-color: #fff;
+    
+}
+
+    #branch-sec .header-line {
+        color: #000;
+    }
+.branch-div h4 {
+    line-height:30px;
+    font-weight:700;
+}
+.branch-div {
+    padding: 30px;
+}
+
+    .branch-div hr {
+        border: 1px solid #1A94C4;
+    }
+
+    .branch-div h3 {
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .branch-div p {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .branch-div img {
+        border: 10px double #fff;
+    }
+
+/*=====================================
+  TUTORIALS STYLES 
+  ===================================*/
+table, td, th {
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+  
+}
+
+th, td {
+    padding: 10px;
+  font-size: 18px;
+  font-weight: lighter;
+  border-bottom: 1px solid #ddd;
+
+}
+#tutorials-sec {
+
+}
+
+/*=====================================
+  Footer STYLES 
+  ===================================*/
+#footer {
+    padding:5px 20px;
+    background-color:#2d3d5a;
+    text-align:right;
+    color:#fff;
+    font-size:15px;
+}
+
+div.wrap{
+    margin:0px;
+    padding:0px;
+}
+/*=====================================
+  CONTACT STYLES 
+  ===================================*/

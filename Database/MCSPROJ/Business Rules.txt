@@ -1,0 +1,36 @@
+Loyola Student Center Enrollment System
+Business Rules:
+
+1) Each EMPLOYEE creates an ACCOUNT
+	-ACCOUNT is being created by one or more EMPLOYEE
+
+2) Each STUDENT creates an ACCOUNT
+	-ACCOUNT is being created by one or more STUDENT
+	
+3) Each STUDENT can avail one or more REVIEW CLASS
+	-Each REVIEW CLASS availed by one or more STUDENT
+	
+/*
+4) A REVIEW CLASS includes one or more PAYMENT
+	-Each PAYMENT includes specific REVIEW CLASS
+	*/
+
+5) A REVIEW CLASS consists one or more SCHEDULE
+	-Each SCHEDULE consists specific REVIEW CLASS
+
+6) A STUDENT pays one or more PAYMENT
+	-Each PAYMENT is being paid by the STUDENT
+	
+7) EMPLOYEE verifies one or more STUDENT
+	-Each STUDENT is being verified by an EMPLOYEE
+	
+8) EMPLOYEE accepts one or more PAYMENT
+	-Each PAYMENT is being accepted by an EMPLOYEE
+	
+9) Each STUDENT receives one SCHEDULE
+	-SCHEDULE is being received by a STUDENT
+	
+	
+	
+	
+	
