@@ -374,3 +374,23 @@ div.wrap{
 /*=====================================
   CONTACT STYLES 
   ===================================*/
+
+#contact-sec {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background: url(../img/contact.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact-sec .overlay {
+        background: #F2F2F2;
+        min-height: 600px;
+    }
+
+#contact-sec .form-control{
+    background-color:#fff;
+    color:#000;
+}

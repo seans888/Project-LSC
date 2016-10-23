@@ -116,7 +116,7 @@ function showSlides() {
                         Aenean commodo . 
                        
                    </p>
-               <a href="#contact-sec" class="btn btn-info btn-set"  >ASK THE EXPERT</a>
+             <!--  <a href="#contact-sec" class="btn btn-info btn-set"  >ASK THE EXPERT</a> -->
                 </div>
                    </div>
                    <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
@@ -130,7 +130,6 @@ function showSlides() {
                         Aenean commodo . 
                        
                    </p>
-               <a href="#contact-sec" class="btn btn-info btn-set"  >ASK THE EXPERT</a>
                 </div>
                    </div>
                  <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
@@ -144,7 +143,6 @@ function showSlides() {
                         Aenean commodo . 
                        
                    </p>
-               <a href="#contact-sec" class="btn btn-info btn-set"  >ASK THE EXPERT</a>
                 </div>
                    </div>
                  
@@ -152,69 +150,7 @@ function showSlides() {
                </div>
              </div>
    <!-- FEATURES SECTION END-->
-    <div id="branch-sec" >
-    <div class="container set-pad">
-             <div class="row text-center">
-                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">OUR BRANCHES </h1>
-                     <p data-scroll-reveal="enter from the bottom after 0.3s">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo.
-                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo.
-                         </p>
-                 </div>
-
-             </div>
-             <!--/.HEADER LINE END-->
-
-           <div class="row" >
-           
-               
-                 <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
-                     <div class="branch-div">
-                     <img src="assets/img/faculty/1.jpg"  class="img-rounded" />
-                   <h3 >ROXI CHI LUENA </h3>
-                 <hr />
-                         <h4>Faculty <br /> Department</h4>
-                   <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
-                       
-                   </p>
-                </div>
-                   </div>
-                 <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
-                     <div class="branch-div">
-                     <img src="assets/img/faculty/2.jpg"  class="img-rounded" />
-                   <h3 >JANE DEO ALEX</h3>
-                 <hr />
-                         <h4>Faculty <br /> Department</h4>
-                   <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
-                       
-                   </p>
-                </div>
-                   </div>
-               <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
-                     <div class="branch-div">
-                     <img src="assets/img/faculty/3.jpg" class="img-rounded" />
-                   <h3 >RUBY DECORSA</h3>
-                 <hr />
-                         <h4>Faculty <br /> Department</h4>
-                   <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
-                       
-                   </p>
-                </div>
-                   </div>
-                 
-               </div>
-             </div>
-        </div>
-    <!-- BRANCHES SECTION END--> 
+    
       <div id="review-sec" class="container set-pad">
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
@@ -303,6 +239,7 @@ function showSlides() {
                </div>
              </div>
       <!-- REVIEW SECTION END-->
+
     <div id="tutorials-sec"   >
            <div class="overlay">
  <div class="container set-pad">
@@ -355,10 +292,118 @@ function showSlides() {
                          </p>
                  </div>
              </div>
-             <!--/.HEADER LINE END-->
-           
           </div> 
        </div>
+       <!--TUTORIAL SECTION END-->
+
+<div id="branch-sec" >
+    <div class="container set-pad">
+             <div class="row text-center">
+                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">OUR BRANCHES </h1>
+                     <p data-scroll-reveal="enter from the bottom after 0.3s">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo.
+                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo.
+                         </p>
+                 </div>
+
+             </div>
+             <!--/.HEADER LINE END-->
+
+           <div class="row" >
+           
+               
+                 <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
+                     <div class="branch-div">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.333456393701!2d121.07151331436964!3d14.637003180108765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7818a89e5d3%3A0xd9fa649fdb2979f2!2sLoyola+Student+Center!5e0!3m2!1sen!2sph!4v1470293133343" width="250" height="133" frameborder="0" style="border:0" allowfullscreen></iframe>
+                   <h3>LSC Abada</h3>
+                 <hr />
+                         <h4>434-1916 or 463-6169 </h4>
+                   <p >
+                       Unit 202 Loyola Serviced Residences <br>
+                        88 Esteban Abada Street <br>
+                        Loyola Heights, Quezon City <br>
+                       
+                   </p>
+                </div>
+                   </div>
+                 <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
+                     <div class="branch-div">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d965.0689386063609!2d121.07375182916881!3d14.640281996922687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b77f300a9c77%3A0x5090612b9b0d2b49!2sTorres+Building!5e0!3m2!1sen!2sph!4v1470289201587" width="250" height="133"frameborder="0" style="border:0" allowfullscreen></iframe>
+                   <h3 >LSC Katipunan</h3>
+                 <hr />
+                         <h4>929-9283</h4>
+                   <p >
+                       Unit 205 Torres Bldg. <br>
+                        321 Katipunan Road <br>
+                        Loyola Heights, Quezon City <br>
+                       
+                   </p>
+                </div>
+                   </div>
+               <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
+                     <div class="branch-div">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1326.2699067693861!2d121.05995260502391!3d14.58893118755948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c819dcf3159f%3A0x6ee8de5684fb596!2sOrtigas+Review+Center!5e0!3m2!1sen!2sph!4v1470292639172" width="250" height="133" frameborder="0" style="border:0" allowfullscreen></iframe>
+                   <h3 >LSC Ortigas</h3>
+                 <hr />
+                         <h4>687-4608</h4>
+                   <p >
+                       Unit 828 Cityland <br>
+                        Megaplaza Condominium <br>
+                        Ortigas Center, Pasig City <br>
+                       
+                   </p>
+                </div>
+                   </div>
+                 
+               </div>
+             </div>
+        </div>
+
+    <!-- BRANCHES SECTION END--> 
+
+        <div id="contact-sec"   > <br><br><br>
+           <div class="overlay">
+ <div class="container set-pad">
+      <div class="row text-center">
+                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line" >CONTACT US  </h1>
+                     <p data-scroll-reveal="enter from the bottom after 0.3s">
+                     If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
+                         </p>
+                 </div>
+
+             </div>
+             <!--/.HEADER LINE END-->
+           <div class="row set-row-pad"  data-scroll-reveal="enter from the bottom after 0.5s" >
+           
+               
+                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control "  required="required" placeholder="Your Name" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control " required="required"  placeholder="Your Email" />
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" required="required" class="form-control" style="min-height: 150px;" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-info btn-block btn-lg">SUBMIT REQUEST</button>
+                        </div>
+
+                    </form>
+                </div>
+               </div>
+                </div>
+          </div> <br>
+       </div>
+
+       <!--CONTACT SECTION END-->
+
      <div class="container">
              <div class="row set-row-pad"  >
     <div class="col-lg-4 col-md-4 col-sm-4   col-lg-offset-1 col-md-offset-1 col-sm-offset-1 " data-scroll-reveal="enter from the bottom after 0.4s"> <br>
