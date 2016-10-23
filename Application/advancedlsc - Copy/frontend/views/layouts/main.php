@@ -96,7 +96,7 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left"> Loyola Student Center <?= date('Y') ?></p>
+ <!--       <p class="pull-left"> Loyola Student Center <?= date('Y') ?></p> -->
 
         <p class="pull-right"><?= Yii::powered() ?></p>
     </div>
