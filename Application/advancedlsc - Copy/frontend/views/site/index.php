@@ -26,7 +26,7 @@ $this->title = 'Home';
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
 </head>
 <body >
-<br><br>
+<br><br><br><br>
 
 
        <!--start of slideshow-->
@@ -152,11 +152,11 @@ function showSlides() {
                </div>
              </div>
    <!-- FEATURES SECTION END-->
-    <div id="faculty-sec" >
+    <div id="branch-sec" >
     <div class="container set-pad">
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">OUR FACULTY </h1>
+                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">OUR BRANCHES </h1>
                      <p data-scroll-reveal="enter from the bottom after 0.3s">
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                         Aenean commodo.
@@ -172,7 +172,7 @@ function showSlides() {
            
                
                  <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
-                     <div class="faculty-div">
+                     <div class="branch-div">
                      <img src="assets/img/faculty/1.jpg"  class="img-rounded" />
                    <h3 >ROXI CHI LUENA </h3>
                  <hr />
@@ -185,7 +185,7 @@ function showSlides() {
                 </div>
                    </div>
                  <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
-                     <div class="faculty-div">
+                     <div class="branch-div">
                      <img src="assets/img/faculty/2.jpg"  class="img-rounded" />
                    <h3 >JANE DEO ALEX</h3>
                  <hr />
@@ -198,7 +198,7 @@ function showSlides() {
                 </div>
                    </div>
                <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
-                     <div class="faculty-div">
+                     <div class="branch-div">
                      <img src="assets/img/faculty/3.jpg" class="img-rounded" />
                    <h3 >RUBY DECORSA</h3>
                  <hr />
@@ -214,7 +214,7 @@ function showSlides() {
                </div>
              </div>
         </div>
-    <!-- FACULTY SECTION END--> 
+    <!-- BRANCHES SECTION END--> 
       <div id="review-sec" class="container set-pad">
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
