@@ -31,7 +31,8 @@ body {
 
 
 .navbar{
-    height: 80px;
+    height: 100px;
+    margin-top: 0px;
     padding-top: 20px;
     border-color: transparent;
     font-size: 18px;
@@ -46,6 +47,7 @@ body {
     color: #000;
     background-color: #fff;
     border-color: transparent;
+    color: #1C2B4C;
 }
 
 /* align the logout "link" (button in form) of the navbar */
@@ -64,9 +66,12 @@ body {
 }
 
 .navbar-brand{
- margin: 0px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ margin-right: 0px;
+ margin-left: 0px;
  padding: 0px;
-display: block;
+ display: block;
 
 }
 /*=====================================
@@ -194,6 +199,7 @@ h1::after {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+
 }
 
 /* Caption text */

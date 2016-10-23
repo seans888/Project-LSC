@@ -12,7 +12,7 @@ $this->title = 'Login';
 $this->params['breadcrumbs'][] = $this->title;
 */
 ?>
-<br><br>
+<br><br><br><br>
 <table class = 'tb1'>
     <tr><td>
 <div class="site-login">
@@ -33,6 +33,9 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div style="color:#999;margin:1em 0">
                     If you forgot your password you can <?= Html::a('reset it', ['site/request-password-reset']) ?>.
                 </div>
+                <div style="color:#999;margin:1em 0">
+                    If you don't have an account yet <?= Html::a('Sign Up here', ['site/signup']) ?>.
+                </div>
 
                 <div class="form-group">
                     <?= Html::submitButton('Login', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
@@ -44,3 +47,5 @@ $this->params['breadcrumbs'][] = $this->title;
 </div>
 </td></tr>
 </table>
+
+<br><br>

@@ -26,7 +26,7 @@ $this->title = 'Home';
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
 </head>
 <body >
-<br><br><br>
+<br><br>
 
 
        <!--start of slideshow-->
@@ -248,7 +248,7 @@ function showSlides() {
                             <div id="collapse1" class="panel-collapse collapse" style="height: 0px;">
                                 <div class="panel-body">
                                     <p>Loyola Student Center offers five review programs which are Comprehensive College Entrance Test Review, High School Entrance Test Review, Civil Service Examination (CSE) Review, and National Medical Admission Test (NMAT) Review.</p>
-                                    <p class = "buttonreadmore"><a class="btn btn-default" href="http://localhost/advanced/frontend/web/index.php?r=site%2Freviews">Read more &raquo;</a></p>
+                                    <p class = "buttonreadmore"><a class="btn btn-default" href="http://localhost/advancedlsc2/frontend/web/index.php?r=site%2Freviews">Read more &raquo;</a></p>
                                 </div>
                             </div>
                         </div>
@@ -265,7 +265,7 @@ function showSlides() {
                                     <p>
                                        Loyola Student Center offers three english proficiency programs which are International English Language Testing System (IELTS), Test of English as a Foreign Language (TOEFL), and Test of English for International Communication (TOEIC).
                                     </p>
-                                    <p class = "buttonreadmore"><a class="btn btn-default" href="http://localhost/advanced/frontend/web/index.php?r=site%2Fenglish">Read more &raquo;</a></p>
+                                    <p class = "buttonreadmore"><a class="btn btn-default" href="http://localhost/advancedlsc2/frontend/web/index.php?r=site%2Fenglish">Read more &raquo;</a></p>
                                 </div>
                             </div>
                         </div>
@@ -284,7 +284,7 @@ function showSlides() {
                                        SAT Reasoning Test, 
                                        Graduate Management Admission Test (GMAT), and 
                                        Graduate Record Examination (GRE)
-                                       <p class = "buttonreadmore"><a class="btn btn-default" href="http://localhost/advanced/frontend/web/index.php?r=site%2Fother">Read more &raquo;</a></p>
+                                       <p class = "buttonreadmore"><a class="btn btn-default" href="http://localhost/advancedlsc2/frontend/web/index.php?r=site%2Fother">Read more &raquo;</a></p>
                                     </p>
                                 </div>
                             </div>

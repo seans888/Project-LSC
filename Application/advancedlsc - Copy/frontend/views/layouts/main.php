@@ -30,7 +30,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' =>  Html::img('@web/images/logo.png'),
+        'brandLabel' =>  Html::img('@web/images/logo.png') . 'Loyola Student Center',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
@@ -38,27 +38,25 @@ AppAsset::register($this);
     ]);
     $menuItems = [
         ['label' => 'HOME', 'url' => ['/site/index']],
-		['label' => 'TUTORIALS', 'url' => ['/site/tutorials']],
-        ['label' => 'REVIEWS', 'items' => [
-			['label' => 'Review programs', 'url' => ['/site/reviews']],
-            ['label' => 'Other review programs', 'url' => ['/site/other']],
-            ['label' => 'English proficiency programs', 'url' => ['/site/english']],
-]],
+		['label' => 'TUTORIALS', 'url' => '#tutorials-sec'],
+        ['label' => 'REVIEWS', 'url' => '#review-sec'],
         ['label' => 'ABOUT', 'url' => ['/site/about']],
         ['label' => 'CONTACT', 'url' => ['/site/contact']],
 ];
     if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'Register', 'url' => ['/site/signup']];
+      //  $menuItems[] = ['label' => 'Register', 'url' => ['/site/signup']];
         $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
         
          }elseif (!Yii::$app->user->isGuest) {
 
-        $menuItems[] = ['label' => 'PROFILE', 'items' => [
-
-            ['label' => 'My account', 'url' => ['student/view', 'id' => 30]],
-
-            ['label' => 'New reservation', 'url' => ['/student/create']],
-        ]];
+            $menuItems = [
+        ['label' => 'HOME', 'url' => ['/site/index']],
+        ['label' => 'TUTORIALS', 'url' => '#tutorials-sec'],
+        ['label' => 'REVIEWS', 'url' => '#review-sec'],
+        ['label' => 'ACCOUNT', 'url' => ['/site/account']],
+        ['label' => 'ABOUT', 'url' => ['/site/about']],
+        ['label' => 'CONTACT', 'url' => ['/site/contact']],
+];
         $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
             . Html::submitButton(
