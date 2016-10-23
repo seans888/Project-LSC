@@ -32,14 +32,14 @@ body {
 
 .navbar{
     height: 80px;
-    padding-top: 10px;
+    padding-top: 20px;
     border-color: transparent;
     font-size: 18px;
 }
 
 .navbar-inverse {
     border-color: transparent;
-    background-color: rgba(28, 43, 75, 1);
+    background-color: #ffffff;
 
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
@@ -166,6 +166,7 @@ h1::after {
   max-width: 1150px;
   position: relative;
   margin: auto;
+  display: block;
 }
 
 /* Next & previous buttons */
