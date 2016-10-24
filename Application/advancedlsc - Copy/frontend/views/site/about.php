@@ -9,18 +9,21 @@ $this->title = 'About Us';
 $this->params['breadcrumbs'][] = $this->title;
 */
 ?>
-<br><br>
+<br><br><br>
 <body>
-<div class="site-about">
-    <h1><?= Html::encode($this->title) ?></h1>
 
-<hr>
+<div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line" align="center" >ABOUT US  </h1>
+
+  <!-- <h2 align="center"><?= Html::encode($this->title) ?></h2> -->
+
+
 <!--start of about-->
-<br>
+
 <h2> Mission </h2>
 
-
-<p>Our mission is to enhance the intellectual development of students 
+<p data-scroll-reveal="enter from the bottom after 0.3s">
+Our mission is to enhance the intellectual development of students 
 in the Philippines by augmenting the learning they receive from the 
 educational system. We aim to accomplish this by providing the most 
 comprehensive and highest quality tutorials and review services, 
@@ -32,7 +35,8 @@ environment conducive to learning and achievement. </p>
 <h2> Vision </h2>
 
 
-<p>We aspire to become a center of educational excellence and a 
+ <p data-scroll-reveal="enter from the bottom after 0.3s">
+ We aspire to become a center of educational excellence and a 
 resource for sectors of our society deprived of opportunities for 
 advance learning. We desire to see the students we help achieve their 
 educational goals – from the simplest one of passing their school 
@@ -44,7 +48,8 @@ to the development of the country. </p>
 <h2> History </h2>
 
 
-<p>In the early 1980’s, a group of faculty members from the University 
+ <p data-scroll-reveal="enter from the bottom after 0.3s">
+ In the early 1980’s, a group of faculty members from the University 
 of the Philippines and the Ateneo de Manila University got together to 
 provide tutorial services in their spare time to children of faculty 
 and staff of the two universities. As more and more students from these 
@@ -64,7 +69,8 @@ provinces.</p>
 <h2> Working Principle </h2>
 
 
-<p>LSC was organized out of the founder’s desire to share the knowledge 
+ <p data-scroll-reveal="enter from the bottom after 0.3s">
+ LSC was organized out of the founder’s desire to share the knowledge 
 he had obtained as a working student and as a university instructor. 
 Every member of the LSC staff and every student who enters its doors 
 are reminded of the value of hard work with this passage from the Holy 
@@ -72,7 +78,7 @@ Bible.</p>
 
 <pre class = "p1">
 “Whatever you do, work at it with all your heart as working for the Lord and not for men.” 
-																	Colossians 3:23
+									   	Colossians 3:23
 </pre>
 <p>This is the principle that guides all activities carried on at LSC.</p>
 
@@ -80,7 +86,8 @@ Bible.</p>
 <h2> Outreach Programs </h2>
 
 
-<p>Every summer since 1999, LSC has served as the implementing partner 
+ <p data-scroll-reveal="enter from the bottom after 0.3s">
+ Every summer since 1999, LSC has served as the implementing partner 
 of the Rotary Club of Loyola Heights in granting college entrance test 
 review scholarships to selected fourth year students from poor families 
 desiring to enter the top universities in Metro Manila. Several of these 
@@ -94,7 +101,7 @@ Manila. LSC has also extended its review programs to other students in
  need of financial assistance. </p>
  
  <!--end of about-->
-
+<br><br>
 
 </div>
 </body>

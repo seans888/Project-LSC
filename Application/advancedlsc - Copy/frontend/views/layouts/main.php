@@ -43,7 +43,7 @@ AppAsset::register($this);
 		['label' => 'TUTORIALS', 'url' => '#tutorials-sec'],
         ['label' => 'REVIEWS', 'url' => '#review-sec'],
         ['label' => 'ABOUT', 'url' => ['/site/about']],
-        ['label' => 'CONTACT', 'url' => ['/site/contact']],
+        ['label' => 'CONTACT', 'url' => '#contact-sec'],
 ];
     if (Yii::$app->user->isGuest) {
       //  $menuItems[] = ['label' => 'Register', 'url' => ['/site/signup']];

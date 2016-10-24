@@ -295,40 +295,40 @@ h1::after {
     margin-bottom: 20px;
 }
 /*=====================================
-  FACULTY STYLES 
+  BRANCH STYLES 
   ===================================*/
-#faculty-sec {
-    background-color: #000;
-    color: #fff;
+#branch-sec {
+    background-color: #fff;
+    
 }
 
-    #faculty-sec .header-line {
-        color: #fff;
+    #branch-sec .header-line {
+        color: #000;
     }
-.faculty-div h4 {
+.branch-div h4 {
     line-height:30px;
     font-weight:700;
 }
-.faculty-div {
+.branch-div {
     padding: 30px;
 }
 
-    .faculty-div hr {
+    .branch-div hr {
         border: 1px solid #1A94C4;
     }
 
-    .faculty-div h3 {
+    .branch-div h3 {
         font-size: 25px;
         font-weight: 700;
         text-transform: uppercase;
     }
 
-    .faculty-div p {
+    .branch-div p {
         padding-top: 10px;
         padding-bottom: 15px;
     }
 
-    .faculty-div img {
+    .branch-div img {
         border: 10px double #fff;
     }
 
@@ -342,7 +342,7 @@ table, td, th {
 table {
     border-collapse: collapse;
     width: 70%;
-  
+  display: inline-block;
 }
 
 th, td {
@@ -352,6 +352,7 @@ th, td {
   border-bottom: 1px solid #ddd;
 
 }
+
 #tutorials-sec {
 
 }
@@ -374,3 +375,42 @@ div.wrap{
 /*=====================================
   CONTACT STYLES 
   ===================================*/
+
+#contact-sec {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background: url(../img/contact.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact-sec .overlay {
+        background: #F2F2F2;
+        min-height: 600px;
+    }
+
+
+#contact-sec .form-control{
+    background-color:#fff;
+    color:#000;
+}
+
+/*=====================================
+  REVIEW PAGE STYLES 
+  ===================================*/
+
+  table.schedule {
+    border-collapse: collapse;
+    
+  display: inline-block;
+}
+
+th.sched, td.sched {
+    padding: 5px;
+  font-size: 12px;
+  font-weight: lighter;
+  border-bottom: 1px solid #ddd;
+
+}
