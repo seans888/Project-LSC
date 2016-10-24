@@ -23,7 +23,7 @@ $this->title = 'Reviews';
              <!--/.HEADER LINE END-->
           <div class="row set-row-pad" >
            <div class="col-lg-6 col-md-6 col-sm-6 " data-scroll-reveal="enter from the bottom after 0.4s" >
-                 <img src="assets/img/building.jpg" class="img-thumbnail" />
+                 <img src="assets/img/cetr.jpg" class="img-thumbnail" />
            </div>
                <div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
                    <div class="panel-group" id="accordion">
@@ -75,7 +75,7 @@ $this->title = 'Reviews';
 
 <div class="row set-row-pad" >
            <div class="col-lg-6 col-md-6 col-sm-6 " data-scroll-reveal="enter from the bottom after 0.4s" >
-                 <img src="assets/img/building.jpg" class="img-thumbnail" />
+                 <img src="assets/img/hset.jpg" class="img-thumbnail" />
            </div>
                <div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
                    <div class="panel-group" id="accordion">
@@ -139,7 +139,7 @@ $this->title = 'Reviews';
 
 <div class="row set-row-pad" >
            <div class="col-lg-6 col-md-6 col-sm-6 " data-scroll-reveal="enter from the bottom after 0.4s" >
-                 <img src="assets/img/building.jpg" class="img-thumbnail" />
+                 <img src="assets/img/cset.jpg" class="img-thumbnail" />
            </div>
                <div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
                    <div class="panel-group" id="accordion">
@@ -204,7 +204,7 @@ or Law School Admission Test (LSAT) Review.
 
 <div class="row set-row-pad" >
            <div class="col-lg-6 col-md-6 col-sm-6 " data-scroll-reveal="enter from the bottom after 0.4s" >
-                 <img src="assets/img/building.jpg" class="img-thumbnail" />
+                 <img src="assets/img/lsat.jpg" class="img-thumbnail" />
            </div>
                <div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
                    <div class="panel-group" id="accordion">
@@ -274,7 +274,7 @@ or Law School Admission Test (LSAT) Review.
 
 <div class="row set-row-pad" >
            <div class="col-lg-6 col-md-6 col-sm-6 " data-scroll-reveal="enter from the bottom after 0.4s" >
-                 <img src="assets/img/building.jpg" class="img-thumbnail" />
+                 <img src="assets/img/nmet.jpg" class="img-thumbnail" />
            </div>
                <div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
                    <div class="panel-group" id="accordion">
