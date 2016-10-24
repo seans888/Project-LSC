@@ -11,6 +11,8 @@ use yii\helpers\Url;
 use frontend\assets\AppAsset;
 use common\widgets\Alert;
 use frontend\views\student;
+use yii\widgets\Pjax;
+use yii\bootstrap\Modal;
 
 AppAsset::register($this);
 ?>
@@ -45,8 +47,17 @@ AppAsset::register($this);
 ];
     if (Yii::$app->user->isGuest) {
       //  $menuItems[] = ['label' => 'Register', 'url' => ['/site/signup']];
-        $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
+       
+          $menuItems[] = '<li>'
+            . Html::button('Login', ['value'=>Url::to('index.php?r=site/login'),'class' => 'btn btn-success','id'=>'modalButton'])
+            . '</li>';
+         
+      //   $menuItems[] = ['label' => 'Login', 'url' => ['/site/login'],'class'=>'btn btn-success', 'id'=>'modalButton' ];
+      //  $menuItems[] = ['label' => 'Login', ['value'=>Url::to('index.php?r=site/login'), 'id'=>'modalButton' ]];
+      // $menuItems[] =  Html::button('Login', ['value'=>Url::to('index.php?r=site/login'),
+       //    ['class' => 'btn btn-success', 'id'=>'modalButton' ])
         
+
          }elseif (!Yii::$app->user->isGuest) {
 
             $menuItems = [
@@ -59,8 +70,7 @@ AppAsset::register($this);
 ];
         $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
-            . Html::submitButton(
-                'Logout (' . Yii::$app->user->identity->username . ')',
+            . Html::submitButton('Logout (' . Yii::$app->user->identity->username . ')',
                 ['class' => 'btn btn-link']
 
             )
@@ -99,6 +109,16 @@ AppAsset::register($this);
         <p class="pull-right"><?= Yii::powered() ?></p>
     </div>
 </footer>
+    <?php
+         Modal::begin([
+             'header'=>'<h4>Login</h4>',
+             'id' => 'modal',
+             'size'=>'modal-lg',
+        ]);
+        echo "<div id='modalContent'></div>";
+
+         Modal::end();
+    ?>
 
 <?php $this->endBody() ?>
 </body>
