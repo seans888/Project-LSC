@@ -122,7 +122,7 @@ function showSlides() {
                    <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
                      <div class="about-div">
                      <i class="fa fa-bolt fa-4x icon-round-border" ></i>
-                   <h3 >SYSTEMATIC APPROACH</h3>
+                   <h3 >ONLINE RESERVATION</h3>
                  <hr />
                        <hr />
                    <p >
@@ -135,7 +135,7 @@ function showSlides() {
                  <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
                      <div class="about-div">
                      <i class="fa fa-magic fa-4x icon-round-border" ></i>
-                   <h3 >ONE TO ONE STUDY</h3>
+                   <h3 >ONLINE ENROLLMENT</h3>
                  <hr />
                        <hr />
                    <p >
@@ -408,13 +408,13 @@ function showSlides() {
              <div class="row set-row-pad"  >
     <div class="col-lg-4 col-md-4 col-sm-4   col-lg-offset-1 col-md-offset-1 col-sm-offset-1 " data-scroll-reveal="enter from the bottom after 0.4s"> <br>
 
-                    <h2 ><strong>Our Location </strong></h2>
+                    <h2 ><strong>Contact Person </strong></h2>
         <hr />
                     <div>
-                        <h4>234/80 -UFG , New Street,</h4>
-                        <h4>Switzerland.</h4>
+                        <h4>Ms. Joan Limos</h4>
+                        <h4>LSC,Katipunan</h4>
                         <h4><strong>Call:</strong>  + 67-098-907-1269 / 70 / 71 </h4>
-                        <h4><strong>Email: </strong>info@yourdomain.com</h4>
+                        <h4><strong>Email: </strong>lsc1986@yahoo.com</h4>
                     </div>
 
 
