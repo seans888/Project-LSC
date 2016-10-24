@@ -342,7 +342,7 @@ table, td, th {
 table {
     border-collapse: collapse;
     width: 70%;
-  
+  display: inline-block;
 }
 
 th, td {
@@ -352,6 +352,7 @@ th, td {
   border-bottom: 1px solid #ddd;
 
 }
+
 #tutorials-sec {
 
 }
@@ -374,3 +375,42 @@ div.wrap{
 /*=====================================
   CONTACT STYLES 
   ===================================*/
+
+#contact-sec {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background: url(../img/contact.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact-sec .overlay {
+        background: #F2F2F2;
+        min-height: 600px;
+    }
+
+
+#contact-sec .form-control{
+    background-color:#fff;
+    color:#000;
+}
+
+/*=====================================
+  REVIEW PAGE STYLES 
+  ===================================*/
+
+  table.schedule {
+    border-collapse: collapse;
+    
+  display: inline-block;
+}
+
+th.sched, td.sched {
+    padding: 5px;
+  font-size: 12px;
+  font-weight: lighter;
+  border-bottom: 1px solid #ddd;
+
+}
