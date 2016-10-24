@@ -23,7 +23,7 @@ $this->title = 'English programs';
 
 <div class="row set-row-pad" >
            <div class="col-lg-6 col-md-6 col-sm-6 " data-scroll-reveal="enter from the bottom after 0.4s" >
-                 <img src="assets/img/building.jpg" class="img-thumbnail" />
+                 <img src="assets/img/epp.jpg" class="img-thumbnail" />
            </div>
                <div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
                    <div class="panel-group" id="accordion">

@@ -3884,10 +3884,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
+  color: #fff;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
-  text-decoration: none;
+ color: #fff; /*font color of navbar brand */
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
@@ -4199,7 +4200,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #fff;
+  color: #000;
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
@@ -4210,13 +4211,14 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #fff;
-  background-color: transparent;
+  color: #000;
+  background-color: #fff; /*nav-bar toggle background color */
+  opacity: 0.9;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #fff;
+  color: #000;
   background-color: #080808;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
@@ -4238,11 +4240,12 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
   border-color: #101010;
+  background-color:#fff;/*background color of nav*/
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  color: #fff;
+  color: #000;
   background-color: #080808;
 }
 @media (max-width: 767px) {
@@ -4257,13 +4260,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #fff;
+    color: #000;
     background-color: transparent;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #fff;
+    color: #000;
     background-color: #080808;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -4277,14 +4280,14 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #777;
 }
 .navbar-inverse .navbar-link:hover {
-  color: #fff;
+  color: #000;
 }
 .navbar-inverse .btn-link {
   color: #777;
 }
 .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link:focus {
-  color: #fff;
+  color: #000;
 }
 .navbar-inverse .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-inverse .btn-link:hover,

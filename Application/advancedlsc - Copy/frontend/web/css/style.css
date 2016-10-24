@@ -36,11 +36,12 @@ body {
     padding-top: 20px;
     border-color: transparent;
     font-size: 18px;
+    background-color: #fff;
 }
 
 .navbar-inverse {
     border-color: transparent;
-    background-color: #ffffff;
+    background-color: #fff;
 
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
