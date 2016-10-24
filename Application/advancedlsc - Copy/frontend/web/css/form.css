@@ -17,13 +17,14 @@ html,
 	 margin: 0 auto;
 	/* background-color: 	#F0F8FF; */
 }
+/*
 .form-control{
-	width: 100%;
+	width: 150px;
 	vertical-align: center;
 	float: center;
 	display: block;
     margin : 0 auto;
-
+*/
 }
 label.control-label{
 	text-align: center;
@@ -48,7 +49,26 @@ label.control-label{
 
 	/* background-color: 	#F0F8FF; */
 }
+/*
 .site-login{
 	margin-right: 100px;
 	margin-left: 100px
+}
+*/
+input#loginform-username.form-control{
+	width: 50%;
+}
+input#loginform-password.form-control{
+	width: 50%;
+}
+div.modal-content{
+	width: 600px;	
+	margin: 0 auto;
+	margin-top: 100px;
+}
+button#modalButton.btn.btn-success{
+	border: transparent;
+	background-color: #fff;
+    border-color: transparent;
+    color: #1C2B4C;
 }

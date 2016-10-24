@@ -365,7 +365,7 @@ function showSlides() {
 
                     <h2 ><strong>Our Location </strong></h2>
         <hr />
-                    <div ">
+                    <div>
                         <h4>234/80 -UFG , New Street,</h4>
                         <h4>Switzerland.</h4>
                         <h4><strong>Call:</strong>  + 67-098-907-1269 / 70 / 71 </h4>
