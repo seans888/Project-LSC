@@ -70,5 +70,13 @@ button#modalButton.btn.btn-success{
 	border: transparent;
 	background-color: #fff;
     border-color: transparent;
-    color: #1C2B4C;
+    color: #777;
+    font-size: 22px;
+}
+button#modalButton2.btn.btn-success{
+	border: transparent;
+	background-color: #fff;
+    border-color: transparent;
+    color: #777;
+    font-size: 14px;
 }
