@@ -7,13 +7,12 @@ html,
 }
 .site-signup{
 	margin-right: 100px;
-	margin-left: 100px;
+	margin-left: 180px;
 }
 /* Left,Top,Right,Bottom */
 .tb{
-	 border:solid #0b3241 1px;
+	 border:transparent;
 	 padding:25px;
-	 box-shadow: 1px 1px 30px 5px #888888;
 	 margin: 0 auto;
 	/* background-color: 	#F0F8FF; */
 }

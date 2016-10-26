@@ -17,9 +17,11 @@ $this->title = 'Sign up';
 ?>
 <br>
 <br>
+<br>
+<center>
 <table class="tb" border="1px">    
     <tr><td>
-<div class="site-signup">
+<div class="site-signup" align="center">
     <h1><?= Html::encode($this->title) ?></h1>
     <p>Please fill out the following fields to sign up:</p>
 
@@ -45,3 +47,4 @@ $this->title = 'Sign up';
 </div>
 </td></tr>
 </table>
+</center>
