@@ -38,8 +38,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     If you forgot your password you can <?= Html::a('reset it', ['site/request-password-reset']) ?>.
                 </div>
                 <div style="color:#999;margin:1em 0">
-                    If you don't have an account yet  
-                    <?= Html::a('Sign Up here', ['site/signup']) ?>.
+                    If you don't have an account yet  <?= Html::a('Sign Up here', ['site/signup']) ?>.
                 </div>
 
                 <div class="form-group">
@@ -49,16 +48,16 @@ $this->params['breadcrumbs'][] = $this->title;
 
             <?php ActiveForm::end(); ?>
 
-             <?php
-         Modal::begin([
-             'header'=>'<h4>Sign up</h4>',
-             'id' => 'modal',
-             'size'=>'modal-lg',
-        ]);
-        echo "<div id='modalContent'></div>";
+            <?php
+                Modal::begin([
+                    'header'=>'<h4>POP UP FORM</h4>',
+                    'id' => 'modal',
+                    'size'=>'modal-lg',
+                    ]);
+                echo "<div id='modalContent'></div>";
 
-         Modal::end();
-    ?>
+                Modal::end();
+            ?>
 
     </div>
 </div>

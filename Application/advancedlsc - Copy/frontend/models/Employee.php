@@ -97,4 +97,5 @@ class Employee extends \yii\db\ActiveRecord
     {
         return $this->hasMany(Reservation::className(), ['employee_id' => 'id']);
     }
+
 }
