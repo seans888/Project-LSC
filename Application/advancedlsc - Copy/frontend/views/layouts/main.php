@@ -66,7 +66,7 @@ AppAsset::register($this);
         ['label' => 'REVIEWS', 'url' => '#review-sec'],
         ['label' => 'ACCOUNT', 'url' => ['/site/account']],
         ['label' => 'ABOUT', 'url' => ['/site/about']],
-        ['label' => 'CONTACT', 'url' => ['/site/contact']],
+        ['label' => 'CONTACT', 'url' => '#contact-sec'],
 ];
         $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
