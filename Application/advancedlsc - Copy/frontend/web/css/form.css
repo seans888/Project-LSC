@@ -1,21 +1,32 @@
 html,
-/* Sign up Form  margin: 20px 250px 30px;
-	width: 200px;*/
+/* Left,Top,Right,Bottom */
+/* Sign up Form */
 .site-signup .row .form{
 	font-family: Verdana;
 	font-size: 15px;
 }
-.site-signup{
-	margin-right: 100px;
-	margin-left: 180px;
+h1.h1Signup{
+	margin-top: 0px;
 }
-/* Left,Top,Right,Bottom */
-.tb{
-	 border:transparent;
+div.row::after{
+
+}
+.tbSignup{
+	 border: solid #0b3241 1px;
 	 padding:25px;
+	 margin-top: 110px;
+	 height: inherit;;
+	box-shadow: 0 0 5px #333;
+	 width: inherit;
+
+	/* margin: 0 auto;
+	 border:solid #0b3241 1px;
+	 padding:25px;
+	 box-shadow: 1px 1px 30px 5px #888888;
 	 margin: 0 auto;
-	/* background-color: 	#F0F8FF; */
+	background-color: 	#F0F8FF; */
 }
+
 /*
 .form-control{
 	width: 150px;

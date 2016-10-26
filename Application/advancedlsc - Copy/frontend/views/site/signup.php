@@ -15,14 +15,12 @@ use frontend\views\student;
 $this->title = 'Sign up';
 //$this->params['breadcrumbs'][] = $this->title;
 ?>
-<br>
-<br>
-<br>
+
 <center>
-<table class="tb" border="1px">    
+<table class="tbSignup">    
     <tr><td>
 <div class="site-signup" align="center">
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1 class="h1Signup"><?= Html::encode($this->title) ?></h1>
     <p>Please fill out the following fields to sign up:</p>
 
     <div class="row">

@@ -39,8 +39,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 </div>
                 <div style="color:#999;margin:1em 0">
                     If you don't have an account yet  
-                    <?= Html::button('Sign Up here', ['value'=>Url::to('index.php?r=site/signup'),
-                    'class' => 'btn btn-success','id'=>'modalButton']) ?>.
+                    <?= Html::a('Sign Up here', ['site/signup']) ?>.
                 </div>
 
                 <div class="form-group">
