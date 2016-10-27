@@ -21,7 +21,9 @@ $fieldOptions2 = [
 
 <div class="login-box">
     <div class="login-logo">
-        <a href="#"><b>Admin</b>LTE</a>
+        <img src="/advancedlsc/frontend/web/images/logo.png" alt="">
+        <br>
+        <a href="#">Loyola Student Center</a>
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body">
