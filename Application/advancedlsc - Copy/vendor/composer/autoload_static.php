@@ -41,6 +41,7 @@ class ComposerStaticInit0d1d3c13f80202964b8b82ff7f2fb863
         ),
         'd' => 
         array (
+            'dosamigos\\datepicker\\' => 21,
             'dmstr\\' => 6,
         ),
         'c' => 
@@ -137,6 +138,10 @@ class ComposerStaticInit0d1d3c13f80202964b8b82ff7f2fb863
         'kartik\\base\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-krajee-base',
+        ),
+        'dosamigos\\datepicker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/2amigos/yii2-date-picker-widget/src',
         ),
         'dmstr\\' => 
         array (
