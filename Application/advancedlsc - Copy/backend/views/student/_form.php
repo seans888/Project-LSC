@@ -1,7 +1,9 @@
 <?php
 
 use yii\helpers\Html;
+use yii\helpers\ArrayHelper;
 use yii\widgets\ActiveForm;
+use common\models\ReviewClass;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Student */
@@ -42,7 +44,11 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'learned_lsc')->dropDownList([ 'friends' => 'Friends', 'relatives' => 'Relatives', 'newspaper ads' => 'Newspaper ads', 'LSC signage/poster' => 'LSC signage/poster', 'school' => 'School', 'others' => 'Others', ], ['prompt' => '']) ?>
 
-    <?= $form->field($model, 'review_class_id')->textInput() ?>
+   <!-- <?= $form->field($model, 'review_class_id')->textInput([]) ?> -->
+    <?= $form->field($model, 'review_class_id')->dropDownList(
+        ArrayHelper::map(ReviewClass::find()->all(),'id','name'),
+        ['prompt'=>'Select Review Class']
+    ) ?>
 
     <?= $form->field($model, 'schedule_id')->textInput() ?>
 

@@ -42,8 +42,8 @@ class ClassList extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'review_class_id' => 'Review Class ID',
-            'student_id' => 'Student ID',
+            'review_class_id' => 'Review Class Name',
+            'student_id' => 'Student Name',
         ];
     }
 
