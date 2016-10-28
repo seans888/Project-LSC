@@ -249,6 +249,17 @@ th {
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
   }
+
+required-star {   
+    color: red;
+    content: " * ";
+}
+
+.studentformstyle{
+  background-color: black;
+
+}
+
   .label {
     border: 1px solid #000;
   }
@@ -2352,7 +2363,7 @@ output {
 }
 .form-control {
   display: block;
-  width: 100%;
+  width: 50%;
   height: 34px;
   padding: 6px 12px;
   font-size: 14px;

@@ -15,6 +15,7 @@ use yii\web\UploadedFile;
  */
 class StudentController extends Controller
 {
+    var $components = array('Wizard.Wizard');   //added for form multi-paging
     /**
      * @inheritdoc
      */
@@ -117,6 +118,11 @@ class StudentController extends Controller
 
         return $this->redirect(['index']);
     }
+
+            // added for multi-paging
+    function beforeFilter() {
+    $this->Wizard->steps = array('review', 'personal_info1', 'personal_info2', 'guardian');
+}
 
     /**
      * Finds the Student model based on its primary key value.

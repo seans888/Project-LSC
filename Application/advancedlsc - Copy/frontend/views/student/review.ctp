@@ -1,4 +1,4 @@
-<?php echo $this->Form->create('Signup', array('id' => 'SignupForm', 'url' => $this->here)); ?>
+<?php echo $this->Form->create('student', array('id' => '_form', 'url' => $this->here)); ?>
 	<h2>Step 1: Account Information</h2>
 
 	   <?= $form->field($model, 'type')->dropDownList([ 'Reserve' => 'Reserve', 'Enroll' => 'Enroll', ], ['prompt' => '']) ?>

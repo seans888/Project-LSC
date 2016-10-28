@@ -8,11 +8,12 @@ use yii\grid\GridView;
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Payments';
-$this->params['breadcrumbs'][] = $this->title;
+//$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="payment-index">
-
-    <h1><?= Html::encode($this->title) ?></h1>
+<!--<h1><?= Html::encode($this->title) ?></h1>  -->
+    <br>
+    
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>

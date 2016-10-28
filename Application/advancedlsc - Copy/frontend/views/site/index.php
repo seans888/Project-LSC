@@ -421,7 +421,7 @@ function showSlides() {
                 </div>
                  <div class="col-lg-4 col-md-4 col-sm-4   col-lg-offset-1 col-md-offset-1 col-sm-offset-1" data-scroll-reveal="enter from the bottom after 0.4s"><br>
 
-                    <h2 ><strong>Social Conectivity </strong></h2>
+                    <h2 ><strong>Social Connectivity </strong></h2>
         <hr />
                     <div >
                         <a href="https://www.facebook.com/19LSC86" target="_blank">  <img src="assets/img/Social/facebook.png" alt="" /> </a>

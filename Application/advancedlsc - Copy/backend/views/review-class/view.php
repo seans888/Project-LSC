@@ -12,7 +12,7 @@ $this->title = $model->name;
 ?>
 <div class="review-class-view">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+  <!--  <h1><?= Html::encode($this->title) ?></h1> -->
 
     <?= DetailView::widget([
         'model' => $model,

@@ -11,8 +11,8 @@ $this->title ='User: ' . $model->username;
 //$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="user-view">
-
-  <!--  <h1><?= Html::encode($this->title) ?></h1> -->
+<!--<h1><?= Html::encode($this->title) ?></h1>  -->
+    <br>
 
     <?= DetailView::widget([
         'model' => $model,
