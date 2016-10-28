@@ -12,11 +12,11 @@ div.row::after{
 
 }
 .tbSignup{
-	 border: solid #0b3241 1px;
+	/* border: solid #0b3241 1px; */
 	 padding:25px;
 	 margin-top: 110px;
 	 height: inherit;;
-	box-shadow: 0 0 5px #333;
+	box-shadow: #ccc;
 	 width: inherit;
 
 	/* margin: 0 auto;
@@ -66,10 +66,10 @@ label.control-label{
 }
 */
 input#loginform-username.form-control{
-	width: 50%;
+	width: 100%;
 }
 input#loginform-password.form-control{
-	width: 50%;
+	width: 100%;
 }
 div.modal-content{
 	width: 600px;	
