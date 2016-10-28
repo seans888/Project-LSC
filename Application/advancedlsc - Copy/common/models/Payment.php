@@ -7,13 +7,12 @@ use Yii;
 /**
  * This is the model class for table "payment".
  *
- * @property integer $id
- * @property string $date
- * @property string $reciept_number
- * @property integer $amount
- * @property integer $balance
  * @property integer $student_id
+ * @property integer $review_class_id
+ * @property string $deposit_slip
+ * @property string $date
  *
+ * @property ReviewClass $reviewClass
  * @property Student $student
  */
 class Payment extends \yii\db\ActiveRecord
@@ -32,11 +31,11 @@ class Payment extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['date', 'reciept_number', 'amount', 'student_id'], 'required'],
+            [['student_id', 'review_class_id'], 'required'],
+            [['student_id', 'review_class_id'], 'integer'],
             [['date'], 'safe'],
-            [['amount', 'balance', 'student_id'], 'integer'],
-            [['reciept_number'], 'string', 'max' => 45],
-            [['reciept_number'], 'unique'],
+            [['deposit_slip'], 'string', 'max' => 250],
+            [['review_class_id'], 'exist', 'skipOnError' => true, 'targetClass' => ReviewClass::className(), 'targetAttribute' => ['review_class_id' => 'id']],
             [['student_id'], 'exist', 'skipOnError' => true, 'targetClass' => Student::className(), 'targetAttribute' => ['student_id' => 'id']],
         ];
     }
@@ -47,13 +46,19 @@ class Payment extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
-            'date' => 'Date',
-            'reciept_number' => 'Reciept Number',
-            'amount' => 'Amount',
-            'balance' => 'Balance',
             'student_id' => 'Student ID',
+            'review_class_id' => 'Review Class ID',
+            'deposit_slip' => 'Deposit Slip',
+            'date' => 'Date',
         ];
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getReviewClass()
+    {
+        return $this->hasOne(ReviewClass::className(), ['id' => 'review_class_id']);
     }
 
     /**
