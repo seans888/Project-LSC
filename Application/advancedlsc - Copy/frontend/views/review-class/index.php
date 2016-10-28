@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel frontend\models\ReviewClassSearch */
+/* @var $searchModel common\models\ReviewClassSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Review Classes';
@@ -26,10 +26,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'id',
             'name',
-            'description:ntext',
-            'schedule',
+            'description',
             'start_date',
-            // 'end_date',
+            'end_date',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

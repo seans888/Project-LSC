@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model frontend\models\ReviewClass */
+/* @var $model common\models\ReviewClass */
 
 $this->title = 'Create Review Class';
 $this->params['breadcrumbs'][] = ['label' => 'Review Classes', 'url' => ['index']];

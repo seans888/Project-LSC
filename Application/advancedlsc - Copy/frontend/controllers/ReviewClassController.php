@@ -3,8 +3,8 @@
 namespace frontend\controllers;
 
 use Yii;
-use frontend\models\ReviewClass;
-use frontend\models\ReviewClassSearch;
+use common\models\ReviewClass;
+use common\models\ReviewClassSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

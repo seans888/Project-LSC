@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model frontend\models\ReviewClass */
+/* @var $model common\models\ReviewClass */
 
 $this->title = $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Review Classes', 'url' => ['index']];
@@ -30,8 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'attributes' => [
             'id',
             'name',
-            'description:ntext',
-            'schedule',
+            'description',
             'start_date',
             'end_date',
         ],
