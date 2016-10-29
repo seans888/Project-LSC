@@ -63,9 +63,15 @@ class Student extends \yii\db\ActiveRecord
             [['contact_number', 'guardian_contact_number'], 'string', 'max' => 12],
 			[['email_address', 'guardian_email_address'], 'string', 'max' => 150],
             [['home_address', 'school'], 'string', 'max' => 200],
+            //the email attribute should be a valid email address
+            ['email_address', 'email'], 
+            ['guardian_email_address', 'email'],
+            ['email', 'unique','message'=>'Email already exists!'],
+            //
             [['review_class_id'], 'exist', 'skipOnError' => true, 'targetClass' => ReviewClass::className(), 'targetAttribute' => ['review_class_id' => 'id']],
             [['schedule_id'], 'exist', 'skipOnError' => true, 'targetClass' => Schedule::className(), 'targetAttribute' => ['schedule_id' => 'id']],
             [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['user_id' => 'id']],
+
         ];
     }
 

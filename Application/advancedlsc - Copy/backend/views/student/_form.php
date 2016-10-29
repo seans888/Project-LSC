@@ -22,23 +22,23 @@ use common\models\ReviewClass;
 
     <?= $form->field($model, 'age')->textInput() ?>
 
-    <?= $form->field($model, 'gender')->dropDownList([ 'Male' => 'Male', 'Female' => 'Female', ], ['prompt' => '']) ?>
+    <?= $form->field($model, 'gender')->dropDownList([ 'Male' => 'Male', 'Female' => 'Female', ], ['prompt' => 'Male/Female']) ?>
 
-    <?= $form->field($model, 'contact_number')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'contact_number')->textInput(['maxlength' => true, 'placeholder'=>'e.g. 09xxxxxxxxx'])?>
 
-    <?= $form->field($model, 'email_address')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'email_address')->input(['maxlength' => true, 'email', 'placeholder'=>'juandelacruz@email.com']) ?>
 
-    <?= $form->field($model, 'home_address')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'home_address')->textInput(['maxlength' => true])->hint('No., Street, Barangay/Subdivision, Municipality/City/Province') ?>
 
-    <?= $form->field($model, 'school')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'school')->textInput(['maxlength' => true])->hint('Name, Address') ?>
 
     <?= $form->field($model, 'guardian_name')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'relation')->dropDownList([ 'Parent' => 'Parent', 'Grandparent' => 'Grandparent', 'Sibling' => 'Sibling', 'Other' => 'Other', ], ['prompt' => '']) ?>
 
-    <?= $form->field($model, 'guardian_contact_number')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'guardian_contact_number')->textInput(['maxlength' => true, 'placeholder'=>'e.g. 09xxxxxxxxx']) ?>
 
-    <?= $form->field($model, 'guardian_email_address')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'guardian_email_address')->input(['maxlength' => true,'email','placeholder'=>'e.g. mariadelacruz@email.com']) ?>
 
     <?= $form->field($model, 'selected_school')->textInput(['maxlength' => true]) ?>
 

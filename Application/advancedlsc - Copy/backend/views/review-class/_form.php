@@ -10,19 +10,7 @@ use dosamigos\datepicker\DatePicker;
 /* @var $model common\models\ReviewClass */
 /* @var $form yii\widgets\ActiveForm */
 ?>
-<!--
-<div class="form-group">
-    <label class="col-md-2 control-label" for="Date">Date</label>
-    <div class="col-md-10">
-        <div class="input-group">
-            <div class="input-group-addon">
-                <i class="fa fa-calendar"></i>
-            </div>
-            <input type="text" class="form-control" id="Date"/>
-        </div>
-    </div>
-</div>
--->
+
 <div class="review-class-form">
 
     <?php $form = ActiveForm::begin(); ?>
