@@ -3,8 +3,8 @@
 namespace backend\controllers;
 
 use Yii;
-use backend\models\Payment;
-use backend\models\PaymentSearch;
+use common\models\Payment;
+use common\models\PaymentSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -46,13 +46,14 @@ class PaymentController extends Controller
 
     /**
      * Displays a single Payment model.
-     * @param integer $id
+     * @param integer $student_id
+     * @param integer $review_class_id
      * @return mixed
      */
-    public function actionView($id)
+    public function actionView($student_id, $review_class_id)
     {
         return $this->render('view', [
-            'model' => $this->findModel($id),
+            'model' => $this->findModel($student_id, $review_class_id),
         ]);
     }
 
@@ -66,7 +67,7 @@ class PaymentController extends Controller
         $model = new Payment();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+            return $this->redirect(['view', 'student_id' => $model->student_id, 'review_class_id' => $model->review_class_id]);
         } else {
             return $this->render('create', [
                 'model' => $model,
@@ -77,15 +78,16 @@ class PaymentController extends Controller
     /**
      * Updates an existing Payment model.
      * If update is successful, the browser will be redirected to the 'view' page.
-     * @param integer $id
+     * @param integer $student_id
+     * @param integer $review_class_id
      * @return mixed
      */
-    public function actionUpdate($id)
+    public function actionUpdate($student_id, $review_class_id)
     {
-        $model = $this->findModel($id);
+        $model = $this->findModel($student_id, $review_class_id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+            return $this->redirect(['view', 'student_id' => $model->student_id, 'review_class_id' => $model->review_class_id]);
         } else {
             return $this->render('update', [
                 'model' => $model,
@@ -96,12 +98,13 @@ class PaymentController extends Controller
     /**
      * Deletes an existing Payment model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
-     * @param integer $id
+     * @param integer $student_id
+     * @param integer $review_class_id
      * @return mixed
      */
-    public function actionDelete($id)
+    public function actionDelete($student_id, $review_class_id)
     {
-        $this->findModel($id)->delete();
+        $this->findModel($student_id, $review_class_id)->delete();
 
         return $this->redirect(['index']);
     }
@@ -109,13 +112,14 @@ class PaymentController extends Controller
     /**
      * Finds the Payment model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
-     * @param integer $id
+     * @param integer $student_id
+     * @param integer $review_class_id
      * @return Payment the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
-    protected function findModel($id)
+    protected function findModel($student_id, $review_class_id)
     {
-        if (($model = Payment::findOne($id)) !== null) {
+        if (($model = Payment::findOne(['student_id' => $student_id, 'review_class_id' => $review_class_id])) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');

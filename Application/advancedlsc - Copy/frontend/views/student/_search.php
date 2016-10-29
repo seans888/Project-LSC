@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model backend\models\StudentSearch */
+/* @var $model common\models\StudentSearch */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
@@ -17,33 +17,23 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'id') ?>
 
-    <?= $form->field($model, 'type') ?>
-
-    <?= $form->field($model, 'number_of_hours') ?>
-
-    <?= $form->field($model, 'review_class') ?>
-
     <?= $form->field($model, 'lastname') ?>
 
-    <?php // echo $form->field($model, 'firstname') ?>
+    <?= $form->field($model, 'firstname') ?>
 
-    <?php // echo $form->field($model, 'middlename') ?>
+    <?= $form->field($model, 'middlename') ?>
 
-    <?php // echo $form->field($model, 'nickname') ?>
+    <?= $form->field($model, 'age') ?>
 
     <?php // echo $form->field($model, 'gender') ?>
 
-    <?php // echo $form->field($model, 'age') ?>
+    <?php // echo $form->field($model, 'contact_number') ?>
 
     <?php // echo $form->field($model, 'email_address') ?>
 
-    <?php // echo $form->field($model, 'contact_number') ?>
-
-    <?php // echo $form->field($model, 'address') ?>
+    <?php // echo $form->field($model, 'home_address') ?>
 
     <?php // echo $form->field($model, 'school') ?>
-
-    <?php // echo $form->field($model, 'school_address') ?>
 
     <?php // echo $form->field($model, 'guardian_name') ?>
 
@@ -53,9 +43,21 @@ use yii\widgets\ActiveForm;
 
     <?php // echo $form->field($model, 'guardian_email_address') ?>
 
+    <?php // echo $form->field($model, 'selected_school') ?>
+
+    <?php // echo $form->field($model, 'learned_lsc') ?>
+
+    <?php // echo $form->field($model, 'review_class_id') ?>
+
+    <?php // echo $form->field($model, 'schedule_id') ?>
+
+    <?php // echo $form->field($model, 'transaction_type') ?>
+
     <?php // echo $form->field($model, 'date_of_registration') ?>
 
     <?php // echo $form->field($model, 'status') ?>
+
+    <?php // echo $form->field($model, 'user_id') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>

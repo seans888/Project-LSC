@@ -8,33 +8,36 @@ use Yii;
  * This is the model class for table "student".
  *
  * @property integer $id
- * @property string $type
- * @property integer $number_of_hours
- * @property string $review_class
  * @property string $lastname
  * @property string $firstname
  * @property string $middlename
- * @property string $nickname
- * @property string $gender
  * @property integer $age
- * @property string $email_address
+ * @property string $gender
  * @property string $contact_number
- * @property string $address
+ * @property string $email_address
+ * @property string $home_address
  * @property string $school
- * @property string $school_address
  * @property string $guardian_name
  * @property string $relation
  * @property string $guardian_contact_number
  * @property string $guardian_email_address
+ * @property string $selected_school
+ * @property string $learned_lsc
+ * @property integer $review_class_id
+ * @property integer $schedule_id
+ * @property string $transaction_type
  * @property string $date_of_registration
  * @property string $status
+ * @property integer $user_id
  *
  * @property Account[] $accounts
  * @property ClassList[] $classLists
- * @property Enrollment[] $enrollments
+ * @property ReviewClass[] $reviewClasses
  * @property Payment[] $payments
- * @property Reservation[] $reservations
- * @property StudentsHasSubject[] $studentsHasSubjects
+ * @property ReviewClass[] $reviewClasses0
+ * @property ReviewClass $reviewClass
+ * @property Schedule $schedule
+ * @property User $user
  */
 class Student extends \yii\db\ActiveRecord
 {
@@ -52,18 +55,17 @@ class Student extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['type', 'review_class', 'lastname', 'firstname', 'nickname', 'gender', 'age', 'email_address', 'contact_number', 'address', 'school', 'school_address'], 'required'],
-            [['type', 'review_class', 'gender', 'status'], 'string'],
-            [['number_of_hours', 'age'], 'integer'],
+            [['lastname', 'firstname', 'age', 'gender', 'email_address', 'home_address', 'school', 'guardian_name', 'relation', 'guardian_contact_number', 'learned_lsc', 'review_class_id', 'schedule_id', 'user_id'], 'required'],
+            [['age', 'review_class_id', 'schedule_id', 'user_id'], 'integer'],
+            [['gender', 'relation', 'learned_lsc', 'transaction_type', 'status'], 'string'],
             [['date_of_registration'], 'safe'],
-            [['lastname', 'firstname', 'middlename'], 'string', 'max' => 30],
-            [['nickname'], 'string', 'max' => 15],
-            [['email_address', 'address', 'school', 'relation', 'guardian_email_address'], 'string', 'max' => 45],
-            [['contact_number', 'guardian_contact_number'], 'string', 'max' => 11],
-            [['school_address'], 'string', 'max' => 50],
-            [['guardian_name'], 'string', 'max' => 40],
-            [['email_address'], 'unique'],
-            [['contact_number'], 'unique'],
+            [['lastname', 'firstname', 'middlename', 'guardian_name', 'selected_school'], 'string', 'max' => 100],
+            [['contact_number', 'guardian_contact_number'], 'string', 'max' => 12],
+			[['email_address', 'guardian_email_address'], 'string', 'max' => 150],
+            [['home_address', 'school'], 'string', 'max' => 200],
+            [['review_class_id'], 'exist', 'skipOnError' => true, 'targetClass' => ReviewClass::className(), 'targetAttribute' => ['review_class_id' => 'id']],
+            [['schedule_id'], 'exist', 'skipOnError' => true, 'targetClass' => Schedule::className(), 'targetAttribute' => ['schedule_id' => 'id']],
+            [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['user_id' => 'id']],
         ];
     }
 
@@ -74,26 +76,27 @@ class Student extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'type' => 'Type',
-            'number_of_hours' => 'Number Of Hours',
-            'review_class' => 'Review Class',
             'lastname' => 'Lastname',
             'firstname' => 'Firstname',
             'middlename' => 'Middlename',
-            'nickname' => 'Nickname',
-            'gender' => 'Gender',
             'age' => 'Age',
-            'email_address' => 'Email Address',
+            'gender' => 'Gender',
             'contact_number' => 'Contact Number',
-            'address' => 'Address',
+            'email_address' => 'Email Address',
+            'home_address' => 'Home Address',
             'school' => 'School',
-            'school_address' => 'School Address',
             'guardian_name' => 'Guardian Name',
             'relation' => 'Relation',
             'guardian_contact_number' => 'Guardian Contact Number',
             'guardian_email_address' => 'Guardian Email Address',
+            'selected_school' => 'Selected School',
+            'learned_lsc' => 'Learned Lsc',
+            'review_class_id' => 'Review Class Name',
+            'schedule_id' => 'Schedule',
+            'transaction_type' => 'Transaction Type',
             'date_of_registration' => 'Date Of Registration',
             'status' => 'Status',
+            'user_id' => 'User ID',
         ];
     }
 
@@ -116,9 +119,9 @@ class Student extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getEnrollments()
+    public function getReviewClasses()
     {
-        return $this->hasMany(Enrollment::className(), ['student_id' => 'id']);
+        return $this->hasMany(ReviewClass::className(), ['id' => 'review_class_id'])->viaTable('class_list', ['student_id' => 'id']);
     }
 
     /**
@@ -132,16 +135,32 @@ class Student extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getReservations()
+    public function getReviewClasses0()
     {
-        return $this->hasMany(Reservation::className(), ['student_id' => 'id']);
+        return $this->hasMany(ReviewClass::className(), ['id' => 'review_class_id'])->viaTable('payment', ['student_id' => 'id']);
     }
 
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getStudentsHasSubjects()
+    public function getReviewClass()
     {
-        return $this->hasMany(StudentsHasSubject::className(), ['Students_Stud_ID' => 'id']);
+        return $this->hasOne(ReviewClass::className(), ['id' => 'review_class_id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getSchedule()
+    {
+        return $this->hasOne(Schedule::className(), ['id' => 'schedule_id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getUser()
+    {
+        return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
 }
