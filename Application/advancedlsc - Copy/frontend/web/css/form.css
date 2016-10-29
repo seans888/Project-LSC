@@ -1,40 +1,29 @@
 html,
-/* Left,Top,Right,Bottom */
-/* Sign up Form */
+/* Sign up Form  margin: 20px 250px 30px;
+	width: 200px;*/
 .site-signup .row .form{
 	font-family: Verdana;
 	font-size: 15px;
 }
-h1.h1Signup{
-	margin-top: 0px;
-}
-div.row::after{
-
-}
 .tbSignup{
-<<<<<<< HEAD
 	/* border: solid #0b3241 1px; */
 	 padding:25px;
 	 margin-top: 110px;
 	 height: inherit;;
 	box-shadow: #ccc;
-=======
-	 /*border: solid #0b3241 1px; */
 	 padding:25px;
 	 margin-top: 110px;
 	 height: inherit;;
      box-shadow: 0 0 5px #ccc;
->>>>>>> 5c4d0f5c1176c23c76ace3da95e9b86a3b5b7810
 	 width: inherit;
-
-	/* margin: 0 auto;
-	 border:solid #0b3241 1px;
-	 padding:25px;
-	 box-shadow: 1px 1px 30px 5px #888888;
-	 margin: 0 auto;
-	background-color: 	#F0F8FF; */
 }
 
+.tb{
+	 border:transparent;
+	 padding:25px;
+	 margin: 0 auto;
+	/* background-color: 	#F0F8FF; */
+}
 /*
 .form-control{
 	width: 150px;
@@ -62,7 +51,7 @@ label.control-label{
 .tb1{
 	 border:solid #0b3241 1px;
 	 padding:25px;
-	 box-shadow: 1px 1px 30px 5px #888888;
+	 box-shadow: 1px 1px 30px 5px #888888;	
 	 margin: 0 auto;
 
 	/* background-color: 	#F0F8FF; */
@@ -74,10 +63,10 @@ label.control-label{
 }
 */
 input#loginform-username.form-control{
-	width: 100%;
+	width: 50%;
 }
 input#loginform-password.form-control{
-	width: 100%;
+	width: 50%;
 }
 div.modal-content{
 	width: 600px;	

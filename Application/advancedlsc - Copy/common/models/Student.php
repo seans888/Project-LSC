@@ -90,7 +90,7 @@ class Student extends \yii\db\ActiveRecord
             'guardian_contact_number' => 'Guardian Contact Number',
             'guardian_email_address' => 'Guardian Email Address',
             'selected_school' => 'Selected School',
-            'learned_lsc' => 'Learned Lsc',
+            'learned_lsc' => 'Learned LSC',
             'review_class_id' => 'Review Class Name',
             'schedule_id' => 'Schedule',
             'transaction_type' => 'Transaction Type',

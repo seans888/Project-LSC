@@ -15,7 +15,6 @@ use frontend\views\student;
 $this->title = 'Sign up';
 //$this->params['breadcrumbs'][] = $this->title;
 ?>
-
 <center>
 <table class="tbSignup">    
     <tr><td>

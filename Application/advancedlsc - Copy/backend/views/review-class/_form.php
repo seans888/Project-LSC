@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use vendor\almasaeed2010\adminlte\plugins\datepicker\datepicker3;
+use web\css\site;
 
 
 /* @var $this yii\web\View */
@@ -21,8 +21,6 @@ use vendor\almasaeed2010\adminlte\plugins\datepicker\datepicker3;
         </div>
     </div>
 </div>
--->
-<h5>datepicker2</h5>
 <div class="input-group date" data-provide="datepicker">
     <input type="text" class="form-control">
     <div class="input-group-addon">
@@ -30,14 +28,17 @@ use vendor\almasaeed2010\adminlte\plugins\datepicker\datepicker3;
     </div>
 </div>
 <h5> try*crossed finger*</sample>
-
+--><br><br>
 <div class="review-class-form">
 
     <?php $form = ActiveForm::begin(); ?>
 
     <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'description')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'description')->textArea
+    	(['rows'=>'6','maxlength' => true,'placeholder'=>''
+
+    ]) ?>
 
     <?= $form->field($model, 'start_date')->textInput() ?>
 
@@ -48,8 +49,5 @@ use vendor\almasaeed2010\adminlte\plugins\datepicker\datepicker3;
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
     </div>
-
     <?php ActiveForm::end(); ?>
-
-
 </div>
