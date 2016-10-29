@@ -3,6 +3,7 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use vendor\almasaeed2010\adminlte\plugins\datepicker\datepicker3;
+use dosamigos\datepicker\DatePicker;
 
 
 /* @var $this yii\web\View */
@@ -22,15 +23,12 @@ use vendor\almasaeed2010\adminlte\plugins\datepicker\datepicker3;
     </div>
 </div>
 -->
-<h5>datepicker2</h5>
 <div class="input-group date" data-provide="datepicker">
     <input type="text" class="form-control">
     <div class="input-group-addon">
         <span class="glyphicon glyphicon-th"></span>
     </div>
 </div>
-<h5> try*crossed finger*</sample>
-
 <div class="review-class-form">
 
     <?php $form = ActiveForm::begin(); ?>
@@ -39,9 +37,29 @@ use vendor\almasaeed2010\adminlte\plugins\datepicker\datepicker3;
 
     <?= $form->field($model, 'description')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'start_date')->textInput() ?>
+    <?= $form->field($model, 'start_date')->widget(
+    DatePicker::className(), [
+        // inline too, not bad
+         'inline' => false, 
+         // modify template for custom rendering
+       // 'template' => '<div class="well well-sm" style="background-color: #fff; width:250px">{input}</div>',
+        'clientOptions' => [
+            'autoclose' => true,
+            'format' => 'yyyy-m-d'
+        ]
+]); ?>
 
-    <?= $form->field($model, 'end_date')->textInput() ?>
+    <?= $form->field($model, 'end_date')->widget(
+    DatePicker::className(), [
+        // inline too, not bad
+         'inline' => false, 
+         // modify template for custom rendering
+       // 'template' => '<div class="well well-sm" style="background-color: #fff; width:250px">{input}</div>',
+        'clientOptions' => [
+            'autoclose' => true,
+            'format' => 'yyyy-m-d'
+        ]
+]);  ?>
 
 
 
