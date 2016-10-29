@@ -53,7 +53,7 @@ use common\models\ReviewClass;
     <?= $form->field($model, 'schedule_id')->textInput() ?>
 
     <?= $form->field($model, 'transaction_type')->dropDownList([ 'Reserve' => 'Reserve', 'Enroll' => 'Enroll',
-     ], ['prompt' => '','value'=>'Reserve']) ?>
+     ], ['prompt' => '','value'=>'Reserved']) ?>
 
   <!--  <?= $form->field($model, 'date_of_registration')->textInput() ?> -->
 
