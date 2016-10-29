@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
-use vendor\almasaeed2010\adminlte\plugins\datepicker;
+use vendor\almasaeed2010\adminlte\plugins\datepicker\datepicker3;
 
 /* @var $this yii\web\View */
 /* @var $searchModel common\models\ReviewClassSearch */
