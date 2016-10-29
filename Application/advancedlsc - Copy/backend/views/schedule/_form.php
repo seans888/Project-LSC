@@ -1,7 +1,9 @@
 <?php
 
 use yii\helpers\Html;
+use yii\helpers\ArrayHelper;
 use yii\widgets\ActiveForm;
+use common\models\ReviewClass;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Schedule */
@@ -12,7 +14,11 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'review_class_id')->textInput() ?>
+   <!-- <?= $form->field($model, 'review_class_id')->textInput() ?> -->
+   <?= $form->field($model, 'review_class_id')->dropDownList(
+        ArrayHelper::map(ReviewClass::find()->all(),'id','name'),
+        ['prompt'=>'Select Review Class']
+    ) ?>
 
     <?= $form->field($model, 'duration_of_hours')->textInput() ?>
 
