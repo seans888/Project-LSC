@@ -4,6 +4,7 @@ use yii\helpers\Html;
 use yii\helpers\ArrayHelper;
 use yii\widgets\ActiveForm;
 use common\models\ReviewClass;
+use common\models\user;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Student */
@@ -18,7 +19,7 @@ use common\models\ReviewClass;
 
     <?= $form->field($model, 'firstname')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'middlename')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'middlename')->textInput(['maxlength' => true ,'value'=>'-']) ?>
 
     <?= $form->field($model, 'age')->textInput() ?>
 
@@ -58,8 +59,8 @@ use common\models\ReviewClass;
 
    <!-- <?= $form->field($model, 'status')->dropDownList([ 'Pending' => 'Pending', 'Reserved' => 'Reserved', 'Enrolled' => 'Enrolled', 'Done' => 'Done', 'Cancelled' => 'Cancelled', ], ['prompt' => '']) ?> -->
 
-<!--    <?= $form->field($model, 'user_id')->textInput() ?> -->
-
+    <?= $form->field($model, 'user_id')->textInput(['value'=>Yii::$app->user->id,'readonly'=>true])?> 
+    
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
     </div>
