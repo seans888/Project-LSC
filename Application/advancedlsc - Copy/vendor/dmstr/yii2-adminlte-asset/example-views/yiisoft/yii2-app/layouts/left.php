@@ -42,7 +42,7 @@
                         'url' => '#',
                         'items' => [
                             ['label' => 'Enrollment', 'icon' => 'fa fa-file-code-o', 'url' => ['/enrollment']],
-                    ['label' => 'Reservation', 'icon' => 'fa fa-file-code-o', 'url' => ['/reservation']],
+                    ['label' => 'debug', 'icon' => 'fa fa-file-code-o', 'url' => ['/debug']],
                       ['label' => 'Payment', 'icon' => 'fa fa-file-code-o', 'url' => ['/payment']],
                             
                         ],

@@ -265,6 +265,9 @@ use yii\helpers\Html;
                                     ['/site/logout'],
                                     ['data-method' => 'post', 'class' => 'btn btn-default btn-flat']
                                 ) ?>
+
+
+
                             </div>
                         </li>
                     </ul>
@@ -277,4 +280,5 @@ use yii\helpers\Html;
             </ul>
         </div>
     </nav>
+
 </header>
