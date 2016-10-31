@@ -344,13 +344,15 @@ table {
     border-collapse: collapse;
     width: 70%;
   display: inline-block;
+  color: #fff;
+
 }
 
 th, td {
     padding: 10px;
   font-size: 18px;
-  font-weight: lighter;
   border-bottom: 1px solid #ddd;
+    font-weight: bolder;
 
 }
 

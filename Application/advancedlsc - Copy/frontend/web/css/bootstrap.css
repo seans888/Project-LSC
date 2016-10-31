@@ -2871,6 +2871,8 @@ fieldset[disabled] .btn-primary.active {
   background-color: #5bc0de;
   border-color: #46b8da;
   width: 100%;
+  height: 40px;
+  font-size: 18px;
 }
 .overlay {  /*background color for contact page*/
   background: #F2F2F2;
