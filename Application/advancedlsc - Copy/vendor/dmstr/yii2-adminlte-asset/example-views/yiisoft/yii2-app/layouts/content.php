@@ -21,6 +21,7 @@ use dmstr\widgets\Alert;
             </h1>
         <?php } ?>
 
+
         <?=
         Breadcrumbs::widget(
             [
@@ -53,6 +54,7 @@ use dmstr\widgets\Alert;
     <!-- Tab panes -->
     <div class="tab-content">
         <!-- Home tab content -->
+        
         <div class="tab-pane" id="control-sidebar-home-tab">
             <h3 class="control-sidebar-heading">Recent Activity</h3>
             <ul class='control-sidebar-menu'>
