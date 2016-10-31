@@ -32,18 +32,19 @@
                 'items' => [
             
                     ['label' => 'Student', 'icon' => 'fa fa-file-code-o', 'url' => ['/student']],
-                    ['label' => 'Employee', 'icon' => 'fa fa-file-code-o', 'url' => ['/employee']],
                     ['label' => 'User', 'icon' => 'fa fa-file-code-o', 'url' => ['/user']],
                     ['label' => 'Class List', 'icon' => 'fa fa-file-code-o', 'url' => ['/class-list']],
+                    ['label' => 'Schedule', 'icon' => 'fa fa-file-code-o', 'url' => ['/schedule']],
                     ['label' => 'Review Class', 'icon' => 'fa fa-file-code-o', 'url' => ['/review-class']],
+                    ['label' => 'Payment', 'icon' => 'fa fa-file-code-o', 'url' => ['/payment']],
+                    ['label' => 'Contact Form', 'icon' => 'fa fa-file-code-o', 'url' => ['/contact-form']],
+                    
                     [
-                        'label' => 'Transactions',
+                        'label' => 'Other',
                         'icon' => 'fa fa-share',
                         'url' => '#',
                         'items' => [
-                            ['label' => 'Enrollment', 'icon' => 'fa fa-file-code-o', 'url' => ['/enrollment']],
                     ['label' => 'debug', 'icon' => 'fa fa-file-code-o', 'url' => ['/debug']],
-                      ['label' => 'Payment', 'icon' => 'fa fa-file-code-o', 'url' => ['/payment']],
                             
                         ],
                     ],
