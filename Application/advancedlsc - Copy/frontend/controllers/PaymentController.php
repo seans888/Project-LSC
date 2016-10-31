@@ -8,6 +8,7 @@ use common\models\PaymentSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\web\depositSlip;
 
 /**
  * PaymentController implements the CRUD actions for Payment model.
@@ -67,6 +68,15 @@ class PaymentController extends Controller
         $model = new Payment();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+
+             // get the instance of the uploaded file
+            $imageName = $model->student_id;
+            $model->file=UploadedFile::getInstance($model,'file');
+            $model->file->saveAs('depositSlip/'.$imageName.'.'.$model->file->extension);
+
+            //save the path in db column
+            $model->payment = 'depositSlip/'.$imageName.'.'.$model->file->extension;
+           
             return $this->redirect(['view', 'student_id' => $model->student_id, 'review_class_id' => $model->review_class_id]);
         } else {
             return $this->render('create', [
