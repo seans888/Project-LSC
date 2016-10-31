@@ -18,27 +18,27 @@ use common\models\ReviewClass;
 
     <?= $form->field($model, 'firstname')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'middlename')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'middlename')->textInput(['maxlength' => true,'value'=>'-']) ?>
 
     <?= $form->field($model, 'age')->textInput() ?>
 
-    <?= $form->field($model, 'gender')->dropDownList([ 'Male' => 'Male', 'Female' => 'Female', ], ['prompt' => '']) ?>
+    <?= $form->field($model, 'gender')->dropDownList([ 'Male' => 'Male', 'Female' => 'Female', ], ['prompt' => 'Male/Female']) ?>
 
-    <?= $form->field($model, 'contact_number')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'contact_number')->textInput(['maxlength' => true, 'placeholder'=>'e.g. 09xxxxxxxxx'])?>
 
-    <?= $form->field($model, 'email_address')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'email_address')->input(['maxlength' => true, 'email', 'placeholder'=>'juandelacruz@email.com']) ?>
 
-    <?= $form->field($model, 'home_address')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'home_address')->textInput(['maxlength' => true])->hint('No., Street, Barangay/Subdivision, Municipality/City/Province') ?>
 
-    <?= $form->field($model, 'school')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'school')->textInput(['maxlength' => true])->hint('Name, Address') ?>
 
     <?= $form->field($model, 'guardian_name')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'relation')->dropDownList([ 'Parent' => 'Parent', 'Grandparent' => 'Grandparent', 'Sibling' => 'Sibling', 'Other' => 'Other', ], ['prompt' => '']) ?>
 
-    <?= $form->field($model, 'guardian_contact_number')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'guardian_contact_number')->textInput(['maxlength' => true, 'placeholder'=>'e.g. 09xxxxxxxxx']) ?>
 
-    <?= $form->field($model, 'guardian_email_address')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'guardian_email_address')->input(['maxlength' => true,'email','placeholder'=>'e.g. mariadelacruz@email.com']) ?>
 
     <?= $form->field($model, 'selected_school')->textInput(['maxlength' => true]) ?>
 
@@ -52,13 +52,15 @@ use common\models\ReviewClass;
 
     <?= $form->field($model, 'schedule_id')->textInput() ?>
 
-    <?= $form->field($model, 'transaction_type')->dropDownList([ 'Reserve' => 'Reserve', 'Enroll' => 'Enroll', ], ['prompt' => '']) ?>
+    <?= $form->field($model, 'transaction_type')->dropDownList([ 'Reserve' => 'Reserve', 'Enroll' => 'Enroll',
+     ], ['prompt' => '','value'=>'Reserved']) ?>
 
-    <?= $form->field($model, 'date_of_registration')->textInput() ?>
+  <!--  <?= $form->field($model, 'date_of_registration')->textInput() ?> -->
 
-    <?= $form->field($model, 'status')->dropDownList([ 'Pending' => 'Pending', 'Reserved' => 'Reserved', 'Enrolled' => 'Enrolled', 'Done' => 'Done', 'Cancelled' => 'Cancelled', ], ['prompt' => '']) ?>
+    <?= $form->field($model, 'status')->dropDownList([ 'Pending' => 'Pending', 'Reserved' => 'Reserved', 'Enrolled' => 'Enrolled', 'Done' => 'Done', 'Cancelled' => 'Cancelled', 
+        ], ['value'=>'Pending','prompt' => '']) ?>
 
-    <?= $form->field($model, 'user_id')->textInput() ?>
+  <!--  <?= $form->field($model, 'user_id')->textInput() ?> -->
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
