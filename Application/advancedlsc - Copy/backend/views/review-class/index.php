@@ -2,13 +2,12 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
-use vendor\almasaeed2010\adminlte\plugins\datepicker\datepicker3;
 
 /* @var $this yii\web\View */
 /* @var $searchModel common\models\ReviewClassSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Review Classes';
+//$this->title = 'Review Classes';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="review-class-index">
@@ -28,21 +27,6 @@ $this->params['breadcrumbs'][] = $this->title;
             'id',
             'name',
             'description',
-            /*[
-                'attribute'=>'start_date',
-                'value'=>'start_date',
-                'format'=>'raw',
-                'filter'=>datepicker::className(),[
-                    'model'=> $searchModel,
-                    'attribute'=> 'start_date',
-                    'inline' =>false,
-                    'clientOption' => [
-                    'autoclose' => true,
-                    'format' => 'mm/dd/yyyy'
-                ]
-                ])
-            ]*/
-
             'start_date',
             'end_date',
 

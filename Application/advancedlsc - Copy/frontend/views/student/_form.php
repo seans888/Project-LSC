@@ -26,7 +26,7 @@ use common\models\ReviewClass;
 
     <?= $form->field($model, 'contact_number')->textInput(['maxlength' => true,'placeholder'=>'e.g. 09xxxxxxxxx']) ?>
 
-    <?= $form->field($model, 'email_address')->textInput(['maxlength' => true,'placeholder'=>'juandelacruz@email.com']) ?>
+    <?= $form->field($model, 'email_address')->input(['maxlength' => true,'placeholder'=>'juandelacruz@email.com','email']) ?>
 
     <?= $form->field($model, 'home_address')->textInput(['maxlength' => true])->hint('No., Street, Barangay/Subdivision, Municipality/City/Province') ?>
 
@@ -38,7 +38,7 @@ use common\models\ReviewClass;
 
     <?= $form->field($model, 'guardian_contact_number')->textInput(['maxlength' => true,'placeholder'=>'e.g. 09xxxxxxxxx']) ?>
 
-    <?= $form->field($model, 'guardian_email_address')->textInput(['maxlength' => true,'placeholder'=>'e.g. mariadelacruz@email.com']) ?>
+    <?= $form->field($model, 'guardian_email_address')->input(['maxlength' => true,'placeholder'=>'e.g. mariadelacruz@email.com','email']) ?>
 
     <?= $form->field($model, 'selected_school')->textInput(['maxlength' => true])->hint('Name, Address') ?>
 
