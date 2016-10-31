@@ -19,7 +19,7 @@ class ScheduleSearch extends Schedule
     {
         return [
             [['id', 'review_class_id', 'duration_of_hours'], 'integer'],
-            [['start_time', 'end_time', 'location', 'room'], 'safe'],
+            [['start_time', 'end_time', 'location', 'room', 'start_date', 'end_date', 'days'], 'safe'],
         ];
     }
 
@@ -64,10 +64,13 @@ class ScheduleSearch extends Schedule
             'duration_of_hours' => $this->duration_of_hours,
             'start_time' => $this->start_time,
             'end_time' => $this->end_time,
+            'start_date' => $this->start_date,
+            'end_date' => $this->end_date,
         ]);
 
         $query->andFilterWhere(['like', 'location', $this->location])
-            ->andFilterWhere(['like', 'room', $this->room]);
+            ->andFilterWhere(['like', 'room', $this->room])
+            ->andFilterWhere(['like', 'days', $this->days]);
 
         return $dataProvider;
     }

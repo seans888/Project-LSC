@@ -4,6 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\helpers\ArrayHelper;
 use common\models\ReviewClass;
+use common\models\Student;
 
 
 /* @var $this yii\web\View */
@@ -15,7 +16,7 @@ use common\models\ReviewClass;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'student_id')->textInput() ?>
+    <?= $form->field($model, 'student_id')->textInput(['readonly'=>true]) ?>
 
     <?= $form->field($model, 'review_class_id')->dropDownList(ArrayHelper::map(ReviewClass::find()->all(),'id','name'),
         ['prompt'=>'--Select--']) ?>

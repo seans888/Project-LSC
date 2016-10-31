@@ -29,6 +29,12 @@ use yii\widgets\ActiveForm;
 
     <?php // echo $form->field($model, 'room') ?>
 
+    <?php // echo $form->field($model, 'start_date') ?>
+
+    <?php // echo $form->field($model, 'end_date') ?>
+
+    <?php // echo $form->field($model, 'days') ?>
+
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>
         <?= Html::resetButton('Reset', ['class' => 'btn btn-default']) ?>

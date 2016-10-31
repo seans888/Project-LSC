@@ -14,6 +14,9 @@ use Yii;
  * @property string $end_time
  * @property string $location
  * @property string $room
+ * @property string $start_date
+ * @property string $end_date
+ * @property string $days
  *
  * @property ReviewClass $reviewClass
  * @property Student[] $students
@@ -34,10 +37,11 @@ class Schedule extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['review_class_id'], 'required'],
+            [['review_class_id', 'duration_of_hours', 'start_time', 'end_time', 'location', 'room', 'start_date', 'end_date', 'days'], 'required'],
             [['review_class_id', 'duration_of_hours'], 'integer'],
-            [['start_time', 'end_time'], 'safe'],
+            [['start_time', 'end_time', 'start_date', 'end_date'], 'safe'],
             [['location', 'room'], 'string', 'max' => 150],
+            [['days'], 'string', 'max' => 250],
             [['review_class_id'], 'exist', 'skipOnError' => true, 'targetClass' => ReviewClass::className(), 'targetAttribute' => ['review_class_id' => 'id']],
         ];
     }
@@ -55,6 +59,9 @@ class Schedule extends \yii\db\ActiveRecord
             'end_time' => 'End Time',
             'location' => 'Location',
             'room' => 'Room',
+            'start_date' => 'Start Date',
+            'end_date' => 'End Date',
+            'days' => 'Days',
         ];
     }
 

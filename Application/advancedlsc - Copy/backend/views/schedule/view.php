@@ -35,6 +35,9 @@ $this->params['breadcrumbs'][] = $this->title;
             'end_time',
             'location',
             'room',
+            'start_date',
+            'end_date',
+            'days',
         ],
     ]) ?>
 

@@ -48,8 +48,8 @@ class Payment extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'student_id' => 'Student ID',
-            'review_class_id' => 'Review Class ID',
+            'student_id' => 'Student Name',
+            'review_class_id' => 'Review Class Name',
             'file'=>'Attach your Deposit Slip',
             'deposit_slip' => 'Attach your Deposit Slip',
             'date' => 'Date Submitted',
