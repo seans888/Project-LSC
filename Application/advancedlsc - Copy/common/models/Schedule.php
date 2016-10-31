@@ -54,7 +54,7 @@ class Schedule extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'review_class_id' => 'Review Class ID',
+            'review_class_id' => 'Review Class Name',
             'batch' => 'Batch',
             'duration_of_hours' => 'Duration Of Hours',
             'start_time' => 'Start Time',
