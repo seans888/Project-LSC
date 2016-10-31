@@ -9,6 +9,9 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
+
+
+
 /**
  * StudentController implements the CRUD actions for Student model.
  */
@@ -69,7 +72,8 @@ class StudentController extends Controller
         $model = new Student();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id, 'review_class_id' => $model->review_class_id, 'schedule_id' => $model->schedule_id, 'user_id' => $model->user_id]);
+            return $this->redirect(['view', 'id' => $model->id, 'review_class_id' => $model->review_class_id, 
+                'schedule_id' => $model->schedule_id, 'user_id' => $model->user_id]);
         } else {
             return $this->render('create', [
                 'model' => $model,
@@ -91,7 +95,8 @@ class StudentController extends Controller
         $model = $this->findModel($id, $review_class_id, $schedule_id, $user_id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id, 'review_class_id' => $model->review_class_id, 'schedule_id' => $model->schedule_id, 'user_id' => $model->user_id]);
+            return $this->redirect(['view', 'id' => $model->id, 'review_class_id' => $model->review_class_id,
+             'schedule_id' => $model->schedule_id, 'user_id' => $model->user_id]);
         } else {
             return $this->render('update', [
                 'model' => $model,
@@ -125,7 +130,7 @@ class StudentController extends Controller
      * @return Student the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
-    protected function findModel($id, $review_class_id, $schedule_id, $user_id)
+     protected function findModel($id, $review_class_id, $schedule_id, $user_id)
     {
         if (($model = Student::findOne(['id' => $id, 'review_class_id' => $review_class_id, 'schedule_id' => $schedule_id, 'user_id' => $user_id])) !== null) {
             return $model;
@@ -133,4 +138,15 @@ class StudentController extends Controller
             throw new NotFoundHttpException('The requested page does not exist.');
         }
     }
+
+/*
+    protected function findModel($id, $review_class_id, $schedule_id, $user_id)
+    {row new NotFoundHttpException('The requested page does not exist.');
+        }
+        if (($model = Student::findOne(['id' => $id, 'review_class_id' => $review_class_id, 'schedule_id' => $schedule_id, 'user_id' => $user_id])) !== null) {
+            return $model;
+        } else {
+             throw new NotFoundHttpException('The requested page does not exist.');
+    }
+*/
 }
