@@ -167,7 +167,7 @@ class Student extends \yii\db\ActiveRecord
      */
     public function getUser()
     {
-        return $this->hasOne(User::className(), ['id' => 'user_id'])->inverseOf('student');
+        return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
 }
 //Yii::$app->user->getId();
