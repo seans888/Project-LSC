@@ -17,6 +17,7 @@ use Yii;
  */
 class Payment extends \yii\db\ActiveRecord
 {
+    public $file;
     /**
      * @inheritdoc
      */
@@ -34,7 +35,8 @@ class Payment extends \yii\db\ActiveRecord
             [['student_id', 'review_class_id'], 'required'],
             [['student_id', 'review_class_id'], 'integer'],
             [['date'], 'safe'],
-            [['deposit_slip'], 'string', 'max' => 250],
+            [['file'],'file'],
+            [['deposit_slip'],'string', 'max' => 250],
             [['review_class_id'], 'exist', 'skipOnError' => true, 'targetClass' => ReviewClass::className(), 'targetAttribute' => ['review_class_id' => 'id']],
             [['student_id'], 'exist', 'skipOnError' => true, 'targetClass' => Student::className(), 'targetAttribute' => ['student_id' => 'id']],
         ];
@@ -46,10 +48,11 @@ class Payment extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'student_id' => 'Student ID',
-            'review_class_id' => 'Review Class ID',
-            'deposit_slip' => 'Deposit Slip',
-            'date' => 'Date',
+            'student_id' => 'Student Name',
+            'review_class_id' => 'Review Class Name',
+            'file'=>'Attach your Deposit Slip',
+            'deposit_slip' => 'Attach your Deposit Slip',
+            'date' => 'Date Submitted',
         ];
     }
 

@@ -241,13 +241,12 @@ function showSlides() {
       <!-- REVIEW SECTION END-->
 
     <div id="tutorials-sec"   >
-           <div class="overlay">
+         <!--  <div class="overlay"> -->
  <div class="container set-pad">
       <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                      <h1 data-scroll-reveal="enter from the bottom after 0.3s" class="header-line" ><br>TUTORIALS  </h1>
-                     <p data-scroll-reveal="enter from the bottom after 0.3s">
-                      <table align="center">
+                      <table align="center" data-scroll-reveal="enter from the bottom after 0.6s">
                         <tr bgcolor="">
                             <th>Kinder & Prep:</th>
                             <th>Reading <br>

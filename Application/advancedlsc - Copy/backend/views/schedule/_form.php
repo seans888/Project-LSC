@@ -1,9 +1,7 @@
 <?php
 
 use yii\helpers\Html;
-use yii\helpers\ArrayHelper;
 use yii\widgets\ActiveForm;
-use common\models\ReviewClass;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Schedule */
@@ -14,11 +12,9 @@ use common\models\ReviewClass;
 
     <?php $form = ActiveForm::begin(); ?>
 
-   <!-- <?= $form->field($model, 'review_class_id')->textInput() ?> -->
-   <?= $form->field($model, 'review_class_id')->dropDownList(
-        ArrayHelper::map(ReviewClass::find()->all(),'id','name'),
-        ['prompt'=>'Select Review Class']
-    ) ?>
+    <?= $form->field($model, 'review_class_id')->textInput() ?>
+
+    <?= $form->field($model, 'batch')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'duration_of_hours')->textInput() ?>
 
@@ -29,6 +25,12 @@ use common\models\ReviewClass;
     <?= $form->field($model, 'location')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'room')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'start_date')->textInput() ?>
+
+    <?= $form->field($model, 'end_date')->textInput() ?>
+
+    <?= $form->field($model, 'days')->textInput(['maxlength' => true]) ?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>

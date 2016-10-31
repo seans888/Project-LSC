@@ -30,11 +30,15 @@ $this->params['breadcrumbs'][] = $this->title;
         'attributes' => [
             'id',
             'review_class_id',
+            'batch',
             'duration_of_hours',
             'start_time',
             'end_time',
             'location',
             'room',
+            'start_date',
+            'end_date',
+            'days',
         ],
     ]) ?>
 

@@ -21,6 +21,8 @@ use frontend\site\newreservation;
 use frontend\site\other;
 use frontend\views;
 use frontend\views\student\create;
+use common\models\Student;
+use common\models\User;
 /**
  * Site controller
  */
@@ -282,4 +284,20 @@ class SiteController extends Controller
         return $this->render('create');
 
     }
+
+    /*
+     * Student 
+    public function actionStudent(){
+        $model = new Student;
+        if($model->load(Yii::$app->request->post())){
+            $model->user_id=Yii::$app->user->identity->id;
+            Yii::$app->session->setFlash('success', 'Hai inserito i dati correttamente');
+            return $this->render('student', ['model' => $model]);
+       }else {
+             Yii::$app->getSession()->setFlash('error', 'Completa correttamente tutti i campi.');
+            return $this->render('student', ['model' => $model]);   
+        }
+    }
+*/
+   
 }

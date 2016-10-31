@@ -9,11 +9,15 @@ use Yii;
  *
  * @property integer $id
  * @property integer $review_class_id
+ * @property string $batch
  * @property integer $duration_of_hours
  * @property string $start_time
  * @property string $end_time
  * @property string $location
  * @property string $room
+ * @property string $start_date
+ * @property string $end_date
+ * @property string $days
  *
  * @property ReviewClass $reviewClass
  * @property Student[] $students
@@ -34,10 +38,11 @@ class Schedule extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['review_class_id'], 'required'],
+            [['review_class_id', 'batch', 'duration_of_hours', 'start_time', 'end_time', 'location', 'room', 'start_date', 'end_date', 'days'], 'required'],
             [['review_class_id', 'duration_of_hours'], 'integer'],
-            [['start_time', 'end_time'], 'safe'],
-            [['location', 'room'], 'string', 'max' => 150],
+            [['start_time', 'end_time', 'start_date', 'end_date'], 'safe'],
+            [['batch', 'location', 'room'], 'string', 'max' => 150],
+            [['days'], 'string', 'max' => 250],
             [['review_class_id'], 'exist', 'skipOnError' => true, 'targetClass' => ReviewClass::className(), 'targetAttribute' => ['review_class_id' => 'id']],
         ];
     }
@@ -50,11 +55,15 @@ class Schedule extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'review_class_id' => 'Review Class ID',
+            'batch' => 'Batch',
             'duration_of_hours' => 'Duration Of Hours',
             'start_time' => 'Start Time',
             'end_time' => 'End Time',
             'location' => 'Location',
             'room' => 'Room',
+            'start_date' => 'Start Date',
+            'end_date' => 'End Date',
+            'days' => 'Days',
         ];
     }
 
