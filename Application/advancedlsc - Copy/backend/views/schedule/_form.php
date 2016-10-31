@@ -14,6 +14,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'review_class_id')->textInput() ?>
 
+    <?= $form->field($model, 'batch')->textInput(['maxlength' => true]) ?>
+
     <?= $form->field($model, 'duration_of_hours')->textInput() ?>
 
     <?= $form->field($model, 'start_time')->textInput() ?>

@@ -19,11 +19,13 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'review_class_id') ?>
 
+    <?= $form->field($model, 'batch') ?>
+
     <?= $form->field($model, 'duration_of_hours') ?>
 
     <?= $form->field($model, 'start_time') ?>
 
-    <?= $form->field($model, 'end_time') ?>
+    <?php // echo $form->field($model, 'end_time') ?>
 
     <?php // echo $form->field($model, 'location') ?>
 
