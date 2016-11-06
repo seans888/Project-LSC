@@ -2,6 +2,8 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use yii\helpers\ArrayHelper;
+use common\models\ReviewClass;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Payment */
@@ -14,7 +16,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'student_id')->textInput() ?>
 
-    <?= $form->field($model, 'review_class_id')->textInput() ?>
+    <?= $form->field($model, 'review_class_id')->dropDownList(ArrayHelper::map(ReviewClass::find()->all(),'id','name'),
+        ['prompt'=>'--Select--']) ?>
 
     <?= $form->field($model, 'file')->fileInput(['maxlength' => true]) ?>
 

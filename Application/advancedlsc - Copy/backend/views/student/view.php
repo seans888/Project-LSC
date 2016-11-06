@@ -44,12 +44,12 @@ $this->params['breadcrumbs'][] = $this->title;
             'guardian_email_address:email',
             'selected_school',
             'learned_lsc',
-            'review_class_id',
+            'reviewClass.name:text:Review Class',   //changed display from id to name
             'schedule_id',
             'transaction_type',
             'date_of_registration',
             'status',
-            'user_id',
+            'user.username:text:Username',  //changed display user id to username
         ],
     ]) ?>
 
