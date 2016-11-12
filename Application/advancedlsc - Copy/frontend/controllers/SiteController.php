@@ -23,6 +23,7 @@ use frontend\views;
 use frontend\views\student\create;
 use common\models\Student;
 use common\models\User;
+use common\models\Transaction;
 /**
  * Site controller
  */
@@ -162,7 +163,7 @@ class SiteController extends Controller
         if ($model->load(Yii::$app->request->post())) {
             if ($user = $model->signup()) {
                 if (Yii::$app->getUser()->login($user)) {
-                    return $this->redirect(Url::to('index.php?r=student%2Fcreate'));
+                    return $this->redirect(Url::to('index.php?r=transaction%2Fcreate'));
                 }
             }
         }
