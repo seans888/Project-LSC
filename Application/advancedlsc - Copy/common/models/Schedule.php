@@ -20,7 +20,7 @@ use Yii;
  * @property string $days
  *
  * @property ReviewClass $reviewClass
- * @property Student[] $students
+ * @property Transaction[] $transactions
  */
 class Schedule extends \yii\db\ActiveRecord
 {
@@ -41,7 +41,8 @@ class Schedule extends \yii\db\ActiveRecord
             [['review_class_id', 'batch', 'duration_of_hours', 'start_time', 'end_time', 'location', 'room', 'start_date', 'end_date', 'days'], 'required'],
             [['review_class_id', 'duration_of_hours'], 'integer'],
             [['start_time', 'end_time', 'start_date', 'end_date'], 'safe'],
-            [['batch', 'location', 'room'], 'string', 'max' => 150],
+            [['batch'], 'string', 'max' => 45],
+            [['location', 'room'], 'string', 'max' => 150],
             [['days'], 'string', 'max' => 250],
             [['review_class_id'], 'exist', 'skipOnError' => true, 'targetClass' => ReviewClass::className(), 'targetAttribute' => ['review_class_id' => 'id']],
         ];
@@ -54,7 +55,7 @@ class Schedule extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'review_class_id' => 'Review Class Name',
+            'review_class_id' => 'Review Class ID',
             'batch' => 'Batch',
             'duration_of_hours' => 'Duration Of Hours',
             'start_time' => 'Start Time',
@@ -78,8 +79,8 @@ class Schedule extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getStudents()
+    public function getTransactions()
     {
-        return $this->hasMany(Student::className(), ['schedule_id' => 'id']);
+        return $this->hasMany(Transaction::className(), ['schedule_id' => 'id']);
     }
 }

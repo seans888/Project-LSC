@@ -12,6 +12,20 @@ class SignupForm extends Model
     public $username;
     public $email;
     public $password;
+    public $lastname;
+    public $firstname;
+    public $middlename;
+    public $age;
+    public $gender;
+    public $contactNumber;
+    public $homeAddress;
+    public $school;
+    public $guardianName;
+    public $guardianRelation;
+    public $guardianContactNumber;
+    public $guardianEmailAddress;
+    public $selectedSchool;
+    public $learnedLSC;
 
 
     /**
@@ -33,6 +47,21 @@ class SignupForm extends Model
 
             ['password', 'required'],
             ['password', 'string', 'min' => 6],
+
+            ['firstname', 'required'],
+            ['lastname', 'required'],
+            ['middlename', 'required'],
+            ['age', 'required'],
+            ['gender', 'required'],
+            ['contactNumber', 'required'],
+            ['homeAddress', 'required'],
+            ['school', 'required'],
+            ['guardianName', 'required'],
+            ['guardianRelation', 'required'],
+            ['guardianContactNumber', 'required'],
+            ['guardianEmailAddress', 'required'],
+            ['selectedSchool', 'required'],
+            ['learnedLSC', 'required'],
         ];
     }
 
@@ -50,6 +79,20 @@ class SignupForm extends Model
         $user = new User();
         $user->username = $this->username;
         $user->email = $this->email;
+        $user->lastname = $this->lastname;
+        $user->firstname = $this->firstname;
+        $user->middlename = $this->middlename;
+        $user->age = $this->age;
+        $user->gender = $this->gender;
+        $user->contact_number = $this->contactNumber;
+        $user->home_address = $this->homeAddress;
+        $user->school = $this->school;
+        $user->guardian_name = $this->guardianName;
+        $user->relation = $this->guardianRelation;
+        $user->guardian_email_address = $this->guardianEmailAddress;
+        $user->guardian_contact_number = $this->guardianContactNumber;
+        $user->selected_school = $this->selectedSchool;
+        $user->learned_lsc = $this->learnedLSC;
         $user->setPassword($this->password);
         $user->generateAuthKey();
         
