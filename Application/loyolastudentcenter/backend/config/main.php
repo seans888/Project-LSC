@@ -13,6 +13,14 @@ return [
     'bootstrap' => ['log'],
     'modules' => [],
     'components' => [
+
+                'view' => [
+         'theme' => [
+             'pathMap' => [
+                '@app/views' => '@backend/views/adminlte/yii2-app' //adminLTE Path
+             ],
+         ],
+    ],
         'request' => [
             'csrfParam' => '_csrf-backend',
         ],
