@@ -1,6 +1,10 @@
 <?php
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
+use backend\models;
+use backend\controllers\SiteController;
+use common\models\Admin;
+use common\models\AdminLoginForm;
 
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
@@ -21,7 +25,9 @@ $fieldOptions2 = [
 
 <div class="login-box">
     <div class="login-logo">
-        <a href="#"><b>Admin</b>LTE</a>
+        <img src="/advancedlsc/frontend/web/images/logo.png" alt="">
+        <br>
+        <a href="#">Loyola Student Center</a>
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body">
@@ -49,21 +55,23 @@ $fieldOptions2 = [
             </div>
             <!-- /.col -->
         </div>
-
+              <div style="color:#999;margin:1em 0">
+                   Register a new membership <?= Html::a('Sign Up here', ['signup']) ?>.
+                </div>
 
         <?php ActiveForm::end(); ?>
 
-        <div class="social-auth-links text-center">
+      <!--  <div class="social-auth-links text-center">
             <p>- OR -</p>
             <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Sign in
                 using Facebook</a>
             <a href="#" class="btn btn-block btn-social btn-google-plus btn-flat"><i class="fa fa-google-plus"></i> Sign
                 in using Google+</a>
         </div>
-        <!-- /.social-auth-links -->
+      -->
 
         <a href="#">I forgot my password</a><br>
-        <a href="register.html" class="text-center">Register a new membership</a>
+      <!--- <a href="http://localhost/advancedlsc2/backend/web/index.php?r=site%2Fsignup" class="text-center">Register a new membership</a>-->
 
     </div>
     <!-- /.login-box-body -->
