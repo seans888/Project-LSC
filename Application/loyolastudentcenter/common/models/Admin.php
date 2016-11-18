@@ -6,6 +6,12 @@ use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
 use yii\web\IdentityInterface;
+use yii\bootstrap\ActiveForm;
+use backend\models;
+use backend\controllers\SiteController;
+use common\models\Admin;
+use common\models\AdminLoginForm;
+use backend\models\SignupForm;
 
 /**
  * User model
@@ -185,5 +191,14 @@ class Admin extends ActiveRecord implements IdentityInterface
     public function removePasswordResetToken()
     {
         $this->password_reset_token = null;
+    }
+     public function getUsername()
+    {
+        return Yii::$app->user->identity->username;
+    }
+
+    public function getName()
+    {
+        return Yii::$app->user->identity->name;
     }
 }
