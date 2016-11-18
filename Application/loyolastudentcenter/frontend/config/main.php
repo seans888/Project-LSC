@@ -12,15 +12,11 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
-        'request' => [
-            //'csrfParam' => '_csrf-frontend',
-            'cookieValidationKey' => 'rVfcjiFtkMxVOsgsPhEI',
-            'csrfParam' => '_frontendCSRF',
-        ],
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
-            'identityCookie' =>/* ['name' => '_identity-frontend', 'httpOnly' => true]*/
+            'identityCookie' =>
+            /* ['name' => '_identity-frontend', 'httpOnly' => true*/
             ['name' => '_frontendUser',]
         ],
         'session' => [
@@ -28,6 +24,11 @@ return [
             'name' => 'PHPFRONTSESSID',
             'savePath' => sys_get_temp_dir(),
             //'name' => 'advanced-frontend',
+        ],
+         'request' => [
+            //'csrfParam' => '_csrf-frontend',
+            'cookieValidationKey' => 'rVfcjiFtkMxVOsgsPhEI',
+            'csrfParam' => '_frontendCSRF',
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,

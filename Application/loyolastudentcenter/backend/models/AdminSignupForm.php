@@ -54,7 +54,10 @@ class AdminSignupForm extends Model
      */
     public function signup()
     {
-        if (!$this->validate()) {        
+        if (!$this->validate()) {   
+            return null;
+        }  
+
         $user = new Admin();
         $user->lastname = $this->lastname;
         $user->firstname = $this->firstname;
@@ -66,9 +69,7 @@ class AdminSignupForm extends Model
         $user->email = $this->email;
         $user->setPassword($this->password);
         $user->generateAuthKey();
-        $user->save();
-        return $user;
-        }
-        return null;
+        
+         return $user->save() ? $user : null; 
     }
 }
