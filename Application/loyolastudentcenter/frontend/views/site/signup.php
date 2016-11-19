@@ -12,7 +12,7 @@ use yii\grid\GridView;
 use yii\widgets\Pjax;
 use yii\bootstrap\Modal;
 use yii\helpers\Url;
-use frontend\views\student;
+use frontend\views\user;
 
 $this->title = 'Sign up';
 //$this->params['breadcrumbs'][] = $this->title;

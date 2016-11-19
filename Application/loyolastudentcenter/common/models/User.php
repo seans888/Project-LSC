@@ -32,7 +32,7 @@ class User extends ActiveRecord implements IdentityInterface
      */
     public static function tableName()
     {
-        return '{{%user}}';
+        return 'user';
     }
 
     /**
@@ -53,6 +53,34 @@ class User extends ActiveRecord implements IdentityInterface
         return [
             ['status', 'default', 'value' => self::STATUS_ACTIVE],
             ['status', 'in', 'range' => [self::STATUS_ACTIVE, self::STATUS_DELETED]],
+             ['username', 'trim'],
+            ['username', 'required'],
+            ['username', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This username has already been taken.'],
+            ['username', 'string', 'min' => 2, 'max' => 255],
+
+            ['email', 'trim'],
+            ['email', 'required'],
+            ['email', 'email'],
+            ['email', 'string', 'max' => 255],
+            ['email', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This email address has already been taken.'],
+
+           // ['password', 'required'],
+           // ['password', 'string', 'min' => 6],
+
+            ['firstname', 'required'],
+            ['lastname', 'required'],
+            ['middlename', 'required'],
+            ['age', 'required'],
+            ['gender', 'required'],
+            ['contact_number', 'required'],
+            ['home_address', 'required'],
+            ['school', 'required'],
+            ['guardian_name', 'required'],
+            ['relation', 'required'],
+            ['guardian_contact_number', 'required'],
+            ['guardian_email_address', 'required'],
+            ['selected_school', 'required'],
+            ['learned_lsc', 'required'],
         ];
     }
 
