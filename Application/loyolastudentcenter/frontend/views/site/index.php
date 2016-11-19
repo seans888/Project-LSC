@@ -189,7 +189,7 @@ function showSlides() {
                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                         Aenean commodo .    
                    </p>
-               <a href="#" class="btn btn-info btn-set"  >READ MORE</a>
+               <a href="index.php?r=site%2Fabout" class="btn btn-info btn-set"  >READ MORE</a>
                 </div>
                    </div>
                    <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
@@ -202,7 +202,7 @@ function showSlides() {
                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                         Aenean commodo . 
                    </p>
-               <a href="#" class="btn btn-info btn-set"  >READ MORE</a>
+               <a href="#tutorial-sec" class="btn btn-info btn-set"  >READ MORE</a>
                 </div>
                    </div>
                  <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
@@ -216,7 +216,7 @@ function showSlides() {
                         Aenean commodo . 
                        
                    </p>
-               <a href="#" class="btn btn-info btn-set"  >READ MORE</a>
+               <a href="index.php?r=site%2Freviews" class="btn btn-info btn-set"  >READ MORE</a>
                 </div>
                    </div>
                </div>
@@ -331,7 +331,7 @@ function showSlides() {
                  <img src="theme/assets/img/building.jpg" class="img-thumbnail" />
            </div>
                     </div>
-                    
+
 
                     </div>
                     </div>

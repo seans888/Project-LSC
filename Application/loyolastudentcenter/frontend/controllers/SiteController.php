@@ -228,4 +228,9 @@ Yii::$app->getSession()->setFlash('warning','Failed!');
 }
 return $this->goHome();
 }
+
+public function actionReviews()
+    {
+        return $this->render('reviews');
+    }
 }
