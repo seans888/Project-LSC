@@ -19,7 +19,7 @@ class TransactionSearch extends Transaction
     {
         return [
             [['user_id', 'review_class_id', 'schedule_id'], 'integer'],
-            [['transaction_type', 'status'], 'safe'],
+            [['selected_school', 'transaction_type', 'status'], 'safe'],
         ];
     }
 
@@ -64,7 +64,8 @@ class TransactionSearch extends Transaction
             'schedule_id' => $this->schedule_id,
         ]);
 
-        $query->andFilterWhere(['like', 'transaction_type', $this->transaction_type])
+        $query->andFilterWhere(['like', 'selected_school', $this->selected_school])
+            ->andFilterWhere(['like', 'transaction_type', $this->transaction_type])
             ->andFilterWhere(['like', 'status', $this->status]);
 
         return $dataProvider;

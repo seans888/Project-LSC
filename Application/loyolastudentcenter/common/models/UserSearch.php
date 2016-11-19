@@ -19,7 +19,7 @@ class UserSearch extends User
     {
         return [
             [['id', 'status', 'created_at', 'updated_at', 'age'], 'integer'],
-            [['username', 'auth_key', 'password_hash', 'password_reset_token', 'email', 'lastname', 'firstname', 'middlename', 'gender', 'contact_number', 'home_address', 'school', 'guardian_name', 'relation', 'guardian_contact_number', 'guardian_email_address', 'selected_school', 'learned_lsc'], 'safe'],
+            [['username', 'auth_key', 'password_hash', 'password_reset_token', 'email', 'lastname', 'firstname', 'middlename', 'gender', 'contact_number', 'home_address', 'school', 'guardian_name', 'relation', 'guardian_contact_number', 'guardian_email_address', 'learned_lsc'], 'safe'],
         ];
     }
 
@@ -82,7 +82,6 @@ class UserSearch extends User
             ->andFilterWhere(['like', 'relation', $this->relation])
             ->andFilterWhere(['like', 'guardian_contact_number', $this->guardian_contact_number])
             ->andFilterWhere(['like', 'guardian_email_address', $this->guardian_email_address])
-            ->andFilterWhere(['like', 'selected_school', $this->selected_school])
             ->andFilterWhere(['like', 'learned_lsc', $this->learned_lsc]);
 
         return $dataProvider;

@@ -24,7 +24,6 @@ class SignupForm extends Model
     public $guardianRelation;
     public $guardianContactNumber;
     public $guardianEmailAddress;
-    public $selectedSchool;
     public $learnedLSC;
 
 
@@ -60,7 +59,6 @@ class SignupForm extends Model
             ['guardianRelation', 'required'],
             ['guardianContactNumber', 'required'],
             ['guardianEmailAddress', 'required'],
-            ['selectedSchool', 'required'],
             ['learnedLSC', 'required'],
         ];
     }
@@ -91,7 +89,6 @@ class SignupForm extends Model
         $user->relation = $this->guardianRelation;
         $user->guardian_email_address = $this->guardianEmailAddress;
         $user->guardian_contact_number = $this->guardianContactNumber;
-        $user->selected_school = $this->selectedSchool;
         $user->learned_lsc = $this->learnedLSC;
         $user->setPassword($this->password);
         $user->generateAuthKey();
