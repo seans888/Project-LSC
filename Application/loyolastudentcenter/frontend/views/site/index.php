@@ -238,9 +238,7 @@ function showSlides() {
              </div>
              <!--/.HEADER LINE END-->  
                        <div class="row set-row-pad" >
-           <div class="col-lg-6 col-md-6 col-sm-6 " data-scroll-reveal="enter from the bottom after 0.4s" >
-                 <img src="theme/assets/img/building.jpg" class="img-thumbnail" />
-           </div>
+
                <div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
                    <div class="panel-group" id="accordion">
                         <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.5s">
@@ -310,7 +308,7 @@ function showSlides() {
                                 </div>
                             </div>
                         </div>
-                                                <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.9s">
+                            <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.9s">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="collapsed">
@@ -327,7 +325,17 @@ function showSlides() {
                                 </div>
                             </div>
                         </div>
-                    </div>   
+                    </div> 
+                    </div>
+           <div class="col-lg-6 col-md-6 col-sm-6 " data-scroll-reveal="enter from the bottom after 0.4s" >
+                 <img src="theme/assets/img/building.jpg" class="img-thumbnail" />
+           </div>
+                    </div>
+                    
+
+                    </div>
+                    </div>
+
  
     </div>
              </div>

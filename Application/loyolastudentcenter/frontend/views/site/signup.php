@@ -29,19 +29,15 @@ $this->title = 'Sign up';
 
             <?php $form = ActiveForm::begin(['id' => 'form-signup']); ?>
 
-<<<<<<< HEAD
-                <?= $form->field($model, 'username')->textInput(['autofocus' => true,'placeholder'=>'username'])->label(false) ?>
-=======
                 <?= $form->field($model, 'username')->textInput(['autofocus' => true,'placeholder'=>'username']) ?>
->>>>>>> origin/master
 
-                <?= $form->field($model, 'lastname')->textInput(['maxlength' => true,'placeholder'=>'lastname'])->label(false) ?>
+                <?= $form->field($model, 'lastname')->textInput(['maxlength' => true,'placeholder'=>'Lastname'])->label(false) ?>
 
-                <?= $form->field($model, 'firstname')->textInput(['maxlength' => true,'placeholder'=>'firstname'])->label(false) ?>
+                <?= $form->field($model, 'firstname')->textInput(['maxlength' => true,'placeholder'=>'Firstname'])->label(false) ?>
 
                 <?= $form->field($model, 'middlename')->textInput(['maxlength' => true ,'value'=>'-'])->label(false) ?>
 
-                <?= $form->field($model, 'age')->textInput()->label(false) ?>
+                <?= $form->field($model, 'age')->textInput(['placeholder'=>'Age'])->label(false) ?>
 
                 <?= $form->field($model, 'gender')->dropDownList([ 'Male' => 'Male', 'Female' => 'Female', ], ['prompt' => 'Gender'])->label(false) ?>
 
@@ -59,15 +55,9 @@ $this->title = 'Sign up';
 
                 <?= $form->field($model, 'guardianEmailAddress')->textinput(['maxlength' => true,'placeholder'=>'Guardian Email Address'])->label(false) ?>
 
-                <?= $form->field($model, 'selectedSchool')->textInput(['maxlength' => true,'placeholder'=>'Selected School'])->hint('Name, Address')->label(false) ?>
-
-<<<<<<< HEAD
-                <?= $form->field($model, 'learnedLSC')->dropDownList([ 'friends' => 'Friends', 'relatives' => 'Relatives', 'newspaper ads' => 'Newspaper ads', 'LSC signage/poster' => 'LSC signage/poster', 'school' => 'School', 'others' => 'Others', ], ['prompt' => 'Please choose where you learned about LSC']) ?>
-=======
                 <?= $form->field($model, 'learnedLSC')->dropDownList([ 'friends' => 'Friends', 'relatives' => 'Relatives', 'newspaper ads' => 'Newspaper ads', 'LSC signage/poster' => 'LSC signage/poster', 'school' => 'School', 'others' => 'Others', ], ['prompt' => 'Please choose where you learned about LSC'])->label(false) ?>
 
                 <?= $form->field($model, 'email')->textInput(['placeholder'=>'Email'])->label(false) ?>
->>>>>>> origin/master
 
                 <?= $form->field($model, 'password')->passwordInput(['placeholder'=>'Password'])->label(false) ?>
 
