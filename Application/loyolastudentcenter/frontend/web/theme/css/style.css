@@ -17,6 +17,7 @@ body {
     line-height: 30px;
     font-size: 14px;
 }
+head {margin:0;padding:0}
 
 .set-pad {
     padding-top:35px;
@@ -115,7 +116,7 @@ body {
     .tag-line h2 {
         font-size: 20px;
         font-weight: 900;
-        padding: 5px 10px 10px 5px;
+        padding: 0px;
         color: #005E5A;
     }
 
@@ -196,7 +197,7 @@ h1::after {
 }
 /*=====================================
   FACULTY STYLES 
-  ===================================*/
+
 #faculty-sec {
     background-color: #000;
     color: #fff;
@@ -231,6 +232,45 @@ h1::after {
     .faculty-div img {
         border: 10px double #fff;
     }
+===================================*/
+/*=====================================
+  TUTORIALS STYLES 
+  ===================================*/
+#tutorial-sec {
+    background: #fff;
+    color: #000;
+}
+
+    #tutorial-sec .header-line {
+        color: #000;
+    }
+.tutorial-div h4 {
+    line-height:30px;
+    font-weight:700;
+}
+.tutorial-div {
+    padding: 30px;
+}
+
+    .tutorial-div hr {
+        border: 1px solid #1A94C4;
+    }
+
+    .tutorial-div h3 {
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .tutorial-div p {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .tutorial-div img {
+        border: 10px double #fff;
+    }
+
 
 /*=====================================
   CONTACT STYLES 
@@ -238,25 +278,26 @@ h1::after {
 #contact-sec {
     padding-top: 10px;
     padding-bottom: 60px;
-    background: url(../img/contact.jpg) no-repeat center center;
+   /* background: url(../img/contact.jpg) no-repeat center center; */
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
-    color: #fff;
+    color: #000;
     background-attachment: fixed;
+    background-color: #fff;
 }
 
 #contact-sec .overlay {
-        background: rgba(0, 0, 0, 0.76);
+        background: #fff;
         min-height: 600px;
     }
 
     #contact-sec h1 {
-        color:#fff;
+        color:#000;
     }
 #contact-sec .form-control{
     background-color:rgba(255, 255, 255, 0);
-    color:#fff;
+    color:#000;
 }
 /*=====================================
   Footer STYLES 
@@ -269,5 +310,5 @@ h1::after {
     font-size:15px;
 }
 /*=====================================
-  Slider STYLES 
+   STYLES 
   ===================================*/

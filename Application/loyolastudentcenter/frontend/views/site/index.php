@@ -4,55 +4,6 @@
 
 $this->title = 'My Yii Application';
 ?>
-<!--
-<div class="site-index">
-
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
-
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
-    </div>
-
-    <div class="body-content">
-
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
-            </div>
-        </div>
-
-    </div>
-</div>
--->
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -72,134 +23,192 @@ $this->title = 'My Yii Application';
     <link href="theme/assets/css/style.css" rel="stylesheet" />    
   <!-- Google   Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="css/style1.css">
+
 </head>
 <body >
 
-       <div class="home-sec" id="home" >
-           <div class="overlay">
- <div class="container">
-           <div class="row text-center " >
-           
-               <div class="col-lg-12  col-md-12 col-sm-12">
-               
-                <div class="flexslider set-flexi" id="main-section" >
-                    <ul class="slides move-me">
-                        <!-- Slider 01 -->
-                        <li>
-                              <h3>Delivering Quality Education</h3>
-                           <h1>THE UNIQUE METHOD</h1>
-                            <a  href="#features-sec" class="btn btn-info btn-lg" >
-                                GET AWESOME 
-                            </a>
-                             <a  href="#features-sec" class="btn btn-success btn-lg" >
-                                FEATURE LIST
-                            </a>
-                        </li>
-                        <!-- End Slider 01 -->
-                        
-                        <!-- Slider 02 -->
-                        <li>
-                            <h3>Delivering Quality Education</h3>
-                           <h1>UNMATCHED APPROACH</h1>
-                             <a  href="#features-sec" class="btn btn-primary btn-lg" >
-                               GET AWESOME 
-                            </a>
-                             <a  href="#features-sec" class="btn btn-danger btn-lg" >
-                                FEATURE LIST
-                            </a>
-                        </li>
-                        <!-- End Slider 02 -->
-                        
-                        <!-- Slider 03 -->
-                        <li>
-                            <h3>Delivering Quality Education</h3>
-                           <h1>AWESOME FACULTY PANEL</h1>
-                             <a  href="#features-sec" class="btn btn-default btn-lg" >
-                                GET AWESOME 
-                            </a>
-                             <a  href="#features-sec" class="btn btn-info btn-lg" >
-                                FEATURE LIST
-                            </a>
-                        </li>
-                        <!-- End Slider 03 -->
-                    </ul>
-                </div>
-                   
-     
-              
-              
-            </div>
-                
-               </div>
-                </div>
-           </div>
-           
-       </div>
-       <!--HOME SECTION END-->   
+
+<!--===============================================================================================================
+  SLIDESHOW STYLES 
+  =============================================================================================================-->
+<style>
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1150px;
+  position: relative;
+  margin: auto;
+  display: block;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 7s;
+  animation-name: fade;
+  animation-duration: 7s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+
+
+<!--===============================================================================================================
+  SLIDESHOW 
+  =============================================================================================================-->
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img class ="slideshow" src="<?= yii\helpers\Url::to('@web/images/img.jpg') ?>" />
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img class ="slideshow" src="<?= yii\helpers\Url::to('@web/images/img1.jpg') ?>" />
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img class ="slideshow" src="<?= yii\helpers\Url::to('@web/images/img2.jpg') ?>" />
+  <div class="text">Caption Three</div>
+</div>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 7000); // Change image every 7 seconds
+}
+</script> 
+
+
+<!--===============================================================================================================
+  TAG LINE
+  =============================================================================================================-->
     <div  class="tag-line" >
          <div class="container">
            <div class="row  text-center" >
            
                <div class="col-lg-12  col-md-12 col-sm-12">
                
-        <h2 data-scroll-reveal="enter from the bottom after 0.1s" ><i class="fa fa-circle-o-notch"></i> WELCOME TO THE EDU-CENTER <i class="fa fa-circle-o-notch"></i> </h2>
+        <h2 data-scroll-reveal="enter from the bottom after 0.1s" ><i class="fa fa-circle-o-notch"></i> WELCOME TO LOYOLA STUDENT CENTER <i class="fa fa-circle-o-notch"></i> </h2>
                    </div>
                </div>
-             </div>
-        
+             </div>   
     </div>
+
+<!--===============================================================================================================
+  OFFER SECTION 
+  =============================================================================================================-->    
     <!--HOME SECTION TAG LINE END-->   
          <div id="features-sec" class="container set-pad" >
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                     <h1 data-scroll-reveal="enter from the bottom after 0.2s"  class="header-line">FEATURE LIST </h1>
+                     <h1 data-scroll-reveal="enter from the bottom after 0.2s"  class="header-line">WHAT WE OFFER </h1>
                      <p data-scroll-reveal="enter from the bottom after 0.3s" >
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                         Aenean commodo.
                          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo.
-                         </p>
+                        Aenean commodo.</p>
                  </div>
-
              </div>
              <!--/.HEADER LINE END-->
 
-
            <div class="row" >
-           
-               
                  <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
                      <div class="about-div">
                      <i class="fa fa-paper-plane-o fa-4x icon-round-border" ></i>
                    <h3 >Quality Education</h3>
                  <hr />
-                       <hr />
+                  <hr />
                    <p >
                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
-                       
+                        Aenean commodo .    
                    </p>
-               <a href="#" class="btn btn-info btn-set"  >ASK THE EXPERT</a>
+               <a href="#" class="btn btn-info btn-set"  >READ MORE</a>
                 </div>
                    </div>
                    <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
                      <div class="about-div">
                      <i class="fa fa-bolt fa-4x icon-round-border" ></i>
-                   <h3 >SYSTEMATIC APPROACH</h3>
+                   <h3 >Tutorial <br>Classes</h3>
                  <hr />
                        <hr />
                    <p >
                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                         Aenean commodo . 
-                       
                    </p>
-               <a href="#" class="btn btn-info btn-set"  >ASK THE EXPERT</a>
+               <a href="#" class="btn btn-info btn-set"  >READ MORE</a>
                 </div>
                    </div>
                  <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
                      <div class="about-div">
                      <i class="fa fa-magic fa-4x icon-round-border" ></i>
-                   <h3 >ONE TO ONE STUDY</h3>
+                   <h3 >Review<br> Classes</h3>
                  <hr />
                        <hr />
                    <p >
@@ -207,81 +216,126 @@ $this->title = 'My Yii Application';
                         Aenean commodo . 
                        
                    </p>
-               <a href="#" class="btn btn-info btn-set"  >ASK THE EXPERT</a>
+               <a href="#" class="btn btn-info btn-set"  >READ MORE</a>
                 </div>
                    </div>
-                 
-                 
                </div>
              </div>
-   <!-- FEATURES SECTION END-->
-    <div id="faculty-sec" >
+<!--===============================================================================================================
+  TUTORIAL SECTION
+  =============================================================================================================-->
+    <div id="tutorial-sec" >
     <div class="container set-pad">
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">OUR FACULTY </h1>
-                     <p data-scroll-reveal="enter from the bottom after 0.3s">
+                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">TUTORIAL </h1>
+                   <p data-scroll-reveal="enter from the bottom after 0.3s">
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                         Aenean commodo.
                          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo.
-                         </p>
+                        Aenean commodo. </p>
                  </div>
-
              </div>
-             <!--/.HEADER LINE END-->
+             <!--/.HEADER LINE END-->     
+    <div class="wrapper">
+        <!-- PRICING-TABLE CONTAINER -->
+        <div class="pricing-table group">
+            <!-- PERSONAL -->
+            <div class="block personal fl">
+                <!-- CONTENT -->
+                <div class="content">
+                    <p class="price">
+                        <sup>$</sup>
+                        <span>29</span>
+                        <sub>/mo.</sub>
+                    </p>
+                    <p class="hint">Perfect for freelancers</p>
+                </div>
+                <!-- /CONTENT -->
+                <!-- FEATURES -->
+                <ul class="features">
+                    <li><span class="fontawesome-cog"></span>1 WordPress Install</li>
+                    <li><span class="fontawesome-star"></span>25,000 visits/mo.</li>
+                    <li><span class="fontawesome-dashboard"></span>Unlimited Data Transfer</li>
+                    <li><span class="fontawesome-cloud"></span>10GB Local Storage</li>
+                </ul>
+                <!-- /FEATURES -->
+                <!-- PT-FOOTER -->
+                <div class="pt-footer">
+                    <p>Host My Website</p>
+                </div>
+                <!-- /PT-FOOTER -->
+            </div>
+            <!-- /PERSONAL -->
+            <!-- PROFESSIONAL -->
+            <div class="block professional fl">
+                <!-- CONTENT -->
+                <div class="content">
+                    <p class="price">
+                        <sup>$</sup>
+                        <span>99</span>
+                        <sub>/mo.</sub>
+                    </p>
+                    <p class="hint">Suitable for startups</p>
+                </div>
+                <!-- /CONTENT -->
+                <!-- FEATURES -->
+                <ul class="features">
+                    <li><span class="fontawesome-cog"></span>10 WordPress Install</li>
+                    <li><span class="fontawesome-star"></span>100,000 visits/mo.</li>
+                    <li><span class="fontawesome-dashboard"></span>Unlimited Data Transfer</li>
+                    <li><span class="fontawesome-cloud"></span>20GB Local Storage</li>
+                </ul>
+                <!-- /FEATURES -->
+                <!-- PT-FOOTER -->
+                <div class="pt-footer">
+                    <p>Host My Website</p>
+                </div>
+                <!-- /PT-FOOTER -->
+            </div>
+            <!-- /PROFESSIONAL -->
+            <!-- BUSINESS -->
+            <div class="block business fl">
+                <!-- CONTENT -->
+                <div class="content">
+                    <p class="price">
+                        <sup>$</sup>
+                        <span>249</span>
+                        <sub>/mo.</sub>
+                    </p>
+                    <p class="hint">For established business</p>
+                </div>
+                <!-- /CONTENT -->
 
-           <div class="row" >
-           
-               
-                 <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
-                     <div class="faculty-div">
-                     <img src="theme/assets/img/faculty/1.jpg"  class="img-rounded" />
-                   <h3 >ROXI CHI LUENA </h3>
-                 <hr />
-                         <h4>Desigining <br /> Department</h4>
-                   <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
-                       
-                   </p>
+                <!-- FEATURES -->
+                <ul class="features">
+                    <li><span class="fontawesome-cog"></span>25 WordPress Install</li>
+                    <li><span class="fontawesome-star"></span>400,000 visits/mo.</li>
+                    <li><span class="fontawesome-dashboard"></span>Unlimited Data Transfer</li>
+                    <li><span class="fontawesome-cloud"></span>30GB Local Storage</li>
+                </ul>
+                <!-- /FEATURES -->
+
+                <!-- PT-FOOTER -->
+                <div class="pt-footer">
+                    <p>Host My Website</p>
                 </div>
-                   </div>
-                 <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
-                     <div class="faculty-div">
-                     <img src="theme/assets/img/faculty/2.jpg"  class="img-rounded" />
-                   <h3 >JANE DEO ALEX</h3>
-                 <hr />
-                         <h4>Enginering <br /> Department</h4>
-                   <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
-                       
-                   </p>
-                </div>
-                   </div>
-               <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
-                     <div class="faculty-div">
-                     <img src="theme/assets/img/faculty/3.jpg" class="img-rounded" />
-                   <h3 >RUBY DECORSA</h3>
-                 <hr />
-                         <h4>Management <br /> Department</h4>
-                   <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
-                       
-                   </p>
-                </div>
-                   </div>
-                 
-               </div>
+                <!-- /PT-FOOTER -->
+            </div>
+            <!-- /BUSINESS -->
+        </div>
+        <!-- /PRICING-TABLE -->
+    </div>
              </div>
         </div>
-    <!-- FACULTY SECTION END-->
+
+<!--===============================================================================================================
+  REVIEW SECTION 
+  =============================================================================================================-->
       <div id="course-sec" class="container set-pad">
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">OUR COURSES </h1>
+                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">OUR REVIEW PROGRMS</h1>
                      <p data-scroll-reveal="enter from the bottom after 0.3s">
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                         Aenean commodo.
@@ -289,10 +343,8 @@ $this->title = 'My Yii Application';
                         Aenean commodo.
                          </p>
                  </div>
-
              </div>
              <!--/.HEADER LINE END-->
-
 
            <div class="row set-row-pad" >
            <div class="col-lg-6 col-md-6 col-sm-6 " data-scroll-reveal="enter from the bottom after 0.4s" >
@@ -304,13 +356,16 @@ $this->title = 'My Yii Application';
                             <div class="panel-heading" >
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="collapsed">
-                                  <strong>   350+</strong> DESIGNING COURSES 
+                                  <strong>REVIEW PROGRAMS</strong>
                                     </a>
                                 </h4>
                             </div>
                             <div id="collapse1" class="panel-collapse collapse" style="height: 0px;">
                                 <div class="panel-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis egestas mauris ut vehicula. Cras viverra ac orci ac aliquam. Nulla eget condimentum mauris, eget tincidunt est.</p>
+                                    <p>• Comprehensive College Entrance Test Review <br>
+                                    • High School Entrance Test Review <br>
+                                    • Civil Service Examination (CSE) Review <br>
+                                    • National Medical Admission Test (NMAT) Review.</p>
                                 </div>
                             </div>
                         </div>
@@ -318,15 +373,15 @@ $this->title = 'My Yii Application';
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="collapsed">
-                                      <strong>   250+</strong> ENGINEERING COURSES 
+                                      <strong>ENGLISH PROFICIENCY </strong> 
                                     </a>
                                 </h4>
                             </div>
                             <div id="collapse2" class="panel-collapse collapse" style="height: 0px;">
                                 <div class="panel-body">
-                                    <p>
-                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis egestas mauris ut vehicula. Cras viverra ac orci ac aliquam. Nulla eget condimentum mauris, eget tincidunt est.
-                                    </p>
+                                    <p>• International English Language Testing System (IELTS) <br>
+                                    • Test of English as a Foreign Language (TOEFL)<br>
+                                    • Test of English for International Communication (TOEIC).</p>
                                 </div>
                             </div>
                         </div>
@@ -334,15 +389,16 @@ $this->title = 'My Yii Application';
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="collapsed">
-                                        <strong>   153+</strong> MANAGEMENT COURSES 
+                                        <strong>OTHERS</strong>
                                     </a>
                                 </h4>
                             </div>
                             <div id="collapse3" class="panel-collapse collapse"  style="height: 0px;">
                                 <div class="panel-body">
-                                    <p>
-                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis egestas mauris ut vehicula. Cras viverra ac orci ac aliquam. Nulla eget condimentum mauris, eget tincidunt est.
-                                    </p>
+                                    <p>• Career Service Examination (CSE) <br>
+                                    • SAT Reasoning Test 
+                                       Graduate Management Admission Test (GMAT) <br>
+                                    • Graduate Record Examination (GRE)</p>
                                 </div>
                             </div>
                         </div>
@@ -351,16 +407,16 @@ $this->title = 'My Yii Application';
                        <span style="font-size:40px;">
                           <strong> 2500 + </strong> 
                            <hr />
-                           Centers
+                           STUDENTS
                        </span>
                    </div>
            </div>
-             
-                 
-                 
                </div>
              </div>
       <!-- COURSES SECTION END-->
+<!--===============================================================================================================
+  CONTACT SECTIOn
+  =============================================================================================================-->
     <div id="contact-sec"   >
            <div class="overlay">
  <div class="container set-pad">
@@ -397,11 +453,6 @@ $this->title = 'My Yii Application';
 
                     </form>
                 </div>
-
-                   
-     
-              
-              
                 
                </div>
                 </div>
