@@ -208,7 +208,7 @@ function showSlides() {
                  <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
                      <div class="about-div">
                      <i class="fa fa-magic fa-4x icon-round-border" ></i>
-                   <h3 >Review<br> Classes</h3>
+                   <h3 >Review<br> Programs</h3>
                  <hr />
                        <hr />
                    <p >
@@ -228,7 +228,7 @@ function showSlides() {
     <div class="container set-pad">
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">TUTORIAL </h1>
+                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">TUTORIAL CLASSES</h1>
                    <p data-scroll-reveal="enter from the bottom after 0.3s">
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                         Aenean commodo.
@@ -236,98 +236,101 @@ function showSlides() {
                         Aenean commodo. </p>
                  </div>
              </div>
-             <!--/.HEADER LINE END-->     
-    <div class="wrapper">
-        <!-- PRICING-TABLE CONTAINER -->
-        <div class="pricing-table group">
-            <!-- PERSONAL -->
-            <div class="block personal fl">
-                <!-- CONTENT -->
-                <div class="content">
-                    <p class="price">
-                        <sup>$</sup>
-                        <span>29</span>
-                        <sub>/mo.</sub>
-                    </p>
-                    <p class="hint">Perfect for freelancers</p>
-                </div>
-                <!-- /CONTENT -->
-                <!-- FEATURES -->
-                <ul class="features">
-                    <li><span class="fontawesome-cog"></span>1 WordPress Install</li>
-                    <li><span class="fontawesome-star"></span>25,000 visits/mo.</li>
-                    <li><span class="fontawesome-dashboard"></span>Unlimited Data Transfer</li>
-                    <li><span class="fontawesome-cloud"></span>10GB Local Storage</li>
-                </ul>
-                <!-- /FEATURES -->
-                <!-- PT-FOOTER -->
-                <div class="pt-footer">
-                    <p>Host My Website</p>
-                </div>
-                <!-- /PT-FOOTER -->
-            </div>
-            <!-- /PERSONAL -->
-            <!-- PROFESSIONAL -->
-            <div class="block professional fl">
-                <!-- CONTENT -->
-                <div class="content">
-                    <p class="price">
-                        <sup>$</sup>
-                        <span>99</span>
-                        <sub>/mo.</sub>
-                    </p>
-                    <p class="hint">Suitable for startups</p>
-                </div>
-                <!-- /CONTENT -->
-                <!-- FEATURES -->
-                <ul class="features">
-                    <li><span class="fontawesome-cog"></span>10 WordPress Install</li>
-                    <li><span class="fontawesome-star"></span>100,000 visits/mo.</li>
-                    <li><span class="fontawesome-dashboard"></span>Unlimited Data Transfer</li>
-                    <li><span class="fontawesome-cloud"></span>20GB Local Storage</li>
-                </ul>
-                <!-- /FEATURES -->
-                <!-- PT-FOOTER -->
-                <div class="pt-footer">
-                    <p>Host My Website</p>
-                </div>
-                <!-- /PT-FOOTER -->
-            </div>
-            <!-- /PROFESSIONAL -->
-            <!-- BUSINESS -->
-            <div class="block business fl">
-                <!-- CONTENT -->
-                <div class="content">
-                    <p class="price">
-                        <sup>$</sup>
-                        <span>249</span>
-                        <sub>/mo.</sub>
-                    </p>
-                    <p class="hint">For established business</p>
-                </div>
-                <!-- /CONTENT -->
-
-                <!-- FEATURES -->
-                <ul class="features">
-                    <li><span class="fontawesome-cog"></span>25 WordPress Install</li>
-                    <li><span class="fontawesome-star"></span>400,000 visits/mo.</li>
-                    <li><span class="fontawesome-dashboard"></span>Unlimited Data Transfer</li>
-                    <li><span class="fontawesome-cloud"></span>30GB Local Storage</li>
-                </ul>
-                <!-- /FEATURES -->
-
-                <!-- PT-FOOTER -->
-                <div class="pt-footer">
-                    <p>Host My Website</p>
-                </div>
-                <!-- /PT-FOOTER -->
-            </div>
-            <!-- /BUSINESS -->
-        </div>
-        <!-- /PRICING-TABLE -->
+             <!--/.HEADER LINE END-->  
+                       <div class="row set-row-pad" >
+           <div class="col-lg-6 col-md-6 col-sm-6 " data-scroll-reveal="enter from the bottom after 0.4s" >
+                 <img src="theme/assets/img/building.jpg" class="img-thumbnail" />
+           </div>
+               <div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+                   <div class="panel-group" id="accordion">
+                        <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.5s">
+                            <div class="panel-heading" >
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="collapsed">
+                                  <strong>KINDER & PRE-SCHOOL</strong>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse" style="height: 0px;">
+                                <div class="panel-body">
+                                  <ul>
+                                  <li>Reading </li>
+                                  <li>Math</li>
+                                  <li>Writing </li>
+                                  <li>Speech</li>
+                                  <li>Phoenics</li>                  
+                                  </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.7s">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="collapsed">
+                                      <strong>GRADE SCHOOL </strong> 
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse" style="height: 0px;">
+                                <div class="panel-body">
+                                  <ul>
+                                  <li>English</li>
+                                  <li>Filipino</li>
+                                  <li>CLE </li>
+                                  <li>Science</li>
+                                  <li>Reading</li>
+                                  <li>Araling Panlipunan</li>             
+                                  </ul>                                
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.9s">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="collapsed">
+                                        <strong>HIGH SCHOOL</strong>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse"  style="height: 0px;">
+                                <div class="panel-body">
+                                  <ul>
+                                  <li>Elementary Algebra</li>
+                                  <li>Advanced Algebra</li>
+                                  <li>Geometry</li>
+                                  <li>Trigonometry</li>
+                                  <li>Calculus</li>
+                                  <li>Filipino</li> 
+                                  <li>Biology</li> 
+                                  <li>Chemistry</li>             
+                                  <li>Physics</li> 
+                                  <li>English</li>
+                                  <li>Araling Panlipunan</li>  
+                                  </ul>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.9s">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="collapsed">
+                                        <strong>COLLEGE</strong>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse4" class="panel-collapse collapse"  style="height: 0px;">
+                                <div class="panel-body">
+                                  <ul>
+                                  <li>Math</li>
+                                  <li>Science</li>
+                                  </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+ 
     </div>
              </div>
-        </div>
 
 <!--===============================================================================================================
   REVIEW SECTION 
@@ -335,7 +338,7 @@ function showSlides() {
       <div id="course-sec" class="container set-pad">
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">OUR REVIEW PROGRMS</h1>
+                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">REVIEW PROGRAMS</h1>
                      <p data-scroll-reveal="enter from the bottom after 0.3s">
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                         Aenean commodo.
@@ -355,12 +358,12 @@ function showSlides() {
                         <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.5s">
                             <div class="panel-heading" >
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="collapsed">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="collapsed">
                                   <strong>REVIEW PROGRAMS</strong>
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapse1" class="panel-collapse collapse" style="height: 0px;">
+                            <div id="collapse5" class="panel-collapse collapse" style="height: 0px;">
                                 <div class="panel-body">
                                     <p>• Comprehensive College Entrance Test Review <br>
                                     • High School Entrance Test Review <br>
@@ -372,12 +375,12 @@ function showSlides() {
                         <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.7s">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="collapsed">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6" class="collapsed">
                                       <strong>ENGLISH PROFICIENCY </strong> 
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapse2" class="panel-collapse collapse" style="height: 0px;">
+                            <div id="collapse6" class="panel-collapse collapse" style="height: 0px;">
                                 <div class="panel-body">
                                     <p>• International English Language Testing System (IELTS) <br>
                                     • Test of English as a Foreign Language (TOEFL)<br>
@@ -388,12 +391,12 @@ function showSlides() {
                         <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.9s">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="collapsed">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7" class="collapsed">
                                         <strong>OTHERS</strong>
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapse3" class="panel-collapse collapse"  style="height: 0px;">
+                            <div id="collapse7" class="panel-collapse collapse"  style="height: 0px;">
                                 <div class="panel-body">
                                     <p>• Career Service Examination (CSE) <br>
                                     • SAT Reasoning Test 
