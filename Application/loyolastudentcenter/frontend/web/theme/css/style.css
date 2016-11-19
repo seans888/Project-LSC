@@ -237,7 +237,7 @@ h1::after {
   TUTORIALS STYLES 
   ===================================*/
 #tutorial-sec {
-    background: #f5f5f5;
+    background: #fff;
     color: #000;
 }
 
@@ -271,31 +271,33 @@ h1::after {
         border: 10px double #fff;
     }
 
+
 /*=====================================
   CONTACT STYLES 
   ===================================*/
 #contact-sec {
     padding-top: 10px;
     padding-bottom: 60px;
-    background: url(../img/contact.jpg) no-repeat center center;
+   /* background: url(../img/contact.jpg) no-repeat center center; */
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
-    color: #fff;
+    color: #000;
     background-attachment: fixed;
+    background-color: #fff;
 }
 
 #contact-sec .overlay {
-        background: rgba(0, 0, 0, 0.76);
+        background: #fff;
         min-height: 600px;
     }
 
     #contact-sec h1 {
-        color:#fff;
+        color:#000;
     }
 #contact-sec .form-control{
     background-color:rgba(255, 255, 255, 0);
-    color:#fff;
+    color:#000;
 }
 /*=====================================
   Footer STYLES 

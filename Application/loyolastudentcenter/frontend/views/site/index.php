@@ -23,6 +23,8 @@ $this->title = 'My Yii Application';
     <link href="theme/assets/css/style.css" rel="stylesheet" />    
   <!-- Google   Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="css/style1.css">
+
 </head>
 <body >
 
@@ -227,7 +229,7 @@ function showSlides() {
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                      <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">TUTORIAL </h1>
-                     <p data-scroll-reveal="enter from the bottom after 0.3s">
+                   <p data-scroll-reveal="enter from the bottom after 0.3s">
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                         Aenean commodo.
                          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
@@ -235,8 +237,95 @@ function showSlides() {
                  </div>
              </div>
              <!--/.HEADER LINE END-->     
+    <div class="wrapper">
+        <!-- PRICING-TABLE CONTAINER -->
+        <div class="pricing-table group">
+            <!-- PERSONAL -->
+            <div class="block personal fl">
+                <!-- CONTENT -->
+                <div class="content">
+                    <p class="price">
+                        <sup>$</sup>
+                        <span>29</span>
+                        <sub>/mo.</sub>
+                    </p>
+                    <p class="hint">Perfect for freelancers</p>
+                </div>
+                <!-- /CONTENT -->
+                <!-- FEATURES -->
+                <ul class="features">
+                    <li><span class="fontawesome-cog"></span>1 WordPress Install</li>
+                    <li><span class="fontawesome-star"></span>25,000 visits/mo.</li>
+                    <li><span class="fontawesome-dashboard"></span>Unlimited Data Transfer</li>
+                    <li><span class="fontawesome-cloud"></span>10GB Local Storage</li>
+                </ul>
+                <!-- /FEATURES -->
+                <!-- PT-FOOTER -->
+                <div class="pt-footer">
+                    <p>Host My Website</p>
+                </div>
+                <!-- /PT-FOOTER -->
+            </div>
+            <!-- /PERSONAL -->
+            <!-- PROFESSIONAL -->
+            <div class="block professional fl">
+                <!-- CONTENT -->
+                <div class="content">
+                    <p class="price">
+                        <sup>$</sup>
+                        <span>99</span>
+                        <sub>/mo.</sub>
+                    </p>
+                    <p class="hint">Suitable for startups</p>
+                </div>
+                <!-- /CONTENT -->
+                <!-- FEATURES -->
+                <ul class="features">
+                    <li><span class="fontawesome-cog"></span>10 WordPress Install</li>
+                    <li><span class="fontawesome-star"></span>100,000 visits/mo.</li>
+                    <li><span class="fontawesome-dashboard"></span>Unlimited Data Transfer</li>
+                    <li><span class="fontawesome-cloud"></span>20GB Local Storage</li>
+                </ul>
+                <!-- /FEATURES -->
+                <!-- PT-FOOTER -->
+                <div class="pt-footer">
+                    <p>Host My Website</p>
+                </div>
+                <!-- /PT-FOOTER -->
+            </div>
+            <!-- /PROFESSIONAL -->
+            <!-- BUSINESS -->
+            <div class="block business fl">
+                <!-- CONTENT -->
+                <div class="content">
+                    <p class="price">
+                        <sup>$</sup>
+                        <span>249</span>
+                        <sub>/mo.</sub>
+                    </p>
+                    <p class="hint">For established business</p>
+                </div>
+                <!-- /CONTENT -->
 
-             
+                <!-- FEATURES -->
+                <ul class="features">
+                    <li><span class="fontawesome-cog"></span>25 WordPress Install</li>
+                    <li><span class="fontawesome-star"></span>400,000 visits/mo.</li>
+                    <li><span class="fontawesome-dashboard"></span>Unlimited Data Transfer</li>
+                    <li><span class="fontawesome-cloud"></span>30GB Local Storage</li>
+                </ul>
+                <!-- /FEATURES -->
+
+                <!-- PT-FOOTER -->
+                <div class="pt-footer">
+                    <p>Host My Website</p>
+                </div>
+                <!-- /PT-FOOTER -->
+            </div>
+            <!-- /BUSINESS -->
+        </div>
+        <!-- /PRICING-TABLE -->
+    </div>
              </div>
         </div>
 

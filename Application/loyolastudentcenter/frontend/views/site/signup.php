@@ -12,7 +12,7 @@ use yii\grid\GridView;
 use yii\widgets\Pjax;
 use yii\bootstrap\Modal;
 use yii\helpers\Url;
-use frontend\views\student;
+use frontend\views\user;
 
 $this->title = 'Sign up';
 //$this->params['breadcrumbs'][] = $this->title;
@@ -29,7 +29,11 @@ $this->title = 'Sign up';
 
             <?php $form = ActiveForm::begin(['id' => 'form-signup']); ?>
 
+<<<<<<< HEAD
                 <?= $form->field($model, 'username')->textInput(['autofocus' => true,'placeholder'=>'username'])->label(false) ?>
+=======
+                <?= $form->field($model, 'username')->textInput(['autofocus' => true,'placeholder'=>'username']) ?>
+>>>>>>> origin/master
 
                 <?= $form->field($model, 'lastname')->textInput(['maxlength' => true,'placeholder'=>'lastname'])->label(false) ?>
 
