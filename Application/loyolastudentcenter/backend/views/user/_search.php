@@ -57,8 +57,6 @@ use yii\widgets\ActiveForm;
 
     <?php // echo $form->field($model, 'guardian_email_address') ?>
 
-    <?php // echo $form->field($model, 'selected_school') ?>
-
     <?php // echo $form->field($model, 'learned_lsc') ?>
 
     <div class="form-group">

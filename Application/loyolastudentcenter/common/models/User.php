@@ -79,7 +79,6 @@ class User extends ActiveRecord implements IdentityInterface
             ['relation', 'required'],
             ['guardian_contact_number', 'required'],
             ['guardian_email_address', 'required'],
-            ['selected_school', 'required'],
             ['learned_lsc', 'required'],
         ];
     }

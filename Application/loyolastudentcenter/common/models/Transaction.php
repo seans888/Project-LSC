@@ -8,6 +8,7 @@ use Yii;
  * This is the model class for table "transaction".
  *
  * @property integer $user_id
+ * @property string $selected_school
  * @property integer $review_class_id
  * @property string $transaction_type
  * @property string $status
@@ -37,6 +38,7 @@ class Transaction extends \yii\db\ActiveRecord
             [['user_id', 'review_class_id', 'transaction_type', 'schedule_id'], 'required'],
             [['user_id', 'review_class_id', 'schedule_id'], 'integer'],
             [['transaction_type', 'status'], 'string'],
+            [['selected_school'], 'string', 'max' => 100],
             [['schedule_id'], 'exist', 'skipOnError' => true, 'targetClass' => Schedule::className(), 'targetAttribute' => ['schedule_id' => 'id']],
             [['review_class_id'], 'exist', 'skipOnError' => true, 'targetClass' => ReviewClass::className(), 'targetAttribute' => ['review_class_id' => 'id']],
             [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['user_id' => 'id']],
@@ -50,6 +52,7 @@ class Transaction extends \yii\db\ActiveRecord
     {
         return [
             'user_id' => 'User ID',
+            'selected_school' => 'Selected School',
             'review_class_id' => 'Review Class ID',
             'transaction_type' => 'Transaction Type',
             'status' => 'Status',

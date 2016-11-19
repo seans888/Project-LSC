@@ -39,8 +39,6 @@ use backend\views\user;
 
                 <?= $form->field($model, 'guardian_email_address')->input(['maxlength' => true,'placeholder'=>'e.g. mariadelacruz@email.com','email']) ?>
 
-                <?= $form->field($model, 'selected_school')->textInput(['maxlength' => true])->hint('Name, Address') ?>
-
                 <?= $form->field($model, 'learned_lsc')->dropDownList([ 'friends' => 'Friends', 'relatives' => 'Relatives', 'newspaper ads' => 'Newspaper ads', 'LSC signage/poster' => 'LSC signage/poster', 'school' => 'School', 'others' => 'Others', ], ['prompt' => 'Please choose where you learned about LSC']) ?>
 
                 <?= $form->field($model, 'email') ?>

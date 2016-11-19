@@ -29,6 +29,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
         'attributes' => [
             'user_id',
+            'selected_school',
             'review_class_id',
             'transaction_type',
             'status',

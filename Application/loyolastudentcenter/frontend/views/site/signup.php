@@ -61,9 +61,13 @@ $this->title = 'Sign up';
 
                 <?= $form->field($model, 'selectedSchool')->textInput(['maxlength' => true,'placeholder'=>'Selected School'])->hint('Name, Address')->label(false) ?>
 
+<<<<<<< HEAD
+                <?= $form->field($model, 'learnedLSC')->dropDownList([ 'friends' => 'Friends', 'relatives' => 'Relatives', 'newspaper ads' => 'Newspaper ads', 'LSC signage/poster' => 'LSC signage/poster', 'school' => 'School', 'others' => 'Others', ], ['prompt' => 'Please choose where you learned about LSC']) ?>
+=======
                 <?= $form->field($model, 'learnedLSC')->dropDownList([ 'friends' => 'Friends', 'relatives' => 'Relatives', 'newspaper ads' => 'Newspaper ads', 'LSC signage/poster' => 'LSC signage/poster', 'school' => 'School', 'others' => 'Others', ], ['prompt' => 'Please choose where you learned about LSC'])->label(false) ?>
 
                 <?= $form->field($model, 'email')->textInput(['placeholder'=>'Email'])->label(false) ?>
+>>>>>>> origin/master
 
                 <?= $form->field($model, 'password')->passwordInput(['placeholder'=>'Password'])->label(false) ?>
 

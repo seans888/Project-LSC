@@ -13,7 +13,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="user-index">
 
     <!-- <h1><?= Html::encode($this->title) ?></h1> -->
-    
+
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
@@ -46,7 +46,6 @@ $this->params['breadcrumbs'][] = $this->title;
             // 'relation',
             // 'guardian_contact_number',
             // 'guardian_email_address:email',
-            // 'selected_school',
             // 'learned_lsc',
 
             ['class' => 'yii\grid\ActionColumn'],

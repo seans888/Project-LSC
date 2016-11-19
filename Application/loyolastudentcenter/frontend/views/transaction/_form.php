@@ -14,6 +14,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'user_id')->textInput() ?>
 
+    <?= $form->field($model, 'selected_school')->textInput(['maxlength' => true]) ?>
+
     <?= $form->field($model, 'review_class_id')->textInput() ?>
 
     <?= $form->field($model, 'transaction_type')->dropDownList([ 'Reserve' => 'Reserve', 'Enroll' => 'Enroll', ], ['prompt' => '']) ?>
