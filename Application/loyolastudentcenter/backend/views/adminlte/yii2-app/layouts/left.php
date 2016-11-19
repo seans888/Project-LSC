@@ -30,34 +30,29 @@
             [
                 'options' => ['class' => 'sidebar-menu'],
                 'items' => [
-                    ['label' => 'Menu Yii2', 'options' => ['class' => 'header']],
-                    ['label' => 'Gii', 'icon' => 'fa fa-file-code-o', 'url' => ['/gii']],
-                    ['label' => 'Debug', 'icon' => 'fa fa-dashboard', 'url' => ['/debug']],
-                    ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
+                    ['label' => 'Student', 'icon' => 'fa fa-circle-o', 'url' => ['/user']],
+                    ['label' => 'Student Transaction', 'icon' => 'fa fa-circle-o', 'url' => ['/transaction']],
+                    ['label' => 'Payment', 'icon' => 'fa fa-circle-o', 'url' => ['/payment']],
+                    
+                   
+                   
+
                     [
-                        'label' => 'Same tools',
+                        'label' => 'LSC Record',
                         'icon' => 'fa fa-share',
                         'url' => '#',
                         'items' => [
+                        ['label' => 'Authorized Account', 'icon' => 'fa fa-circle-o', 'url' => ['/admin']],
+                        ['label' => 'Class List', 'icon' => 'fa fa-circle-o', 'url' => ['/class-list']],
+                        ['label' => 'Schedule', 'icon' => 'fa fa-circle-o', 'url' => ['/schedule']],
+                        ['label' => 'Review Class', 'icon' => 'fa fa-circle-o', 'url' => ['/review-class']],
                             ['label' => 'Gii', 'icon' => 'fa fa-file-code-o', 'url' => ['/gii'],],
                             ['label' => 'Debug', 'icon' => 'fa fa-dashboard', 'url' => ['/debug'],],
                             [
                                 'label' => 'Level One',
                                 'icon' => 'fa fa-circle-o',
                                 'url' => '#',
-                                'items' => [
-                                    ['label' => 'Level Two', 'icon' => 'fa fa-circle-o', 'url' => '#',],
-                                    [
-                                        'label' => 'Level Two',
-                                        'icon' => 'fa fa-circle-o',
-                                        'url' => '#',
-                                        'items' => [
-                                            ['label' => 'Level Three', 'icon' => 'fa fa-circle-o', 'url' => '#',],
-                                            ['label' => 'Level Three', 'icon' => 'fa fa-circle-o', 'url' => '#',],
-                                        ],
-                                    ],
                                 ],
-                            ],
                         ],
                     ],
                 ],
