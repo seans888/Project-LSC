@@ -25,6 +25,12 @@ $this->title = 'My Yii Application';
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="css/style1.css">
 
+        <!-- Bootstrap Core CSS -->
+    <link href="slideshow/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="slideshow/css/half-slider.css" rel="stylesheet">
+
 </head>
 <body >
 
@@ -107,7 +113,7 @@ body {font-family: Verdana,sans-serif;}
 
 <!--===============================================================================================================
   SLIDESHOW 
-  =============================================================================================================-->
+
 <div class="slideshow-container">
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
@@ -144,6 +150,57 @@ function showSlides() {
     setTimeout(showSlides, 7000); // Change image every 7 seconds
 }
 </script> 
+
+  =============================================================================================================-->
+
+    <!-- Half Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill">
+                <img class ="slideshow" src="<?= yii\helpers\Url::to('@web/images/img.jpg') ?>" />
+ </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill">
+                  <img class ="slideshow" src="<?= yii\helpers\Url::to('@web/images/img1.jpg') ?>" />
+
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill">
+                  <img class ="slideshow" src="<?= yii\helpers\Url::to('@web/images/img2.jpg') ?>" />
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+
+
+
+
+
 
 
 <!--===============================================================================================================
