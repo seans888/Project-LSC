@@ -149,33 +149,18 @@ class SiteController extends Controller
     public function actionSignup()
    {
 $model = new SignupForm();
-if ($model->load(Yii::$app->request->post())) {
-if ($user = $model->signup()) {
-$email = \Yii::$app->mailer->compose()
-->setTo($user->email)
-->setFrom([\Yii::$app->params['supportEmail'] => \Yii::$app->name . ' robot'])
-->setSubject('Signup Confirmation')
-->setTextBody("
-Click this link ".\yii\helpers\Html::a('confirm',
-Yii::$app->urlManager->createAbsoluteUrl(
-['site/confirm','id'=>$user->id,'key'=>$user->auth_key]
-))
-)
-->send();
-if($email){
-Yii::$app->getSession()->setFlash('success','Check Your email!');
-}
-else{
-Yii::$app->getSession()->setFlash('warning','Failed, contact Admin!');
-}
-return $this->goHome();
-}
-}
- 
-return $this->render('signup', [
-'model' => $model,
-]);
-}
+        if ($model->load(Yii::$app->request->post())) {
+            if ($user = $model->signup()) {
+                if (Yii::$app->getUser()->login($user)) {
+                    return $this->goHome();
+                }
+            }
+        }
+
+        return $this->render('signup', [
+            'model' => $model,
+        ]);
+    }
 
     /**
      * Requests password reset.
@@ -243,4 +228,9 @@ Yii::$app->getSession()->setFlash('warning','Failed!');
 }
 return $this->goHome();
 }
+
+public function actionReviews()
+    {
+        return $this->render('reviews');
+    }
 }
