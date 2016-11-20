@@ -63,7 +63,11 @@ $this->title = 'Sign up';
 
                 <div class="form-group">
 
-                   <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?> 
+                   <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button','data' => [
+                'confirm' => 'Are you sure all information you entered are correct?',
+                'method' => 'post',
+            ],
+            ]) ?> 
 
                 </div>
             <?php ActiveForm::end(); ?>
