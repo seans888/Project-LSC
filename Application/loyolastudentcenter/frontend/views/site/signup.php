@@ -29,19 +29,23 @@ $this->title = 'Sign up';
 
             <?php $form = ActiveForm::begin(['id' => 'form-signup']); ?>
 
+<<<<<<< HEAD
 
                 <?= $form->field($model, 'username')->textInput(['autofocus' => true,'placeholder'=>'username'])->label(false) ?>
 
                 <?= $form->field($model, 'username')->textInput(['autofocus' => true,'placeholder'=>'username']) ?>
 
+=======
+                <?= $form->field($model, 'username')->textInput(['autofocus' => true,'placeholder'=>'username']) ?>
+>>>>>>> 4242bced9cd0ae44b65d10b7e471a5f33e27ffce
 
-                <?= $form->field($model, 'lastname')->textInput(['maxlength' => true,'placeholder'=>'lastname'])->label(false) ?>
+                <?= $form->field($model, 'lastname')->textInput(['maxlength' => true,'placeholder'=>'Lastname'])->label(false) ?>
 
-                <?= $form->field($model, 'firstname')->textInput(['maxlength' => true,'placeholder'=>'firstname'])->label(false) ?>
+                <?= $form->field($model, 'firstname')->textInput(['maxlength' => true,'placeholder'=>'Firstname'])->label(false) ?>
 
                 <?= $form->field($model, 'middlename')->textInput(['maxlength' => true ,'value'=>'-'])->label(false) ?>
 
-                <?= $form->field($model, 'age')->textInput()->label(false) ?>
+                <?= $form->field($model, 'age')->textInput(['placeholder'=>'Age'])->label(false) ?>
 
                 <?= $form->field($model, 'gender')->dropDownList([ 'Male' => 'Male', 'Female' => 'Female', ], ['prompt' => 'Gender'])->label(false) ?>
 
@@ -59,8 +63,11 @@ $this->title = 'Sign up';
 
                 <?= $form->field($model, 'guardianEmailAddress')->textinput(['maxlength' => true,'placeholder'=>'Guardian Email Address'])->label(false) ?>
 
+<<<<<<< HEAD
                 <?= $form->field($model, 'learnedLSC')->dropDownList([ 'friends' => 'Friends', 'relatives' => 'Relatives', 'newspaper ads' => 'Newspaper ads', 'LSC signage/poster' => 'LSC signage/poster', 'school' => 'School', 'others' => 'Others', ], ['prompt' => 'Please choose where you learned about LSC']) ?>
 
+=======
+>>>>>>> 4242bced9cd0ae44b65d10b7e471a5f33e27ffce
                 <?= $form->field($model, 'learnedLSC')->dropDownList([ 'friends' => 'Friends', 'relatives' => 'Relatives', 'newspaper ads' => 'Newspaper ads', 'LSC signage/poster' => 'LSC signage/poster', 'school' => 'School', 'others' => 'Others', ], ['prompt' => 'Please choose where you learned about LSC'])->label(false) ?>
 
                 <?= $form->field($model, 'email')->textInput(['placeholder'=>'Email'])->label(false) ?>
@@ -69,7 +76,11 @@ $this->title = 'Sign up';
 
                 <div class="form-group">
 
-                   <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?> 
+                   <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button','data' => [
+                'confirm' => 'Are you sure all information you entered are correct?',
+                'method' => 'post',
+            ],
+            ]) ?> 
 
                 </div>
             <?php ActiveForm::end(); ?>

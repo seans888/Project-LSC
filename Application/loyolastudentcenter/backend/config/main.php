@@ -13,14 +13,6 @@ return [
     'bootstrap' => ['log'],
     'modules' => [],
     'components' => [
-
-                'view' => [
-         'theme' => [
-             'pathMap' => [
-                '@app/views' => '@backend/views/adminlte/yii2-app' //adminLTE Path
-             ],
-         ],
-    ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'jzqfUhttHVASSrIwPeXl',
@@ -38,6 +30,14 @@ return [
             'name' => 'PHPBACKSESSID',
             'savePath' => sys_get_temp_dir(),
         ],
+
+                'view' => [
+         'theme' => [
+             'pathMap' => [
+                '@app/views' => '@backend/views/adminlte/yii2-app' //adminLTE Path
+             ],
+         ],
+    ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [

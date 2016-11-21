@@ -5,12 +5,13 @@ use backend\models;
 use backend\controllers\SiteController;
 use common\models\Admin;
 use common\models\AdminLoginForm;
+use backend\models\SignupForm;
 
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
 /* @var $model \common\models\LoginForm */
 
-$this->title = 'Sign In';
+$this->title = 'Login';
 
 $fieldOptions1 = [
     'options' => ['class' => 'form-group has-feedback'],
