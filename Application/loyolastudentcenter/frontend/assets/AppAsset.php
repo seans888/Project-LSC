@@ -17,6 +17,9 @@ class AppAsset extends AssetBundle
         'theme/css/flexslider.css',
         'theme/css/font-awesome.min.css',
         'theme/css/style.css',
+        'slideshow/css/bootstrap.css',
+        'slideshow/css/bootstrap.min.css',
+        'slideshow/css/half-slider.css',
     ];
     public $js = [
         'theme/js/bootstrap.js',
@@ -25,6 +28,9 @@ class AppAsset extends AssetBundle
         'theme/js/jquery.flexslider.js',
         'theme/js/jquery-1.10.2.js',
         'theme/js/scrollReveal.js',
+        'slideshow/js/bootstrap.js',
+        'slideshow/js/bootstrap.min.js',
+        'slideshow/js/jquery.js',
 
     ];
     public $depends = [

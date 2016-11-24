@@ -29,7 +29,9 @@ $this->title = 'Sign up';
 
             <?php $form = ActiveForm::begin(['id' => 'form-signup']); ?>
 
-                <?= $form->field($model, 'username')->textInput(['autofocus' => true,'placeholder'=>'username']) ?>
+
+
+                <?= $form->field($model, 'username')->textInput(['autofocus' => true,'placeholder'=>'username'])->label(false) ?>
 
                 <?= $form->field($model, 'lastname')->textInput(['maxlength' => true,'placeholder'=>'Lastname'])->label(false) ?>
 
