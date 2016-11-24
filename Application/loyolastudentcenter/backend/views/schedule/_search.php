@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model common\models\ScheduleSearch */
+/* @var $model backend\models\ScheduleSearch */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
@@ -17,15 +17,17 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'id') ?>
 
+    <?= $form->field($model, 'review_class_id') ?>
+
     <?= $form->field($model, 'duration_of_hours') ?>
-
-    <?= $form->field($model, 'start_time') ?>
-
-    <?= $form->field($model, 'end_time') ?>
 
     <?= $form->field($model, 'start_date') ?>
 
-    <?php // echo $form->field($model, 'end_date') ?>
+    <?= $form->field($model, 'end_date') ?>
+
+    <?php // echo $form->field($model, 'start_time') ?>
+
+    <?php // echo $form->field($model, 'end_time') ?>
 
     <?php // echo $form->field($model, 'days') ?>
 

@@ -35,7 +35,8 @@ class Payment extends \yii\db\ActiveRecord
             [['transaction_user_id', 'transaction_review_class_id', 'transaction_schedule_id', 'date'], 'required'],
             [['transaction_user_id', 'transaction_review_class_id', 'transaction_schedule_id'], 'integer'],
             [['date'], 'safe'],
-            [['payment_slip'], 'string', 'max' => 250],
+            [['payment_slip'], 'file'],
+
             [['transaction_user_id', 'transaction_review_class_id', 'transaction_schedule_id'], 'exist', 'skipOnError' => true, 'targetClass' => Transaction::className(), 'targetAttribute' => ['transaction_user_id' => 'user_id', 'transaction_review_class_id' => 'review_class_id', 'transaction_schedule_id' => 'schedule_id']],
         ];
     }
@@ -47,11 +48,11 @@ class Payment extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'transaction_user_id' => 'Transaction User ID',
-            'transaction_review_class_id' => 'Transaction Review Class ID',
-            'transaction_schedule_id' => 'Transaction Schedule ID',
-            'payment_slip' => 'Payment Slip',
-            'date' => 'Date',
+            'transaction_user_id' => 'User Name',
+            'transaction_review_class_id' => 'Transaction Review Class Name',
+            'transaction_schedule_id' => 'Schedule',
+             'payment_slip'=>'Attach your Payment Slip',
+            'date' => 'Date Submitted',
         ];
     }
 
