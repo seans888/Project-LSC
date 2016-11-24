@@ -29,15 +29,9 @@ $this->title = 'Sign up';
 
             <?php $form = ActiveForm::begin(['id' => 'form-signup']); ?>
 
-<<<<<<< HEAD
+
 
                 <?= $form->field($model, 'username')->textInput(['autofocus' => true,'placeholder'=>'username'])->label(false) ?>
-
-                <?= $form->field($model, 'username')->textInput(['autofocus' => true,'placeholder'=>'username']) ?>
-
-=======
-                <?= $form->field($model, 'username')->textInput(['autofocus' => true,'placeholder'=>'username']) ?>
->>>>>>> 4242bced9cd0ae44b65d10b7e471a5f33e27ffce
 
                 <?= $form->field($model, 'lastname')->textInput(['maxlength' => true,'placeholder'=>'Lastname'])->label(false) ?>
 
@@ -63,11 +57,6 @@ $this->title = 'Sign up';
 
                 <?= $form->field($model, 'guardianEmailAddress')->textinput(['maxlength' => true,'placeholder'=>'Guardian Email Address'])->label(false) ?>
 
-<<<<<<< HEAD
-                <?= $form->field($model, 'learnedLSC')->dropDownList([ 'friends' => 'Friends', 'relatives' => 'Relatives', 'newspaper ads' => 'Newspaper ads', 'LSC signage/poster' => 'LSC signage/poster', 'school' => 'School', 'others' => 'Others', ], ['prompt' => 'Please choose where you learned about LSC']) ?>
-
-=======
->>>>>>> 4242bced9cd0ae44b65d10b7e471a5f33e27ffce
                 <?= $form->field($model, 'learnedLSC')->dropDownList([ 'friends' => 'Friends', 'relatives' => 'Relatives', 'newspaper ads' => 'Newspaper ads', 'LSC signage/poster' => 'LSC signage/poster', 'school' => 'School', 'others' => 'Others', ], ['prompt' => 'Please choose where you learned about LSC'])->label(false) ?>
 
                 <?= $form->field($model, 'email')->textInput(['placeholder'=>'Email'])->label(false) ?>

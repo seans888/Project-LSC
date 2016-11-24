@@ -1,5 +1,8 @@
 <?php
+
 use yii\helpers\Html;
+use common\models\Admin;
+use common\models\AdminSearch;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
@@ -7,11 +10,7 @@ use yii\helpers\Html;
 
 <header class="main-header">
 
-<<<<<<< HEAD
-    <?= Html::a('<span class="logo-mini">LSC</span><span class="logo-lg">' . Yii::$app->name . '</span>', Yii::$app->homeUrl, ['class' => 'logo']) ?>
-=======
     <?= Html::a('<span class="logo-mini">LSC</span><span class="logo-lg">Loyola Student Center</span>', Yii::$app->homeUrl, ['class' => 'logo']) ?>
->>>>>>> origin/master
 
     <nav class="navbar navbar-static-top" role="navigation">
 
@@ -235,10 +234,6 @@ use yii\helpers\Html;
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <img src="<?= $directoryAsset ?>/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
-
- <!--change to logged inusername-->
-                        <span class="hidden-xs">'username'?>  
-  <!-- Html::a('<span class="logo-mini">LSC</span><span class="logo-lg">' . Yii::$app->user->identity->username . '</span>', Yii::$app->homeUrl, ['class' => 'logo']) ?> -->
 
                     </a>
                     <ul class="dropdown-menu">
