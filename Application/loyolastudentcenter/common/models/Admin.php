@@ -18,6 +18,10 @@ use backend\models\SignupForm;
  *
  * @property integer $id
  * @property string $username
+ * @property string $first_name
+ * @property string $last_name
+ * @property string $middle_name
+ * @property string $contact_number
  * @property string $password_hash
  * @property string $password_reset_token
  * @property string $email
@@ -197,8 +201,8 @@ class Admin extends ActiveRecord implements IdentityInterface
         return Yii::$app->user->identity->username;
     }
 
-    public function getName()
+    public function getFirstname()
     {
-        return Yii::$app->user->identity->name;
+        return Yii::$app->user->identity->first_name;
     }
 }

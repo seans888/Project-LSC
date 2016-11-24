@@ -33,10 +33,6 @@ $this->title = 'Signup';
 
       <?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?>
 
-      <?= $form->field($model, 'age')->textInput() ?>
-
-      <?= $form->field($model, 'gender')->dropDownList([ 'Male' => 'Male', 'Female' => 'Female', ], ['prompt' => 'Male/Female']) ?>
-
       <?= $form->field($model, 'contact_number')->textInput(['maxlength' => true, 'placeholder'=>'e.g. 09xxxxxxxxx'])?>
 
       <?= $form->field($model, 'email')?>
