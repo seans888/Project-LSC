@@ -51,12 +51,12 @@ class Transaction extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'user_id' => 'User ID',
+            'user_id' => 'User Name',
             'selected_school' => 'Selected School',
-            'review_class_id' => 'Review Class ID',
+            'review_class_id' => 'Review Class Name',
             'transaction_type' => 'Transaction Type',
             'status' => 'Status',
-            'schedule_id' => 'Schedule ID',
+            'schedule_id' => 'Schedule',
         ];
     }
 
