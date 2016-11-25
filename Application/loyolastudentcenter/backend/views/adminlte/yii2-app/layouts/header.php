@@ -1,16 +1,11 @@
 <?php
 
 use yii\helpers\Html;
-<<<<<<< HEAD
 use backend\assets\AppAsset;  
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use common\widgets\Alert;
-=======
-use common\models\Admin;
-use common\models\AdminSearch;
->>>>>>> 179a711879273ab2c46de65fac754d40302a8da5
 
 AppAsset::register($this);
 /* @var $this \yii\web\View */
@@ -18,13 +13,10 @@ AppAsset::register($this);
 ?>
 <header class="main-header">
 
-<<<<<<< HEAD
 
     <?= Html::a('<span class="logo-mini">LSC</span>
             <span class="logo-lg">Loyola Student Center</span>', Yii::$app->homeUrl, ['class' => 'logo']) ?>
-=======
-    <?= Html::a('<span class="logo-mini">LSC</span><span class="logo-lg">Loyola Student Center</span>', Yii::$app->homeUrl, ['class' => 'logo']) ?>
->>>>>>> 179a711879273ab2c46de65fac754d40302a8da5
+
 
     <nav class="navbar navbar-static-top" role="navigation">
 
@@ -249,13 +241,6 @@ AppAsset::register($this);
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <img src="<?= $directoryAsset ?>/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
 
-<<<<<<< HEAD
- <!--change to logged inusername-->
-
-                      
-                  
-=======
->>>>>>> 179a711879273ab2c46de65fac754d40302a8da5
                     </a>
                     <ul class="dropdown-menu">
                         <!-- User image -->

@@ -68,7 +68,7 @@ class TransactionController extends Controller
         $model = new Transaction();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'user_id' => $model->user_id, 'review_class_id' => $model->review_class_id, 'schedule_id' => $model->schedule_id]);
+            return $this->redirect(Url::to('index.php?r=payment%2Fcreate'));
         } else {
             return $this->render('create', [
                 'model' => $model,

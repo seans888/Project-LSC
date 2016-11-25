@@ -18,8 +18,8 @@ class AdminSearch extends Admin
     public function rules()
     {
         return [
-            [['id', 'status', 'created_at', 'updated_at', 'age'], 'integer'],
-            [['username', 'auth_key', 'password_hash', 'password_reset_token', 'email', 'lastname', 'firstname', 'middlename', 'gender', 'contact_number'], 'safe'],
+            [['id', 'status', 'created_at', 'updated_at',], 'integer'],
+            [['username', 'auth_key', 'password_hash', 'password_reset_token', 'email', 'lastname', 'firstname', 'middlename', 'contact_number'], 'safe'],
         ];
     }
 
@@ -63,7 +63,6 @@ class AdminSearch extends Admin
             'status' => $this->status,
             'created_at' => $this->created_at,
             'updated_at' => $this->updated_at,
-            'age' => $this->age,
         ]);
 
         $query->andFilterWhere(['like', 'username', $this->username])
@@ -74,7 +73,6 @@ class AdminSearch extends Admin
             ->andFilterWhere(['like', 'lastname', $this->lastname])
             ->andFilterWhere(['like', 'firstname', $this->firstname])
             ->andFilterWhere(['like', 'middlename', $this->middlename])
-            ->andFilterWhere(['like', 'gender', $this->gender])
             ->andFilterWhere(['like', 'contact_number', $this->contact_number]);
 
         return $dataProvider;

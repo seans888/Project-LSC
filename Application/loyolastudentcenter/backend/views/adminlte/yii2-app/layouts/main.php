@@ -45,10 +45,13 @@ if ((Yii::$app->controller->action->id === 'login') || (Yii::$app->controller->a
     <body class="hold-transition skin-blue sidebar-mini">
     <?php $this->beginBody() ?>
     <div class="wrapper">
+         
+         <header class="main-header">
 
-      <header class="main-header">
+
     <?= Html::a('<span class="logo-mini">LSC</span>
             <span class="logo-lg">Loyola Student Center</span>', Yii::$app->homeUrl, ['class' => 'logo']) ?>
+
 
     <nav class="navbar navbar-static-top" role="navigation">
 
@@ -150,14 +153,13 @@ if ((Yii::$app->controller->action->id === 'login') || (Yii::$app->controller->a
                     <ul class="dropdown-menu">
                         <li class="header">You have 10 notifications</li>
                         <li>
-                <!-- User Account: style can be found in dropdown.less  -->
+                <!-- User Account: style can be found in dropdown.less 
+                -->
 
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <img src="<?= $directoryAsset ?>/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
                         <?php  echo '<span class="hidden-xs">'.Yii::$app->user->identity->username.'</span>' ?>
- <!--change to logged inusername-->
-                  
                     </a>
                     <ul class="dropdown-menu">
                         <!-- User image -->
@@ -198,16 +200,10 @@ if ((Yii::$app->controller->action->id === 'login') || (Yii::$app->controller->a
                         </li>
                     </ul>
                 </li>
-
-                <!-- User Account: style can be found in dropdown.less -->
-               <!-- <li>
-                    <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
-                </li> -->
             </ul>
         </div>
     </nav>
 </header>
-
 
         <?= $this->render(
             'left.php',

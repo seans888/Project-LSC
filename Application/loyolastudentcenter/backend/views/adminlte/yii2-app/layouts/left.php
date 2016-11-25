@@ -7,14 +7,15 @@
             <div class="pull-left image">
                 <img src="<?= $directoryAsset ?>/img/user2-160x160.jpg" class="img-circle" alt="User Image"/>
             </div>
-            <div class="pull-left info">
+        
+        <div class="pull-left info">
                 <?php echo
                                 '<p>'.Yii::$app->user->identity->firstname.' '.Yii::$app->user->identity->lastname.' <br>
                                 <small>'.Yii::$app->user->identity->email.'</small>
                                 </p>' ?>
                 <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
             </div>
-        </div>
+        </div> 
 
         <!-- search form -->
         <form action="#" method="get" class="sidebar-form">
@@ -34,10 +35,7 @@
                 'items' => [
                     ['label' => 'Student', 'icon' => 'fa fa-circle-o', 'url' => ['/user']],
                     ['label' => 'Student Transaction', 'icon' => 'fa fa-circle-o', 'url' => ['/transaction']],
-                    ['label' => 'Payment', 'icon' => 'fa fa-circle-o', 'url' => ['/payment']],
-                    
-                   
-                   
+                    ['label' => 'Payment', 'icon' => 'fa fa-circle-o', 'url' => ['/payment']],                   
 
                     [
                         'label' => 'LSC Record',
