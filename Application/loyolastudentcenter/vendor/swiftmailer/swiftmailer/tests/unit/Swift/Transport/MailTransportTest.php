@@ -100,7 +100,7 @@ class Swift_Transport_MailTransportTest extends \SwiftMailerTestCase
              );
         $invoker->shouldReceive('mail')
                 ->once()
-                ->with(\Mockery::any(), \Mockery::any(), \Mockery::any(), \Mockery::any(), '-ffoo@bar');
+                ->with(\Mockery::any(), \Mockery::any(), \Mockery::any(), \Mockery::any(), '-f\'foo@bar\'');
 
         $transport->send($message);
     }
@@ -153,7 +153,7 @@ class Swift_Transport_MailTransportTest extends \SwiftMailerTestCase
             ->andReturn(null);
         $invoker->shouldReceive('mail')
             ->once()
-            ->with(\Mockery::any(), \Mockery::any(), \Mockery::any(), \Mockery::any(), '-x\'foo\' -ffoo@bar');
+            ->with(\Mockery::any(), \Mockery::any(), \Mockery::any(), \Mockery::any(), '-x\'foo\' -f\'foo@bar\'');
 
         $transport->send($message);
     }

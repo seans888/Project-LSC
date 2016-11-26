@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitfcfa288df89d0761a1c62bfcf644b93e
+class ComposerStaticInit0d1d3c13f80202964b8b82ff7f2fb863
 {
     public static $files = array (
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
@@ -12,7 +12,6 @@ class ComposerStaticInitfcfa288df89d0761a1c62bfcf644b93e
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
-        '180092cfc969a12e06f2132a203a3184' => __DIR__ . '/..' . '/codeception/verify/src/Codeception/function.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
     );
 
@@ -20,13 +19,11 @@ class ComposerStaticInitfcfa288df89d0761a1c62bfcf644b93e
         'y' => 
         array (
             'yii\\swiftmailer\\' => 16,
-            'yii\\httpclient\\' => 15,
             'yii\\gii\\' => 8,
             'yii\\faker\\' => 10,
             'yii\\debug\\' => 10,
             'yii\\composer\\' => 13,
             'yii\\bootstrap\\' => 14,
-            'yii\\authclient\\' => 15,
             'yii\\' => 4,
         ),
         'r' => 
@@ -37,10 +34,20 @@ class ComposerStaticInitfcfa288df89d0761a1c62bfcf644b93e
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'k' => 
+        array (
+            'kartik\\time\\' => 12,
+            'kartik\\popover\\' => 15,
+            'kartik\\plugins\\popover\\' => 23,
+            'kartik\\editable\\' => 16,
+            'kartik\\dialog\\' => 14,
+            'kartik\\base\\' => 12,
+        ),
         'd' => 
         array (
+            'dosamigos\\datetimepicker\\' => 25,
+            'dosamigos\\datepicker\\' => 21,
             'dmstr\\' => 6,
-            'dektrium\\user\\' => 14,
         ),
         'c' => 
         array (
@@ -95,10 +102,6 @@ class ComposerStaticInitfcfa288df89d0761a1c62bfcf644b93e
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-swiftmailer',
         ),
-        'yii\\httpclient\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/yiisoft/yii2-httpclient',
-        ),
         'yii\\gii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-gii',
@@ -119,10 +122,6 @@ class ComposerStaticInitfcfa288df89d0761a1c62bfcf644b93e
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-bootstrap',
         ),
-        'yii\\authclient\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/yiisoft/yii2-authclient',
-        ),
         'yii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
@@ -137,13 +136,41 @@ class ComposerStaticInitfcfa288df89d0761a1c62bfcf644b93e
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
         ),
+        'kartik\\time\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-timepicker',
+        ),
+        'kartik\\popover\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-popover-x',
+        ),
+        'kartik\\plugins\\popover\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/bootstrap-popover-x',
+        ),
+        'kartik\\editable\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-editable',
+        ),
+        'kartik\\dialog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-dialog',
+        ),
+        'kartik\\base\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-krajee-base',
+        ),
+        'dosamigos\\datetimepicker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/2amigos/yii2-date-time-picker-widget/src',
+        ),
+        'dosamigos\\datepicker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/2amigos/yii2-date-picker-widget/src',
+        ),
         'dmstr\\' => 
         array (
             0 => __DIR__ . '/..' . '/dmstr/yii2-adminlte-asset',
-        ),
-        'dektrium\\user\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/dektrium/yii2-user',
         ),
         'cebe\\markdown\\' => 
         array (
@@ -228,12 +255,10 @@ class ComposerStaticInitfcfa288df89d0761a1c62bfcf644b93e
         'Codeception\\Extension\\' => 
         array (
             0 => __DIR__ . '/..' . '/codeception/codeception/ext',
-            1 => __DIR__ . '/..' . '/codeception/base/ext',
         ),
         'Codeception\\' => 
         array (
             0 => __DIR__ . '/..' . '/codeception/codeception/src/Codeception',
-            1 => __DIR__ . '/..' . '/codeception/base/src/Codeception',
         ),
     );
 
@@ -621,7 +646,6 @@ class ComposerStaticInitfcfa288df89d0761a1c62bfcf644b93e
         'PHP_Token_STRING' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_STRING_CAST' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_STRING_VARNAME' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
-        'PHP_Token_SUPER' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_SWITCH' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_Stream' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token/Stream.php',
         'PHP_Token_Stream_CachingFactory' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token/Stream/CachingFactory.php',
@@ -636,7 +660,6 @@ class ComposerStaticInitfcfa288df89d0761a1c62bfcf644b93e
         'PHP_Token_UNSET' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_UNSET_CAST' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_USE' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
-        'PHP_Token_USE_FUNCTION' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_VAR' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_VARIABLE' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_WHERE' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
@@ -739,10 +762,10 @@ class ComposerStaticInitfcfa288df89d0761a1c62bfcf644b93e
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitfcfa288df89d0761a1c62bfcf644b93e::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitfcfa288df89d0761a1c62bfcf644b93e::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitfcfa288df89d0761a1c62bfcf644b93e::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitfcfa288df89d0761a1c62bfcf644b93e::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit0d1d3c13f80202964b8b82ff7f2fb863::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit0d1d3c13f80202964b8b82ff7f2fb863::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit0d1d3c13f80202964b8b82ff7f2fb863::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit0d1d3c13f80202964b8b82ff7f2fb863::$classMap;
 
         }, null, ClassLoader::class);
     }

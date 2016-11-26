@@ -15,20 +15,23 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": "~2.0.6",
-        "yiisoft/yii2-bootstrap": "~2.0.0",
-        "yiisoft/yii2-swiftmailer": "~2.0.0",
-        "dektrium/yii2-user": "0.9.*@dev",
-        "dmstr/yii2-adminlte-asset": "*"
+        "yiisoft/yii2": ">=2.0.6",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "dmstr/yii2-adminlte-asset": "2.*",
+        "kartik-v/yii2-krajee-base": "~1.7",
+        "kartik-v/yii2-dialog": "~1.0",
+        "2amigos/yii2-date-picker-widget": "~1.0",
+        "2amigos/yii2-date-time-picker-widget": "~1.0",
+        "kartik-v/yii2-widget-timepicker": "@dev",
+        "kartik-v/yii2-popover-x": "*",
+        "kartik-v/yii2-editable": "@dev"
     },
     "require-dev": {
         "codeception/codeception": "*",
-        "yiisoft/yii2-debug": "~2.0.0",
-        "yiisoft/yii2-gii": "~2.0.0",
-        "yiisoft/yii2-faker": "~2.0.0",
-
-        "codeception/base": "^2.2.3",
-        "codeception/verify": "~0.3.1"
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
     },
     "config": {
         "process-timeout": 1800

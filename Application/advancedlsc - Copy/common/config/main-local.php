@@ -3,7 +3,7 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=previous_lsc',
+            'dsn' => 'mysql:host=localhost;dbname=loyolastudentcenter2',
             'username' => 'root',
             'password' => '',
             'charset' => 'utf8',

@@ -44,6 +44,10 @@ use yii\helpers\ArrayHelper;
  *                      'label' => 'DropdownB',
  *                      'content' => 'DropdownB, Anim pariatur cliche...',
  *                  ],
+ *                  [
+ *                      'label' => 'External Link',
+ *                      'url' => 'http://www.example.com',
+ *                  ],
  *             ],
  *         ],
  *     ],
@@ -114,6 +118,11 @@ class Tabs extends Widget
      * @since 2.0.1
      */
     public $renderTabContent = true;
+	/**
+	 * @var string name of a class to use for rendering dropdowns withing this widget. Defaults to [[Dropdown]].
+	 * @since 2.0.7
+	 */
+	public $dropdownClass = 'yii\bootstrap\Dropdown';
 
 
     /**
@@ -172,8 +181,10 @@ class Tabs extends Widget
                 if (!isset($linkOptions['data-toggle'])) {
                     $linkOptions['data-toggle'] = 'dropdown';
                 }
+				/** @var Widget $dropdownClass */
+				$dropdownClass = $this->dropdownClass;
                 $header = Html::a($label, "#", $linkOptions) . "\n"
-                    . Dropdown::widget(['items' => $item['items'], 'clientOptions' => false, 'view' => $this->getView()]);
+                    . $dropdownClass::widget(['items' => $item['items'], 'clientOptions' => false, 'view' => $this->getView()]);
             } else {
                 $options = array_merge($this->itemOptions, ArrayHelper::getValue($item, 'options', []));
                 $options['id'] = ArrayHelper::getValue($options, 'id', $this->options['id'] . '-tab' . $n);
@@ -240,8 +251,11 @@ class Tabs extends Widget
             if (isset($item['visible']) && !$item['visible']) {
                 continue;
             }
-            if (!array_key_exists('content', $item)) {
-                throw new InvalidConfigException("The 'content' option is required.");
+            if (!(array_key_exists('content', $item) xor array_key_exists('url', $item))) {
+                throw new InvalidConfigException("Either the 'content' or the 'url' option is required, but only one can be set.");
+            }
+            if (array_key_exists('url', $item)) {
+                continue;
             }
 
             $content = ArrayHelper::remove($item, 'content');
