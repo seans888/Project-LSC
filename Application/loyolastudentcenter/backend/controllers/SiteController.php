@@ -7,6 +7,7 @@ use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use yii\web\InvalidParamException;
 use yii\web\BadRequestHttpException;
+use yii\helpers\Url;
 
 use common\models\Admin;
 use common\models\AdminLoginForm;
@@ -31,12 +32,12 @@ class SiteController extends Controller
                 'only' => ['logout', 'signup'],
                 'rules' => [
                     [
-                        'actions' => ['signup'],
+                        'actions' => ['signup', 'login', 'error'],
                         'allow' => true,
                         'roles' => ['?'],
                     ],
                     [
-                        'actions' => ['logout'],
+                        'actions' => ['logout','index'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -74,8 +75,8 @@ class SiteController extends Controller
      * @return string
      */
     public function actionIndex()
-    {
-        return $this->render('index');
+    {   
+            return $this->render('index');
     }
 
     /**
@@ -85,6 +86,7 @@ class SiteController extends Controller
      */
     public function actionLogin()
     {
+
         if (!Yii::$app->user->isGuest) {
             return $this->goHome();
         }
@@ -108,7 +110,7 @@ class SiteController extends Controller
     {
         Yii::$app->user->logout();
 
-        return $this->goHome();
+        return $this->redirect(Url::to('index.php?r=site%2Flogin'));;
     }
 
      /**
@@ -118,6 +120,7 @@ class SiteController extends Controller
      */
     public function actionSignup()
     {
+
         $model = new AdminSignupForm();
         if ($model->load(Yii::$app->request->post())) {
             if ($user = $model->signup()) {
