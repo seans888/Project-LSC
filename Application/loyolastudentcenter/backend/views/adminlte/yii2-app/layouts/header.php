@@ -1,16 +1,22 @@
 <?php
 
 use yii\helpers\Html;
-use common\models\Admin;
-use common\models\AdminSearch;
+use backend\assets\AppAsset;  
+use yii\bootstrap\Nav;
+use yii\bootstrap\NavBar;
+use yii\widgets\Breadcrumbs;
+use common\widgets\Alert;
 
+AppAsset::register($this);
 /* @var $this \yii\web\View */
 /* @var $content string */
 ?>
-
 <header class="main-header">
 
-    <?= Html::a('<span class="logo-mini">LSC</span><span class="logo-lg">Loyola Student Center</span>', Yii::$app->homeUrl, ['class' => 'logo']) ?>
+
+    <?= Html::a('<span class="logo-mini">LSC</span>
+            <span class="logo-lg">Loyola Student Center</span>', Yii::$app->homeUrl, ['class' => 'logo']) ?>
+
 
     <nav class="navbar navbar-static-top" role="navigation">
 

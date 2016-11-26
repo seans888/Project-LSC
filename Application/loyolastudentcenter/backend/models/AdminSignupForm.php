@@ -12,8 +12,6 @@ class AdminSignupForm extends Model
     public $lastname;
     public $firstname;
     public $middlename;
-    public $age;
-    public $gender;
     public $contact_number;
     public $username;
     public $email;
@@ -30,8 +28,6 @@ class AdminSignupForm extends Model
             ['username', 'required'],
             ['lastname', 'required'],
             ['firstname', 'required'],
-            ['age', 'required'],
-            ['gender', 'required'],
             ['contact_number', 'required'],
             ['username', 'unique', 'targetClass' => '\common\models\Admin', 'message' => 'This username has already been taken.'],
             ['username', 'string', 'min' => 2, 'max' => 255],
@@ -63,8 +59,6 @@ class AdminSignupForm extends Model
         $user->firstname = $this->firstname;
         $user->middlename = $this->middlename;
         $user->username = $this->username;
-        $user->age = $this->age;
-        $user->gender = $this->gender;
         $user->contact_number = $this->contact_number;
         $user->email = $this->email;
         $user->setPassword($this->password);

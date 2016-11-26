@@ -2,7 +2,12 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+<<<<<<< HEAD
 use dosamigos\datepicker\DatePicker;
+=======
+use yii\helpers\ArrayHelper;
+use common\models\ReviewClass;
+>>>>>>> bb11f8c272a359ead416e7812d45fde2c4383a4c
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Schedule */
@@ -13,11 +18,10 @@ use dosamigos\datepicker\DatePicker;
 
     <?php $form = ActiveForm::begin(); ?>
 
+     <?= $form->field($model, 'review_class_id')->dropDownList(ArrayHelper::map(ReviewClass::find()->all(),'id','name'),
+        ['prompt'=>'--Select--']) ?>
+
     <?= $form->field($model, 'duration_of_hours')->textInput() ?>
-
-    <?= $form->field($model, 'start_time')->textInput() ?>
-
-    <?= $form->field($model, 'end_time')->textInput() ?>
 
 <?= $form->field($model, 'start_date')->widget(
     DatePicker::className(), [
@@ -32,6 +36,10 @@ use dosamigos\datepicker\DatePicker;
 ]); ?>
 
     <?= $form->field($model, 'end_date')->textInput() ?>
+
+    <?= $form->field($model, 'start_time')->textInput() ?>
+
+    <?= $form->field($model, 'end_time')->textInput() ?>
 
     <?= $form->field($model, 'days')->textInput(['maxlength' => true]) ?>
 
