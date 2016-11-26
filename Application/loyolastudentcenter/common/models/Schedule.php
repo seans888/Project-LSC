@@ -8,15 +8,18 @@ use Yii;
  * This is the model class for table "schedule".
  *
  * @property integer $id
+ * @property integer $review_class_id
+ * @property string $batch
  * @property integer $duration_of_hours
- * @property string $start_time
- * @property string $end_time
  * @property string $start_date
  * @property string $end_date
+ * @property string $start_time
+ * @property string $end_time
  * @property string $days
  * @property string $location
  * @property string $room
  *
+ * @property ReviewClass $reviewClass
  * @property Transaction[] $transactions
  */
 class Schedule extends \yii\db\ActiveRecord
@@ -35,11 +38,13 @@ class Schedule extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['duration_of_hours', 'start_time', 'end_time', 'start_date', 'end_date', 'days', 'location', 'room'], 'required'],
-            [['duration_of_hours'], 'integer'],
-            [['start_time', 'end_time', 'start_date', 'end_date'], 'safe'],
+            [['review_class_id', 'batch', 'duration_of_hours', 'location', 'room'], 'required'],
+            [['review_class_id', 'duration_of_hours'], 'integer'],
+            [['start_date', 'end_date', 'start_time', 'end_time'], 'safe'],
+            [['batch'], 'string', 'max' => 100],
             [['days'], 'string', 'max' => 250],
             [['location', 'room'], 'string', 'max' => 150],
+            [['review_class_id'], 'exist', 'skipOnError' => true, 'targetClass' => ReviewClass::className(), 'targetAttribute' => ['review_class_id' => 'id']],
         ];
     }
 
@@ -50,15 +55,25 @@ class Schedule extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
+            'review_class_id' => 'Review Class ID',
+            'batch' => 'Batch',
             'duration_of_hours' => 'Duration Of Hours',
-            'start_time' => 'Start Time',
-            'end_time' => 'End Time',
             'start_date' => 'Start Date',
             'end_date' => 'End Date',
+            'start_time' => 'Start Time',
+            'end_time' => 'End Time',
             'days' => 'Days',
             'location' => 'Location',
             'room' => 'Room',
         ];
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getReviewClass()
+    {
+        return $this->hasOne(ReviewClass::className(), ['id' => 'review_class_id']);
     }
 
     /**

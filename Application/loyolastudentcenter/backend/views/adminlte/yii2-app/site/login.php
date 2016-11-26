@@ -9,7 +9,7 @@ use backend\models\SignupForm;
 
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
-/* @var $model \common\models\LoginForm */
+/* @var $model \common\models\AdminLoginForm */
 
 $this->title = 'Login';
 
@@ -34,7 +34,7 @@ $fieldOptions2 = [
     <div class="login-box-body">
         <p class="login-box-msg">Sign in to start your session</p>
 
-        <?php $form = ActiveForm::begin(['id' => 'login-form', 'enableClientValidation' => false]); ?>
+        <?php $form = ActiveForm::begin(['id' => 'login-form']); ?>
 
         <?= $form
             ->field($model, 'username', $fieldOptions1)
@@ -51,8 +51,8 @@ $fieldOptions2 = [
                 <?= $form->field($model, 'rememberMe')->checkbox() ?>
             </div>
             <!-- /.col -->
-            <div class="col-xs-4">
-                <?= Html::submitButton('Sign in', ['class' => 'btn btn-primary btn-block btn-flat', 'name' => 'login-button']) ?>
+             <div class="form-group">
+                    <?= Html::submitButton('Sign in', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
             </div>
             <!-- /.col -->
         </div>

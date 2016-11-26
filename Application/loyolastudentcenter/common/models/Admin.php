@@ -7,21 +7,17 @@ use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
 use yii\web\IdentityInterface;
 use yii\bootstrap\ActiveForm;
-use backend\models;
+
 use backend\controllers\SiteController;
 use common\models\Admin;
 use common\models\AdminLoginForm;
 use backend\models\SignupForm;
 
 /**
- * User model
+ * Admin model
  *
  * @property integer $id
  * @property string $username
- * @property string $first_name
- * @property string $last_name
- * @property string $middle_name
- * @property string $contact_number
  * @property string $password_hash
  * @property string $password_reset_token
  * @property string $email
@@ -83,7 +79,7 @@ class Admin extends ActiveRecord implements IdentityInterface
     }
 
     /**
-     * Finds user by username
+     * Finds admin by username
      *
      * @param string $username
      * @return static|null
@@ -94,7 +90,7 @@ class Admin extends ActiveRecord implements IdentityInterface
     }
 
     /**
-     * Finds user by password reset token
+     * Finds admin by password reset token
      *
      * @param string $token password reset token
      * @return static|null
@@ -195,14 +191,5 @@ class Admin extends ActiveRecord implements IdentityInterface
     public function removePasswordResetToken()
     {
         $this->password_reset_token = null;
-    }
-     public function getUsername()
-    {
-        return Yii::$app->user->identity->username;
-    }
-
-    public function getFirstname()
-    {
-        return Yii::$app->user->identity->first_name;
     }
 }

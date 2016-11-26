@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel backend\models\ScheduleSearch */
+/* @var $searchModel common\models\ScheduleSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Schedules';
@@ -24,11 +24,12 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            //'id',
+            'id',
             'review_class_id',
+            'batch',
             'duration_of_hours',
             'start_date',
-            'end_date',
+            // 'end_date',
             // 'start_time',
             // 'end_time',
             // 'days',

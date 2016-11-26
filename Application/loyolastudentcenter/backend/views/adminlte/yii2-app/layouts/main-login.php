@@ -1,6 +1,8 @@
 <?php
 use backend\assets\AppAsset;
 use yii\helpers\Html;
+use backend\models;
+use backend\controllers\SiteController;
 
 /* @var $this \yii\web\View */
 /* @var $content string */

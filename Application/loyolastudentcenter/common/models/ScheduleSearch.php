@@ -18,8 +18,8 @@ class ScheduleSearch extends Schedule
     public function rules()
     {
         return [
-            [['id', 'duration_of_hours'], 'integer'],
-            [['start_time', 'end_time', 'start_date', 'end_date', 'days', 'location', 'room'], 'safe'],
+            [['id', 'review_class_id', 'duration_of_hours'], 'integer'],
+            [['batch', 'start_date', 'end_date', 'start_time', 'end_time', 'days', 'location', 'room'], 'safe'],
         ];
     }
 
@@ -60,14 +60,16 @@ class ScheduleSearch extends Schedule
         // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
+            'review_class_id' => $this->review_class_id,
             'duration_of_hours' => $this->duration_of_hours,
-            'start_time' => $this->start_time,
-            'end_time' => $this->end_time,
             'start_date' => $this->start_date,
             'end_date' => $this->end_date,
+            'start_time' => $this->start_time,
+            'end_time' => $this->end_time,
         ]);
 
-        $query->andFilterWhere(['like', 'days', $this->days])
+        $query->andFilterWhere(['like', 'batch', $this->batch])
+            ->andFilterWhere(['like', 'days', $this->days])
             ->andFilterWhere(['like', 'location', $this->location])
             ->andFilterWhere(['like', 'room', $this->room]);
 

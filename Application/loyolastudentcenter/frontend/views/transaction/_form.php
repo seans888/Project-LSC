@@ -14,8 +14,11 @@ use common\models\User;
 <div class="transaction-form">
 
     <?php $form = ActiveForm::begin(); ?>
+     <?php echo
+            '<p>'.Yii::$app->user->identity->firstname.' '.Yii::$app->user->identity->lastname.'</p>'
+     ?>
 
-    <?= $form->field($model, 'user_id')->textInput(['value'=>Yii::$app->user->id,'readonly'=>true])?> 
+    <?= $form->field($model, 'user_id')->textInput(['value'=>Yii::$app->user->id, 'readonly'=>true])?> 
 
     <?= $form->field($model, 'selected_school')->textInput(['maxlength' => true]) ?>
 

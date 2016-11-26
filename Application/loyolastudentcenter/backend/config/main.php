@@ -12,32 +12,26 @@ return [
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
     'modules' => [],
+
     'components' => [
-        'request' => [
-            // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => 'jzqfUhttHVASSrIwPeXl',
-            'csrfParam' => '_backendCSRF',
-        ],
         'user' => [
             'identityClass' => 'common\models\Admin',
             'enableAutoLogin' => true,
             'identityCookie' => [
                 'name' => '_backendUser',
-            ],
+            ]
         ],
+
         'session' => [
-            // this is the name of the session cookie used for login on the backend
             'name' => 'PHPBACKSESSID',
             'savePath' => sys_get_temp_dir(),
         ],
 
-                'view' => [
-         'theme' => [
-             'pathMap' => [
-                '@app/views' => '@backend/views/adminlte/yii2-app' //adminLTE Path
-             ],
-         ],
-    ],
+        'request' => [
+            'cookieValidationKey' => 'jzqfUhttHVASSrIwPeXl',
+            'csrfParam' => '_backendCSRF',
+        ],
+
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
@@ -50,6 +44,15 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        
+          'view' => [
+            'theme' => [
+             'pathMap' => [
+                '@app/views' => '@backend/views/adminlte/yii2-app' //adminLTE Path
+             ],
+         ],
+    ],
+
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,

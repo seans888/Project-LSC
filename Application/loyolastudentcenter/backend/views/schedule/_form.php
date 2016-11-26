@@ -2,12 +2,9 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-<<<<<<< HEAD
-use dosamigos\datepicker\DatePicker;
-=======
 use yii\helpers\ArrayHelper;
+use dosamigos\datepicker\DatePicker;
 use common\models\ReviewClass;
->>>>>>> bb11f8c272a359ead416e7812d45fde2c4383a4c
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Schedule */
@@ -18,24 +15,34 @@ use common\models\ReviewClass;
 
     <?php $form = ActiveForm::begin(); ?>
 
-     <?= $form->field($model, 'review_class_id')->dropDownList(ArrayHelper::map(ReviewClass::find()->all(),'id','name'),
+    <?= $form->field($model, 'review_class_id')->dropDownList(ArrayHelper::map(ReviewClass::find()->all(),'id','name'),
         ['prompt'=>'--Select--']) ?>
+
+    <?= $form->field($model, 'batch')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'duration_of_hours')->textInput() ?>
 
-<?= $form->field($model, 'start_date')->widget(
-    DatePicker::className(), [
+     <?= $form->field($model, 'start_date')->widget(
+         DatePicker::className(), [
         // inline too, not bad
          'inline' => false, 
          // modify template for custom rendering
        // 'template' => '<div class="well well-sm" style="background-color: #fff; width:250px">{input}</div>',
         'clientOptions' => [
             'autoclose' => true,
-            'format' => 'yyyy-m-d'
-        ]
-]); ?>
+            'format' => 'yyyy-m-d']
+    ]); ?>
 
-    <?= $form->field($model, 'end_date')->textInput() ?>
+    <?= $form->field($model, 'end_date')->widget(
+         DatePicker::className(), [
+        // inline too, not bad
+         'inline' => false, 
+         // modify template for custom rendering
+       // 'template' => '<div class="well well-sm" style="background-color: #fff; width:250px">{input}</div>',
+        'clientOptions' => [
+            'autoclose' => true,
+            'format' => 'yyyy-m-d']
+    ]); ?>
 
     <?= $form->field($model, 'start_time')->textInput() ?>
 
