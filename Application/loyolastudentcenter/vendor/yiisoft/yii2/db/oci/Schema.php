@@ -116,7 +116,7 @@ class Schema extends \yii\db\Schema
     /**
      * Collects the table column metadata.
      * @param TableSchema $table the table schema
-     * @return bool whether the table exists
+     * @return boolean whether the table exists
      */
     protected function findColumns($table)
     {

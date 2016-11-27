@@ -14,8 +14,6 @@ use yii\base\InvalidConfigException;
 /**
  * BaseActiveFixture is the base class for fixture classes that support accessing fixture data as ActiveRecord objects.
  *
- * For more details and usage information on BaseActiveFixture, see the [guide article on fixtures](guide:test-fixtures).
- *
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
@@ -32,7 +30,7 @@ abstract class BaseActiveFixture extends DbFixture implements \IteratorAggregate
      */
     public $data = [];
     /**
-     * @var string|bool the file path or path alias of the data file that contains the fixture data
+     * @var string|boolean the file path or path alias of the data file that contains the fixture data
      * to be returned by [[getData()]]. You can set this property to be false to prevent loading any data.
      */
     public $dataFile;

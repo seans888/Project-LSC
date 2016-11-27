@@ -310,7 +310,7 @@ class FixtureController extends Controller
      * Prompts user with confirmation if fixtures should be loaded.
      * @param array $fixtures
      * @param array $except
-     * @return bool
+     * @return boolean
      */
     private function confirmLoad($fixtures, $except)
     {
@@ -342,7 +342,7 @@ class FixtureController extends Controller
      * Prompts user with confirmation for fixtures that should be unloaded.
      * @param array $fixtures
      * @param array $except
-     * @return bool
+     * @return boolean
      */
     private function confirmUnload($fixtures, $except)
     {
@@ -381,7 +381,7 @@ class FixtureController extends Controller
     /**
      * Checks if needed to apply all fixtures.
      * @param string $fixture
-     * @return bool
+     * @return boolean
      */
     public function needToApplyAll($fixture)
     {

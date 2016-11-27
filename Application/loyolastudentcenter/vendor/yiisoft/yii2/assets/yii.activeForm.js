@@ -132,9 +132,7 @@
         // the URL for performing AJAX-based validation. If not set, it will use the the form's action
         validationUrl: undefined,
         // whether to scroll to first visible error after validation.
-        scrollToError: true,
-        // offset in pixels that should be added when scrolling to the first error.
-        scrollToErrorOffset: 0
+        scrollToError: true
     };
 
     // NOTE: If you change any of these defaults, make sure you update yii\widgets\ActiveField::getClientOptions() as well
@@ -630,12 +628,7 @@
                 if (data.settings.scrollToError) {
                     var top = $form.find($.map(errorAttributes, function(attribute) {
                         return attribute.input;
-                    }).join(',')).first().closest(':visible').offset().top - data.settings.scrollToErrorOffset;
-                    if (top < 0) {
-                        top = 0;
-                    } else if (top > $(document).height()) {
-                        top = $(document).height();
-                    }
+                    }).join(',')).first().closest(':visible').offset().top;
                     var wtop = $(window).scrollTop();
                     if (top < wtop || top > wtop + $(window).height()) {
                         $(window).scrollTop(top);
@@ -645,11 +638,9 @@
             } else {
                 data.validated = true;
                 if (data.submitObject) {
-                    applyButtonOptions($form, data.submitObject);
-                }
-                $form.submit();
-                if (data.submitObject) {
-                    restoreButtonOptions($form);
+                    data.submitObject.trigger("click");
+                } else {
+                    $form.submit();
                 }
             }
         } else {

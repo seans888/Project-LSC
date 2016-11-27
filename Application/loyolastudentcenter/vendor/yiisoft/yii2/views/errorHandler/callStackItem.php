@@ -1,12 +1,12 @@
 <?php
 /* @var $file string|null */
-/* @var $line int|null */
+/* @var $line integer|null */
 /* @var $class string|null */
 /* @var $method string|null */
-/* @var $index int */
+/* @var $index integer */
 /* @var $lines string[] */
-/* @var $begin int */
-/* @var $end int */
+/* @var $begin integer */
+/* @var $end integer */
 /* @var $args array */
 /* @var $handler \yii\web\ErrorHandler */
 ?>

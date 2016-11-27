@@ -62,7 +62,7 @@ class ExistValidator extends Validator
      */
     public $filter;
     /**
-     * @var bool whether to allow array type attribute.
+     * @var boolean whether to allow array type attribute.
      */
     public $allowArray = false;
 

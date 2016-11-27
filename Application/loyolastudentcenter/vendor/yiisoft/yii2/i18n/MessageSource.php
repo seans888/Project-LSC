@@ -28,7 +28,7 @@ class MessageSource extends Component
     const EVENT_MISSING_TRANSLATION = 'missingTranslation';
 
     /**
-     * @var bool whether to force message translation when the source and target languages are the same.
+     * @var boolean whether to force message translation when the source and target languages are the same.
      * Defaults to false, meaning translation is only performed when source and target languages are different.
      */
     public $forceTranslation = false;
@@ -79,7 +79,7 @@ class MessageSource extends Component
      * @param string $category the message category
      * @param string $message the message to be translated
      * @param string $language the target language
-     * @return string|bool the translated message or false if translation wasn't found or isn't required
+     * @return string|boolean the translated message or false if translation wasn't found or isn't required
      */
     public function translate($category, $message, $language)
     {
@@ -98,7 +98,7 @@ class MessageSource extends Component
      * @param string $category the category that the message belongs to.
      * @param string $message the message to be translated.
      * @param string $language the target language.
-     * @return string|bool the translated message or false if translation wasn't found.
+     * @return string|boolean the translated message or false if translation wasn't found.
      */
     protected function translateMessage($category, $message, $language)
     {

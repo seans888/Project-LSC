@@ -102,14 +102,9 @@ class Nav extends Widget
     /**
      * @var string this property allows you to customize the HTML which is used to generate the drop down caret symbol,
      * which is displayed next to the button text to indicate the drop down functionality.
-     * Defaults to `null` which means `<span class="caret"></span>` will be used. To disable the caret, set this property to be an empty string.
+     * Defaults to `null` which means `<b class="caret"></b>` will be used. To disable the caret, set this property to be an empty string.
      */
     public $dropDownCaret;
-    /**
-     * @var string name of a class to use for rendering dropdowns withing this widget. Defaults to [[Dropdown]].
-	 * @since 2.0.7
-     */
-	public $dropdownClass = 'yii\bootstrap\Dropdown';
 
 
     /**
@@ -125,7 +120,7 @@ class Nav extends Widget
             $this->params = Yii::$app->request->getQueryParams();
         }
         if ($this->dropDownCaret === null) {
-            $this->dropDownCaret = '<span class="caret"></span>';
+            $this->dropDownCaret = Html::tag('b', '', ['class' => 'caret']);
         }
         Html::addCssClass($this->options, ['widget' => 'nav']);
     }
@@ -192,12 +187,14 @@ class Nav extends Widget
                 $label .= ' ' . $this->dropDownCaret;
             }
             if (is_array($items)) {
-                $items = $this->isChildActive($items, $active);
+                if ($this->activateItems) {
+                    $items = $this->isChildActive($items, $active);
+                }
                 $items = $this->renderDropdown($items, $item);
             }
         }
 
-        if ($active) {
+        if ($this->activateItems && $active) {
             Html::addCssClass($options, 'active');
         }
 
@@ -214,9 +211,7 @@ class Nav extends Widget
      */
     protected function renderDropdown($items, $parentItem)
     {
-		/** @var Widget $dropdownClass */
-		$dropdownClass = $this->dropdownClass;
-		return $dropdownClass::widget([
+        return Dropdown::widget([
             'options' => ArrayHelper::getValue($parentItem, 'dropDownOptions', []),
             'items' => $items,
             'encodeLabels' => $this->encodeLabels,
@@ -256,9 +251,6 @@ class Nav extends Widget
      */
     protected function isItemActive($item)
     {
-        if (!$this->activateItems) {
-            return false;
-        }
         if (isset($item['url']) && is_array($item['url']) && isset($item['url'][0])) {
             $route = $item['url'][0];
             if ($route[0] !== '/' && Yii::$app->controller) {

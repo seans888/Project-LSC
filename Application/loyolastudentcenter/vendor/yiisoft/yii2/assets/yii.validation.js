@@ -136,7 +136,7 @@ yii.validation = (function ($) {
                 return;
             }
 
-            if (typeof value === 'string' && !options.pattern.test(value)) {
+            if (typeof value === 'string' && !value.match(options.pattern)) {
                 pub.addMessage(messages, options.message, value);
                 return;
             }
@@ -180,7 +180,7 @@ yii.validation = (function ($) {
                 return;
             }
 
-            if (!options.not && !options.pattern.test(value) || options.not && options.pattern.test(value)) {
+            if (!options.not && !value.match(options.pattern) || options.not && value.match(options.pattern)) {
                 pub.addMessage(messages, options.message, value);
             }
         },
@@ -211,7 +211,7 @@ yii.validation = (function ($) {
                 } else if ((matches[5] + '@' + matches[6]).length > 254) {
                     valid = false;
                 } else {
-                    valid = options.pattern.test(value) || (options.allowName && options.fullPattern.test(value));
+                    valid = value.match(options.pattern) || (options.allowName && value.match(options.fullPattern));
                 }
             }
 
@@ -225,14 +225,15 @@ yii.validation = (function ($) {
                 return;
             }
 
-            if (options.defaultScheme && !/:\/\//.test(value)) {
+            if (options.defaultScheme && !value.match(/:\/\//)) {
                 value = options.defaultScheme + '://' + value;
             }
 
             var valid = true;
 
             if (options.enableIDN) {
-                var matches = /^([^:]+):\/\/([^\/]+)(.*)$/.exec(value);
+                var regexp = /^([^:]+):\/\/([^\/]+)(.*)$/,
+                    matches = regexp.exec(value);
                 if (matches === null) {
                     valid = false;
                 } else {
@@ -240,7 +241,7 @@ yii.validation = (function ($) {
                 }
             }
 
-            if (!valid || !options.pattern.test(value)) {
+            if (!valid || !value.match(options.pattern)) {
                 pub.addMessage(messages, options.message, value);
             }
         },

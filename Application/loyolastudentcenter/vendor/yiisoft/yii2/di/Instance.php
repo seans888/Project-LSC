@@ -128,11 +128,7 @@ class Instance
         }
 
         if ($reference instanceof self) {
-            try {
-                $component = $reference->get($container);
-            } catch(\ReflectionException $e) {
-                throw new InvalidConfigException('Failed to instantiate component or class "' . $reference->id . '".', 0, $e);
-            }
+            $component = $reference->get($container);
             if ($type === null || $component instanceof $type) {
                 return $component;
             } else {

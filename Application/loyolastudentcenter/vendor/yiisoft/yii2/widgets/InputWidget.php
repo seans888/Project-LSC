@@ -29,8 +29,6 @@ use yii\helpers\Html;
  * ]) ?>
  * ```
  *
- * For more details and usage information on InputWidget, see the [guide article on forms](guide:input-forms).
- *
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
@@ -75,7 +73,7 @@ class InputWidget extends Widget
     }
 
     /**
-     * @return bool whether this widget is associated with a data model.
+     * @return boolean whether this widget is associated with a data model.
      */
     protected function hasModel()
     {

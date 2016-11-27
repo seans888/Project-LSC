@@ -22,16 +22,20 @@
         "kartik-v/yii2-krajee-base": "~1.7",
         "kartik-v/yii2-dialog": "~1.0",
         "2amigos/yii2-date-picker-widget": "~1.0",
-        "2amigos/yii2-date-time-picker-widget": "~1.0",
         "kartik-v/yii2-widget-timepicker": "@dev",
         "kartik-v/yii2-popover-x": "*",
-        "kartik-v/yii2-editable": "@dev"
+        "kartik-v/yii2-editable": "@dev",
+        "kartik-v/yii2-widget-depdrop": "@dev",
+        "kartik-v/yii2-grid": "@dev",
+        "onmotion/yii2-gallery": "*"
     },
     "require-dev": {
         "codeception/codeception": "*",
         "yiisoft/yii2-debug": "*",
         "yiisoft/yii2-gii": "*",
-        "yiisoft/yii2-faker": "*"
+        "yiisoft/yii2-faker": "*",
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1"
     },
     "config": {
         "process-timeout": 1800

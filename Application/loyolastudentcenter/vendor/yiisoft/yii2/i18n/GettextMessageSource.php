@@ -40,11 +40,11 @@ class GettextMessageSource extends MessageSource
      */
     public $catalog = 'messages';
     /**
-     * @var bool
+     * @var boolean
      */
     public $useMoFile = true;
     /**
-     * @var bool
+     * @var boolean
      */
     public $useBigEndian = false;
 

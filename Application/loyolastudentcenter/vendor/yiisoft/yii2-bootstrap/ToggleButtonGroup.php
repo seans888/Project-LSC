@@ -72,17 +72,9 @@ class ToggleButtonGroup extends InputWidget
         }
         switch ($this->type) {
             case 'checkbox':
-                if ($this->hasModel()) {
-                    return Html::activeCheckboxList($this->model, $this->attribute, $this->items, $this->options);
-                } else {
-                    return Html::checkboxList($this->name, $this->value, $this->items, $this->options);
-                }
+                return Html::activeCheckboxList($this->model, $this->attribute, $this->items, $this->options);
             case 'radio':
-                if ($this->hasModel()) {
-                    return Html::activeRadioList($this->model, $this->attribute, $this->items, $this->options); 
-                } else {
-                    return Html::radioList($this->name, $this->value, $this->items, $this->options); 
-                }
+                return Html::activeRadioList($this->model, $this->attribute, $this->items, $this->options);
             default:
                 throw new InvalidConfigException("Unsupported type '{$this->type}'");
         }

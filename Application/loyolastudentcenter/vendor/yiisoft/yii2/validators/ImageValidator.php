@@ -27,25 +27,25 @@ class ImageValidator extends FileValidator
      */
     public $notImage;
     /**
-     * @var int the minimum width in pixels.
+     * @var integer the minimum width in pixels.
      * Defaults to null, meaning no limit.
      * @see underWidth for the customized message used when image width is too small.
      */
     public $minWidth;
     /**
-     * @var int the maximum width in pixels.
+     * @var integer the maximum width in pixels.
      * Defaults to null, meaning no limit.
      * @see overWidth for the customized message used when image width is too big.
      */
     public $maxWidth;
     /**
-     * @var int the minimum height in pixels.
+     * @var integer the minimum height in pixels.
      * Defaults to null, meaning no limit.
      * @see underHeight for the customized message used when image height is too small.
      */
     public $minHeight;
     /**
-     * @var int the maximum width in pixels.
+     * @var integer the maximum width in pixels.
      * Defaults to null, meaning no limit.
      * @see overWidth for the customized message used when image height is too big.
      */
@@ -115,11 +115,11 @@ class ImageValidator extends FileValidator
     /**
      * @inheritdoc
      */
-    protected function validateValue($value)
+    protected function validateValue($file)
     {
-        $result = parent::validateValue($value);
+        $result = parent::validateValue($file);
 
-        return empty($result) ? $this->validateImage($value) : $result;
+        return empty($result) ? $this->validateImage($file) : $result;
     }
 
     /**

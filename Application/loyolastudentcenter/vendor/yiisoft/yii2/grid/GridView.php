@@ -41,8 +41,6 @@ use yii\base\Model;
  *
  * The look and feel of a grid view can be customized using the large amount of properties.
  *
- * For more details and usage information on GridView, see the [guide article on data widgets](guide:output-data-widgets).
- *
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
@@ -120,15 +118,15 @@ class GridView extends BaseListView
      */
     public $afterRow;
     /**
-     * @var bool whether to show the header section of the grid table.
+     * @var boolean whether to show the header section of the grid table.
      */
     public $showHeader = true;
     /**
-     * @var bool whether to show the footer section of the grid table.
+     * @var boolean whether to show the footer section of the grid table.
      */
     public $showFooter = false;
     /**
-     * @var bool whether to show the grid view if [[dataProvider]] returns no data.
+     * @var boolean whether to show the grid view if [[dataProvider]] returns no data.
      */
     public $showOnEmpty = true;
     /**
@@ -202,8 +200,7 @@ class GridView extends BaseListView
      * at the top that users can fill in to filter the data.
      *
      * Note that in order to show an input field for filtering, a column must have its [[DataColumn::attribute]]
-     * property set and the attribute should be active in the current scenario of $filterModel or have
-     * [[DataColumn::filter]] set as the HTML code for the input field.
+     * property set or have [[DataColumn::filter]] set as the HTML code for the input field.
      *
      * When this property is not set (null) the filtering feature is disabled.
      */
@@ -359,7 +356,7 @@ class GridView extends BaseListView
 
     /**
      * Renders the caption element.
-     * @return bool|string the rendered caption element or `false` if no caption element should be rendered.
+     * @return boolean|string the rendered caption element or `false` if no caption element should be rendered.
      */
     public function renderCaption()
     {
@@ -372,7 +369,7 @@ class GridView extends BaseListView
 
     /**
      * Renders the column group HTML.
-     * @return bool|string the column group HTML or `false` if no column group should be rendered.
+     * @return boolean|string the column group HTML or `false` if no column group should be rendered.
      */
     public function renderColumnGroup()
     {
@@ -496,7 +493,7 @@ class GridView extends BaseListView
      * Renders a table row with the given data model and key.
      * @param mixed $model the data model to be rendered
      * @param mixed $key the key associated with the data model
-     * @param int $index the zero-based index of the data model among the model array returned by [[dataProvider]].
+     * @param integer $index the zero-based index of the data model among the model array returned by [[dataProvider]].
      * @return string the rendering result
      */
     public function renderTableRow($model, $key, $index)
@@ -572,9 +569,7 @@ class GridView extends BaseListView
         $model = reset($models);
         if (is_array($model) || is_object($model)) {
             foreach ($model as $name => $value) {
-                if ($value === null || is_scalar($value) || is_callable([$value, '__toString'])) {
-                    $this->columns[] = (string) $name;
-                }
+                $this->columns[] = (string) $name;
             }
         }
     }

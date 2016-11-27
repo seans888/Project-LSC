@@ -51,8 +51,8 @@ class MysqlMutex extends DbMutex
     /**
      * Acquires lock by given name.
      * @param string $name of the lock to be acquired.
-     * @param int $timeout to wait for lock to become released.
-     * @return bool acquiring result.
+     * @param integer $timeout to wait for lock to become released.
+     * @return boolean acquiring result.
      * @see http://dev.mysql.com/doc/refman/5.0/en/miscellaneous-functions.html#function_get-lock
      */
     protected function acquireLock($name, $timeout = 0)
@@ -65,7 +65,7 @@ class MysqlMutex extends DbMutex
     /**
      * Releases lock by given name.
      * @param string $name of the lock to be released.
-     * @return bool release result.
+     * @return boolean release result.
      * @see http://dev.mysql.com/doc/refman/5.0/en/miscellaneous-functions.html#function_release-lock
      */
     protected function releaseLock($name)
