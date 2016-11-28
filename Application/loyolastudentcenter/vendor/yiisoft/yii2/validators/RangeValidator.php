@@ -36,16 +36,16 @@ class RangeValidator extends Validator
      */
     public $range;
     /**
-     * @var bool whether the comparison is strict (both type and value must be the same)
+     * @var boolean whether the comparison is strict (both type and value must be the same)
      */
     public $strict = false;
     /**
-     * @var bool whether to invert the validation logic. Defaults to false. If set to true,
+     * @var boolean whether to invert the validation logic. Defaults to false. If set to true,
      * the attribute value should NOT be among the list of values defined via [[range]].
      */
     public $not = false;
     /**
-     * @var bool whether to allow array type attribute.
+     * @var boolean whether to allow array type attribute.
      */
     public $allowArray = false;
 

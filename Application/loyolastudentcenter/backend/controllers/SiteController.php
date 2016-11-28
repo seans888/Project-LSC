@@ -76,8 +76,12 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {   
+<<<<<<< HEAD
         return $this->render('index');
 
+=======
+            return $this->render('index');
+>>>>>>> 9d0e4a5fffb88313124989db28807c735ca180e4
     }
 
     /**

@@ -24,16 +24,16 @@ use yii\helpers\Json;
 class NumberValidator extends Validator
 {
     /**
-     * @var bool whether the attribute value can only be an integer. Defaults to false.
+     * @var boolean whether the attribute value can only be an integer. Defaults to false.
      */
     public $integerOnly = false;
     /**
-     * @var int|float upper limit of the number. Defaults to null, meaning no upper limit.
+     * @var integer|float upper limit of the number. Defaults to null, meaning no upper limit.
      * @see tooBig for the customized message used when the number is too big.
      */
     public $max;
     /**
-     * @var int|float lower limit of the number. Defaults to null, meaning no lower limit.
+     * @var integer|float lower limit of the number. Defaults to null, meaning no lower limit.
      * @see tooSmall for the customized message used when the number is too small.
      */
     public $min;

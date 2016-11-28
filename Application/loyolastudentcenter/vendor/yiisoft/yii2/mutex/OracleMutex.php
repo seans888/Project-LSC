@@ -56,7 +56,7 @@ class OracleMutex extends DbMutex
      */
     public $lockMode = self::MODE_X;
     /**
-     * @var bool whether to release lock on commit.
+     * @var boolean whether to release lock on commit.
      */
     public $releaseOnCommit = false;
 
@@ -77,7 +77,7 @@ class OracleMutex extends DbMutex
      * Acquires lock by given name.
      * @see http://docs.oracle.com/cd/B19306_01/appdev.102/b14258/d_lock.htm
      * @param string $name of the lock to be acquired.
-     * @param int $timeout to wait for lock to become released.
+     * @param integer $timeout to wait for lock to become released.
      * @return bool acquiring result.
      */
     protected function acquireLock($name, $timeout = 0)
@@ -107,7 +107,7 @@ END;',
     /**
      * Releases lock by given name.
      * @param string $name of the lock to be released.
-     * @return bool release result.
+     * @return boolean release result.
      * @see http://docs.oracle.com/cd/B19306_01/appdev.102/b14258/d_lock.htm
      */
     protected function releaseLock($name)

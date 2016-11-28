@@ -208,7 +208,7 @@ window.yii = (function ($) {
 
             var newForm = !$form.length;
             if (newForm) {
-                if (!action || !/(^\/|:\/\/)/.test(action)) {
+                if (!action || !action.match(/(^\/|:\/\/)/)) {
                     action = window.location.href;
                 }
                 $form = $('<form/>', {method: method, action: action});
@@ -216,11 +216,11 @@ window.yii = (function ($) {
                 if (target) {
                     $form.attr('target', target);
                 }
-                if (!/(get|post)/i.test(method)) {
+                if (!method.match(/(get|post)/i)) {
                     $form.append($('<input/>', {name: '_method', value: method, type: 'hidden'}));
                     method = 'POST';
                 }
-                if (!/(get|head|options)/i.test(method)) {
+                if (!method.match(/(get|head|options)/i)) {
                     var csrfParam = pub.getCsrfParam();
                     if (csrfParam) {
                         $form.append($('<input/>', {name: csrfParam, value: pub.getCsrfToken(), type: 'hidden'}));

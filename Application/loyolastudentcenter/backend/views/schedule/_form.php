@@ -2,9 +2,18 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+<<<<<<< HEAD
+=======
+
+use dosamigos\datepicker\DatePicker;
+>>>>>>> 9d0e4a5fffb88313124989db28807c735ca180e4
 use yii\helpers\ArrayHelper;
 use dosamigos\datepicker\DatePicker;
 use common\models\ReviewClass;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9d0e4a5fffb88313124989db28807c735ca180e4
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Schedule */

@@ -18,8 +18,6 @@ use yii\web\JsExpression;
 /**
  * ActiveField represents a form input field within an [[ActiveForm]].
  *
- * For more details and usage information on ActiveField, see the [guide article on forms](guide:input-forms).
- *
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
@@ -97,33 +95,33 @@ class ActiveField extends Component
      */
     public $hintOptions = ['class' => 'hint-block'];
     /**
-     * @var bool whether to enable client-side data validation.
+     * @var boolean whether to enable client-side data validation.
      * If not set, it will take the value of [[ActiveForm::enableClientValidation]].
      */
     public $enableClientValidation;
     /**
-     * @var bool whether to enable AJAX-based data validation.
+     * @var boolean whether to enable AJAX-based data validation.
      * If not set, it will take the value of [[ActiveForm::enableAjaxValidation]].
      */
     public $enableAjaxValidation;
     /**
-     * @var bool whether to perform validation when the value of the input field is changed.
+     * @var boolean whether to perform validation when the value of the input field is changed.
      * If not set, it will take the value of [[ActiveForm::validateOnChange]].
      */
     public $validateOnChange;
     /**
-     * @var bool whether to perform validation when the input field loses focus.
+     * @var boolean whether to perform validation when the input field loses focus.
      * If not set, it will take the value of [[ActiveForm::validateOnBlur]].
      */
     public $validateOnBlur;
     /**
-     * @var bool whether to perform validation while the user is typing in the input field.
+     * @var boolean whether to perform validation while the user is typing in the input field.
      * If not set, it will take the value of [[ActiveForm::validateOnType]].
      * @see validationDelay
      */
     public $validateOnType;
     /**
-     * @var int number of milliseconds that the validation should be delayed when the user types in the field
+     * @var integer number of milliseconds that the validation should be delayed when the user types in the field
      * and [[validateOnType]] is set `true`.
      * If not set, it will take the value of [[ActiveForm::validationDelay]].
      */
@@ -373,7 +371,7 @@ class ActiveField extends Component
      *
      * The following special options are recognized:
      *
-     * - `maxlength`: int|bool, when `maxlength` is set `true` and the model attribute is validated
+     * - `maxlength`: integer|boolean, when `maxlength` is set `true` and the model attribute is validated
      *   by a string validator, the `maxlength` option will take the value of [[\yii\validators\StringValidator::max]].
      *   This is available since version 2.0.3.
      *
@@ -501,7 +499,7 @@ class ActiveField extends Component
      *
      * If you set a custom `id` for the input element, you may need to adjust the [[$selectors]] accordingly.
      *
-     * @param bool $enclosedByLabel whether to enclose the radio within the label.
+     * @param boolean $enclosedByLabel whether to enclose the radio within the label.
      * If `true`, the method will still use [[template]] to layout the radio button and the error message
      * except that the radio is enclosed by the label tag.
      * @return $this the field object itself.
@@ -547,7 +545,7 @@ class ActiveField extends Component
      *
      * If you set a custom `id` for the input element, you may need to adjust the [[$selectors]] accordingly.
      *
-     * @param bool $enclosedByLabel whether to enclose the checkbox within the label.
+     * @param boolean $enclosedByLabel whether to enclose the checkbox within the label.
      * If `true`, the method will still use [[template]] to layout the checkbox and the error message
      * except that the checkbox is enclosed by the label tag.
      * @return $this the field object itself.

@@ -27,11 +27,11 @@ use yii\validators\Validator;
 class CaptchaValidator extends Validator
 {
     /**
-     * @var bool whether to skip this validator if the input is empty.
+     * @var boolean whether to skip this validator if the input is empty.
      */
     public $skipOnEmpty = false;
     /**
-     * @var bool whether the comparison is case sensitive. Defaults to false.
+     * @var boolean whether the comparison is case sensitive. Defaults to false.
      */
     public $caseSensitive = false;
     /**
@@ -84,7 +84,7 @@ class CaptchaValidator extends Validator
     /**
      * @inheritdoc
      */
-    public function clientValidateAttribute($model, $attribute, $view)
+    public function clientValidateAttribute($object, $attribute, $view)
     {
         $captcha = $this->createCaptchaAction();
         $code = $captcha->getVerifyCode(false);
@@ -94,7 +94,7 @@ class CaptchaValidator extends Validator
             'hashKey' => 'yiiCaptcha/' . $captcha->getUniqueId(),
             'caseSensitive' => $this->caseSensitive,
             'message' => Yii::$app->getI18n()->format($this->message, [
-                'attribute' => $model->getAttributeLabel($attribute),
+                'attribute' => $object->getAttributeLabel($attribute),
             ], Yii::$app->language),
         ];
         if ($this->skipOnEmpty) {

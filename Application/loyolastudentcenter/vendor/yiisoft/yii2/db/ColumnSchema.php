@@ -22,7 +22,7 @@ class ColumnSchema extends Object
      */
     public $name;
     /**
-     * @var bool whether this column can be null.
+     * @var boolean whether this column can be null.
      */
     public $allowNull;
     /**
@@ -49,27 +49,27 @@ class ColumnSchema extends Object
      */
     public $enumValues;
     /**
-     * @var int display size of the column.
+     * @var integer display size of the column.
      */
     public $size;
     /**
-     * @var int precision of the column data, if it is numeric.
+     * @var integer precision of the column data, if it is numeric.
      */
     public $precision;
     /**
-     * @var int scale of the column data, if it is numeric.
+     * @var integer scale of the column data, if it is numeric.
      */
     public $scale;
     /**
-     * @var bool whether this column is a primary key
+     * @var boolean whether this column is a primary key
      */
     public $isPrimaryKey;
     /**
-     * @var bool whether this column is auto-incremental
+     * @var boolean whether this column is auto-incremental
      */
     public $autoIncrement = false;
     /**
-     * @var bool whether this column is unsigned. This is only meaningful
+     * @var boolean whether this column is unsigned. This is only meaningful
      * when [[type]] is `smallint`, `integer` or `bigint`.
      */
     public $unsigned;

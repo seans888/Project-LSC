@@ -18,11 +18,9 @@ use yii\helpers\Html;
  * You may also query other information about the file, including [[name]],
  * [[tempName]], [[type]], [[size]] and [[error]].
  *
- * For more details and usage information on UploadedFile, see the [guide article on handling uploads](guide:input-file-upload).
- *
  * @property string $baseName Original file base name. This property is read-only.
  * @property string $extension File extension. This property is read-only.
- * @property bool $hasError Whether there is an error with the uploaded file. Check [[error]] for detailed
+ * @property boolean $hasError Whether there is an error with the uploaded file. Check [[error]] for detailed
  * error code information. This property is read-only.
  *
  * @author Qiang Xue <qiang.xue@gmail.com>
@@ -47,11 +45,11 @@ class UploadedFile extends Object
      */
     public $type;
     /**
-     * @var int the actual size of the uploaded file in bytes
+     * @var integer the actual size of the uploaded file in bytes
      */
     public $size;
     /**
-     * @var int an error code describing the status of this file uploading.
+     * @var integer an error code describing the status of this file uploading.
      * @see http://www.php.net/manual/en/features.file-upload.errors.php
      */
     public $error;
@@ -151,9 +149,9 @@ class UploadedFile extends Object
      * Note that this method uses php's move_uploaded_file() method. If the target file `$file`
      * already exists, it will be overwritten.
      * @param string $file the file path used to save the uploaded file
-     * @param bool $deleteTempFile whether to delete the temporary file after saving.
+     * @param boolean $deleteTempFile whether to delete the temporary file after saving.
      * If true, you will not be able to save the uploaded file again in the current request.
-     * @return bool true whether the file is saved successfully
+     * @return boolean true whether the file is saved successfully
      * @see error
      */
     public function saveAs($file, $deleteTempFile = true)
@@ -187,7 +185,7 @@ class UploadedFile extends Object
     }
 
     /**
-     * @return bool whether there is an error with the uploaded file.
+     * @return boolean whether there is an error with the uploaded file.
      * Check [[error]] for detailed error code information.
      */
     public function getHasError()

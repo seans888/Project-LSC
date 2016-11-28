@@ -10,8 +10,6 @@ namespace yii\web;
 /**
  * Cookie represents information related with a cookie, such as [[name]], [[value]], [[domain]], etc.
  *
- * For more details and usage information on Cookie, see the [guide article on handling cookies](guide:runtime-sessions-cookies).
- *
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
@@ -30,7 +28,7 @@ class Cookie extends \yii\base\Object
      */
     public $domain = '';
     /**
-     * @var int the timestamp at which the cookie expires. This is the server timestamp.
+     * @var integer the timestamp at which the cookie expires. This is the server timestamp.
      * Defaults to 0, meaning "until the browser is closed".
      */
     public $expire = 0;
@@ -39,11 +37,11 @@ class Cookie extends \yii\base\Object
      */
     public $path = '/';
     /**
-     * @var bool whether cookie should be sent via secure connection
+     * @var boolean whether cookie should be sent via secure connection
      */
     public $secure = false;
     /**
-     * @var bool whether the cookie should be accessible only through the HTTP protocol.
+     * @var boolean whether the cookie should be accessible only through the HTTP protocol.
      * By setting this property to true, the cookie will not be accessible by scripting languages,
      * such as JavaScript, which can effectively help to reduce identity theft through XSS attacks.
      */

@@ -25,7 +25,7 @@ trait ActiveQueryTrait
      */
     public $with;
     /**
-     * @var bool whether to return each record as an array. If false (default), an object
+     * @var boolean whether to return each record as an array. If false (default), an object
      * of [[modelClass]] will be created to represent each record.
      */
     public $asArray;
@@ -33,7 +33,7 @@ trait ActiveQueryTrait
 
     /**
      * Sets the [[asArray]] property.
-     * @param bool $value whether to return the query results in terms of arrays instead of Active Records.
+     * @param boolean $value whether to return the query results in terms of arrays instead of Active Records.
      * @return $this the query object itself
      */
     public function asArray($value = true)
@@ -107,9 +107,8 @@ trait ActiveQueryTrait
      * Converts found rows into model instances
      * @param array $rows
      * @return array|ActiveRecord[]
-     * @since 2.0.11
      */
-    protected function createModels($rows)
+    private function createModels($rows)
     {
         $models = [];
         if ($this->asArray) {

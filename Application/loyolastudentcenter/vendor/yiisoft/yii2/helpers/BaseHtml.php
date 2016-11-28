@@ -93,7 +93,7 @@ class BaseHtml
      * Encodes special characters into HTML entities.
      * The [[\yii\base\Application::charset|application charset]] will be used for encoding.
      * @param string $content the content to be encoded
-     * @param bool $doubleEncode whether to encode HTML entities in `$content`. If false,
+     * @param boolean $doubleEncode whether to encode HTML entities in `$content`. If false,
      * HTML entities in `$content` will not be further encoded.
      * @return string the encoded content
      * @see decode()
@@ -119,7 +119,7 @@ class BaseHtml
 
     /**
      * Generates a complete HTML tag.
-     * @param string|bool|null $name the tag name. If $name is `null` or `false`, the corresponding content will be rendered without any tag.
+     * @param string|boolean|null $name the tag name. If $name is `null` or `false`, the corresponding content will be rendered without any tag.
      * @param string $content the content to be enclosed between the start and end tags. It will not be HTML-encoded.
      * If this is coming from end users, you should consider [[encode()]] it to prevent XSS attacks.
      * @param array $options the HTML tag attributes (HTML options) in terms of name-value pairs.
@@ -146,7 +146,7 @@ class BaseHtml
 
     /**
      * Generates a start tag.
-     * @param string|bool|null $name the tag name. If $name is `null` or `false`, the corresponding content will be rendered without any tag.
+     * @param string|boolean|null $name the tag name. If $name is `null` or `false`, the corresponding content will be rendered without any tag.
      * @param array $options the tag options in terms of name-value pairs. These will be rendered as
      * the attributes of the resulting tag. The values will be HTML-encoded using [[encode()]].
      * If a value is null, the corresponding attribute will not be rendered.
@@ -165,7 +165,7 @@ class BaseHtml
 
     /**
      * Generates an end tag.
-     * @param string|bool|null $name the tag name. If $name is `null` or `false`, the corresponding content will be rendered without any tag.
+     * @param string|boolean|null $name the tag name. If $name is `null` or `false`, the corresponding content will be rendered without any tag.
      * @return string the generated end tag
      * @see beginTag()
      * @see tag()
@@ -209,7 +209,7 @@ class BaseHtml
     /**
      * Generates a link tag that refers to an external CSS file.
      * @param array|string $url the URL of the external CSS file. This parameter will be processed by [[Url::to()]].
-     * @param array $options the tag options in terms of name-value pairs. The following options are specially handled:
+     * @param array $options the tag options in terms of name-value pairs. The following option is specially handled:
      *
      * - condition: specifies the conditional comments for IE, e.g., `lt IE 9`. When this is specified,
      *   the generated `link` tag will be enclosed within the conditional comments. This is mainly useful
@@ -671,7 +671,7 @@ class BaseHtml
     /**
      * Generates a radio button input.
      * @param string $name the name attribute.
-     * @param bool $checked whether the radio button should be checked.
+     * @param boolean $checked whether the radio button should be checked.
      * @param array $options the tag options in terms of name-value pairs.
      * See [[booleanInput()]] for details about accepted attributes.
      *
@@ -685,7 +685,7 @@ class BaseHtml
     /**
      * Generates a checkbox input.
      * @param string $name the name attribute.
-     * @param bool $checked whether the checkbox should be checked.
+     * @param boolean $checked whether the checkbox should be checked.
      * @param array $options the tag options in terms of name-value pairs.
      * See [[booleanInput()]] for details about accepted attributes.
      *
@@ -700,7 +700,7 @@ class BaseHtml
      * Generates a boolean input.
      * @param string $type the input type. This can be either `radio` or `checkbox`.
      * @param string $name the name attribute.
-     * @param bool $checked whether the checkbox should be checked.
+     * @param boolean $checked whether the checkbox should be checked.
      * @param array $options the tag options in terms of name-value pairs. The following options are specially handled:
      *
      * - uncheck: string, the value associated with the uncheck state of the checkbox. When this attribute
@@ -754,13 +754,7 @@ class BaseHtml
      * the labels will also be HTML-encoded.
      * @param array $options the tag options in terms of name-value pairs. The following options are specially handled:
      *
-     * - prompt: string, a prompt text to be displayed as the first option. Since version 2.0.11 you can use an array
-     *   to override the value and to set other tag attributes:
-     *
-     *   ```php
-     *   ['text' => 'Please select', 'options' => ['value' => 'none', 'class' => 'prompt', 'label' => 'Select']],
-     *   ```
-     *
+     * - prompt: string, a prompt text to be displayed as the first option;
      * - options: array, the attributes for the select option tags. The array keys must be valid option values,
      *   and the array values are the extra attributes for the corresponding option tags. For example,
      *
@@ -809,13 +803,7 @@ class BaseHtml
      * the labels will also be HTML-encoded.
      * @param array $options the tag options in terms of name-value pairs. The following options are specially handled:
      *
-     * - prompt: string, a prompt text to be displayed as the first option. Since version 2.0.11 you can use an array
-     *   to override the value and to set other tag attributes:
-     *
-     *   ```php
-     *   ['text' => 'Please select', 'options' => ['value' => 'none', 'class' => 'prompt', 'label' => 'Select']],
-     *   ```
-     *
+     * - prompt: string, a prompt text to be displayed as the first option;
      * - options: array, the attributes for the select option tags. The array keys must be valid option values,
      *   and the array values are the extra attributes for the corresponding option tags. For example,
      *
@@ -1489,13 +1477,7 @@ class BaseHtml
      * the labels will also be HTML-encoded.
      * @param array $options the tag options in terms of name-value pairs. The following options are specially handled:
      *
-     * - prompt: string, a prompt text to be displayed as the first option. Since version 2.0.11 you can use an array
-     *   to override the value and to set other tag attributes:
-     *
-     *   ```php
-     *   ['text' => 'Please select', 'options' => ['value' => 'none', 'class' => 'prompt', 'label' => 'Select']],
-     *   ```
-     *
+     * - prompt: string, a prompt text to be displayed as the first option;
      * - options: array, the attributes for the select option tags. The array keys must be valid option values,
      *   and the array values are the extra attributes for the corresponding option tags. For example,
      *
@@ -1544,13 +1526,7 @@ class BaseHtml
      * the labels will also be HTML-encoded.
      * @param array $options the tag options in terms of name-value pairs. The following options are specially handled:
      *
-     * - prompt: string, a prompt text to be displayed as the first option. Since version 2.0.11 you can use an array
-     *   to override the value and to set other tag attributes:
-     *
-     *   ```php
-     *   ['text' => 'Please select', 'options' => ['value' => 'none', 'class' => 'prompt', 'label' => 'Select']],
-     *   ```
-     *
+     * - prompt: string, a prompt text to be displayed as the first option;
      * - options: array, the attributes for the select option tags. The array keys must be valid option values,
      *   and the array values are the extra attributes for the corresponding option tags. For example,
      *
@@ -1669,7 +1645,7 @@ class BaseHtml
 
     /**
      * Generates a list of input fields.
-     * This method is mainly called by [[activeListBox()]], [[activeRadioList()]] and [[activeCheckboxList()]].
+     * This method is mainly called by [[activeListBox()]], [[activeRadioList()]] and [[activeCheckBoxList()]].
      * @param string $type the input type. This can be 'listBox', 'radioList', or 'checkBoxList'.
      * @param Model $model the model object
      * @param string $attribute the attribute name or expression. See [[getAttributeName()]] for the format
@@ -1717,18 +1693,11 @@ class BaseHtml
         $encodeSpaces = ArrayHelper::remove($tagOptions, 'encodeSpaces', false);
         $encode = ArrayHelper::remove($tagOptions, 'encode', true);
         if (isset($tagOptions['prompt'])) {
-            $promptOptions = ['value' => ''];
-            if (is_string($tagOptions['prompt'])) {
-                $promptText = $tagOptions['prompt'];
-            } else {
-                $promptText = $tagOptions['prompt']['text'];
-                $promptOptions = array_merge($promptOptions, $tagOptions['prompt']['options']);
-            }
-            $promptText = $encode ? static::encode($promptText) : $promptText;
+            $prompt = $encode ? static::encode($tagOptions['prompt']) : $tagOptions['prompt'];
             if ($encodeSpaces) {
-                $promptText = str_replace(' ', '&nbsp;', $promptText);
+                $prompt = str_replace(' ', '&nbsp;', $prompt);
             }
-            $lines[] = static::tag('option', $promptText, $promptOptions);
+            $lines[] = static::tag('option', $prompt, ['value' => '']);
         }
 
         $options = isset($tagOptions['options']) ? $tagOptions['options'] : [];
@@ -1926,7 +1895,7 @@ class BaseHtml
      * @param array $options the HTML options to be modified.
      * @param string|array $style the new style string (e.g. `'width: 100px; height: 200px'`) or
      * array (e.g. `['width' => '100px', 'height' => '200px']`).
-     * @param bool $overwrite whether to overwrite existing CSS properties if the new style
+     * @param boolean $overwrite whether to overwrite existing CSS properties if the new style
      * contain them too.
      * @see removeCssStyle()
      * @see cssStyleFromArray()
