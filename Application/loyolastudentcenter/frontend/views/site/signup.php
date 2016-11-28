@@ -29,8 +29,6 @@ $this->title = 'Sign up';
 
             <?php $form = ActiveForm::begin(['id' => 'form-signup']); ?>
 
-
-
                 <?= $form->field($model, 'username')->textInput(['autofocus' => true,'placeholder'=>'username'])->label(false) ?>
 
                 <?= $form->field($model, 'lastname')->textInput(['maxlength' => true,'placeholder'=>'Lastname'])->label(false) ?>
@@ -59,7 +57,7 @@ $this->title = 'Sign up';
 
                 <?= $form->field($model, 'learnedLSC')->dropDownList([ 'friends' => 'Friends', 'relatives' => 'Relatives', 'newspaper ads' => 'Newspaper ads', 'LSC signage/poster' => 'LSC signage/poster', 'school' => 'School', 'others' => 'Others', ], ['prompt' => 'Please choose where you learned about LSC'])->label(false) ?>
 
-                <?= $form->field($model, 'email')->textInput(['placeholder'=>'Email'])->label(false) ?>
+                <?= $form->field($model, 'email')->textInput(['placeholder'=>'Your email address'])->label(false) ?>
 
                 <?= $form->field($model, 'password')->passwordInput(['placeholder'=>'Password'])->label(false) ?>
 

@@ -430,10 +430,10 @@ function showSlides() {
                             </div>
                             <div id="collapse5" class="panel-collapse collapse" style="height: 0px;">
                                 <div class="panel-body">
-                                    <p>• Comprehensive College Entrance Test Review <br>
-                                    • High School Entrance Test Review <br>
-                                    • Civil Service Examination (CSE) Review <br>
-                                    • National Medical Admission Test (NMAT) Review.</p>
+                                    <li>Comprehensive College Entrance Test Review </li>
+                                    <li>High School Entrance Test Review </li>
+                                    <li>Civil Service Examination (CSE) Review </li>
+                                    <li>National Medical Admission Test (NMAT) Review.</li>
                                 </div>
                             </div>
                         </div>
@@ -447,9 +447,9 @@ function showSlides() {
                             </div>
                             <div id="collapse6" class="panel-collapse collapse" style="height: 0px;">
                                 <div class="panel-body">
-                                    <p>• International English Language Testing System (IELTS) <br>
-                                    • Test of English as a Foreign Language (TOEFL)<br>
-                                    • Test of English for International Communication (TOEIC).</p>
+                                    <li>International English Language Testing System (IELTS)</li>
+                                    <li>Test of English as a Foreign Language (TOEFL)</li>
+                                    <li>Test of English for International Communication (TOEIC).</li>
                                 </div>
                             </div>
                         </div>
@@ -463,10 +463,10 @@ function showSlides() {
                             </div>
                             <div id="collapse7" class="panel-collapse collapse"  style="height: 0px;">
                                 <div class="panel-body">
-                                    <p>• Career Service Examination (CSE) <br>
-                                    • SAT Reasoning Test 
-                                       Graduate Management Admission Test (GMAT) <br>
-                                    • Graduate Record Examination (GRE)</p>
+                                    <li>Career Service Examination (CSE)</li>
+                                    <li>SAT Reasoning Test </li> 
+                                    <li>Graduate Management Admission Test (GMAT)</li>
+                                    <li>Graduate Record Examination (GRE) </li>
                                 </div>
                             </div>
                         </div>
@@ -480,6 +480,8 @@ function showSlides() {
                    </div>
            </div>
                </div>
+               </div>
+               
              </div>
       <!-- COURSES SECTION END-->
 <!--===============================================================================================================
@@ -546,11 +548,13 @@ function showSlides() {
                     <h2 ><strong>Social Connectivity </strong></h2>
         <hr />
                     <div >
-                        <a href="https://www.facebook.com/19LSC86" target="_blank">  <img src="assets/img/Social/facebook.png" alt="" /> </a>
-                     <a href="#"> <img src="assets/img/Social/google-plus.png" alt="" /></a>
-                     <a href="http://www.twitter.com/lsckatipunan" target="_blank"> <img src="assets/img/Social/twitter.png" alt="" /></a>
+                        <a href="https://www.facebook.com/19LSC86" target="_blank">  <img src="theme/assets/img/Social/facebook.png" alt="" /> </a>
+                     <a href="#"> <img src="theme/assets/img/Social/google-plus.png" alt="" /></a>
+                     <a href="http://www.twitter.com/lsckatipunan" target="_blank"> <img src="theme/assets/img/Social/twitter.png" alt="" /></a>
                     </div>
                     </div>
+</div>
+</div>
 
 
                 </div>

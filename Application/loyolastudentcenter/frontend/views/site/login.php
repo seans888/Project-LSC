@@ -8,21 +8,22 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
 $this->title = 'Login';
-$this->params['breadcrumbs'][] = $this->title;
+///$this->params['breadcrumbs'][] = $this->title;
 ?>
 <center>
-<div class="site-login">
+<div class="site-login" align="center">
+
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>Please fill out the following fields to login:</p>
 
-    <div class="row">
-        <div class="col-lg-5">
+    <div class="row">        
+    <div class="form">
             <?php $form = ActiveForm::begin(['id' => 'login-form']); ?>
 
-                <?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?>
+                <?= $form->field($model, 'username')->textInput(['autofocus' => true,'placeholder'=>'username'])->label(false) ?>
 
-                <?= $form->field($model, 'password')->passwordInput() ?>
+                <?= $form->field($model, 'password')->passwordInput(['placeholder'=>'Password'])->label(false) ?>
 
                 <?= $form->field($model, 'rememberMe')->checkbox() ?>
 
@@ -37,4 +38,6 @@ $this->params['breadcrumbs'][] = $this->title;
             <?php ActiveForm::end(); ?>
         </div>
     </div>
-</div></center>
+</div>
+</center>
+

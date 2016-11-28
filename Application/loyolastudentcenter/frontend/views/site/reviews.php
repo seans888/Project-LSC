@@ -123,20 +123,7 @@ $this->title = 'Reviews';
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.7s">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="collapsed">
-                                      <strong>   </strong> SCHEDULE
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse3" class="panel-collapse collapse" style="height: 0px;">
-                                <div class="panel-body">
-                                 <!-- body of schedule -->
-                                </div>
-                            </div>
-                        </div>
+
                         </div>
                         </div>
                         </div>
@@ -184,20 +171,6 @@ $this->title = 'Reviews';
         </ul></li>
         <li>simulated exams</li>
         <li>test-taking strategies</li></ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.7s">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="collapsed">
-                                      <strong>   </strong> SCHEDULE
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse5" class="panel-collapse collapse" style="height: 0px;">
-                                <div class="panel-body">
-                                 <!-- body of schedule -->
                                 </div>
                             </div>
                         </div>
@@ -258,20 +231,7 @@ or Law School Admission Test (LSAT) Review.
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.7s">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7" class="collapsed">
-                                      <strong>   </strong> SCHEDULE
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse7" class="panel-collapse collapse" style="height: 0px;">
-                                <div class="panel-body">
-                                 <!-- body of schedule -->
-                                </div>
-                            </div>
-                        </div>
+                        
                         </div>
                         </div>
                         </div>
@@ -325,20 +285,7 @@ or Law School Admission Test (LSAT) Review.
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.7s">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse9" class="collapsed">
-                                      <strong>   </strong> SCHEDULE
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse9" class="panel-collapse collapse" style="height: 0px;">
-                                <div class="panel-body">
-                                 <!-- body of schedule -->
-                                </div>
-                            </div>
-                        </div>
+                        
                         </div>
                         </div>
                         </div>
