@@ -2,18 +2,11 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-<<<<<<< HEAD
-=======
-
 use dosamigos\datepicker\DatePicker;
->>>>>>> 9d0e4a5fffb88313124989db28807c735ca180e4
 use yii\helpers\ArrayHelper;
-use dosamigos\datepicker\DatePicker;
 use common\models\ReviewClass;
-<<<<<<< HEAD
-=======
+use kartik\time\TimePicker;
 
->>>>>>> 9d0e4a5fffb88313124989db28807c735ca180e4
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Schedule */
@@ -53,9 +46,28 @@ use common\models\ReviewClass;
             'format' => 'yyyy-m-d']
     ]); ?>
 
-    <?= $form->field($model, 'start_time')->textInput() ?>
+    <?= $form->field($model, 'end_date')->widget(DatePicker::className(), [
+         'inline' => false, 
+        'clientOptions' => [
+            'autoclose' => true,
+            'format' => 'yyyy-m-d'
+        ]
+    ]);?>
 
-    <?= $form->field($model, 'end_time')->textInput() ?>
+    <?= $form->field($model, 'start_time')->widget(TimePicker::classname(), [
+        'pluginOptions' => [
+            'defaultTime' => '12:00 AM',
+             'autoclose' => true,
+            ]
+        ]
+    );?>
+
+    <?= $form->field($model, 'end_time')->widget(TimePicker::classname(), [
+        'pluginOptions' => [
+            'defaultTime' => '12:00 AM',
+            ]
+        ]
+    );?>
 
     <?= $form->field($model, 'days')->textInput(['maxlength' => true]) ?>
 
