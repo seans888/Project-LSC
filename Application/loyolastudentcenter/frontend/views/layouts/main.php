@@ -7,8 +7,11 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
+use yii\helpers\Url;
 use frontend\assets\AppAsset;
 use common\widgets\Alert;
+use yii\bootstrap\Dropdown;
+
 
 AppAsset::register($this);
 ?>
@@ -28,7 +31,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'Loyola Student Center',
+        'brandLabel' => 'LOYOLA STUDENT CENTER',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
@@ -38,15 +41,22 @@ AppAsset::register($this);
         ['label' => 'Home', 'url' => ['/site/index']],
         ['label' => 'About', 'url' => ['/site/about']],
         ['label' => 'Contact', 'url' => ['/site/contact']],
-        ['label' => 'Tutorial', 'url' => 'index.php?r=site%2Findex#tutorial-sec'],
-        ['label' => 'Review', 'url' => 'index.php?r=site%2Freviews#review-sec'],
-        ['label' => 'English', 'url' => 'index.php?r=site%2Freviews#english-sec'],
-        ['label' => 'Other', 'url' => 'index.php?r=site%2Freviews#other-sec'],
+        ['label' => 'Tutorials', 'url' => 'index.php?r=site%2Findex#tutorial-sec'],
     ];
+
     if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
-        $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
-    } else {
+$menuItems = [
+        ['label' => 'Home', 'url' => ['/site/index']],
+        ['label' => 'About', 'url' => ['/site/about']],
+        ['label' => 'Contact', 'url' => ['/site/contact']],
+        ['label' => 'REVIEWS', 'items' => [
+            ['label' => 'Review programs', 'url' => ['/site/index']],
+            ['label' => 'Other review programs', 'url' => ['/site/about']],
+            ['label' => 'English proficiency programs', 'url' => ['/site/contact']],
+]],
+];
+        
+            } else {
         $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
             . Html::submitButton(

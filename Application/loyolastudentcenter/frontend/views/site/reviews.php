@@ -174,20 +174,6 @@ $this->title = 'Reviews';
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.7s">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="collapsed">
-                                      <strong>   </strong> SCHEDULE
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse5" class="panel-collapse collapse" style="height: 0px;">
-                                <div class="panel-body">
-                                 <!-- body of schedule -->
-                                </div>
-                            </div>
-                        </div>
                         </div>
                         </div>
                         </div>
@@ -245,20 +231,7 @@ or Law School Admission Test (LSAT) Review.
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.7s">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7" class="collapsed">
-                                      <strong>   </strong> SCHEDULE
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse7" class="panel-collapse collapse" style="height: 0px;">
-                                <div class="panel-body">
-                                 <!-- body of schedule -->
-                                </div>
-                            </div>
-                        </div>
+                        
                         </div>
                         </div>
                         </div>
@@ -312,28 +285,12 @@ or Law School Admission Test (LSAT) Review.
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.7s">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse9" class="collapsed">
-                                      <strong>   </strong> SCHEDULE
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse9" class="panel-collapse collapse" style="height: 0px;">
-                                <div class="panel-body">
-                                 <!-- body of schedule -->
-                                </div>
-                            </div>
-                        </div>
+                        
                         </div>
                         </div>
                         </div>
                         </div>
 <!-- FIFTH REVIEW CLASS END -->
-</div>
-<div id="english-sec" class="container set-pad">
-
    <div class="container set-pad">
   <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
@@ -401,10 +358,8 @@ The IELTS is an international standardized test of English language proficiency.
                         </div>
                         </div>
                         </div> 
-                        </div>
-<div id="other-sec" class="container set-pad">
 
-   <div class="container set-pad">
+ <div class="container set-pad">
                         <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                      <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">OTHER REVIEW CLASSES</h1>
