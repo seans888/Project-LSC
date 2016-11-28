@@ -243,8 +243,7 @@ function showSlides() {
                  <hr />
                   <hr />
                    <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo .    
+                       Loyola Student Center serves you Quality Education. Contact us for inquiries.
                    </p>
                <a href="index.php?r=site%2Fabout" class="btn btn-info btn-set"  >READ MORE</a>
                 </div>
@@ -256,8 +255,7 @@ function showSlides() {
                  <hr />
                        <hr />
                    <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
+                       Loyola Student Center offers tutorial classes from Kindergarten to College students.
                    </p>
                <a href="#tutorial-sec" class="btn btn-info btn-set"  >READ MORE</a>
                 </div>
@@ -269,8 +267,7 @@ function showSlides() {
                  <hr />
                        <hr />
                    <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
+                       Loyola Student Center offers various review programs. 
                        
                    </p>
                <a href="index.php?r=site%2Freviews" class="btn btn-info btn-set"  >READ MORE</a>
@@ -480,8 +477,6 @@ function showSlides() {
                    </div>
            </div>
                </div>
-               </div>
-               
              </div>
       <!-- COURSES SECTION END-->
 <!--===============================================================================================================
