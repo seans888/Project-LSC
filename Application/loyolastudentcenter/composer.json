@@ -22,7 +22,7 @@
         "kartik-v/yii2-krajee-base": "~1.7",
         "kartik-v/yii2-dialog": "~1.0",
         "2amigos/yii2-date-picker-widget": "~1.0",
-        "kartik-v/yii2-widget-timepicker": "*",
+        "kartik-v/yii2-widget-timepicker": "@dev",
         "kartik-v/yii2-popover-x": "*",
         "kartik-v/yii2-editable": "@dev",
         "kartik-v/yii2-widget-depdrop": "@dev",

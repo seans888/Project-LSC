@@ -45,13 +45,7 @@
     <target name="install-dependencies" unless="dependencies-installed" depends="-dependencies-installed,validate-composer-json" description="Install dependencies with Composer">
         <exec executable="${basedir}/build/tools/composer" taskname="composer">
             <env key="COMPOSER_DISABLE_XDEBUG_WARN" value="1"/>
-            <arg value="update"/>
-            <arg value="--no-interaction"/>
-            <arg value="--no-progress"/>
-            <arg value="--no-ansi"/>
-            <arg value="--no-suggest"/>
-            <arg value="--optimize-autoloader"/>
-            <arg value="--prefer-stable"/>
+            <arg value="install"/>
         </exec>
     </target>
 
@@ -88,16 +82,12 @@
 
     <target name="signed-phar" depends="phar" description="Create signed PHAR archive of PHPUnit and all its dependencies">
         <exec executable="gpg" failonerror="true">
-            <arg value="--local-user"/>
-            <arg value="sb@sebastian-bergmann.de"/>
             <arg value="--armor"/>
             <arg value="--detach-sign"/>
             <arg path="${basedir}/build/phpunit-library-${version}.phar"/>
         </exec>
 
         <exec executable="gpg" failonerror="true">
-            <arg value="--local-user"/>
-            <arg value="sb@sebastian-bergmann.de"/>
             <arg value="--armor"/>
             <arg value="--detach-sign"/>
             <arg path="${basedir}/build/phpunit-${version}.phar"/>
@@ -121,7 +111,6 @@
         <copy file="${basedir}/composer.json" tofile="${basedir}/composer.json.bak"/>
 
         <exec executable="${basedir}/build/tools/composer">
-            <env key="COMPOSER_DISABLE_XDEBUG_WARN" value="1"/>
             <arg value="require"/>
             <arg value="phpunit/dbunit:~2.0"/>
             <arg value="phpunit/php-invoker:~1.1"/>

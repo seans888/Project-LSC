@@ -2,11 +2,10 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use kartik\time\TimePicker;
 use dosamigos\datepicker\DatePicker;
 use yii\helpers\ArrayHelper;
 use common\models\ReviewClass;
-use kartik\time\TimePicker;
-
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Schedule */
@@ -24,26 +23,15 @@ use kartik\time\TimePicker;
 
     <?= $form->field($model, 'duration_of_hours')->textInput() ?>
 
-     <?= $form->field($model, 'start_date')->widget(
-         DatePicker::className(), [
+    <?= $form->field($model, 'start_date')->widget(DatePicker::className(), [
         // inline too, not bad
          'inline' => false, 
          // modify template for custom rendering
        // 'template' => '<div class="well well-sm" style="background-color: #fff; width:250px">{input}</div>',
         'clientOptions' => [
             'autoclose' => true,
-            'format' => 'yyyy-m-d']
-    ]); ?>
-
-    <?= $form->field($model, 'end_date')->widget(
-         DatePicker::className(), [
-        // inline too, not bad
-         'inline' => false, 
-         // modify template for custom rendering
-       // 'template' => '<div class="well well-sm" style="background-color: #fff; width:250px">{input}</div>',
-        'clientOptions' => [
-            'autoclose' => true,
-            'format' => 'yyyy-m-d']
+            'format' => 'yyyy-m-d'
+        ]
     ]); ?>
 
     <?= $form->field($model, 'end_date')->widget(DatePicker::className(), [

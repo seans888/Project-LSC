@@ -9,7 +9,7 @@
  */
 
 /**
- * A set of assertion methods.
+ * A set of assert methods.
  *
  * @since Class available since Release 2.0.0
  */
