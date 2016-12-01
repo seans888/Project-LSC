@@ -18,7 +18,7 @@ class ClassListSearch extends ClassList
     public function rules()
     {
         return [
-            [['review_class_id', 'user_id'], 'integer'],
+            [['id', 'review_class_id', 'user_id'], 'integer'],
         ];
     }
 
@@ -58,6 +58,7 @@ class ClassListSearch extends ClassList
 
         // grid filtering conditions
         $query->andFilterWhere([
+            'id' => $this->id,
             'review_class_id' => $this->review_class_id,
             'user_id' => $this->user_id,
         ]);

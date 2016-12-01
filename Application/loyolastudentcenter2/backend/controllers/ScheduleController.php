@@ -47,13 +47,12 @@ class ScheduleController extends Controller
     /**
      * Displays a single Schedule model.
      * @param integer $id
-     * @param integer $review_class_id
      * @return mixed
      */
-    public function actionView($id, $review_class_id)
+    public function actionView($id)
     {
         return $this->render('view', [
-            'model' => $this->findModel($id, $review_class_id),
+            'model' => $this->findModel($id),
         ]);
     }
 
@@ -67,7 +66,7 @@ class ScheduleController extends Controller
         $model = new Schedule();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id, 'review_class_id' => $model->review_class_id]);
+            return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('create', [
                 'model' => $model,
@@ -79,15 +78,14 @@ class ScheduleController extends Controller
      * Updates an existing Schedule model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
-     * @param integer $review_class_id
      * @return mixed
      */
-    public function actionUpdate($id, $review_class_id)
+    public function actionUpdate($id)
     {
-        $model = $this->findModel($id, $review_class_id);
+        $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id, 'review_class_id' => $model->review_class_id]);
+            return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('update', [
                 'model' => $model,
@@ -99,12 +97,11 @@ class ScheduleController extends Controller
      * Deletes an existing Schedule model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
-     * @param integer $review_class_id
      * @return mixed
      */
-    public function actionDelete($id, $review_class_id)
+    public function actionDelete($id)
     {
-        $this->findModel($id, $review_class_id)->delete();
+        $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
     }
@@ -113,13 +110,12 @@ class ScheduleController extends Controller
      * Finds the Schedule model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @param integer $review_class_id
      * @return Schedule the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
-    protected function findModel($id, $review_class_id)
+    protected function findModel($id)
     {
-        if (($model = Schedule::findOne(['id' => $id, 'review_class_id' => $review_class_id])) !== null) {
+        if (($model = Schedule::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');

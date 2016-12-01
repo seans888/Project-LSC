@@ -12,7 +12,7 @@ use Yii;
  * @property string $description
  *
  * @property ClassList[] $classLists
- * @property User[] $users
+ * @property Schedule[] $schedules
  * @property Transaction[] $transactions
  */
 class ReviewClass extends \yii\db\ActiveRecord
@@ -60,9 +60,9 @@ class ReviewClass extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getUsers()
+    public function getSchedules()
     {
-        return $this->hasMany(User::className(), ['id' => 'user_id'])->viaTable('class_list', ['review_class_id' => 'id']);
+        return $this->hasMany(Schedule::className(), ['review_class_id' => 'id']);
     }
 
     /**

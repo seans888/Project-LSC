@@ -6,7 +6,7 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model common\models\Transaction */
 
-$this->title = $model->user_id;
+$this->title = $model->id;
 $this->params['breadcrumbs'][] = ['label' => 'Transactions', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
@@ -15,8 +15,8 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Update', ['update', 'user_id' => $model->user_id, 'review_class_id' => $model->review_class_id, 'schedule_id' => $model->schedule_id], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a('Delete', ['delete', 'user_id' => $model->user_id, 'review_class_id' => $model->review_class_id, 'schedule_id' => $model->schedule_id], [
+        <?= Html::a('Update', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a('Delete', ['delete', 'id' => $model->id], [
             'class' => 'btn btn-danger',
             'data' => [
                 'confirm' => 'Are you sure you want to delete this item?',
@@ -28,12 +28,14 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
+            'id',
             'user_id',
-            'selected_school',
             'review_class_id',
-            'transaction_type',
-            'status',
             'schedule_id',
+            'transaction_type',
+            'selected_school',
+            'status',
+            'date',
         ],
     ]) ?>
 

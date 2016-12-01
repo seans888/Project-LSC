@@ -16,6 +16,7 @@ class AdminSignupForm extends Model
     public $username;
     public $email;
     public $password;
+    public $retypePassword;
 
 
     /**
@@ -40,6 +41,9 @@ class AdminSignupForm extends Model
 
             ['password', 'required'],
             ['password', 'string', 'min' => 6],
+
+            ['retypePassword', 'required'],
+             ['password', 'compare', 'compareAttribute' => 'retypePassword', 'message' => 'Password do not much, please retype.'],
         ];
     }
 

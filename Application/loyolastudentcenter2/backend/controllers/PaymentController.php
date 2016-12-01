@@ -4,7 +4,7 @@ namespace backend\controllers;
 
 use Yii;
 use common\models\Payment;
-use backend\models\PaymentSearch;
+use common\models\PaymentSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

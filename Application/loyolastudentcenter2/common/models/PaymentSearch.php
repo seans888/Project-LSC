@@ -18,7 +18,7 @@ class PaymentSearch extends Payment
     public function rules()
     {
         return [
-            [['id', 'transaction_user_id', 'transaction_review_class_id', 'transaction_schedule_id'], 'integer'],
+            [['id', 'transaction_id'], 'integer'],
             [['payment_slip', 'date'], 'safe'],
         ];
     }
@@ -60,10 +60,8 @@ class PaymentSearch extends Payment
         // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
-            'transaction_user_id' => $this->transaction_user_id,
-            'transaction_review_class_id' => $this->transaction_review_class_id,
-            'transaction_schedule_id' => $this->transaction_schedule_id,
             'date' => $this->date,
+            'transaction_id' => $this->transaction_id,
         ]);
 
         $query->andFilterWhere(['like', 'payment_slip', $this->payment_slip]);

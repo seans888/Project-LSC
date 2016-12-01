@@ -38,6 +38,8 @@ $this->title = 'Signup';
       <?= $form->field($model, 'email')?>
 
       <?= $form->field($model, 'password')->passwordInput() ?>
+      
+       <?= $form->field($model, 'retypePassword')->passwordInput(['placeholder'=>'Retype Password'])->label(false) ?>
 
                 <div class="form-group">
                     <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?>

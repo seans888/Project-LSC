@@ -46,15 +46,13 @@ class TransactionController extends Controller
 
     /**
      * Displays a single Transaction model.
-     * @param integer $user_id
-     * @param integer $review_class_id
-     * @param integer $schedule_id
+     * @param integer $id
      * @return mixed
      */
-    public function actionView($user_id, $review_class_id, $schedule_id)
+    public function actionView($id)
     {
         return $this->render('view', [
-            'model' => $this->findModel($user_id, $review_class_id, $schedule_id),
+            'model' => $this->findModel($id),
         ]);
     }
 
@@ -68,7 +66,7 @@ class TransactionController extends Controller
         $model = new Transaction();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(Url::to('index.php?r=payment%2Fcreate'));
+            return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('create', [
                 'model' => $model,
@@ -79,17 +77,15 @@ class TransactionController extends Controller
     /**
      * Updates an existing Transaction model.
      * If update is successful, the browser will be redirected to the 'view' page.
-     * @param integer $user_id
-     * @param integer $review_class_id
-     * @param integer $schedule_id
+     * @param integer $id
      * @return mixed
      */
-    public function actionUpdate($user_id, $review_class_id, $schedule_id)
+    public function actionUpdate($id)
     {
-        $model = $this->findModel($user_id, $review_class_id, $schedule_id);
+        $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'user_id' => $model->user_id, 'review_class_id' => $model->review_class_id, 'schedule_id' => $model->schedule_id]);
+            return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('update', [
                 'model' => $model,
@@ -100,14 +96,12 @@ class TransactionController extends Controller
     /**
      * Deletes an existing Transaction model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
-     * @param integer $user_id
-     * @param integer $review_class_id
-     * @param integer $schedule_id
+     * @param integer $id
      * @return mixed
      */
-    public function actionDelete($user_id, $review_class_id, $schedule_id)
+    public function actionDelete($id)
     {
-        $this->findModel($user_id, $review_class_id, $schedule_id)->delete();
+        $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
     }
@@ -115,15 +109,13 @@ class TransactionController extends Controller
     /**
      * Finds the Transaction model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
-     * @param integer $user_id
-     * @param integer $review_class_id
-     * @param integer $schedule_id
+     * @param integer $id
      * @return Transaction the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
-    protected function findModel($user_id, $review_class_id, $schedule_id)
+    protected function findModel($id)
     {
-        if (($model = Transaction::findOne(['user_id' => $user_id, 'review_class_id' => $review_class_id, 'schedule_id' => $schedule_id])) !== null) {
+        if (($model = Transaction::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');

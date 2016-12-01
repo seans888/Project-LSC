@@ -7,16 +7,18 @@ use Yii;
 /**
  * This is the model class for table "transaction".
  *
+ * @property integer $id
  * @property integer $user_id
- * @property string $selected_school
  * @property integer $review_class_id
- * @property string $transaction_type
- * @property string $status
  * @property integer $schedule_id
+ * @property string $transaction_type
+ * @property string $selected_school
+ * @property string $status
+ * @property string $date
  *
  * @property Payment[] $payments
- * @property Schedule $schedule
  * @property ReviewClass $reviewClass
+ * @property Schedule $schedule
  * @property User $user
  */
 class Transaction extends \yii\db\ActiveRecord
@@ -35,12 +37,13 @@ class Transaction extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['user_id', 'review_class_id', 'transaction_type', 'schedule_id'], 'required'],
+            [['user_id', 'review_class_id', 'schedule_id', 'transaction_type', 'selected_school'], 'required'],
             [['user_id', 'review_class_id', 'schedule_id'], 'integer'],
             [['transaction_type', 'status'], 'string'],
+            [['date'], 'safe'],
             [['selected_school'], 'string', 'max' => 100],
-            [['schedule_id'], 'exist', 'skipOnError' => true, 'targetClass' => Schedule::className(), 'targetAttribute' => ['schedule_id' => 'id']],
             [['review_class_id'], 'exist', 'skipOnError' => true, 'targetClass' => ReviewClass::className(), 'targetAttribute' => ['review_class_id' => 'id']],
+            [['schedule_id'], 'exist', 'skipOnError' => true, 'targetClass' => Schedule::className(), 'targetAttribute' => ['schedule_id' => 'id']],
             [['user_id'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['user_id' => 'id']],
         ];
     }
@@ -51,12 +54,14 @@ class Transaction extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'user_id' => 'User Name',
-            'selected_school' => 'Selected School',
-            'review_class_id' => 'Review Class Name',
+            'id' => 'ID',
+            'user_id' => 'User ID',
+            'review_class_id' => 'Review Class ID',
+            'schedule_id' => 'Schedule ID',
             'transaction_type' => 'Transaction Type',
+            'selected_school' => 'Selected School',
             'status' => 'Status',
-            'schedule_id' => 'Schedule',
+            'date' => 'Date',
         ];
     }
 
@@ -65,15 +70,7 @@ class Transaction extends \yii\db\ActiveRecord
      */
     public function getPayments()
     {
-        return $this->hasMany(Payment::className(), ['transaction_user_id' => 'user_id', 'transaction_review_class_id' => 'review_class_id', 'transaction_schedule_id' => 'schedule_id']);
-    }
-
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getSchedule()
-    {
-        return $this->hasOne(Schedule::className(), ['id' => 'schedule_id']);
+        return $this->hasMany(Payment::className(), ['transaction_id' => 'id']);
     }
 
     /**
@@ -82,6 +79,14 @@ class Transaction extends \yii\db\ActiveRecord
     public function getReviewClass()
     {
         return $this->hasOne(ReviewClass::className(), ['id' => 'review_class_id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getSchedule()
+    {
+        return $this->hasOne(Schedule::className(), ['id' => 'schedule_id']);
     }
 
     /**

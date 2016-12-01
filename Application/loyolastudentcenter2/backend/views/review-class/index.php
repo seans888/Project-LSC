@@ -12,7 +12,7 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="review-class-index">
 
-  <!--  <h1><?= Html::encode($this->title) ?></h1> -->
+    <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
@@ -24,9 +24,9 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-           // 'id',
+            'id',
             'name',
-            'description',
+            'description:ntext',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

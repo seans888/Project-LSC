@@ -46,14 +46,13 @@ class ClassListController extends Controller
 
     /**
      * Displays a single ClassList model.
-     * @param integer $review_class_id
-     * @param integer $user_id
+     * @param integer $id
      * @return mixed
      */
-    public function actionView($review_class_id, $user_id)
+    public function actionView($id)
     {
         return $this->render('view', [
-            'model' => $this->findModel($review_class_id, $user_id),
+            'model' => $this->findModel($id),
         ]);
     }
 
@@ -67,7 +66,7 @@ class ClassListController extends Controller
         $model = new ClassList();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'review_class_id' => $model->review_class_id, 'user_id' => $model->user_id]);
+            return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('create', [
                 'model' => $model,
@@ -78,16 +77,15 @@ class ClassListController extends Controller
     /**
      * Updates an existing ClassList model.
      * If update is successful, the browser will be redirected to the 'view' page.
-     * @param integer $review_class_id
-     * @param integer $user_id
+     * @param integer $id
      * @return mixed
      */
-    public function actionUpdate($review_class_id, $user_id)
+    public function actionUpdate($id)
     {
-        $model = $this->findModel($review_class_id, $user_id);
+        $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'review_class_id' => $model->review_class_id, 'user_id' => $model->user_id]);
+            return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('update', [
                 'model' => $model,
@@ -98,13 +96,12 @@ class ClassListController extends Controller
     /**
      * Deletes an existing ClassList model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
-     * @param integer $review_class_id
-     * @param integer $user_id
+     * @param integer $id
      * @return mixed
      */
-    public function actionDelete($review_class_id, $user_id)
+    public function actionDelete($id)
     {
-        $this->findModel($review_class_id, $user_id)->delete();
+        $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
     }
@@ -112,14 +109,13 @@ class ClassListController extends Controller
     /**
      * Finds the ClassList model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
-     * @param integer $review_class_id
-     * @param integer $user_id
+     * @param integer $id
      * @return ClassList the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
-    protected function findModel($review_class_id, $user_id)
+    protected function findModel($id)
     {
-        if (($model = ClassList::findOne(['review_class_id' => $review_class_id, 'user_id' => $user_id])) !== null) {
+        if (($model = ClassList::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');

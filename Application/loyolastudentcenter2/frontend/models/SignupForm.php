@@ -25,6 +25,7 @@ class SignupForm extends Model
     public $guardianContactNumber;
     public $guardianEmailAddress;
     public $learnedLSC;
+    public $retypePassword;
 
 
     /**
@@ -46,6 +47,9 @@ class SignupForm extends Model
 
             ['password', 'required'],
             ['password', 'string', 'min' => 6],
+            ['retypePassword', 'required'],
+            ['password', 'compare', 'compareAttribute' => 'retypePassword', 'message' => 'Password do not much, please retype.'],
+
 
             ['firstname', 'required'],
             ['lastname', 'required'],

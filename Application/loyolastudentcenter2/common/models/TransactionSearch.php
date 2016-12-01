@@ -18,8 +18,8 @@ class TransactionSearch extends Transaction
     public function rules()
     {
         return [
-            [['user_id', 'review_class_id', 'schedule_id'], 'integer'],
-            [['selected_school', 'transaction_type', 'status'], 'safe'],
+            [['id', 'user_id', 'review_class_id', 'schedule_id'], 'integer'],
+            [['transaction_type', 'selected_school', 'status', 'date'], 'safe'],
         ];
     }
 
@@ -59,13 +59,15 @@ class TransactionSearch extends Transaction
 
         // grid filtering conditions
         $query->andFilterWhere([
+            'id' => $this->id,
             'user_id' => $this->user_id,
             'review_class_id' => $this->review_class_id,
             'schedule_id' => $this->schedule_id,
+            'date' => $this->date,
         ]);
 
-        $query->andFilterWhere(['like', 'selected_school', $this->selected_school])
-            ->andFilterWhere(['like', 'transaction_type', $this->transaction_type])
+        $query->andFilterWhere(['like', 'transaction_type', $this->transaction_type])
+            ->andFilterWhere(['like', 'selected_school', $this->selected_school])
             ->andFilterWhere(['like', 'status', $this->status]);
 
         return $dataProvider;

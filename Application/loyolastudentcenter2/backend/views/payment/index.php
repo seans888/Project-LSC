@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel backend\models\PaymentSearch */
+/* @var $searchModel common\models\PaymentSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Payments';
@@ -25,11 +25,9 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             'id',
-            'transaction_user_id',
-            'transaction_review_class_id',
-            'transaction_schedule_id',
             'payment_slip',
-            // 'date',
+            'date',
+            'transaction_id',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

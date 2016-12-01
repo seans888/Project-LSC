@@ -7,6 +7,7 @@ use Yii;
 /**
  * This is the model class for table "class_list".
  *
+ * @property integer $id
  * @property integer $review_class_id
  * @property integer $user_id
  *
@@ -42,8 +43,9 @@ class ClassList extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'review_class_id' => 'Review Class Name',
-            'user_id' => 'User Name',
+            'id' => 'ID',
+            'review_class_id' => 'Review Class ID',
+            'user_id' => 'User ID',
         ];
     }
 
