@@ -1,0 +1,760 @@
+==Project Title==
+<center><p style =" font-family:Arial; color: #000000; font-size: 200%; font-weight: bold;"> Project Loyola Student Center </p></center>
+
+==Project Members==
+<ul>
+	<h3 style = "font-family:Arial; color: #000000;font-weight: bold;"> Professors</h3>
+
+	<table border="1" width="70%" align="center" style="border-collapse: collapse;
+	border: 1px solid black; align: center;" >
+	<tr >
+	<th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial;
+	font-size: 85%; color: black; "><center>Name</center></th>
+	<th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Position</center></th>
+	<th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>E-mail</center></th>
+	</tr>
+	<tr>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Mr. Manuel Sebastian S. Sanchez</center></th>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Professor</center></th>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>manuels@apc.edu.ph</center></th>
+	</tr>
+	</table>
+	
+	<h3 style = "font-family:Arial; color: #000000; font-weight: bold; "> Project Adviser </h3>
+
+	<table border="1" width="70%" align="center" style="border-collapse: collapse;
+	border: 1px solid black; align: center;">
+	<table border="1px" width="70%" align="center" style ="border-collapse: collapse;" >
+	<tr >
+	<th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Name</center></th>
+	<th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Position</center></th>
+	<th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>E-mail</center></th>
+	</tr>
+	<tr>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Ms. Roselle Wednesday Gardon</center></th>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Professor</center></th>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>roselleg@apc.edu.ph</center></th>
+	</tr>
+	</table>
+	
+	<h3 style = "font-family:Arial; color: #000000; font-weight: bold; "> Project Consultants </h3>
+
+	<table border="1px" width="70%" align="center" style ="border-collapse: collapse;" >
+	<tr >
+	<th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Name</center></th>
+	<th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Position</center></th>
+	<th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>E-mail</center></th>
+	</tr>
+	<tr>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center> Mr. Ernesto Boydon </center></th>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Professor</center></th>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>ernestob@apc.edu.ph</center></th>
+	</tr>
+		<tr>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center> Mr. Jojo Castillo </center></th>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Professor</center></th>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>jojoc@apc.edu.ph</center></th>
+	</tr>
+	</table>
+	
+	<h3 style = "font-family:Arial; color: #000000; font-weight: bold;" >Project Team Members</h3>
+
+	<table border="1px" width="70%" align="center" style ="border-collapse: collapse;" >
+	<tr >
+	<th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Name</center></th>
+	<th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Position</center></th>
+	<th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>E-mail</center></th>
+	</tr>
+	<tr>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Carpio, Aira Joyce A.</center></th>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Project Manager</center></th>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>aacarpio@student.apc.edu.ph</center></th>
+	</tr>
+	<tr>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Balcena, Danya B.</center></th>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Project Developer</center></th>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>dpbalcena@student.apc.edu.ph</center></th>
+	</tr>
+	<tr>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Haboc, Florence Gail G.</center></th>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>Project Developer</center></th>
+	<th  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+	font-size: 85%; color: black;"><center>fghaboc@student.apc.edu.ph</center></th>
+	</tr>
+	</table>
+	<br>
+
+==Table of Contents==
+
+==Executive Summary==
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+The LSC Enrollment System is a system where the students who are interested in the review class of Loyola Student Center (LSC) can make a reservation or enroll in the program. The client wants a system that would lessen the usage of papers when a student wants to avail a service that the management offers. From the management’s website, the student can create an account to make a reservation or enroll through the system. Loyola Student Center can confirm, read, and update a student’s reservation or enrollment. Using this system, the facilitator can work efficiently because they can easily manage records of students and transactions. The objective of this project is to track the reservation or enrollment of students, to make it easier for the admin to view or update records, and to ease the student’s reservation or enrollment process.
+</p>
+
+==I.  Introduction==
+   <h3 style = "font-family:Arial; color: #000000; font-weight: bold;"> 1.1 Project Context </h3>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+Loyola Student Center is a facility that offers various tutorial and review classes. LSC’s students make a slot reservation or enrollment by filling out printed forms, scanning the document, and sending it via email. Because of this, LSC is lacking storage space when it comes to storing documents, they also spend money to buy papers to print application forms, and to manage the transaction.
+</p>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+The existing process of transaction seemed to be difficult, LSC has to spend money for printing forms or documents and because of the large volume of papers used for processing the student’s reservation and enrollment, some problems occurred such as data redundancy, lack of storage space, and slow access to records.
+</p>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+Using the LSC Enrollment System, the students can easily create transactions using the facility’s website, and the members of the facility can manage the records easily and efficiently.
+</p>
+<h3 style = "font-family:Arial; color: #000000; font-weight: bold;"> 1.2 Project Description </h3>
+
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+Project LSC is a project that aims to improve the current website of Loyola Student Center and to add new features which are reservation and enrollment system where the student should create an account first before they can reserve a slot. All of the information inputted by the student will be automatically saved to the database of the institution which the faculty and instructors only have an access to it. The student will only be officially enrolled when they were able to pay all of their payments.
+</p>
+
+<h3 style = "font-family:Arial; color: #000000; font-weight: bold;"> 1.3 Objectives </h3>
+
+<h4 style = "font-family:Arial; color: #000000; font-weight: bold;"> General Objectives </h4>
+
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+•	To create a system that can help Loyola Student center lessen paper works for slot-reservation and enrollment processing <br>
+•	To ease the problem in managing records of students and transactions<br>
+
+</p>
+
+<h4 style = "font-family:Arial; color: #000000;font-weight: bold;"> Specific Objectives </h4>
+
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+•	To improve the website of Loyola Student Center <br>
+•	To add an account creation feature to the website <br>
+•	To add a reservation and enrollment system <br>
+•	To create a database for the information inputted by the user <br>
+</p>
+
+<h3 style = "font-family:Arial; color: #000000;font-weight: bold;"> 1.4 Scope and Limitations </h3>
+
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+The focus of the project is to improve the current website of Loyola Student Center and to create a system where the student can create an account to reserve a slot and to enroll a review class through the website facility. After the student reserves a slot or enroll a review class, all information can be viewed by the student using their account but the details of the payments are not included in the information. The reservation and enrollment of the tutorial class is also not included in this project due to the request of the institution.
+</p>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+The purpose of the system is to serve as a database that will save information about the students, the employees, the reservation and enrollment procedures.
+</p>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+In terms of user access, only the Admin can access the system which means that the Admin is the only one who has the control to update and delete data. While the Student can only create his or her account and make reservation and enroll through the facility’s website. 
+</p>
+
+
+
+==II.  Review of Related Literature/Systems==
+
+<br>
+<b>Study and Design of Computerized Enrollment System Documentation</b>
+<br>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+According to a study, Computerization is a control system that manages processes in industrial workplace. It reduced human errors and processing time, thus it can boost productivity resulting to high quality of service. In Information System, computerization is concerned about interrelating different but interdependent transactions. This can result in a system with well-integrated processes that can perform much faster and more accurate than a manual system. Enrollment is the process of entering and verifying data of student to register in a particular school. Different interrelated processes build up enrollment procedures called Enrollment System (ES). ES are used particularly in recording and retrieving student’s information. Tracking student’s information is also one feature of ES, in which the school can trace the standing of a student. Verifying payments was also added to update or browse student’s billings. Enrollment System is a good example of a computer generated process. This can lessen the workload and provides accurate information needed by the school. As a result, it will benefit not only the student, but the administration as a whole. (Ilagan, L. (n.d.). Study and Design of Computerized Enrollment System - Documentation. Retrieved July 02, 2016, from https://www.scribd.com/doc/39154553/Study-and-Design-of-Computerized-Enrollment-System-Documentation)
+</p>
+<br>
+<b>TFS EnrollTrack Online Enrollment System </b>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+The TFS EnrollTrack Online Enrollment System is cloud-based technology that seamlessly integrates new students, partner schools and organizations into an online system that everyone can use during the enrollment process.
+</p>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+As the complete enrollment solution, EnrollTrack is: (1) A powerful prospecting and analytical tool: EnrollTrack allows you to gauge event effectiveness, build an in-depth understanding of the market, and increase conversion rates by tracking prospective and current students from their first interaction with the system through placement. (2) A great student engagement strategy:EnrollTrack provides personal accounts for prospective and current students to log on and upload information, and also to send automated emails to keep them updated on their application status. (3) Simple to use: Students, partner schools, and support staff will have their own secure portal with easy-to-follow screens that bring all the information together in one shared database. (4) Available anywhere: EnrollTrack is a mobile-friendly, responsive site that can be accessed from any computer or mobile device with an Internet connection. (5) Environmental friendly: The online system dramatically cuts the amount of paperwork involved in the enrollment process, benefiting both the organization and the environment. (6) Designed the brand: The client will receive an attractive, professionally designed site that will look appealing in any device, branded with the logo and colors. (7) Developed specifically for CTE: The shared database is managed by the organization, allowing the client to take control of the application process and ensure that enrollment reaches its peak potential. (8) Customizable to the client’s specifications: Any special functionality the organization may require can be completed as an additional component of the EnrollTrack implementation. (9) A great investment with ongoing value: All CTE schools that revolutionize their enrollment process with EnrollTrack automatically benefit from all future system enhancements and updates. (Online Enrollment System | EnrollTrack Management System. (n.d.). Retrieved July 02, 2016, from http://www.tfsresults.com/services/online-enrollment-system/)
+</p>
+<br>
+<b>Pasay Alliance</b>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+This Enrollment System is intended to work as an electronic way in organizing the different records and an easy access database. The system is proposed to be managed only by the School’s Administrator and the System Developers. The system will provide an electronic recording of data which authorized personnel can fill out. The information encoded will be stored in the system. The system must perform the following functions: (1) Managing of different records like enrollment, payment, and students’ information; (2) Creating, reading, and updating information. (Pasay alliance -205 - ProjectsWiki. Retrieved July 2, 2016, from http://projects2.apc.edu.ph/wiki/index.php/Pasay_Alliance_-205)
+</p>
+
+
+==III. Technical Background==
+
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+
+To develop the system, developers is used the Yii2 framework. This framework has two templates which are basic and the advanced, yet Yii2 advanced template is used to develop the system. The Advanced template supports frontend and backend page processing. Yii2 framework features code generation which helps the developers of this project to ease the separation of control between the frontend and backend interface which are the website for students and administrator account for viewing and configuring data of the system. In backend, the system also used AdminLTE, a free bootstrap admin template that has admin dashboard & control panel theme. AdminLTE provides a range of responsive, reusable, and commonly used components. For the storing and connecting data, the system uses Apache web server software, XAMPP control panel and MySQL.
+</p>
+
+
+==IV. Methodology, Results and Discussion==
+This section describes how the system works. The process starts when the student creates an account, he or she should fill out the registration form. After creating an account, the student is now logged in the system. He or she can now make a slot-reservation or enroll, by filling out the reservation or enrollment form. Both reservation and enrollment forms take the same information aside from the type of transaction the student wants to create. 
+By the time the student created an account, made reservation or enrolled, all data will be saved in the database.  The status of the transaction is “pending” by default, the admin has to confirm the reservation or enrollment by logging on the system, clicking the transaction details of the student and updating the status of the transaction. The status can only be changed if the student paid the reservation or enrollment fee at the bank, scanned the deposit slip and uploaded it to his or her account. When the admin sees the image, he or she can now change the status to “reserved, “enrolled”, “done”, and “cancelled”. 
+The only way to cancel the transaction is to either wait for three days until the validation of reservation or enrollment expires. The student cannot refund his or her reservation fee and if he or she paid the enrollment fee, twenty-five percent of the enrollment fee will be deducted and the student has to go to the facility to get his or her refund.
+
+<h3 style = "font-family:Arial; color: #000000;font-weight: bold;">4.1 Requirements Analysis </h3>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+After the interview with client, the group find out the problem and come up with the possible solutions that the system could provide. Most problem that the facility encounter is about recording, retrieving and keeping the records of transaction due to its paper-based process which makes it less efficient. With the LSC Enrollment System, the problem that the facility encounter will be resolved and minimized.
+</p>
+
+<h3 style = "font-family:Arial; color: #000000;font-weight: bold;">4.2 Requirements Documentation </h3>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+Gathering of possible solutions have been conducted and had been presented to the client. After the discussion of ideas and solutions with client, the group came up with the following requirements:
+</p>
+<ul style="list-style-type:disc">
+  <li>The system shall have online reservation or enrollment for enrollees.</li>
+  <li>The system shall include create account feature before the student can access the online reservation or enrollment form.</li>
+  <li>The system shall have email verification when a student creates an account.</li>
+  <li>The system shall allow user to view and create another transaction.</li>
+  <li>The system shall allow students to make inquiries through the facility’s website.</li>
+  <li>The system shall display different types of promotions offered by facility.</li>
+  <li>The system shall automatically cancel transaction when the student did not pay 3 days before he/she made the transaction.</li>
+  <li>The system shall have attach image feature for the deposit slip when a student paid the service availed.</li>
+  <li>The system for the admin side shall only be accessible inside their network. </li>
+  <li>The system for the admin shall modify the status of the student whether the student is pending, cancel, done, reserved or enrolled.</li>
+  <li>The system shall receive notification if there is new student availing the service or update their account or payment.</li>
+  <li>The system shall have searching or sorting feature to easily look for records.</li>
+</ul>
+
+<h3 style = "font-family:Arial; color: #000000;font-weight: bold;">4.3 Design of Software, Systems, Product, and/or Processes </h3>
+
+<h4> Graphical User Interface Screen Layouts </h4>
+<ul><center> 
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Csproj/images/1_zpsnf0ypfd8.jpg <br><br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Csproj/images/2_zpsnbmg2jqn.jpg <br><br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Csproj/images/3_zpscwentj5s.jpg <br><br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Csproj/images/4_zpsts5cjbr1.jpg <br><br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Csproj/images/5_zpsa5ld8nhp.jpg <br><br>
+  
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/screenshots/front%20signup_zps0h6aqxxf.png <br><br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/screenshots/frontend%20form_zpsevj9gcdt.png <br><br> 
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/screenshots/backend%20signup_zpsvbhrsfei.png <br><br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/screenshots/backend%20student_zpsqpo7z537.png <br><br>
+          
+</center></ul>
+<h4> PHPmyAdmin SQL Database Screenshot</h4>
+<ul><center>
+http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/1_zpsbdd6y1xc.png<br>
+</ul></center>
+<!--
+     4.4 Development and Testing, where applicable
+     4.5 Description of the Prototype, where applicable
+     4.6 Implementation Plan  (Infrastructure/Deployment) where needed
+     4.7 Implementation Results, where applicable
+     4.8 Include discussion on conceptual design / system architecture/ block diagrams and algorithms              -->
+
+==V. Conclusions and Recommendations==
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+As of now, the group was able to analyze the process of the system and created the primary working prototype on both frontend and backend side to understand more the system development. The group already improved the LSC’s website and included some of the features such as online reservation and enrollment system. For the admin side, the interface design was already modified but not finalized yet. The database and forms were already generated and able to search, create, read, update, and delete records but some features such as admin email and notification were not fully developed yet. The create account for both student and admin were also started developing.
+</p>
+
+==VI.  Appendices==
+
+<h3 style = "font-family:Arial; color: #000000;font-weight: bold;"> Event Table </h3>
+
+<center> http://i1360.photobucket.com/albums/r656/Gail_Haboc/images/Event%20table%20-%20Proposed_zps7hneypyu.png </center> <br>
+
+<h3 style = "font-family:Arial; color: #000000;font-weight: bold;"> Use Cases </h3>
+
+<ul><center> 
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/UC/1_zpsajzyqzbj.png <br><br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/UC/2_zpslap8sv2m.png <br><br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/UC/3_zpsho41elya.png <br><br> 
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/UC/4_zpsvqquxeyx.png <br><br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/UC/5_zps8m6it9ow.png <br><br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/UC/6_zpsv1xnrcva.png <br><br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/UC/7_zpsecmynmwg.png <br><br>
+
+</center></ul>
+
+<h3 style = "font-family:Arial; color: #000000;font-weight: bold;"> Use Case Diagram </h3>
+
+<center> http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/UC/Use%20Case%20Diagram%20-%20Proposed_zpsi8dxcfjr.png </center>
+
+<h3 style = "font-family:Arial; color: #000000;font-weight: bold;"> Activity Diagram </h3>
+
+<center> http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/UC/Activity%20diagram_zpsq1vyh9de.png </center>
+
+<h3 style = "font-family:Arial; color: #000000;font-weight: bold;"> Context Flow Diagram </h3>
+
+<center>http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/CFDiagram_zpsibdu4cab.png</center>
+
+<h3 style = "font-family:Arial; color: #000000;font-weight: bold;"> Data Flow Diagram Level 0</h3>
+
+<center>http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/DFDiagram_zpsirks1eas.png</center>
+
+     <h3 style = "font-family:Arial; color: #000000;font-weight: bold;"> Data Flow Diagram Level 1</h3>
+     <center>http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/DFDiagramLvl1Reservation_zpsgl3ltxaq.png</center>
+     <center>http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/DFDiagramLvl1Enrollment_zpseow90cfu.png</center>
+     <center>http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/DFDiagramLvl1Cancellation_zpsxltcbsku.png</center> 
+
+<h3 style = "font-family:Arial; color: #000000;font-weight: bold;"> Entity Relationship Diagram </h3>
+
+<center>http://i1360.photobucket.com/albums/r656/Gail_Haboc/Csproj/Database/Data%20Dictionary/lsc-erd%203.2_zpscdddqqz8.png</center> <br>
+
+<h3 style = "font-family:Arial; color: #000000;font-weight: bold;"> Data Dictionary </h3>
+<ul><center>
+http://i1360.photobucket.com/albums/r656/Gail_Haboc/Csproj/Database/Data%20Dictionary/Schedule_zpsv1or5p0f.png<br><br>
+http://i1360.photobucket.com/albums/r656/Gail_Haboc/Csproj/Database/Data%20Dictionary/Review%20Class_zpsvv7rnf9t.png<Br><br>
+http://i1360.photobucket.com/albums/r656/Gail_Haboc/Csproj/Database/Data%20Dictionary/User_zpsoyomwimi.png <br><Br>
+http://i1360.photobucket.com/albums/r656/Gail_Haboc/Csproj/Database/Data%20Dictionary/Transaction_zpsgxtiduu8.png <Br><br>
+http://i1360.photobucket.com/albums/r656/Gail_Haboc/Csproj/Database/Data%20Dictionary/Payment_zpslektedjo.png<br><Br>
+http://i1360.photobucket.com/albums/r656/Gail_Haboc/Csproj/Database/Data%20Dictionary/Class%20List_zpsnfetn0cc.png <Br><br>
+</center></ul>
+
+<h3 style = "font-family:Arial; color: #000000;font-weight: bold;"> UML Diagrams </h3>
+
+<ul><center> 
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/RCompositeDiagram_zps7c0ox7dy.png <br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/RClass%20Diagram_zpsmcimsmj5.png <br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/RCommunication%20Diagram_zpsgcodidww.png <br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/RObject%20Diagram_zpsadshfw4z.png <br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/reservationSequenceDiagram2_zpsolfl9w58.png <br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/ECompositeDiagram_zpshelal3y9.png <br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/EClass%20Diagram_zps7bx4wjf6.png <br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/ECommunication%20Diagram_zpsrvugvft6.png <br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/EObject%20Communication_zpsnzstywt0.png<br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/ERInteractionDiagram_zpsj2msfpdd.png<br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/enrollmentSequenceDiagram2_zpskjx7tnsx.png <br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/DeploymentDiagram_zpso2g7niju.png<br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/ComponentDiagram_zpsexjpg5rj.png<br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/PackageDiagram_zpsi4wl0zii.png<br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/StateDiagram_zpslsdgx8qo.png<br>
+          http://i1360.photobucket.com/albums/r656/Gail_Haboc/Sysadd%20-%20Proposed/Diagrams/TimingDiagram_zpstgpmraob.png<br>
+</center></ul>
+
+<h3 style = "font-family:Arial; color: #000000;font-weight: bold;"> Project Status Reports </h3><br>
+<ul>
+
+</ul>
+
+==Project Vision and Scope==
+<center><p style =" font-family:Arial; color: #000000; font-size: 200%; font-weight: bold;"> Project Vision and Scope Loyola Student Center </p></center>
+
+<p style =" font-family:Arial; color: #000000; font-size: 160%; font-weight: bold;"> Business Requirements </p>
+
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+The development of Loyola Student Center (LSC) Enrollment System is to improve the current system of our client which includes the process of reservation and enrollment of a review class by sending the filled out enrollment form to the email of LSC. Thus, the improvement of the current system of the facility will not just benefit the management but also those students who wants to avail the offered services of LSC. Its enhancement will help the management to lessen paper works for reservation and enrollment processing of a review class, to easily manage the students’ records and transactions, to improve the interface of their current website and besides, it will also serve as the storage of their database for the inputted information of each student who wants to enroll or reserve in their review center. Though on the part of the student who wants to avail services offered of LSC, it will be easy for them to understand and interact with the system and the information entered by the student is secured. This project system is expected to be more accurate, user-friendly and beneficial to the LSC management and for the student. 
+</p><br>
+
+<p style = "font-family:Arial; color: #000000;font-weight: bold; font-size: 140%;"> Background</p>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+The LSC Enrollment System is a system where the students who are interested in the review class of Loyola Student Center (LSC) can make a reservation or enroll in the program. The client wants a system that would lessen the usage of papers when a student wants to avail a service that the management offers. From the management's website, the student can create an account to make a reservation or enroll through the system. Loyola Student Center can confirm, read, and update a student's reservation or enrollment. Using this system, the facilitator can work efficiently because they can easily manage records of students and transactions. The objective of this project is to track the reservation or enrollment of students, to make it easier for the admin to view or update records, and to ease the student's reservation or enrollment process.
+</p><br>
+<p style = "font-family:Arial; color: #000000;font-weight: bold; font-size: 140%;"> Business Opportunity</p>
+
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+The main purpose of the project is for the facility and its student to extensively save time and effectively reduce costs. Therefore, the system is more improved than the facility’s existing reservation and enrollment process.
+</p>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+Using the LSC Enrollment System, the student can easily and conveniently secure a slot by reserving or enrolling review class online anytime from anywhere by accessing the facility’s website as long as the service he/she availing is open or if the slot is not full yet. The facility, on the other hand, have database to make it easier for the them to track or update records of the reservation or enrollment of students. The facility records will become more secured and easy to manage since the student’s record will be stored in database not like its current system where all their transaction is paper-based and physically piled in one place.
+</p>
+
+<p style = "font-family:Arial;  font-size: 140%; color: #000000;font-weight: bold;"> Business Objectives and Success Criteria</p>
+<p style = "font-family:Arial; font-size: 120%; color: #000000;font-weight: bold;"> Business Objectives</p>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+•	To ease the problem in managing records of students and transactions<br>
+•	To improve the website of Loyola Student Center<Br>
+•	To add an account creation feature to the website <Br>
+•	To add online reservation and enrollment system <Br>
+•	To create a database for the information inputted by the user 
+</p><br>
+<p style = "font-family:Arial; font-size: 120%; color: #000000;font-weight: bold;">Success Criteria</p>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+•	The system meets the objective of the project<Br>
+•	The client is contented and satisfied with the outcome of the system<br>
+•	The system can able to retrieve accurate records efficiently<Br>
+•	The system can able to submit, create, read and update data easily<Br>
+•	The average rating of time and cost saving of the management increased
+
+</p><br>
+
+<p style = "font-family:Arial; color: #000000; font-size: 140%; font-weight: bold;"> Customer or Market Needs</p>
+
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+
+<p style = "font-family:Arial; font-size: 120%; color: #000000;"> The Student who wants to avail services in Loyola Student Center in general needs:</p>
+•	Accurate and accessible academic information<Br>
+•	Access to information of each review class<Br>
+•	Easy access to offered services of the Loyola Student Center<br>
+•	Secure web access for users entered information<br>
+•	Access of the students availed services in the system<Br>
+<Br>
+<p style = "font-family:Arial; color: #000000;font-size: 120%;"> The System Administrator needs:</p>
+•	Real time access of the users’ information<Br>
+•	Fewer paper processes<Br>
+•	Better web-based tools for accessing the students’ information<br>
+•	Secure web access for users’ information in the system<Br>
+•	Easier-to-maintain processes<br>
+•	No data redundancy<br>
+•	Have privilege to Create, Read and Update data<Br>
+</p><br>
+
+<p style = "font-family:Arial; color: #000000;font-weight: bold; font-size: 140%;"> Business Risks</p>
+
+<table border="1" width="70%" align="center" style="border-collapse: collapse;
+ border: 1px solid black; align: center;">
+ <tr >
+ <th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial; font-size: 85%; color: black;"><center>Risk</center></th>
+ <th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial; font-size: 85%; color: black;"><center>Description</center></th>
+ <th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial;font-size: 85%; color: black;"><center>Mitigation</center></th>
+ </tr>
+
+ <tr>
+ <td style ="background-c height: 30px; font-family: Arial; font-size: 85%; color: black:">RI-1</td>
+ <td  style =" font-family:Arial; color: #000000; font-size: 100%;">The system will require additional services and equipment for the system maintenance and security.</td>
+ <td  style =" font-family:Arial; color: #000000; font-size: 100%;">The facility will have an obligation to allocate time and budget for additional software or services to prevent potential risks that the facility might encounter when it comes to system security and maintenance.</td>
+ </tr>
+
+ <tr>
+ <td  style ="background-c height: 30px; font-family: Arial; font-size: 85%; color: black:">RI-2</td>
+ <td  style =" font-family:Arial; color: #000000; font-size: 100%;">The management will cope for the changes of the new process of their facility.</td>
+ <td  style =" font-family:Arial; color: #000000; font-size: 100%;">Management will require to study and be familiarized the system first. The developer will provide trainings and demonstrations for the employees or whoever will take in charge in administrating the system. </td>
+ </tr>
+
+ <tr>
+ <td  style ="background-c height: 30px; font-family: Arial; font-size: 85%; color: black;">RI-3</td>
+ <td  style =" font-family:Arial; color: #000000; font-size: 100%;">The management might not totally be satisfied or not accept the system. </td>
+ <td  style =" font-family:Arial; color: #000000; font-size: 100%;">Diminish or remove some features that they cannot manage or just go back to their current system of managing the business.</td>
+ </tr>
+
+ </table>
+<br>
+
+<p style = "font-family:Arial; color: #000000;font-weight: bold; font-size: 160%;"> Vision of the Solution</p>
+
+This project will be measured by the effectiveness of the system in determining the number of students who reserved or enrolled through the website of the institution. The increase of students who enrolled or reserved online will indicate on how efficient the process of the online reservation or enrollment system. Another success indicator for this project is the management to access the data efficiently using the system and physical storage is no longer needed to store data.
+
+<p style = "font-family:Arial; color: #000000;font-weight: bold; font-size: 140%;"> Vision Statement</p>
+
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+Since Loyola Student Center is using a paper based system, our vision is to help the management by developing an electronic database to lessen the number of hours spent by the management in storing and accessing data, to solve lack of storage space, to avoid data redundancy and to avoid missing data.
+</p><br>
+
+<p style = "font-family:Arial; font-size: 140%;color: #000000;font-weight: bold;"> Major Features</p>
+
+ <table border="1" width="70%" align="center" style="border-collapse: collapse; border: 1px solid black; align: center;">
+ <tr >
+ <th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial; font-size: 85%; color: black;"><center>Feature</center></th>
+ <th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial; font-size: 85%; color: black;"><center>Description</center></th>
+ </tr>
+
+ <tr>
+ <td  style =" font-family:Arial; color: #000000; font-size: 100%;">FE-1</td>
+ <td style =" font-family:Arial; color: #000000; font-size: 100%;">Student will have a personal account to access the reservation or enrollment form of review class.</td>
+ </tr>
+
+ <tr>
+ <td  style =" font-family:Arial; color: #000000; font-size: 100%;">FE-2</td>
+ <td  style =" font-family:Arial; color: #000000; font-size: 100%;">Student can view the chosen schedule in his/her account once enrolled or made a reservation.</td>
+ </tr>
+
+ <tr>
+ <td style =" font-family:Arial; color: #000000; font-size: 100%;">FE-3</td>
+ <td style =" font-family:Arial; color: #000000; font-size: 100%;">Student can view the transaction and status of availed service in his/her account.</td>
+ </tr>
+
+ <tr>
+ <td style =" font-family:Arial; color: #000000; font-size: 100%;">FE-4</td>
+ <td style =" font-family:Arial; color: #000000; font-size: 100%;">Student can make payment by attaching the image of deposit slip in his/her account.</td>
+</tr>
+
+ <tr>
+ <td  style =" font-family:Arial; color: #000000; font-size: 100%;">FE-5</td>
+ <td  style =" font-family:Arial; color: #000000; font-size: 100%;">Admin and authorized employees will have a personal account to access the database.</td>
+ </tr>
+
+ <tr>
+ <td  style =" font-family:Arial; color: #000000; font-size: 100%;">FE-6</td>
+ <td  style =" font-family:Arial; color: #000000; font-size: 100%;">Admin can manage the records by creating, reading, adding and updating or modifying.</td>
+ </tr>
+
+ <tr>
+ <td  style =" font-family:Arial; color: #000000; font-size: 100%;">FE-7</td>
+ <td  style =" font-family:Arial; color: #000000; font-size: 100%;">Admin can track the records by sorting, filtering and searching.</td>
+ </tr>
+
+ </table><br>
+
+<p style = "font-family:Arial; font-size: 140%; color: #000000;font-weight: bold;"> Assumptions and Dependencies</p>
+
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+AS-1	Less paper-based process for the records of students.<br>
+AS-2	Security and maintenance must take place for the better business process.<Br>
+AS-3	Admin should be familiarized in using the system.<Br>
+AS-4	The details of every records must be accurately sorted.<br>
+AS-5	The user must submit accurate data for the system to generate accurate information.<br>
+DE-1	The management should be trained and tested in using the system.<Br>
+DE-2	The number of data that can be handled will depend upon the capacity of database.<Br>
+DE-3	System performance relies on the facility’s machine and network connection.<Br>
+DE-4	Accuracy of modification of records depends on the facility’s employee in charge in the<Br>
+system.
+
+</p><br>
+
+<p style = "font-family:Arial;  font-size: 140%; color: #000000;font-weight: bold;font-size: 160%"> Scope and Limitations</p>
+
+<p style = "font-family:Arial; font-size: 140%; color: #000000;font-weight: bold;"> Scope of Initial Release</p>
+
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+The facility website must be improved and the user must be satisfied in its interface and it should be reliable to use. The system should include the basic features and functionalities such as: 
+<br>(1) Creating an account for both student and employee side. 
+<br>(2) Enrolling and/or reserving online.
+<br>(3) Student can view the transaction and status of availed service in his/her account.
+<br>(4) Student can make payment by attaching the image of deposit slip in his/her account.
+<br>(5) Managing the records by creating, reading, adding and updating or modifying the records. Tracking records by sorting, filtering and searching must also be implemented.
+</p>
+
+<p style = "font-family:Arial; font-size: 140%; color: #000000;font-weight: bold;"> Scope of Subsequent Releases</p>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+After the initial release of the Loyola Student Center System, the project developers will be focusing on some features that were not included in the initial release of the system such as:
+<br>(1) Notification for the system administrator and students account.
+<br>(2) Limiting of slots for review classes.
+<br>(3) Email verification.
+<br>(4) Set default ID number into year-id number.
+</p><br>
+
+<p style = "font-family:Arial; font-size: 140%; color: #000000;font-weight: bold;"> Limitations and Exclusions</p>
+
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+Online payment of services and the process of reservation and enrollment of tutorial services is not included in this project.
+</p><br>
+
+<p style = "font-family:Arial; font-size: 160%; color: #000000;font-weight: bold;"> Business Context</p>
+
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+Loyola Student Center is a facility that offers various tutorial and review classes. LSC’s students make a slot reservation or enrollment by filling out printed forms, scanning the document, and sending it via email. Because of this, LSC is lacking storage space when it comes to storing documents, they also spend money to buy papers to print application forms, and to manage the transaction.
+</p>
+
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+The existing process of transaction seemed to be difficult, LSC has to spend money for printing forms or documents and because of the large volume of papers used for processing the student’s reservation and enrollment, some problems occurred such as data redundancy, lack of storage space, and slow access to records.
+</p>
+
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+Using the LSC Enrollment System, the students can easily create transactions using the facility’s website, and the members of the facility can manage the records easily and efficiently.
+</p>
+
+<p style = "font-family:Arial; font-size: 140%; color: #000000;font-weight: bold;"> Stakeholder Profiles</p>
+
+<table border="1" width="70%" align="center" style="border-collapse: collapse;border: 1px solid black; align: center;">
+ <tr >
+ <th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial; font-size: 85%; color: black;"><center>Stakeholder</center></th>
+ <th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial; font-size: 85%; color: black;"><center>Major Value</center></th>
+ <th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial; font-size: 85%; color: black;"><center>Attitudes</center></th>
+ <th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial; font-size: 85%; color: black;"><center>Major Interests</center></th>
+ <th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial; font-size: 85%; color: black;"><center>Constraints</center></th>
+ </tr>
+ <tr>
+ <td  style =" font-family:Arial; color: #000000; font-size: 100%;">Students</td>
+ <td style =" font-family:Arial; color: #000000; font-size: 100%;">Increased the number of information in the system.</td>
+ <td style =" font-family:Arial; color: #000000; font-size: 100%;">Ability to provide users information and meet requirements provided in the system.</td>
+ <td style =" font-family:Arial; color: #000000; font-size: 100%;">High chance to interact with the system provided. </td>
+ <td style =" font-family:Arial; color: #000000; font-size: 100%;">Have a limited access to the system. </td>
+ </tr>
+
+ <tr>
+ <td  style =" font-family:Arial; color: #000000; font-size: 100%;">Faculty and Staff</td>
+ <td  style =" font-family:Arial; color: #000000; font-size: 100%;">Improved productivity and less error during recording.</td>
+<td  style =" font-family:Arial; color: #000000; font-size: 100%;">The ability to provide requirements, monitor student performance.</td>
+<td  style =" font-family:Arial; color: #000000; font-size: 100%;">Limited access to the system.</td>
+<td  style =" font-family:Arial; color: #000000; font-size: 100%;">Must run on low-end workstations.</td>
+ </tr>
+
+ <tr>
+ <td style =" font-family:Arial; color: #000000; font-size: 100%;">System Administrator</td>
+ <td style =" font-family:Arial; color: #000000; font-size: 100%;">Quick access to data.</td>
+ <td style =" font-family:Arial; color: #000000; font-size: 100%;">To maintain standards implemented in Loyola Student Center.</td>
+ <td style =" font-family:Arial; color: #000000; font-size: 100%;">Ability to manage much larger database than current system.</td>
+ <td style =" font-family:Arial; color: #000000; font-size: 100%;">No budget for retraining.</td>
+ </tr>
+ </table> 
+<br><br>
+
+<p style = "font-family:Arial; color: #000000;  font-size: 140%; font-weight: bold;"> Project Priorities</p>
+ 
+ <table border="1px" width="70%" align="center" style ="border-collapse: collapse;" >
+ <tr >
+ <th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial;
+ font-size: 85%; color: black;"><center>Dimension</center></th>
+ <th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial;
+ font-size: 85%; color: black;"><center>Driver(state objective)</center></th>
+ <th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial;
+ font-size: 85%; color: black;"><center>Constraint(state limits)</center></th>
+ <th  style = "background-color:  #DCDCDC; height: 30px; font-family: Arial;
+ font-size: 85%; color: black;"><center>Degree of Freedom(state allowable range)</center></th>
+ </tr>
+ <tr>
+ <td  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+ font-size: 100%; color: black;"><center>Schedule</center></td>
+ <td  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+ font-size: 100%; color: black;">release 1.0 to be available by 10/24; release 2.0 by 11/14; release 3.0 by 11/28</td>
+ <td  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+ font-size: 100%; color: black;"></td>
+ <td  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+ font-size: 100%; color: black;"></td>
+ </tr>
+
+ <tr>
+ <td  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+ font-size: 100%; color: black;"><center>Feature</center></td>
+ <td  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+ font-size: 100%; color: black;"></td>
+ <td  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+ font-size: 100%; color: black;"></td>
+ <td  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+ font-size: 100%; color: black;">All features scheduled for every release must be fully operational</td>
+ </tr>
+
+ <tr>
+ <td  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+ font-size: 100%; color: black;"><center>Quality</center></td>
+ <td  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+ font-size: 100%; color: black;"></td>
+ <td  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+ font-size: 100%; color: black;"></td>
+ <td  style ="background-color: #FFFFFF; height: 30px; font-family: Arial;
+ font-size: 100%; color: black;">95</td>
+</tr></table>
+
+==Statement of Work==
+<center><p style =" font-family:Arial; color: #000000; font-size: 200%; font-weight: bold;"> Statement of Work <br>LSC-Enrollment System </p></center>
+
+<p style = "font-family:Arial; color: #000000;font-weight: bold; font-size: 140%;"> Introduction/Background</p>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+Loyola Student Center (LSC) has approved the development of their current system to enhance service offered by Loyola Student Center. In order to improved student interaction with the system, the development of their current system will focus on creating the reservation and enrollment processing, which provides to easily manage the students’ records and transaction and improvement of the current system of Loyola Student Center. The main purpose of the project is for the facility and its student to extensively save time and effectively reduce costs Loyola Student Center management anticipates that the improvement of their current system will move the company forward and to accommodate more student who wants to avail service offered by the LSC facility.
+</p><br>
+
+<p style = "font-family:Arial; color: #000000;font-weight: bold; font-size: 140%;"> Scope of Work</p>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+Loyola Student Center enrollment system is an online enrollment system where student can reserve or enroll a review class Loyola Student Center offers using the frontend website. While the admin can manage the records of the student using the backend system.<br>
+The objectives of the project are the following:<br>
+•	To improve the website of Loyola Student Center<Br>
+•	To add an account creation feature to the website<br>
+•	To add a reservation and enrollment system<br>
+•	To create a database to store the information inputted by the user
+<br>
+The features stated above should be done before the S.Y. 2016-2017 Term 2 ends which is on December 22, 2016 and the facility will be able to use it on the first month of year 2017.
+<br>
+This project is only applicable for the Loyola Student Center since the facility is the client of the project. Loyola Student Center Enrollment System is significant for the facility because it can help the existing system to be improved from paper-based system to an electronic-based system. Therefore, it can help the management and the students to process reservations and enrollment easily and efficiently.
+<br>
+Not included in the scope of work for this project is the reservation and enrollment process of tutorial classes.
+</p><br>
+
+<p style = "font-family:Arial; color: #000000;font-weight: bold; font-size: 140%;">Period of Performance</p>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+The period of performance for the LSC Enrollment System is three school terms beginning on January 2016 through December 2016.  All work must be scheduled to complete within this timeframe.  Any modifications or extensions will be requested through LSC and developers contracting officers for review and discussion.
+</p><br>
+
+<p style = "font-family:Arial; color: #000000;font-weight: bold; font-size: 140%;">Place of Performance</p>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;"> 
+The selected developer for the enhancement of the current system of Loyola Student Center will perform a majority of the work outside the LSC facility. The developer will be required to meet at Loyola Student Center facility at least once a month for the consultation and status of the system. Additionally, all project presentation will be held at Asia Pacific College attended by the panelist, client, class adviser and the project developer. The project developer will provide and arrange for meeting spaces within the Loyola Student Center facility and attended by the LSC management. Once the project reaches the training phase, all training will be conducted at Loyola Student Center’s facility.
+</p><br>
+
+<p style = "font-family:Arial; color: #000000;font-weight: bold; font-size: 140%;"> Work Requirements</p>
+<p style =" font-family:Arial; color: #000000; font-size: 100%; text-align: justify;">
+	As part of the Loyola Student Center Enrollment System the developers will be responsible for performing tasks throughout various stages of this project. The following is a list of these tasks which will result in the successful completion of this project:
+	<br><br>
+	Kickoff:
+	<ul style="list-style-type:disc">
+	<li>Developers will create and present detailed project plan including schedule and WBS</li>
+	<li>Developers will present project plan to LSC for review and approval</li>
+	</ul><br>
+	Design Phase:
+	<ul style="list-style-type:disc">
+	<li>Work with LSC to gather requirements</li>
+	<li>Create site design based on collected requirements</li>
+	<li>Develop site design proposal for LSC review and approval</li>
+	<li>Send written status weekly to LSC’s email address</li>
+	</ul><br>
+	Build Phase:
+	<ul style="list-style-type:disc">
+	<li>Developers will complete all coding for approved site design</li>
+	<li>Developers will include all content provided by LSC on redesigned web site</li>
+	<li>Developers will resolve any coding and site issues identified in testing</li>
+	<li>Developers will compile a testing report to present to LSC for review/approval</li>
+	<li>Send written status weekly to LSC’s email address</li>
+	</ul><br>
+ 	Implementation Phase:
+	<ul style="list-style-type:disc">
+ 	<li>Developers will implement the newly redesigned web site on LSC servers</li>
+ 	<li>Send written status weekly to LSC’s email address</li>
+ 	</ul><br>
+ 	Training Phase:
+ 	<ul style="list-style-type:disc">
+ 	<li>Send written status weekly to LSC’s email address</li>
+ 	</ul><br>
+ 	
+ 	Project Handoff/Closure:
+ 	<ul style="list-style-type:disc">
+ 	<li>Developers will provide LSC with all documentation in accordance with the approved project plan</li>
+ 	<li>Developers will present project closure report to LSC for review and approval</li>
+ 	<li>Developers will complete the project requirements checklist showing that all project tasks have been completed</li>
+ 	<li>Send written status weekly to LSC’s email address</li>
+ 	</ul>
+</p><br>
+
+<p style = "font-family:Arial; color: #000000;font-weight: bold; font-size: 140%;"> Schedule and Milestone</p>
+<p style = "font-family:Arial; font-size: 100px;color: #000000;>The below list consists of the initial milestones identified for the Website Redesign Project:<br></p>
+			
+<table border="1" width="70%" align="center" style="border-collapse: collapse;border: 1px solid black; align: center;">
+ 	<tr>
+	 	<td style =" font-family:Arial; color: #000000; font-size: 100%; background-color: #dddddd;">Proposal of System</td>
+	 	<td style =" font-family:Arial; color: #000000; font-size: 100%; background-color: #dddddd;">February 23,2016</td>
+	</tr>
+ 	<tr>
+	<td style =" font-family:Arial; color: #000000; font-size: 100%;">Project Plan</td>
+ 	<td style =" font-family:Arial; color: #000000; font-size: 100%;">March 01,2016
+	</td>
+	</tr>
+ 	<tr>
+	<td style =" font-family:Arial; color: #000000; font-size: 100%; background-color: #dddddd;">Conduct Interview for Project Proposal</td>
+	 	<td style =" font-family:Arial; color: #000000; font-size: 100%; background-color: #dddddd;">March 09,2016</td>
+	 	</tr>
+ 	 	<tr>
+ 	 	<td style =" font-family:Arial; color: #000000; font-size: 100%;">Analyze Interview Results </td>
+ 	 	<td style =" font-family:Arial; color: #000000; font-size: 100%;">March 10-14,2016</td>
+ 	 	</tr>
+ 	 	 
+ 	 	<tr>
+ 	 	<td style =" font-family:Arial; color: #000000; font-size: 100%; background-color: #dddddd;">Analyze Business Process </td>
+ 	 	<td style =" font-family:Arial; color: #000000; font-size: 100%; background-color: #dddddd;">March 15- April 8,2016</td>
+ 	 	</tr>
+ 	 	 
+ 	 	<tr>
+ 	 	<td style =" font-family:Arial; color: #000000; font-size: 100%;">Conduct Client Meeting</td>
+ 	 	<td style =" font-family:Arial; color: #000000; font-size: 100%;">June 23, 2016 </td>
+ 	 	</tr>
+ 	 	 
+ 	 	<tr>
+ 	 	<td style =" font-family:Arial; color: #000000; font-size: 100%; background-color: #dddddd;">Requirements Gathering </td>
+ 	 	<td style =" font-family:Arial; color: #000000; font-size: 100%; background-color: #dddddd;">June 23, 2016</td>
+ 	 	</tr>
+ 	 	 
+ 	 	<tr>
+ 	 	<td style =" font-family:Arial; color: #000000; font-size: 100%;">Analyze System Requirements </td>
+ 	 	<td style =" font-family:Arial; color: #000000; font-size: 100%;">July 25, 2016</td>
+ 	 	</tr>
+ 	 	<tr>
+ 	 	<td style =" font-family:Arial; color: #000000; font-size: 100%;background-color: #dddddd;">Finalize Documents Needed</td>
+ 	 	<td style =" font-family:Arial; color: #000000; font-size: 100%;background-color: #dddddd;">July 4-14, 2016</td>
+ 	 	</tr>
+ 	 	</table>
+			
+</p><br>
+
