@@ -44,6 +44,30 @@ AppAsset::register($this);
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
         $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
+
+
+         }elseif (!Yii::$app->user->isGuest) {
+
+            $menuItems = [
+        ['label' => 'Home', 'url' => ['/site/index']],
+        ['label' => 'About', 'url' => ['/site/about']],
+        ['label' => 'Tutorials', 'url' => 'index.php?r=site%2Findex#tutorial-sec'],
+        ['label' => 'Reviews', 'url' => 'index.php?r=site%2Findex#review-sec'],
+        ['label' => 'Contact', 'url' => ['/site/contact']],
+        ['label' => 'Profile', 'url' => ['/site/profile']],
+];
+        $menuItems[] = '<li>'
+            . Html::beginForm(['/site/logout'], 'post')
+            . Html::submitButton('Logout (' . Yii::$app->user->identity->username . ')',
+                ['class' => 'btn btn-link',
+                'data'=>[
+                    'confirm' => 'Are you sure you want to logout?',
+                    'method' => 'post',
+                ],]
+
+            )
+            . Html::endForm()
+            . '</li>';
     } else {
         $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
@@ -73,14 +97,14 @@ AppAsset::register($this);
         <?= $content ?>
     </div>
 </div>
-
+<!--
 <footer class="footer">
     <div class="container">
         <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
 
         <p class="pull-right"><?= Yii::powered() ?></p>
     </div>
-</footer>
+</footer> -->
 
 <?php $this->endBody() ?>
 </body>

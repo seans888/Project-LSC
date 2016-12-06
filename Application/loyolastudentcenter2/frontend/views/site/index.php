@@ -423,51 +423,28 @@ function showSlides() {
                         <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.5s">
                             <div class="panel-heading" >
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="collapsed">
+                                    <a href="index.php?r=site%2Freviews#reviews-sec">
                                   <strong>REVIEW PROGRAMS</strong>
                                     </a>
                                 </h4>
-                            </div>
-                            <div id="collapse5" class="panel-collapse collapse" style="height: 0px;">
-                                <div class="panel-body">
-                                    <p>• Comprehensive College Entrance Test Review <br>
-                                    • High School Entrance Test Review <br>
-                                    • Civil Service Examination (CSE) Review <br>
-                                    • National Medical Admission Test (NMAT) Review.</p>
-                                </div>
                             </div>
                         </div>
                         <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.7s">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6" class="collapsed">
+                                    <a href="index.php?r=site%2Freviews#english-sec">
                                       <strong>ENGLISH PROFICIENCY </strong> 
                                     </a>
                                 </h4>
-                            </div>
-                            <div id="collapse6" class="panel-collapse collapse" style="height: 0px;">
-                                <div class="panel-body">
-                                    <p>• International English Language Testing System (IELTS) <br>
-                                    • Test of English as a Foreign Language (TOEFL)<br>
-                                    • Test of English for International Communication (TOEIC).</p>
-                                </div>
                             </div>
                         </div>
                         <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.9s">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7" class="collapsed">
+                                    <a href="index.php?r=site%2Freviews#other-sec">
                                         <strong>OTHERS</strong>
                                     </a>
                                 </h4>
-                            </div>
-                            <div id="collapse7" class="panel-collapse collapse"  style="height: 0px;">
-                                <div class="panel-body">
-                                    <p>• Career Service Examination (CSE) <br>
-                                    • SAT Reasoning Test 
-                                       Graduate Management Admission Test (GMAT) <br>
-                                    • Graduate Record Examination (GRE)</p>
-                                </div>
                             </div>
                         </div>
                     </div>

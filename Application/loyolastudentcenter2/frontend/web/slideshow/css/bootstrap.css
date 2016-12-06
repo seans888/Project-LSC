@@ -3975,7 +3975,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 0;
   margin: 0;
   list-style: none;
-  height: 100px;
+  height: 110px;
 }
 .nav > li { /*Navigation List*/
   position: relative;

@@ -26,7 +26,7 @@ $this->title = 'Reviews';
     <link rel="stylesheet" href="css/style1.css">
 
 </head>
-<div id="review-sec" class="container set-pad">
+<div id="reviews-sec" class="container set-pad">
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                      <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">Comprehensive College Entrance Test Review </h1>
@@ -344,7 +344,7 @@ or Law School Admission Test (LSAT) Review.
                         </div>
                         </div>
 <!-- FIFTH REVIEW CLASS END -->
-   <div class="container set-pad">
+   <div id="english-sec" class="container set-pad"> <br><br><br>
   <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                      <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">ENGLISH PROFICIENCY PROGRAMS</h1>
@@ -411,8 +411,7 @@ The IELTS is an international standardized test of English language proficiency.
                         </div>
                         </div>
                         </div> 
-
- <div class="container set-pad">
+ <div id="other-sec" class="container set-pad"> <br><br><br>
                         <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                      <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">OTHER REVIEW CLASSES</h1>

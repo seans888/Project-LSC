@@ -235,4 +235,9 @@ public function actionReviews()
     {
         return $this->render('reviews');
     }
+
+public function actionProfile()
+    {
+        return $this->render('profile');
+    }
 }
