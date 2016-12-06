@@ -1,9 +1,0 @@
-#Runtime/debug
-
-*/*.data
-*.data
-
-#Runtime Log
-
-*/*.log
-*.log
