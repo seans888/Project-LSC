@@ -2,6 +2,9 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use common\models\ReviewClass;
+use common\models\Schedule;
+use common\models\user;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Transaction */
@@ -12,10 +15,16 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'user_id')->textInput() ?>
+    <?php echo
+            '<p>'.Yii::$app->user->identity->firstname.' '.Yii::$app->user->identity->lastname.'</p>'
+     ?>
 
-    <?= $form->field($model, 'review_class_id')->textInput() ?>
-
+    <?= $form->field($model, 'user_id')->textInput(['value'=>Yii::$app->user->id, 'readonly'=>true])?> 
+    
+    <?= $form->field($model, 'review_class_id')->dropDownList(
+        ArrayHelper::map(ReviewClass::find()->all(),'id','name'),
+        ['prompt'=>'Select Review Class']
+    ) ?>
     <?= $form->field($model, 'schedule_id')->textInput() ?>
 
     <?= $form->field($model, 'transaction_type')->dropDownList([ 'Reserve' => 'Reserve', 'Enroll' => 'Enroll', ], ['prompt' => '']) ?>
