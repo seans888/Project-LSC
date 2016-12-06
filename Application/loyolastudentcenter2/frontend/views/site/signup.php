@@ -17,7 +17,7 @@ use frontend\views\user;
 $this->title = 'Sign up';
 //$this->params['breadcrumbs'][] = $this->title;
 ?>
-<center>
+<center> <br><br>
 <table class="tbSignup">    
     <tr><td>
 <div class="site-signup" align="center">

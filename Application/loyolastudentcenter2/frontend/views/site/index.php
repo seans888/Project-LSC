@@ -32,7 +32,7 @@ $this->title = 'Loyola Student Center';
     <link href="slideshow/css/half-slider.css" rel="stylesheet">
 
 </head>
-<body >
+<body > <br><br>
 
 
 <!--===============================================================================================================
@@ -259,7 +259,7 @@ function showSlides() {
                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                         Aenean commodo . 
                    </p>
-               <a href="#tutorial-sec" class="btn btn-info btn-set"  >READ MORE</a>
+               <a href="index.php?r=site%2Findex#tutorial-sec" class="btn btn-info btn-set"  >READ MORE</a>
                 </div>
                    </div>
                  <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
@@ -281,7 +281,7 @@ function showSlides() {
 <!--===============================================================================================================
   TUTORIAL SECTION
   =============================================================================================================-->
-    <div id="tutorial-sec" >
+    <div id="tutorial-sec" ><br><br><br>
     <div class="container set-pad">
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
@@ -400,7 +400,7 @@ function showSlides() {
 <!--===============================================================================================================
   REVIEW SECTION 
   =============================================================================================================-->
-      <div id="course-sec" class="container set-pad">
+      <div id="review-sec" class="container set-pad"> <br><br><br>
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                      <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">REVIEW PROGRAMS</h1>
