@@ -26,6 +26,7 @@ class SignupForm extends Model
     public $guardianEmailAddress;
     public $learnedLSC;
     public $retypePassword;
+    public $terms;
 
 
     /**
@@ -64,6 +65,9 @@ class SignupForm extends Model
             ['guardianContactNumber', 'required'],
             ['guardianEmailAddress', 'required'],
             ['learnedLSC', 'required'],
+            ['terms','compare','operator' => '==','compareValue' => true,
+            'message' => 'You have to agree to Terms and Conditions'
+],
         ];
     }
 

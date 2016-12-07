@@ -240,4 +240,9 @@ public function actionProfile()
     {
         return $this->render('profile');
     }
+
+public function actionTerms()
+    {
+        return $this->render('terms');
+    }
 }
