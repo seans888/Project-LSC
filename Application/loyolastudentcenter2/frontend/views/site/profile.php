@@ -12,7 +12,9 @@
                         Aenean commodo . 
                        
                    </p>
-              <a href="http://localhost/advancedlsc2/frontend/web/index.php?r=site%2Faccount" class="btn btn-info btn-set"  >VIEW TRANSACTIONS</a>
+  <?php echo
+    "<a href='index.php?r=site%2Flogin' class='btn btn-info btn-set'>VIEW TRANSACTIONS</a>"
+  ?>             
                 </div>
                    </div>
 
@@ -28,8 +30,10 @@
                        
                    </p>
 
-              <a href="http://localhost/advancedlsc2/frontend/web/index.php?r=site%2Faccount" class="btn btn-info btn-set"  >ADD TRANSACTION</a>
+<?php echo
+  "<a href='index.php?r=transaction%2Fcreate' class='btn btn-info btn-set'>ADD TRANSACTION</a>"
 
+?>
                 </div>
                    </div>
                    

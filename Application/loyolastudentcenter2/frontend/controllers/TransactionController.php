@@ -8,6 +8,8 @@ use common\models\TransactionSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\helpers\Url;
+use yii\helpers\ArrayHelper;
 
 /**
  * TransactionController implements the CRUD actions for Transaction model.
@@ -66,9 +68,11 @@ class TransactionController extends Controller
         $model = new Transaction();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
-        } else {
             return $this->redirect(Url::to('index.php?r=payment%2Fcreate'));
+        } else {
+           return $this->render('create', [
+                'model' => $model,
+            ]);
         }
     }
 

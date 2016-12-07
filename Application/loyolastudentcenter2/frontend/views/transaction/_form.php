@@ -5,6 +5,7 @@ use yii\widgets\ActiveForm;
 use common\models\ReviewClass;
 use common\models\Schedule;
 use common\models\user;
+use yii\helpers\ArrayHelper;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Transaction */
@@ -31,7 +32,8 @@ use common\models\user;
 
     <?= $form->field($model, 'selected_school')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'status')->dropDownList([ 'Pending' => 'Pending', 'Reserved' => 'Reserved', 'Enrolled' => 'Enrolled', 'Done' => 'Done', 'Cancelled' => 'Cancelled', ], ['prompt' => '']) ?>
+    <!--<?= $form->field($model, 'status')->dropDownList([ 'Pending' => 'Pending', 'Reserved' => 'Reserved', 'Enrolled' => 'Enrolled', 'Done' => 'Done', 'Cancelled' => 'Cancelled', ], ['value'=>'Pending','prompt' => '', 'value' => 'pending']) ?>  -->
+
 
 <!--    <?= $form->field($model, 'date')->textInput() ?> -->
 
