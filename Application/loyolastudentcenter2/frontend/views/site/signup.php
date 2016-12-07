@@ -65,6 +65,8 @@ $this->title = 'Sign up';
 
                  <?= $form->field($model, 'retypePassword')->passwordInput(['placeholder'=>'Retype Password'])->label(false) ?>
 
+                <?= $form->field( $model, 'terms' )->checkbox(array('label'=>'I agree to the <a href="index.php?r=site%2Fterms" target="_blank">terms</a> of service.')) ?> 
+
                 <div class="form-group">
 
                    <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button','data' => [
