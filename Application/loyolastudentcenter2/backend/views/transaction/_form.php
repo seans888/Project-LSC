@@ -10,11 +10,7 @@ use yii\widgets\ActiveForm;
 
 <div class="transaction-form">
 
-   <?php echo
-            '<p>'.Yii::$app->user->identity->firstname.' '.Yii::$app->user->identity->lastname.'</p>'
-     ?>
-
-    <?= $form->field($model, 'user_id')->textInput(['value'=>Yii::$app->user->id, 'readonly'=>true])?> 
+    <?= $form->field($model, 'user_id')->textInput(['maxlength' => true])?> 
     
     <?= $form->field($model, 'review_class_id')->dropDownList(ArrayHelper::map(ReviewClass::find()->all(),'id','name'),
         ['prompt'=>'Select Review Class']) ?>
