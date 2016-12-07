@@ -44,8 +44,8 @@ class ClassList extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'review_class_id' => 'Review Class ID',
-            'user_id' => 'User ID',
+            'review_class_id' => 'Review Class Name',
+            'user_id' => 'User Name',
         ];
     }
 

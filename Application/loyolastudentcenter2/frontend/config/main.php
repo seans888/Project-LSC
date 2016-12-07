@@ -42,14 +42,17 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
         'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'rules' => [
+            'enablePrettyUrl' => false,
+            'class' => 'yii\web\UrlManager',
             ],
+             'urlManagerBackend'=>[
+                'showScriptName' => false,
+                'enablePrettyUrl' => true,
+                'class' => 'yii\web\UrlManager',
+                'baseUrl' => 'loyolastudentcenter2/backend/web',
+            ],
+
         ],
-        */
-    ],
     'params' => $params,
 ];

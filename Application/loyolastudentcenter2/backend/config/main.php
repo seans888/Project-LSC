@@ -52,15 +52,17 @@ return [
              ],
          ],
     ],
-
-        /*
-        'urlManager' => [
-            'enablePrettyUrl' => true,
+        'urlManager' =>[
+            'enablePrettyUrl' => false,
+            'class' => 'yii\web\UrlManager',
             'showScriptName' => false,
-            'rules' => [
             ],
+             'urlManagerFrontend'=>[
+                'enablePrettyUrl' => true,
+                'class' => 'yii\web\UrlManager',
+                'showScriptName'=>false,
+                'baseUrl' => '/loyolastudentcenter2/frontend/web',
+                ],
         ],
-        */
-    ],
     'params' => $params,
 ];

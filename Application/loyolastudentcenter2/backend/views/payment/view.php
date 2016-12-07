@@ -30,8 +30,9 @@ $this->params['breadcrumbs'][] = $this->title;
         'attributes' => [
             'id',
             'payment_slip',
-            'date',
             'transaction_id',
+            'date',
+
         ],
     ]) ?>
 

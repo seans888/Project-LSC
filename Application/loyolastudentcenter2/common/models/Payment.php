@@ -33,7 +33,7 @@ class Payment extends \yii\db\ActiveRecord
             [['date'], 'safe'],
             [['transaction_id'], 'required'],
             [['transaction_id'], 'integer'],
-            [['payment_slip'], 'string', 'max' => 250],
+            [['payment_slip'], 'file'],
             [['transaction_id'], 'exist', 'skipOnError' => true, 'targetClass' => Transaction::className(), 'targetAttribute' => ['transaction_id' => 'id']],
         ];
     }
@@ -45,7 +45,7 @@ class Payment extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'payment_slip' => 'Payment Slip',
+            'payment_slip' => 'Attach your Payment Slip',
             'date' => 'Date',
             'transaction_id' => 'Transaction ID',
         ];

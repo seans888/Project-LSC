@@ -26,8 +26,8 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'id',
             'payment_slip',
-            'date',
             'transaction_id',
+            'date',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
