@@ -28,7 +28,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <link rel="stylesheet" href="css/style1.css">
 
 </head>
-<body>
+<body><br>
 
 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                      <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line" align="center" >ABOUT US  </h1>

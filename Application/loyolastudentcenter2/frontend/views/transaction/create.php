@@ -7,10 +7,8 @@ use yii\helpers\Html;
 /* @var $model common\models\Transaction */
 
 $this->title = 'Create Transaction';
-$this->params['breadcrumbs'][] = ['label' => 'Transactions', 'url' => ['index']];
-$this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="transaction-create">
+<div class="transaction-create"> <br><br>
 
     <h1><?= Html::encode($this->title) ?></h1>
 

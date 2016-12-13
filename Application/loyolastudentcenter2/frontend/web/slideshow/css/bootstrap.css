@@ -1147,7 +1147,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #fff;
 }
 .sr-only {
   position: absolute;
@@ -3021,6 +3021,29 @@ select[multiple].input-lg {
   border: 1px solid transparent;
   border-radius: 4px;
 }
+
+.btn1 {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  margin-top: 25px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
@@ -3402,6 +3425,7 @@ fieldset[disabled] .btn-danger.focus {
   font-weight: normal;
   color: #337ab7;
   border-radius: 0;
+  margin-top: 15px;
 }
 .btn-link,
 .btn-link:active,
@@ -3975,7 +3999,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 0;
   margin: 0;
   list-style: none;
-  height: 100px;
+  height: 90px;
 }
 .nav > li { /*Navigation List*/
   position: relative;
@@ -4284,6 +4308,7 @@ background-color: transparent;
   height: 50px;
   font-size: 18px;
   line-height: 20px;
+  font-family: calibri light;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -4291,6 +4316,7 @@ background-color: transparent;
 }
 .navbar-brand > img {
   display: block;
+  height: 50px;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
@@ -4612,6 +4638,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-nav > li > a {
   color: #9d9d9d;
+  font-family: calibri light;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
