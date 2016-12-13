@@ -37,8 +37,8 @@ AppAsset::register($this);
     $menuItems = [
         ['label' => 'Home', 'url' => ['/site/index']],
         ['label' => 'About', 'url' => ['/site/about']],
-        ['label' => 'Tutorials', 'url' => 'index.php?r=site%2Findex#tutorial-sec'],
-        ['label' => 'Reviews', 'url' => 'index.php?r=site%2Findex#review-sec'],
+        ['label' => 'Tutorials', 'url' => 'index.php?r=site%2Fcontact#tutorial-sec'],
+        ['label' => 'Reviews', 'url' => 'index.php?r=site%2Fcontact#review-sec'],
         ['label' => 'Contact', 'url' => ['/site/contact']],
     ];
     if (Yii::$app->user->isGuest) {

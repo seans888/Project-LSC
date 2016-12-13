@@ -3,22 +3,13 @@
 $vendorDir = dirname(__DIR__);
 
 return array (
-  'yiisoft/yii2-bootstrap' => 
+  'yiisoft/yii2-swiftmailer' => 
   array (
-    'name' => 'yiisoft/yii2-bootstrap',
+    'name' => 'yiisoft/yii2-swiftmailer',
     'version' => '2.0.6.0',
     'alias' => 
     array (
-      '@yii/bootstrap' => $vendorDir . '/yiisoft/yii2-bootstrap',
-    ),
-  ),
-  '2amigos/yii2-date-picker-widget' => 
-  array (
-    'name' => '2amigos/yii2-date-picker-widget',
-    'version' => '1.0.5.0',
-    'alias' => 
-    array (
-      '@dosamigos/datepicker' => $vendorDir . '/2amigos/yii2-date-picker-widget/src',
+      '@yii/swiftmailer' => $vendorDir . '/yiisoft/yii2-swiftmailer',
     ),
   ),
   'rmrevin/yii2-fontawesome' => 
@@ -39,6 +30,15 @@ return array (
       '@cebe/gravatar' => $vendorDir . '/cebe/yii2-gravatar/cebe/gravatar',
     ),
   ),
+  'yiisoft/yii2-bootstrap' => 
+  array (
+    'name' => 'yiisoft/yii2-bootstrap',
+    'version' => '2.0.6.0',
+    'alias' => 
+    array (
+      '@yii/bootstrap' => $vendorDir . '/yiisoft/yii2-bootstrap',
+    ),
+  ),
   'dmstr/yii2-adminlte-asset' => 
   array (
     'name' => 'dmstr/yii2-adminlte-asset',
@@ -46,6 +46,15 @@ return array (
     'alias' => 
     array (
       '@dmstr' => $vendorDir . '/dmstr/yii2-adminlte-asset',
+    ),
+  ),
+  '2amigos/yii2-date-picker-widget' => 
+  array (
+    'name' => '2amigos/yii2-date-picker-widget',
+    'version' => '1.0.5.0',
+    'alias' => 
+    array (
+      '@dosamigos/datepicker' => $vendorDir . '/2amigos/yii2-date-picker-widget/src',
     ),
   ),
   'kartik-v/yii2-krajee-base' => 
@@ -57,13 +66,13 @@ return array (
       '@kartik/base' => $vendorDir . '/kartik-v/yii2-krajee-base',
     ),
   ),
-  'kartik-v/yii2-dialog' => 
+  'kartik-v/yii2-widget-timepicker' => 
   array (
-    'name' => 'kartik-v/yii2-dialog',
+    'name' => 'kartik-v/yii2-widget-timepicker',
     'version' => '1.0.1.0',
     'alias' => 
     array (
-      '@kartik/dialog' => $vendorDir . '/kartik-v/yii2-dialog',
+      '@kartik/time' => $vendorDir . '/kartik-v/yii2-widget-timepicker',
     ),
   ),
   'kartik-v/yii2-popover-x' => 
@@ -84,42 +93,6 @@ return array (
       '@kartik/editable' => $vendorDir . '/kartik-v/yii2-editable',
     ),
   ),
-  'yiisoft/yii2-swiftmailer' => 
-  array (
-    'name' => 'yiisoft/yii2-swiftmailer',
-    'version' => '2.0.6.0',
-    'alias' => 
-    array (
-      '@yii/swiftmailer' => $vendorDir . '/yiisoft/yii2-swiftmailer',
-    ),
-  ),
-  'yiisoft/yii2-faker' => 
-  array (
-    'name' => 'yiisoft/yii2-faker',
-    'version' => '2.0.3.0',
-    'alias' => 
-    array (
-      '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker',
-    ),
-  ),
-  'yiisoft/yii2-gii' => 
-  array (
-    'name' => 'yiisoft/yii2-gii',
-    'version' => '2.0.5.0',
-    'alias' => 
-    array (
-      '@yii/gii' => $vendorDir . '/yiisoft/yii2-gii',
-    ),
-  ),
-  'yiisoft/yii2-debug' => 
-  array (
-    'name' => 'yiisoft/yii2-debug',
-    'version' => '2.0.7.0',
-    'alias' => 
-    array (
-      '@yii/debug' => $vendorDir . '/yiisoft/yii2-debug',
-    ),
-  ),
   'kartik-v/yii2-widget-depdrop' => 
   array (
     'name' => 'kartik-v/yii2-widget-depdrop',
@@ -127,6 +100,15 @@ return array (
     'alias' => 
     array (
       '@kartik/depdrop' => $vendorDir . '/kartik-v/yii2-widget-depdrop',
+    ),
+  ),
+  'kartik-v/yii2-dialog' => 
+  array (
+    'name' => 'kartik-v/yii2-dialog',
+    'version' => '1.0.1.0',
+    'alias' => 
+    array (
+      '@kartik/dialog' => $vendorDir . '/kartik-v/yii2-dialog',
     ),
   ),
   'kartik-v/yii2-grid' => 
@@ -165,13 +147,31 @@ return array (
       '@onmotion/gallery' => $vendorDir . '/onmotion/yii2-gallery',
     ),
   ),
-  'kartik-v/yii2-widget-timepicker' => 
+  'yiisoft/yii2-debug' => 
   array (
-    'name' => 'kartik-v/yii2-widget-timepicker',
-    'version' => '1.0.1.0',
+    'name' => 'yiisoft/yii2-debug',
+    'version' => '2.0.7.0',
     'alias' => 
     array (
-      '@kartik/time' => $vendorDir . '/kartik-v/yii2-widget-timepicker',
+      '@yii/debug' => $vendorDir . '/yiisoft/yii2-debug',
+    ),
+  ),
+  'yiisoft/yii2-gii' => 
+  array (
+    'name' => 'yiisoft/yii2-gii',
+    'version' => '2.0.5.0',
+    'alias' => 
+    array (
+      '@yii/gii' => $vendorDir . '/yiisoft/yii2-gii',
+    ),
+  ),
+  'yiisoft/yii2-faker' => 
+  array (
+    'name' => 'yiisoft/yii2-faker',
+    'version' => '2.0.3.0',
+    'alias' => 
+    array (
+      '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker',
     ),
   ),
 );
