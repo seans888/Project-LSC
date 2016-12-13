@@ -21,17 +21,30 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
+        'rowOptions' => function($model){
+            if($model -> status == 'Pending'){
+                return['style' => 'background-color:#F9E398'];
+            }elseif ($model -> status == 'Reserved'){
+                return['style' => 'background-color:#98D3F9'];
+            }elseif ($model -> status == 'Enrolled') {
+                return['style' => 'background-color:#B3F998'];
+            }elseif($model -> status == 'Done'){
+                return['style' => 'background-color:#EEF66C'];
+            }elseif ($model -> status == 'Cancelled') {
+                return['class' => 'danger'];
+            }
+        },
         'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
+           // ['class' => 'yii\grid\SerialColumn'],
 
-            'id',
+          //  'id',
             'user_id',
             'review_class_id',
             'schedule_id',
             'transaction_type',
-            // 'selected_school',
-            // 'status',
-            // 'date',
+            'selected_school',
+            'status',
+             'date',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

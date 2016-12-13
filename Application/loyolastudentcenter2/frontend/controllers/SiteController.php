@@ -8,6 +8,7 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use yii\helpers\Url;
+use yii\helpers\html;
 use common\models\LoginForm;
 use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
@@ -244,5 +245,9 @@ public function actionProfile()
 public function actionTerms()
     {
         return $this->render('terms');
+    }
+public function actionTransaction()
+    {
+        return $this->render('transaction');
     }
 }

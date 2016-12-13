@@ -13,7 +13,7 @@
                        
                    </p>
   <?php echo
-    "<a href='index.php?r=site%2Flogin' class='btn btn-info btn-set'>VIEW TRANSACTIONS</a>"
+    "<a href='index.php?r=site%2Ftransaction' class='btn btn-info btn-set'>VIEW TRANSACTIONS</a>"
   ?>             
                 </div>
                    </div>
