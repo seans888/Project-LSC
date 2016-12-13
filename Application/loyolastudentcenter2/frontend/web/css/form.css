@@ -67,10 +67,10 @@ label.control-label{
 }
 */
 input#loginform-username.form-control{
-	width: 100%;
+	width: 35%;
 }
 input#loginform-password.form-control{
-	width: 100%;
+	width: 35%;
 }
 div.modal-content{
 	width: 600px;	

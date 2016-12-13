@@ -9,7 +9,6 @@ use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 
 $this->title = 'Contact';
-$this->params['breadcrumbs'][] = $this->title;
 ?>
 
 <!DOCTYPE html>
@@ -159,7 +158,7 @@ function showSlides() {
 }
 </script> 
 
-  =============================================================================================================-->
+  =============================================================================================================--> <br>
 
     <!-- Half Page Image Background Carousel Header -->
     <header id="myCarousel" class="carousel slide">

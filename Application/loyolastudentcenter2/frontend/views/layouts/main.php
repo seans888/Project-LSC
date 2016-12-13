@@ -35,25 +35,22 @@ AppAsset::register($this);
         ],
     ]);
     $menuItems = [
-        ['label' => 'Home', 'url' => ['/site/index']],
+        ['label' => 'Home', 'url' => ['/site/contact']],
         ['label' => 'About', 'url' => ['/site/about']],
         ['label' => 'Tutorials', 'url' => 'index.php?r=site%2Fcontact#tutorial-sec'],
         ['label' => 'Reviews', 'url' => 'index.php?r=site%2Fcontact#review-sec'],
-        ['label' => 'Contact', 'url' => ['/site/contact']],
     ];
     if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
         $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
 
 
          }elseif (!Yii::$app->user->isGuest) {
 
             $menuItems = [
-        ['label' => 'Home', 'url' => ['/site/index']],
+        ['label' => 'Home', 'url' => ['/site/contact']],
         ['label' => 'About', 'url' => ['/site/about']],
         ['label' => 'Tutorials', 'url' => 'index.php?r=site%2Findex#tutorial-sec'],
         ['label' => 'Reviews', 'url' => 'index.php?r=site%2Findex#review-sec'],
-        ['label' => 'Contact', 'url' => ['/site/contact']],
         ['label' => 'Profile', 'url' => ['/site/profile']],
 ];
         $menuItems[] = '<li>'

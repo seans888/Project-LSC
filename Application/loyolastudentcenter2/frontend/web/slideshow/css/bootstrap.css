@@ -3975,7 +3975,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 0;
   margin: 0;
   list-style: none;
-  height: 110px;
+  height: 100px;
 }
 .nav > li { /*Navigation List*/
   position: relative;
@@ -4282,7 +4282,6 @@ background-color: transparent;
 .navbar-brand {
   float: left;
   height: 50px;
-  padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
 }
