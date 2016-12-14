@@ -13,7 +13,7 @@
                        
                    </p>
   <?php echo
-    "<a href='index.php?r=site%2Ftransaction' class='btn btn-info btn-set'>VIEW TRANSACTIONS</a>"
+    "<a href='index.php?r=transaction%2Fview&id=6' class='btn btn-info btn-set'>VIEW TRANSACTIONS</a>"
   ?>             
                 </div>
                    </div>
@@ -47,8 +47,9 @@
                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                         Aenean commodo . 
                    </p>
-
-              <a href="http://localhost/advancedlsc2/frontend/web/index.php?r=site%2Faccount" class="btn btn-info btn-set"  >CONFIGURE</a>
+        <?php echo
+           "<a href='index.php?r=site%2Frequest-password-reset' class='btn btn-info btn-set'>CONFIGURE</a>"
+         ?>   
 
                 </div>
                    </div>

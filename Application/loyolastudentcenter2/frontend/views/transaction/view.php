@@ -9,12 +9,11 @@ use yii\widgets\DetailView;
 $this->title = $model->id;
 $this->params['breadcrumbs'][] = ['label' => 'Transactions', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
-?>
+?><br><br><br>
 <div class="transaction-view">
 
-    <h1><?= Html::encode($this->title) ?></h1>
 
-    <p>
+  <!--  <p>
         <?= Html::a('Update', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
         <?= Html::a('Delete', ['delete', 'id' => $model->id], [
             'class' => 'btn btn-danger',
@@ -24,18 +23,23 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
         ]) ?>
     </p>
+-->
 
+     <center> <?php echo
+            '<h1>'.Yii::$app->user->identity->firstname.' '.Yii::$app->user->identity->lastname.'</h1>'?>
+     </center><br>
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
-            'id',
-            'user_id',
-            'review_class_id',
-            'schedule_id',
+           // 'id',
+            'reviewClass.name:text:Review Class',
+            'schedule.start_date:text: Start Date',
+            'schedule.end_date:text: End Date',
             'transaction_type',
             'selected_school',
             'status',
             'date',
+
         ],
     ]) ?>
 

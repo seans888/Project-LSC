@@ -26,7 +26,7 @@ use yii\helpers\ArrayHelper;
         ['prompt'=>'Select Review Class']) ?>
 
     <?= $form->field($model, 'schedule_id')->dropDownList(ArrayHelper::map(Schedule::find()->all(),'id','batch'),
-        ['prompt'=>'Select Review Class']) ?>
+        ['prompt'=>'Select Schedule']) ?>
 
     <?= $form->field($model, 'transaction_type')->dropDownList([ 'Reserve' => 'Reserve', 'Enroll' => 'Enroll', ], ['prompt' => '']) ?>
 

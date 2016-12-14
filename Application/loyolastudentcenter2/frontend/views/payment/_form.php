@@ -12,9 +12,9 @@ use common\models\transaction;
 
 <div class="payment-form">
 
-    <?php $form = ActiveForm::begin(); ?>
+    <?php $form = ActiveForm::begin(['options' => ['enctype'=> 'multipart/form-data']]); ?>
 
-    <?= $form->field($model, 'payment_slip')->fileInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'file')->fileInput([]) ?>
 
     <?= $form->field($model, 'transaction_id')->dropDownList(ArrayHelper::map(transaction::find()->all(),'id','id'),
         ['prompt'=>'--Select--']) ?>

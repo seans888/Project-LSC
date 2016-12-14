@@ -19,6 +19,7 @@ class Payment extends \yii\db\ActiveRecord
     /**
      * @inheritdoc
      */
+    public $file;
     public static function tableName()
     {
         return 'payment';
@@ -33,7 +34,8 @@ class Payment extends \yii\db\ActiveRecord
             [['date'], 'safe'],
             [['transaction_id'], 'required'],
             [['transaction_id'], 'integer'],
-            [['payment_slip'], 'file'],
+            [['file'], 'file'], 
+            [['payment_slip'],'string','max' => 100],
             [['transaction_id'], 'exist', 'skipOnError' => true, 'targetClass' => Transaction::className(), 'targetAttribute' => ['transaction_id' => 'id']],
         ];
     }
@@ -45,7 +47,8 @@ class Payment extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'payment_slip' => 'Attach your Payment Slip',
+            'file'=> 'payment_slip',
+            //'payment_slip' => 'Attach your Payment Slip',
             'date' => 'Date',
             'transaction_id' => 'Transaction ID',
         ];

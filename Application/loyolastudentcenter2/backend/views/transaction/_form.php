@@ -2,6 +2,10 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use yii\helpers\ArrayHelper;
+use common\models\ReviewClass;
+use common\models\schedule;
+use common\models\user;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Transaction */
@@ -9,8 +13,10 @@ use yii\widgets\ActiveForm;
 ?>
 
 <div class="transaction-form">
+ 
+    <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'user_id')->textInput(['maxlength' => true])?> 
+    <?= $form->field($model, 'user_id')->textInput(['readonly'=>true])?> 
     
     <?= $form->field($model, 'review_class_id')->dropDownList(ArrayHelper::map(ReviewClass::find()->all(),'id','name'),
         ['prompt'=>'Select Review Class']) ?>
@@ -24,7 +30,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'status')->dropDownList([ 'Pending' => 'Pending', 'Reserved' => 'Reserved', 'Enrolled' => 'Enrolled', 'Done' => 'Done', 'Cancelled' => 'Cancelled', ], ['prompt' => '']) ?>
 
-    <?= $form->field($model, 'date')->textInput() ?>
+   <!-- <?= $form->field($model, 'date')->textInput() ?> -->
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
     </div>

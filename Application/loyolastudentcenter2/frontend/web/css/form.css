@@ -91,3 +91,6 @@ button#modalButton2.btn.btn-success{
     color: #777;
     font-size: 14px;
 }
+input#passwordresetrequestform-email.form-control{
+	width: 400px;
+}

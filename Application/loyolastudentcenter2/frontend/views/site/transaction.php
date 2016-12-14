@@ -1,3 +1,13 @@
+<?php
+use yii\helpers\Html;
+use yii\widgets\DetailView;
+use Yii;
+use common\models\transaction;
+
+/* @var $this yii\web\View */
+/* @var $model common\models\Transaction */
+
+?>
 <html lang="en-US"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,15 +37,17 @@
         <a class="btn btn-primary" href="/loyolastudentcenter2/frontend/web/index.php?r=transaction%2Fupdate&amp;id=1">Update</a>        <a class="btn btn-danger" href="/loyolastudentcenter2/frontend/web/index.php?r=transaction%2Fdelete&amp;id=1" data-confirm="Are you sure you want to delete this item?" data-method="post">Delete</a>    </p>
 -->
 
+<?php echo '<td> '.Yii::$model->transaction->id.' </td>'?>
     <table id="w0" class="table table-striped table-bordered detail-view">
 <tbody>
 <tr><th>Review Class Name</th><?php echo '<td> '.Yii::$app->user->identity->id.' </td>'?></tr>
-<tr><th>Schedule</th><td>1</td></tr>
+<tr><th>Schedule</th></tr>
 <tr><th>Selected School</th><td>Ateneo De Manila</td></tr>
 <tr><th>Status</th><td>Pending</td></tr>
 <tr><th>Date</th><td>2016-12-07 12:42:13</td></tr>
 </tbody>
     </table>
+</div>
 </div>
 </div>
 </body></html>
