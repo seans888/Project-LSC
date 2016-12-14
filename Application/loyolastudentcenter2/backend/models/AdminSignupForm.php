@@ -43,7 +43,7 @@ class AdminSignupForm extends Model
             ['password', 'string', 'min' => 6],
 
             ['retypePassword', 'required'],
-             ['password', 'compare', 'compareAttribute' => 'retypePassword', 'message' => 'Password do not much, please retype.'],
+             ['password', 'compare', 'compareAttribute' => 'retypePassword', 'message' => 'Password do not match, please retype.'],
         ];
     }
 

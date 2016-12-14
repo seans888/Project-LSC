@@ -16,9 +16,9 @@ use yii\helpers\ArrayHelper;
 
     <?php $form = ActiveForm::begin(); ?>
 
-<div class="col-xs-6"> 
+<!--<div class="col-xs-6"> 
     <?= $form->field($model, 'user_id')->textInput(['value'=>Yii::$app->user->id, 'readonly'=>true])?> 
-</div>
+</div> -->
 <div class="col-xs-6">     
     <?= $form->field($model, 'review_class_id')->dropDownList(ArrayHelper::map(ReviewClass::find()->all(),'id','name'),
         ['prompt'=>'Select Review Class']) ?>

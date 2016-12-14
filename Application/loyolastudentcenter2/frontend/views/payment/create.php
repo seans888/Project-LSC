@@ -10,7 +10,7 @@ $this->title = 'Create Payment';
 ?>
 <div class="payment-create">
 
-<br><br>    <h1><?= Html::encode($this->title) ?></h1>
+<br><br>    <h1 class="h1a">Create Payment</h1>
 
     <?= $this->render('_form', [
         'model' => $model,

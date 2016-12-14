@@ -137,7 +137,7 @@ head {margin:0;padding:0}
 
 h1::after {
     content: " ";
-    border: solid 2px #fff;
+    border: solid 2px #2f9484;
     display: block;
     width: 200px;
     margin: 12px auto;
@@ -319,4 +319,12 @@ display: block;
     margin: 1em 0;
     color: #fff;
     padding: 0; 
+}
+
+h1.h1a::after {
+    content: " ";
+    border: solid 2px #fff;
+    display: block;
+    width: 200px;
+    margin: 12px auto;
 }
