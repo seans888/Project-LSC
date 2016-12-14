@@ -116,49 +116,7 @@ body {font-family: Verdana,sans-serif;}
   .text {font-size: 11px}
 }
 </style>
-
-
-<!--===============================================================================================================
-  SLIDESHOW 
-
-<div class="slideshow-container">
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img class ="slideshow" src="<?= yii\helpers\Url::to('@web/images/img.jpg') ?>" />
-  <div class="text">Caption Text</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img class ="slideshow" src="<?= yii\helpers\Url::to('@web/images/img1.jpg') ?>" />
-  <div class="text">Caption Two</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img class ="slideshow" src="<?= yii\helpers\Url::to('@web/images/img2.jpg') ?>" />
-  <div class="text">Caption Three</div>
-</div>
-</div>
-
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none"; 
-    }
-    slideIndex++;
-    if (slideIndex> slides.length) {slideIndex = 1} 
-    slides[slideIndex-1].style.display = "block"; 
-    setTimeout(showSlides, 7000); // Change image every 7 seconds
-}
-</script> 
-
-  =============================================================================================================--> <br>
+<br>
 
     <!-- Half Page Image Background Carousel Header -->
     <header id="myCarousel" class="carousel slide">
@@ -234,10 +192,7 @@ function showSlides() {
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                      <h1 data-scroll-reveal="enter from the bottom after 0.2s"  class="header-line">WHAT WE OFFER </h1>
                      <p data-scroll-reveal="enter from the bottom after 0.3s" >
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo.
-                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo.</p>
+                      Loyola Student Center provides high-quality and affordable tutorial and review services. Contact us for more details.</p>
                  </div>
              </div>
              <!--/.HEADER LINE END-->
@@ -250,9 +205,7 @@ function showSlides() {
                  <hr />
                   <hr />
                    <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo .    
-                   </p>
+                       Want to know more about us? Click the button below for more details.</p>
                <a href="index.php?r=site%2Fabout" class="btn btn-info btn-set"  >READ MORE</a>
                 </div>
                    </div>
@@ -263,10 +216,9 @@ function showSlides() {
                  <hr />
                        <hr />
                    <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
+                       Loyola Student Center offers tutorial services for Kinder to College students.
                    </p>
-               <a href="index.php?r=site%2Findex#tutorial-sec" class="btn btn-info btn-set"  >READ MORE</a>
+               <a href="index.php?r=site%2Fcontact#tutorial-sec" class="btn btn-info btn-set"  >READ MORE</a>
                 </div>
                    </div>
                  <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
@@ -276,11 +228,10 @@ function showSlides() {
                  <hr />
                        <hr />
                    <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
+                       Loyola Student Center offers twelve review classes. Click the button below for more details.
                        
                    </p>
-               <a href="index.php?r=site%2Freviews" class="btn btn-info btn-set"  >READ MORE</a>
+               <a href="index.php?r=site%2Fcontact#review-sec" class="btn btn-info btn-set"  >READ MORE</a>
                 </div>
                    </div>
                </div>
@@ -294,10 +245,8 @@ function showSlides() {
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                      <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">TUTORIAL CLASSES</h1>
                    <p data-scroll-reveal="enter from the bottom after 0.3s">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo.
-                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo. </p>
+                   For more information on our tutorial packages, 
+                         <a href="index.php?r=site%2Fcontact#contact-sec" class="text-center">contact us.</a></p>
                  </div>
              </div>
              <!--/.HEADER LINE END-->  
@@ -412,10 +361,7 @@ function showSlides() {
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                      <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">REVIEW PROGRAMS</h1>
                      <p data-scroll-reveal="enter from the bottom after 0.3s">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo.
-                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo.
+                      Get to know more of our services. Avail by <a href="index.php?r=site%2Fsignup" class="text-center">signing up</a> or <a href="index.php?r=site%2Fcontact#contact-sec" class="text-center">contact us.</a>
                          </p>
                  </div>
              </div>
@@ -469,6 +415,7 @@ function showSlides() {
 <!--===============================================================================================================
   CONTACT SECTIOn
   =============================================================================================================-->
+<div id="contact-sec" class="container set-pad"> <br><br>
            <div class="overlay">
  <div class="container set-pad">
       <div class="row text-center">

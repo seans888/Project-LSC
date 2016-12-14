@@ -312,11 +312,19 @@ h1::after {
 /*=====================================
    STYLES 
   ===================================*/
-#hr1{
+div#hr1.col-xs-6{
 display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
     margin: 1em 0;
+    color: #fff;
     padding: 0; 
+}
+
+h1.h1a::after {
+    content: " ";
+    border: solid 2px #fff;
+    display: block;
+    width: 200px;
+    margin: 12px auto;
 }

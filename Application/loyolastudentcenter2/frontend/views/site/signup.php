@@ -97,8 +97,10 @@ $this->title = 'Sign up';
 <div class="col-xs-6"> 
                 <?= $form->field($model, 'school')->textInput(['maxlength' => true,'placeholder'=>'School'])->hint('Name, Address')->label(false) ?>
 </div>
-<div class="col-xs-6"> <hr class="hr1" width="600dp" align="center" > </div>
-<div class="col-xs-6"> <hr width="600dp"  align="center"> </div>
+<div class="col-xs-6"> <br> </div>
+<div class="col-xs-6"> <br> </div>
+<div class="col-xs-6"> <br> </div>
+<div class="col-xs-6"> <br> </div>
 <div class="col-xs-6 col-sm-3"> 
         <?= $form->field($model, 'password')->passwordInput(['placeholder'=>'Password'])->label(false) ?>
 </div>

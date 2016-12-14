@@ -8,24 +8,23 @@ use yii\grid\GridView;
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Transactions';
-$this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="transaction-index">
+<div class="transaction-index"><br>
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1 class="h1a"><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
-    <p>
+ <!--   <p>
         <?= Html::a('Create Transaction', ['create'], ['class' => 'btn btn-success']) ?>
-    </p>
+    </p> -->
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'id',
-            'user_id',
+       //    'id',
+        //    'user_id',
             'review_class_id',
             'schedule_id',
             'transaction_type',

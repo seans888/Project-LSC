@@ -7,11 +7,18 @@ use yii\widgets\DetailView;
 /* @var $model common\models\Transaction */
 
 $this->title = $model->id;
+<<<<<<< HEAD
 $this->params['breadcrumbs'][] = ['label' => 'Transactions', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?><br><br><br>
 <div class="transaction-view">
 
+=======
+?>
+<div class="transaction-view"><br><br>
+
+    <h1 class="h1a"><?= Html::encode($this->title) ?></h1>
+>>>>>>> 875794bd2a13e0c9382dedb8a526c4c281d9e5b9
 
   <!--  <p>
         <?= Html::a('Update', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
@@ -22,8 +29,12 @@ $this->params['breadcrumbs'][] = $this->title;
                 'method' => 'post',
             ],
         ]) ?>
+<<<<<<< HEAD
     </p>
 -->
+=======
+    </p> -->
+>>>>>>> 875794bd2a13e0c9382dedb8a526c4c281d9e5b9
 
      <center> <?php echo
             '<h1>'.Yii::$app->user->identity->firstname.' '.Yii::$app->user->identity->lastname.'</h1>'?>
