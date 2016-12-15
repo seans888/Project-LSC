@@ -4,7 +4,7 @@
                  <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
                      <div class="about-div">
                      <i class="fa fa-book fa-4x icon-round-border" ></i>
-                   <h3 >TRANSACTIONS</h3>
+                   <h3 >VIEW TRANSACTIONS</h3>
                  <hr />
                        <hr />
                    <p >
@@ -13,7 +13,7 @@
                        
                    </p>
   <?php echo
-    "<a href='index.php?r=transaction%2Fview&id=6' class='btn btn-info btn-set'>VIEW TRANSACTIONS</a>"
+    "<a href='index.php?r=transaction%2Fview&id=8' class='btn btn-info btn-set'>VIEW TRANSACTIONS</a>"
   ?>             
                 </div>
                    </div>
